@@ -1,0 +1,35 @@
+[
+  {
+    "id": "2023-03",
+    "year": 2023,
+    "month": "März",
+    "questions": [
+      {
+        "id": 1,
+        "text": "Welche Aussage trifft zu?\n\nBei der Schizophrenie",
+        "options": [
+          "A: handelt es sich um eine organische psychische Störung",
+          "B: ist das Suizidrisiko erhöht",
+          "C: kommen optische Halluzinationen häufiger vor als akustische",
+          "D: ist die Prognose bei schleichendem Beginn besser als bei akutem Beginn",
+          "E: sind Wahnvorstellungen ein zwingendes Diagnosekriterium"
+        ],
+        "correctIndices": [1], 
+        "explanation": "Das Suizidrisiko ist bei Schizophrenie deutlich erhöht (ca. 10%)."
+      },
+      {
+         "id": 2,
+         "text": "Welche der folgenden Aussagen zur Zwangsstörung treffen zu?\n\n1. Zwangsgedanken werden als eigene Gedanken erlebt\n2. Zwangshandlungen werden meist als angenehm empfunden\n3. Die Störung beginnt meist im mittleren Lebensalter\n4. Patienten versuchen oft, Widerstand gegen die Zwangsgedanken zu leisten\n5. Eine Komorbidität mit Depressionen ist selten",
+         "options": [
+            "A: Nur 1 und 2 sind richtig",
+            "B: Nur 1 und 4 sind richtig",
+            "C: Nur 1, 4 und 5 sind richtig",
+            "D: Nur 2, 3 und 4 sind richtig",
+            "E: Alle Aussagen sind richtig"
+         ],
+         "correctIndices": [1],
+         "explanation": "Zwangsgedanken werden als eigene, aber aufdringliche Gedanken erlebt (1). Patienten leisten oft Widerstand (4)."
+      }
+    ]
+  }
+]

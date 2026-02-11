@@ -26,8 +26,11 @@ fun ResultScreen(
     onRetryWrong: () -> Unit
 ) {
     val percentage = if (totalQuestions > 0) (score * 100) / totalQuestions else 0
-    val isSuccess = percentage >= 75
-    val feedbackColor = if (isSuccess) MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.error
+    val feedbackColor = when {
+        percentage >= 75 -> MaterialTheme.colorScheme.primary
+        percentage >= 60 -> MaterialTheme.colorScheme.tertiary
+        else -> MaterialTheme.colorScheme.error
+    }
 
     Scaffold(
         topBar = {
@@ -43,7 +46,11 @@ fun ResultScreen(
             verticalArrangement = Arrangement.spacedBy(24.dp, Alignment.CenterVertically)
         ) {
             Text(
-                text = if (isSuccess) "Bestanden!" else "Nicht bestanden",
+                text = when {
+                    percentage >= 75 -> "Bestanden!"
+                    percentage >= 60 -> "Grenzwertig"
+                    else -> "Nicht bestanden"
+                },
                 style = MaterialTheme.typography.headlineLarge,
                 color = feedbackColor,
                 fontWeight = androidx.compose.ui.text.font.FontWeight.Bold
@@ -65,8 +72,11 @@ fun ResultScreen(
             }
 
             Text(
-                text = if (isSuccess) "Hervorragende Leistung! Du bist bereit für die nächste Herausforderung." 
-                       else "Knapp daneben. Wiederhole die falschen Fragen, um deine Wissenslücken zu schließen.",
+                text = when {
+                    percentage >= 75 -> "Hervorragende Leistung! Du bist bereit für die nächste Herausforderung."
+                    percentage >= 60 -> "Knapp! Noch ein paar richtige Antworten und du hast es geschafft."
+                    else -> "Wiederhole die falschen Fragen, um deine Wissenslücken zu schließen."
+                },
                 style = MaterialTheme.typography.bodyLarge,
                 textAlign = androidx.compose.ui.text.style.TextAlign.Center,
                 modifier = Modifier.padding(horizontal = 16.dp)

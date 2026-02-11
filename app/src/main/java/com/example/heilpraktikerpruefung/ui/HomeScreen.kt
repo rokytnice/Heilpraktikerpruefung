@@ -6,14 +6,19 @@ import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.material3.*
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.DisposableEffect
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.platform.LocalLifecycleOwner
 import androidx.compose.ui.unit.dp
+import androidx.lifecycle.Lifecycle
+import androidx.lifecycle.LifecycleEventObserver
 import com.example.heilpraktikerpruefung.data.Exam
 import com.example.heilpraktikerpruefung.data.ExamRepository
 import com.example.heilpraktikerpruefung.data.database.ExamResultEntity
 import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.mutableIntStateOf
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import androidx.compose.runtime.getValue
@@ -33,14 +38,27 @@ fun HomeScreen(onExamClick: (String) -> Unit) {
     var totalStats by remember { mutableStateOf<Pair<Int, Int>>(0 to 0) } // Correct to Total
     var hasWrongQuestions by remember { mutableStateOf(false) }
 
-    LaunchedEffect(Unit) {
+    // Refresh trigger: increments every time the screen resumes (navigated back to)
+    var refreshTrigger by remember { mutableIntStateOf(0) }
+    val lifecycleOwner = LocalLifecycleOwner.current
+    DisposableEffect(lifecycleOwner) {
+        val observer = LifecycleEventObserver { _, event ->
+            if (event == Lifecycle.Event.ON_RESUME) {
+                refreshTrigger++
+            }
+        }
+        lifecycleOwner.lifecycle.addObserver(observer)
+        onDispose { lifecycleOwner.lifecycle.removeObserver(observer) }
+    }
+
+    LaunchedEffect(refreshTrigger) {
         val results = repository.getAllExamResults()
         examResults = results.associateBy { it.examId }
-        
+
         val allQuestionResults = repository.getAllQuestionResults()
         totalStats = allQuestionResults.count { it.isCorrect } to allQuestionResults.size
         hasWrongQuestions = allQuestionResults.any { !it.isCorrect }
-        
+
         // Calculate question-level stats for each exam
         examQuestionStats = allQuestionResults
             .groupBy { it.examId }
@@ -52,7 +70,17 @@ fun HomeScreen(onExamClick: (String) -> Unit) {
     Scaffold(
         topBar = {
             CenterAlignedTopAppBar(
-                title = { Text("Heilpraktiker Prüfung", style = MaterialTheme.typography.headlineMedium) },
+                title = { 
+                    Row(verticalAlignment = Alignment.CenterVertically) {
+                        androidx.compose.foundation.Image(
+                            painter = androidx.compose.ui.res.painterResource(id = com.example.heilpraktikerpruefung.R.drawable.ic_launcher_foreground),
+                            contentDescription = "Logo",
+                            modifier = Modifier.size(40.dp)
+                        )
+                        Spacer(modifier = Modifier.width(8.dp))
+                        Text("Heilpraktiker Prüfung", style = MaterialTheme.typography.titleLarge)
+                    }
+                },
                 colors = TopAppBarDefaults.centerAlignedTopAppBarColors(
                     containerColor = MaterialTheme.colorScheme.surfaceVariant
                 )
@@ -184,9 +212,9 @@ fun ExamItem(exam: Exam, result: ExamResultEntity?, questionStats: Pair<Int, Int
                     // Status badge - only show if exam has progress
                     if (hasProgress) {
                         Spacer(modifier = Modifier.width(8.dp))
-                        val percentage = if (totalAnswered > 0) (correctAnswers * 100) / totalAnswered else 0
+                        val percentage = if (totalQuestions > 0) (correctAnswers * 100) / totalQuestions else 0
                         val isComplete = totalAnswered >= totalQuestions
-                        
+
                         val (badgeText, badgeColor) = when {
                             !isComplete -> "In Bearbeitung" to MaterialTheme.colorScheme.tertiary
                             percentage >= 75 -> "Bestanden" to MaterialTheme.colorScheme.primary
@@ -226,7 +254,7 @@ fun ExamItem(exam: Exam, result: ExamResultEntity?, questionStats: Pair<Int, Int
             }
             
             if (hasProgress) {
-                val percentage = if (totalAnswered > 0) (correctAnswers * 100) / totalAnswered else 0
+                val percentage = if (totalQuestions > 0) (correctAnswers * 100) / totalQuestions else 0
                 val color = when {
                     percentage >= 75 -> MaterialTheme.colorScheme.primary
                     percentage >= 60 -> MaterialTheme.colorScheme.tertiary

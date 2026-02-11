@@ -6757,7 +6757,9 @@
         "id": 5,
         "type": "Aussagenkombination",
         "text": "Weiche\n\nFür                                                                                      :",
-        "statements": [],
+        "statements": [
+          "st c a a te st sc :"
+        ],
         "options": [
           "Nur die Aussage 1 ist richtig",
           "Nur die Aussagen 1, 2 und 3 sind richtig",
@@ -6832,7 +6834,13 @@
         "id": 12,
         "type": "Aussagenkombination",
         "text": "Welche der folgenden Aussagen zur Suchterkrankung treffen zu?",
-        "statements": [],
+        "statements": [
+          "Es gibt erfolglose Versuche oder den bleibenden Wunsch, den Substanzgebrauch zu regulieren oder zu reduzieren",
+          "Intoxikations- oder Entzugssymptome können auftreten",
+          "Es findet sich eine deutliche Toleranzentwicklung",
+          "Für die Beschaffung der Substanz, die Einnahme oder die notwendige Erholung nach Gebrauch der Substanz wird viel Zeit aufgewendet",
+          "Wichtige Aktivitäten in Beruf und/oder Freizeit leiden nicht unter einem Suchtverhalten"
+        ],
         "options": [
           "Nur die Aussagen 1 und 2 sind richtig",
           "Nur die Aussagen 2 und 3 sind richtig",
@@ -6887,7 +6895,13 @@
         "id": 15,
         "type": "Aussagenkombination",
         "text": "Welche der folgenden Aussagen zum Betreuungsgesetz (BtG) trifft (treffen) zu?",
-        "statements": [],
+        "statements": [
+          "Die Betreuung kann ggf. auch nur einen Aufgabenkreis betreffen",
+          "Das Vormundschaftsgericht kann anordnen, dass bei dem Betreuten zwei Betreuer einzelne der festgelegten Aufgabenkreise übernehmen",
+          "Beim Einwilligungsvorbehalt handelt es sich um ein Vetorecht in allen Angelegenheiten, das jedem Betreuten zusteht",
+          "Das Gesetz regelt u.a. die Betreuung körperlich Behinderter",
+          "Beim Betreuungsgesetz handelt es sich um eine ländergesetzliche Regelung"
+        ],
         "options": [
           "Nur die Aussage 1 ist richtig",
           "Nur die Aussagen 1 und 4 sind richtig",
@@ -8654,7 +8668,13 @@
         "id": 26,
         "type": "Aussagenkombination",
         "text": "Welche der folgenden Aussagen zu Neurotransmittern treffen zu?\n\n       1)      Störungen im Neurotransmittersystem wirken entscheidend bei der\n               Entstehung affektiver Erkrankungen mit\n       2)      Wichtige Transmitter heißen Adrenalin, Noradrenalin und Serotonin\n       3)      Synapse nennt man den Bereich, in dem ein Reiz mittels Neu-\n               rotransmittern von einer Nervenzelle auf eine andere übertragen\n               wird\n       4)      Johanniskraut hat als pflanzliches Medikament keine Wirkung auf\n               das Neurotransmittersystem\n       5)      Ein Überangebot Von Neurotransmittern führt häufig zu vaskulärer\n               Demenz",
-        "statements": [],
+        "statements": [
+          "Störungen im Neurotransmittersystem wirken entscheidend bei der Entstehung affektiver Erkrankungen mit",
+          "Wichtige Transmitter heißen Adrenalin, Noradrenalin und Serotonin",
+          "Synapse nennt man den Bereich, in dem ein Reiz mittels Neu- rotransmittern von einer Nervenzelle auf eine andere übertragen wird",
+          "Johanniskraut hat als pflanzliches Medikament keine Wirkung auf das Neurotransmittersystem",
+          "Ein Überangebot Von Neurotransmittern führt häufig zu vaskulärer Demenz"
+        ],
         "options": [
           "Nur die Aussagen 1, 2 und 3 sind richtig",
           "Nur die Aussagen 2, 3 und 4 sind richtig",

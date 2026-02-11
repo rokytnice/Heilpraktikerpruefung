@@ -1,0 +1,1102 @@
+VERIFICATION REPORT
+===================
+
+--- Exam: 2019 March (2019-march) ---
+  Source PDF: fragen/HPP_Pruefung_Maerz_2019_.pdf
+  All questions, options, and statements verified.
+
+--- Exam: 2022 March (2022-march) ---
+  Source PDF: fragen/HPP_Pruefung_Maerz_2022_mit_Loesungen_.pdf
+  All questions, options, and statements verified.
+
+--- Exam: 2023 March (2023-march) ---
+  Source PDF: fragen/HPP_Pruefung_Maerz_2023_mit_Loesungen_.pdf
+  All questions, options, and statements verified.
+
+--- Exam: 2024 March (2024-march) ---
+  Source PDF: fragen/HPP_Pruefung_Maerz_2024_mit_Loesungen_A_B.pdf
+  [Q9] Statement 5 Mismatch:
+    JSON: 'Die hat für Kinder mit ADS oder ADHS ein Behandlungsverbot Wählen Sie eine richtige Aussagenkombinat...'
+
+--- Exam: 2025 March (2025-march) ---
+  Source PDF: fragen/HPP_Pruefung_Maerz_2025_Gruppe_A_mit_Loesungen.pdf
+  All questions, options, and statements verified.
+
+--- Exam: 2020 October (2020-october) ---
+  Source PDF: fragen/HPP_Pruefung_Oktober_2020_mit_Loesungen.pdf
+  All questions, options, and statements verified.
+
+--- Exam: 2022 October (2022-october) ---
+  Source PDF: fragen/HPP_Pruefung_Oktober_2022_mit_Loesungen_.pdf
+  All questions, options, and statements verified.
+
+--- Exam: 2023 October (2023-october) ---
+  Source PDF: fragen/HPP_Pruefung_Oktober_2023_mit_Loesungen_.pdf
+  All questions, options, and statements verified.
+
+--- Exam: 2024 October (2024-october) ---
+  Source PDF: fragen/HPP_Pruefung_Oktober_2024_mit_Loesungen_A_B.pdf
+  All questions, options, and statements verified.
+
+--- Exam: 2025 October (2025-october) ---
+  Source PDF: fragen/HPP_Pruefung_Oktober_2025_mit_Loesungen_Gruppe_A.pdf
+  All questions, options, and statements verified.
+
+--- Exam: 2003 March (2003-march) ---
+  Source PDF: fragen/Maerz-2003.pdf
+  All questions, options, and statements verified.
+
+--- Exam: 2004 March (2004-march) ---
+  Source PDF: fragen/Maerz-2004.pdf
+  All questions, options, and statements verified.
+
+--- Exam: 2005 March (2005-march) ---
+  Source PDF: fragen/Maerz-2005.pdf
+  [Q1] Statement 5 Mismatch:
+    JSON: 'Schlechter allgemeiner Körpflegezustand...'
+  [Q5] Question Text Mismatch:
+    JSON: 'Welche der folgenden Aussagen trifft (treffen) zu? Für eine bipolare affektive Störung (nach ICD-10)...'
+  [Q8] Question Text Mismatch:
+    JSON: 'Verhaltenstherapeutische Methoden und Techniken sind: Wählen Sie zwei Antworten!...'
+  [Q17] Question Text Mismatch:
+    JSON: 'Ein seelischer (für diesen Menschen unerträglicher) Konflikt wird von einem Menschen unbewusst so in...'
+
+--- Exam: 2006 March (2006-march) ---
+  Source PDF: fragen/Maerz-2006.pdf
+  All questions, options, and statements verified.
+
+--- Exam: 2007 March (2007-march) ---
+  Source PDF: fragen/Maerz-2007.pdf
+  All questions, options, and statements verified.
+
+--- Exam: 2008 March (2008-march) ---
+  Source PDF: fragen/Maerz-2008.pdf
+  [Q1] Question Text Mismatch:
+    JSON: 'Welche der im Folgenden genannten Begriffe kommen als Differentialdiagnose zu Tic-Störungen in Frage...'
+  [Q1] Option 1 Mismatch:
+    JSON: 'Nur die Aussagen 1 und 4 sind richtig...'
+  [Q1] Option 2 Mismatch:
+    JSON: 'Nur die Aussagen 2 und 3 sind richtig...'
+  [Q1] Option 3 Mismatch:
+    JSON: 'Nur die Aussagen 1, 3 und 5 sind richtig...'
+  [Q1] Option 4 Mismatch:
+    JSON: 'Nur die Aussagen 3, 4 und 5 sind richtig...'
+  [Q1] Option 5 Mismatch:
+    JSON: 'Alle Aussagen sind richtig...'
+  [Q1] Statement 1 Mismatch:
+    JSON: 'Spätdyskinesien nach Neuroleptika-Behandlung...'
+  [Q1] Statement 2 Mismatch:
+    JSON: 'Aufmerksamkeitsdefizit-Hyperaktivitätsstörung (ADHS)...'
+  [Q1] Statement 3 Mismatch:
+    JSON: 'Zwangsstörungen...'
+  [Q1] Statement 4 Mismatch:
+    JSON: 'Hyperkinesen durch Medikamente...'
+  [Q1] Statement 5 Mismatch:
+    JSON: 'Folgen bestimmter Infektionskrankheiten...'
+  [Q2] Question Text Mismatch:
+    JSON: 'Welche der folgenden Aussagen treffen zu? Ursachen für eine Demenz können sein:...'
+  [Q2] Option 1 Mismatch:
+    JSON: 'Nur die Aussagen 1, 2 und 3 sind richtig...'
+  [Q2] Option 2 Mismatch:
+    JSON: 'Nur die Aussagen 1, 3 und 5 sind richtig...'
+  [Q2] Option 3 Mismatch:
+    JSON: 'Nur die Aussagen 1, 2, 3 und 4 sind richtig...'
+  [Q2] Option 4 Mismatch:
+    JSON: 'Nur die Aussagen 1, 2, 4 und 5 sind richtig...'
+  [Q2] Option 5 Mismatch:
+    JSON: 'Nur die Aussagen 2, 3, 4 und 5 sind richtig...'
+  [Q2] Statement 1 Mismatch:
+    JSON: 'HIV-Infektion...'
+  [Q2] Statement 2 Mismatch:
+    JSON: 'Fehlernährung (Nikotinsäuremangel)...'
+  [Q2] Statement 3 Mismatch:
+    JSON: 'Schilddrüsenunterfunktion...'
+  [Q2] Statement 4 Mismatch:
+    JSON: 'Wiederholte Schlaganfälle...'
+  [Q2] Statement 5 Mismatch:
+    JSON: 'Kurzfristiger Alkoholgenuss unter 15 g Alkohol/Tag bei einem gesunden Erwachsenen...'
+  [Q3] Question Text Mismatch:
+    JSON: 'Welche der folgenden Aussagen passen zur Manie?...'
+  [Q3] Option 1 Mismatch:
+    JSON: 'Nur die Aussagen 1 und 3 sind richtig...'
+  [Q3] Option 2 Mismatch:
+    JSON: 'Nur die Aussagen 1, 3 und 4 sind richtig...'
+  [Q3] Option 3 Mismatch:
+    JSON: 'Nur die Aussagen 2, 4 und 5 sind richtig...'
+  [Q3] Option 4 Mismatch:
+    JSON: 'Nur die Aussagen 1, 3, 4 und 5 sind richtig...'
+  [Q3] Option 5 Mismatch:
+    JSON: 'Alle Aussagen sind richtig...'
+  [Q3] Statement 1 Mismatch:
+    JSON: 'Der Betroffene überschätzt sich selbst...'
+  [Q3] Statement 2 Mismatch:
+    JSON: 'Es bestehen hypochondrische Züge...'
+  [Q3] Statement 3 Mismatch:
+    JSON: 'Es kommt zu Assoziationslockerungen...'
+  [Q3] Statement 4 Mismatch:
+    JSON: 'Es besteht ein erhöhtes Schlafbedürfnis...'
+  [Q3] Statement 5 Mismatch:
+    JSON: 'Es kommt zu Minderwertigkeitsgefühlen...'
+  [Q4] Question Text Mismatch:
+    JSON: 'Eine „anankastische (zwanghafte) Persönlichkeit“ (nach ICD-10) ist unter anderem durch folgende Begr...'
+  [Q4] Option 1 Mismatch:
+    JSON: 'Deutliche und andauernde Verantwortungslosigkeit und Missachtung sozialer Normen, Regeln und Verpfli...'
+  [Q4] Option 2 Mismatch:
+    JSON: 'Übermäßige Inanspruchnahme durch Phantasie und Introspektion...'
+  [Q4] Option 3 Mismatch:
+    JSON: 'Ausgeprägte Sorge, in sozialen Situationen kritisiert oder abgelehnt zu werden...'
+  [Q4] Option 4 Mismatch:
+    JSON: 'Rigidität und Eigensinn...'
+  [Q4] Option 5 Mismatch:
+    JSON: 'Dramatisierung bezüglich der eigenen Person, theatralisches Verhalten, übertriebener Ausdruck von Ge...'
+  [Q5] Question Text Mismatch:
+    JSON: 'Unter einer Verhaltenstherapie versteht man...'
+  [Q5] Option 1 Mismatch:
+    JSON: 'eine klientenzentrierte Gesprächspsychotherapie (nach Rogers)...'
+  [Q5] Option 2 Mismatch:
+    JSON: 'eine psychoanalytische Psychotherapie...'
+  [Q5] Option 3 Mismatch:
+    JSON: 'eine psychoanalytische Fokaltherapie...'
+  [Q5] Option 4 Mismatch:
+    JSON: 'eine übertragungsfokussierte Psychotherapie...'
+  [Q5] Option 5 Mismatch:
+    JSON: 'ein Behandlungsverfahren, das auf Erkenntnissen der empirischen Psychologie (z.B. Lerntheorie) basie...'
+  [Q6] Question Text Mismatch:
+    JSON: 'Welche der folgenden Aussagen treffen zu? Wählen Sie zwei Antworten! An chronischen Opiatkonsum (Dro...'
+  [Q6] Option 1 Mismatch:
+    JSON: 'Engen Pupillen...'
+  [Q6] Option 2 Mismatch:
+    JSON: 'Weiten Pupillen...'
+  [Q6] Option 3 Mismatch:
+    JSON: 'Schlechten Zähnen...'
+  [Q6] Option 4 Mismatch:
+    JSON: 'Deutlicher Gewichtszunahme...'
+  [Q6] Option 5 Mismatch:
+    JSON: 'Diarrhö...'
+  [Q7] Question Text Mismatch:
+    JSON: 'Welche der folgenden Aussagen treffen zu? Wählen Sie zwei Antworten! In der klientenzentrierten Psyc...'
+  [Q7] Option 1 Mismatch:
+    JSON: 'wird die Technik der freien Assoziation angewendet...'
+  [Q7] Option 2 Mismatch:
+    JSON: 'können Anpassungsstörungen bearbeitet werden...'
+  [Q7] Option 3 Mismatch:
+    JSON: 'wiederholt der Therapeut die Aussagen des Patienten...'
+  [Q7] Option 4 Mismatch:
+    JSON: 'berät der Therapeut den Patienten in Lebenskrisen...'
+  [Q7] Option 5 Mismatch:
+    JSON: 'muss der Patient so lange in der Angstsituation verbleiben, bis die Angst abnimmt...'
+  [Q8] Question Text Mismatch:
+    JSON: 'Bei welchen der folgenden Medikamentengruppen ist bei regelmäßiger Einnahme mit einer Abhängigkeitse...'
+  [Q8] Option 1 Mismatch:
+    JSON: 'Nur die Aussagen 1, 2 und 4 sind richtig...'
+  [Q8] Option 2 Mismatch:
+    JSON: 'Nur die Aussagen 1, 3 und 4 sind richtig...'
+  [Q8] Option 3 Mismatch:
+    JSON: 'Nur die Aussagen 1, 3 und 5 sind richtig...'
+  [Q8] Option 4 Mismatch:
+    JSON: 'Nur die Aussagen 3, 4 und 5 sind richtig...'
+  [Q8] Option 5 Mismatch:
+    JSON: 'Alle Aussagen sind richtig...'
+  [Q8] Statement 1 Mismatch:
+    JSON: 'Bei Morphinpräparaten...'
+  [Q8] Statement 2 Mismatch:
+    JSON: 'Bei Antidepressiva...'
+  [Q8] Statement 3 Mismatch:
+    JSON: 'Bei Codeinpräparaten...'
+  [Q8] Statement 4 Mismatch:
+    JSON: 'Bei Tranquilizern...'
+  [Q8] Statement 5 Mismatch:
+    JSON: 'Bei Neuroleptika...'
+  [Q9] Question Text Mismatch:
+    JSON: 'Welche Aussage trifft zu? Typisch für die hebephrene Schizophrenie ist:...'
+  [Q9] Option 1 Mismatch:
+    JSON: 'Im Vordergrund stehen akustische Halluzinationen (Stimmenhören)...'
+  [Q9] Option 2 Mismatch:
+    JSON: 'Im Vordergrund stehen affektive Veränderungen...'
+  [Q9] Option 3 Mismatch:
+    JSON: 'Im Vordergrund steht vor allem eine allgemeine Antriebssteigerung...'
+  [Q9] Option 4 Mismatch:
+    JSON: 'Sie tritt vor allem im höheren Lebensalter auf (typischerweise nach dem 60. Lebensjahr)...'
+  [Q9] Option 5 Mismatch:
+    JSON: 'Denkstörungen treten sehr selten auf...'
+  [Q10] Question Text Mismatch:
+    JSON: 'Welche Komplikationen bzw. Symptome können bei einer Anorexia nervosa auftreten?...'
+  [Q10] Option 1 Mismatch:
+    JSON: 'Nur die Aussagen 1 und 3 sind richtig...'
+  [Q10] Option 2 Mismatch:
+    JSON: 'Nur die Aussagen 2, 4 und 5 sind richtig...'
+  [Q10] Option 3 Mismatch:
+    JSON: 'Nur die Aussagen 1, 2, 3 und 4 sind richtig...'
+  [Q10] Option 4 Mismatch:
+    JSON: 'Nur die Aussagen 2, 3, 4 und 5 sind richtig...'
+  [Q10] Option 5 Mismatch:
+    JSON: 'Alle Aussagen sind richtig...'
+  [Q10] Statement 1 Mismatch:
+    JSON: 'Abführmittelmissbrauch...'
+  [Q10] Statement 2 Mismatch:
+    JSON: 'Suizidalität...'
+  [Q10] Statement 3 Mismatch:
+    JSON: 'Natriumund Kaliummangel...'
+  [Q10] Statement 4 Mismatch:
+    JSON: 'Selbst induziertes Erbrechen...'
+  [Q10] Statement 5 Mismatch:
+    JSON: 'Deutliche Verminderung der Libido bei Männern...'
+  [Q11] Question Text Mismatch:
+    JSON: 'Welche der folgenden Störungen des Denkens gelten als Ich-Störungen? Wählen Sie zwei Antworten!...'
+  [Q11] Option 1 Mismatch:
+    JSON: 'Gedankenentzug...'
+  [Q11] Option 2 Mismatch:
+    JSON: 'Stimmungslabilität...'
+  [Q11] Option 3 Mismatch:
+    JSON: 'Gesteigertes Selbstwertgefühl...'
+  [Q11] Option 4 Mismatch:
+    JSON: 'Gedankeneingebung...'
+  [Q11] Option 5 Mismatch:
+    JSON: 'Innere Unruhe...'
+  [Q12] Question Text Mismatch:
+    JSON: 'Welche der folgenden Aussagen zur Depression treffen zu?...'
+  [Q12] Option 1 Mismatch:
+    JSON: 'Nur die Aussagen 1, 2 und 3 sind richtig...'
+  [Q12] Option 2 Mismatch:
+    JSON: 'Nur die Aussagen 1, 3 und 5 sind richtig...'
+  [Q12] Option 3 Mismatch:
+    JSON: 'Nur die Aussagen 2, 4 und 5 sind richtig...'
+  [Q12] Option 4 Mismatch:
+    JSON: 'Nur die Aussagen 1, 2, 3 und 5 sind richtig...'
+  [Q12] Option 5 Mismatch:
+    JSON: 'Alle Aussagen sind richtig...'
+  [Q12] Statement 1 Mismatch:
+    JSON: 'Depressive Störungen können in jedem Lebensalter – auch in der Kindheit – auftreten....'
+  [Q12] Statement 2 Mismatch:
+    JSON: 'Die Lichttherapie wird bei der sog. Winterdepression als Behandlungsform eingesetzt....'
+  [Q12] Statement 3 Mismatch:
+    JSON: 'Typische Symptome sind Verminderung des Antriebs und Aktivitätseinschränkung....'
+  [Q12] Statement 4 Mismatch:
+    JSON: 'Wahnideen wie z. B. Versündigungsoder Verarmungsideen schließen eine schwere depressive Störung aus....'
+  [Q12] Statement 5 Mismatch:
+    JSON: 'In der depressiven Phase kann es zu Störungen des Vegetativums kommen (z. B. der Libido)....'
+  [Q13] Question Text Mismatch:
+    JSON: 'Welche Aussage trifft zu? Die Panikstörung, auch als „episodisch paroxysmale Angst“ bezeichnet,...'
+  [Q13] Option 1 Mismatch:
+    JSON: 'ist gekennzeichnet durch wiederkehrende schwere Angstattacken, die vorhersagbar sind, da sie im Zusa...'
+  [Q13] Option 2 Mismatch:
+    JSON: 'äußert sich oft mit plötzlich auftretendem Herzklopfen, Brustschmerz, Erstickungsgefühlen, Schwindel...'
+  [Q13] Option 3 Mismatch:
+    JSON: 'lässt sich medikamentös problemlos beseitigen...'
+  [Q13] Option 4 Mismatch:
+    JSON: 'lässt sich durch das Auftreten optischer Halluzinationen diagnostizieren...'
+  [Q13] Option 5 Mismatch:
+    JSON: 'ist Ursache einer paranoiden Schizophrenie...'
+  [Q14] Question Text Mismatch:
+    JSON: 'Welche der folgenden Aussagen zur geistigen Behinderung treffen zu?...'
+  [Q14] Option 1 Mismatch:
+    JSON: 'Nur die Aussagen 1 und 3 sind richtig...'
+  [Q14] Option 2 Mismatch:
+    JSON: 'Nur die Aussagen 1, 4 und 5 sind richtig...'
+  [Q14] Option 3 Mismatch:
+    JSON: 'Nur die Aussagen 2, 3 und 5 sind richtig...'
+  [Q14] Option 4 Mismatch:
+    JSON: 'Nur die Aussagen 2, 4 und 5 sind richtig...'
+  [Q14] Option 5 Mismatch:
+    JSON: 'Alle Aussagen sind richtig...'
+  [Q14] Statement 1 Mismatch:
+    JSON: 'Menschen mit geistiger Behinderung haben oft eine Mehrfachbehinderung....'
+  [Q14] Statement 2 Mismatch:
+    JSON: 'Von einer mittelgradigen Intelligenzminderung (Imbezillität) spricht man bei einem IQ von 85....'
+  [Q14] Statement 3 Mismatch:
+    JSON: 'Bei Kindern mit geistiger Behinderung gelingt es heute in über 90 % der Fälle die Ursachen zu klären...'
+  [Q14] Statement 4 Mismatch:
+    JSON: 'Je schwerer der Grad der geistigen Behinderung, desto häufiger bestehen psychische Störungen und Sym...'
+  [Q14] Statement 5 Mismatch:
+    JSON: 'Zu den präventiven Maßnahmen gegen bestimmte angeborene Intelligenzminderungen gehören Schutzimpfung...'
+  [Q15] Question Text Mismatch:
+    JSON: 'Welche der folgenden Begriffe sind typisch für die Aufmerksamkeitsdefizit-Hyperaktivitätsstörung (AD...'
+  [Q15] Option 1 Mismatch:
+    JSON: 'Gute Schulnoten...'
+  [Q15] Option 2 Mismatch:
+    JSON: 'Beginn ab dem 9. Lebensjahr...'
+  [Q15] Option 3 Mismatch:
+    JSON: 'Regelverletzungen...'
+  [Q15] Option 4 Mismatch:
+    JSON: 'Großer Freundeskreis...'
+  [Q15] Option 5 Mismatch:
+    JSON: 'Niedrige Frustrationstoleranz...'
+  [Q16] Question Text Mismatch:
+    JSON: 'Sie machen einen Hausbesuch bei einem Patienten, der ständig nestelnde Bewegungen mit den Händen aus...'
+  [Q16] Option 1 Mismatch:
+    JSON: 'Manische Phase...'
+  [Q16] Option 2 Mismatch:
+    JSON: 'Demenz...'
+  [Q16] Option 3 Mismatch:
+    JSON: 'Delirium tremens...'
+  [Q16] Option 4 Mismatch:
+    JSON: 'SHT (Schädel-Hirn-Trauma)...'
+  [Q16] Option 5 Mismatch:
+    JSON: 'Schizophrenie...'
+  [Q17] Question Text Mismatch:
+    JSON: 'Welche der folgenden Aussagen zum Suizid trifft (treffen) zu?...'
+  [Q17] Option 1 Mismatch:
+    JSON: 'Nur die Aussage 3 ist richtig...'
+  [Q17] Option 2 Mismatch:
+    JSON: 'Nur die Aussagen 1 und 4 sind richtig...'
+  [Q17] Option 3 Mismatch:
+    JSON: 'Nur die Aussagen 2 und 3 sind richtig...'
+  [Q17] Option 4 Mismatch:
+    JSON: 'Nur die Aussagen 4 und 5 sind richtig...'
+  [Q17] Option 5 Mismatch:
+    JSON: 'Alle Aussagen sind richtig...'
+  [Q17] Statement 1 Mismatch:
+    JSON: 'Der Betroffene sollte nicht auf einen geplanten Suizid angesprochen werden...'
+  [Q17] Statement 2 Mismatch:
+    JSON: 'In Deutschland liegt der Suizid an Rang 2 der Todesursachen...'
+  [Q17] Statement 3 Mismatch:
+    JSON: 'Zu den Risikogruppen zählen alleinlebende Patienten ohne enge familiäre Bindung...'
+  [Q17] Statement 4 Mismatch:
+    JSON: 'Wer einmal einen Suizidversuch unternommen hat wird dies nie wieder tun...'
+  [Q17] Statement 5 Mismatch:
+    JSON: 'Lehnt ein Suizidgefährdeter eine Behandlung ab, so muss dies akzeptiert werden...'
+  [Q18] Question Text Mismatch:
+    JSON: 'Welche der genannten Krankheiten kann Ursache eines endokrinen (hormonell bedingten) Psychosyndroms ...'
+  [Q18] Option 1 Mismatch:
+    JSON: 'Gehirnerschütterung...'
+  [Q18] Option 2 Mismatch:
+    JSON: 'Alkoholmissbrauch...'
+  [Q18] Option 3 Mismatch:
+    JSON: 'Hypothyreose...'
+  [Q18] Option 4 Mismatch:
+    JSON: 'Alzheimer-Erkrankung...'
+  [Q18] Option 5 Mismatch:
+    JSON: 'Drogensucht...'
+  [Q19] Question Text Mismatch:
+    JSON: 'Zu den formalen Denkstörungen gehören:...'
+  [Q19] Option 1 Mismatch:
+    JSON: 'Nur die Aussagen 1, 3 und 4 sind richtig...'
+  [Q19] Option 2 Mismatch:
+    JSON: 'Nur die Aussagen 1, 2, 3 und 5 sind richtig...'
+  [Q19] Option 3 Mismatch:
+    JSON: 'Nur die Aussagen 1, 2, 4 und 5 sind richtig...'
+  [Q19] Option 4 Mismatch:
+    JSON: 'Nur die Aussagen 2, 3, 4 und 5 sind richtig...'
+  [Q19] Option 5 Mismatch:
+    JSON: 'Alle Aussagen sind richtig...'
+  [Q19] Statement 1 Mismatch:
+    JSON: 'Perseveration bei hirnorganischen Erkrankungen...'
+  [Q19] Statement 2 Mismatch:
+    JSON: 'Denkhemmung bei depressiven Zuständen...'
+  [Q19] Statement 3 Mismatch:
+    JSON: 'Ideenflucht bei manischen Erkrankungen...'
+  [Q19] Statement 4 Mismatch:
+    JSON: 'Wahnhaftes Denken bei paranoiden Psychosen...'
+  [Q19] Statement 5 Mismatch:
+    JSON: 'Zerfahrenes Denken bei Schizophrenie...'
+  [Q20] Question Text Mismatch:
+    JSON: 'Welche Aussage trifft zu? Typisch für eine organische Halluzinose ist:...'
+  [Q20] Option 1 Mismatch:
+    JSON: 'Im Vordergrund steht eine getrübte Bewusstseinseinslage...'
+  [Q20] Option 2 Mismatch:
+    JSON: 'Die Halluzinationen können vom Patienten manchmal als solche erkannt werden...'
+  [Q20] Option 3 Mismatch:
+    JSON: 'Sie ist mit Verhaltenstherapie gut therapierbar...'
+  [Q20] Option 4 Mismatch:
+    JSON: 'Sie tritt bevorzugt zu Beginn der Pubertät auf...'
+  [Q20] Option 5 Mismatch:
+    JSON: 'Wahn dominiert das klinische Bild...'
+  [Q21] Question Text Mismatch:
+    JSON: 'Sie werden zu einem Hausbesuch zu einer Patientin gebeten und erfahren, dass sie an einer Depression...'
+  [Q21] Option 1 Mismatch:
+    JSON: 'Da sich nach 5 Tagen noch keinerlei Besserung zeigt, setzen Sie das Medikament ab und raten einen Ps...'
+  [Q21] Option 2 Mismatch:
+    JSON: 'Sie setzen das bisher verordnete Medikament ab und verordnen Johanniskraut....'
+  [Q21] Option 3 Mismatch:
+    JSON: 'Da sich bisher keinerlei Besserung eingestellt hat, schlagen Sie vor, die Dosis des verschriebenen M...'
+  [Q21] Option 4 Mismatch:
+    JSON: 'Nachdem Sie sich überzeugt haben, dass die Patientin gut betreut wird, raten Sie ihr weiter abzuwart...'
+  [Q21] Option 5 Mismatch:
+    JSON: 'Da das Medikament keine Wirkung zeigt, muss die Ursache der Depression herausgefunden werden, am bes...'
+  [Q22] Question Text Mismatch:
+    JSON: 'Welche der folgenden Aussagen zum Korsakow-Syndrom treffen zu?...'
+  [Q22] Option 1 Mismatch:
+    JSON: 'Nur die Aussagen 3 und 5 sind richtig...'
+  [Q22] Option 2 Mismatch:
+    JSON: 'Nur die Aussagen 1, 2 und 4 sind richtig...'
+  [Q22] Option 3 Mismatch:
+    JSON: 'Nur die Aussagen 1, 4 und 5 sind richtig...'
+  [Q22] Option 4 Mismatch:
+    JSON: 'Nur die Aussagen 1, 2, 4 und 5 sind richtig...'
+  [Q22] Option 5 Mismatch:
+    JSON: 'Alle Aussagen sind richtig...'
+  [Q22] Statement 1 Mismatch:
+    JSON: 'Typisch hierfür sind Desorientiertheit und Konfabulieren...'
+  [Q22] Statement 2 Mismatch:
+    JSON: 'Primäre Ursache ist ein Mangel an Vitamin C...'
+  [Q22] Statement 3 Mismatch:
+    JSON: 'Störungen des Zeitgefühls und des Zeitgitters treten nicht auf...'
+  [Q22] Statement 4 Mismatch:
+    JSON: 'Irreversible Verläufe werden beobachtet...'
+  [Q22] Statement 5 Mismatch:
+    JSON: 'Persönlichkeitsveränderungen treten auf...'
+  [Q23] Question Text Mismatch:
+    JSON: 'Welche Aussage trifft zu? Als Übertragung (im engeren Sinne) bezeichnet man in der Psychoanalyse:...'
+  [Q23] Option 1 Mismatch:
+    JSON: 'Den Vorgang, durch den ein Psychisches in ein körperliches Symptom umgewandelt wird....'
+  [Q23] Option 2 Mismatch:
+    JSON: 'Einen psychodynamischen Vorgang, durch den ein Angstimpuls in psychotisches Erlebnis übertragen wird...'
+  [Q23] Option 3 Mismatch:
+    JSON: 'Den Vorgang, durch den ein – z.B. optisch wahrgenommenes – Geschehen in die subjektive, für andere u...'
+  [Q23] Option 4 Mismatch:
+    JSON: 'Den Vorgang des Übergehens depressiver Erlebnisweisen in manisches Erleben....'
+  [Q23] Option 5 Mismatch:
+    JSON: 'Frühere Beziehungsund Interaktionsmuster werden auf die therapeutische Beziehung übertragen....'
+  [Q24] Question Text Mismatch:
+    JSON: 'Welche der folgenden Aussagen zur Demenz treffen zu? Wählen Sie zwei Antworten!...'
+  [Q24] Option 1 Mismatch:
+    JSON: 'Bei der Demenz vom Alzheimer Typ fällt ein akuter Beginn eines amnestischen Syndroms auf....'
+  [Q24] Option 2 Mismatch:
+    JSON: 'Die vaskuläre Demenz ist häufig mit einem Bluthochdruck verbunden....'
+  [Q24] Option 3 Mismatch:
+    JSON: 'Im Rahmen einer AIDS-Erkrankung kann im späteren Verlauf eine Demenz beobachtet werden....'
+  [Q24] Option 4 Mismatch:
+    JSON: 'Die Alzheimer-Krankheit ist mit Medikamenten heilbar....'
+  [Q24] Option 5 Mismatch:
+    JSON: 'Bei der Diagnose von Demenzerkrankungen spielen bildgebende Verfahren (z.B. kraniale Computertomogra...'
+  [Q25] Question Text Mismatch:
+    JSON: 'Sie sehen sich einem Patienten gegenüber, der Ihrer Meinung nach ernsthaft ankündigt, sich das Leben...'
+  [Q25] Option 1 Mismatch:
+    JSON: 'In keinem Fall, auch ein Selbsttötungskandidat sollte nicht gegen seinen Willen stationär untergebra...'
+  [Q25] Option 2 Mismatch:
+    JSON: 'In jedem Fall, wenn Sie von der Ernsthaftigkeit der Ankündigung und einer unmittelbar drohenden Gefä...'
+  [Q25] Option 3 Mismatch:
+    JSON: 'In keinem Fall, da die Einschränkung des Rechts auf freie Entfaltung der Persönlichkeit entgegensteh...'
+  [Q25] Option 4 Mismatch:
+    JSON: 'In keinem Fall, da bei ausreichend intensiver Zuwendung eine stationäre Einweisung vermeidbar ist....'
+  [Q25] Option 5 Mismatch:
+    JSON: 'In keinem Fall, da es sich nicht um eine Störung der öffentlichen Sicherheit und Ordnung handelt....'
+  [Q26] Question Text Mismatch:
+    JSON: 'Welche der folgenden Aussagen treffen zu? Zu den diagnostischen Leitlinien der Alkoholabhängigkeit n...'
+  [Q26] Option 1 Mismatch:
+    JSON: 'Nur die Aussagen 1 und 2 sind richtig...'
+  [Q26] Option 2 Mismatch:
+    JSON: 'Nur die Aussagen 3 und 4 sind richtig...'
+  [Q26] Option 3 Mismatch:
+    JSON: 'Nur die Aussagen 1, 2 und 3 sind richtig...'
+  [Q26] Option 4 Mismatch:
+    JSON: 'Nur die Aussagen 1, 3, 4 und 5 sind richtig...'
+  [Q26] Option 5 Mismatch:
+    JSON: 'Alle Aussagen sind richtig...'
+  [Q26] Statement 1 Mismatch:
+    JSON: 'Verminderte Kontrollfähigkeit bezüglich des Beginns, der Beendigung und der Menge des Konsums...'
+  [Q26] Statement 2 Mismatch:
+    JSON: 'Dauerhafte Organschäden, beispielsweise der Leber...'
+  [Q26] Statement 3 Mismatch:
+    JSON: 'Ein körperliches Entzugssyndrom bei Beendigung oder Reduktion des Konsums...'
+  [Q26] Statement 4 Mismatch:
+    JSON: 'Nachweis einer Toleranz...'
+  [Q26] Statement 5 Mismatch:
+    JSON: 'Fortschreitende Vernachlässigung anderer Vergnügen oder Interessen zugunsten des Substanzkonsums...'
+  [Q27] Question Text Mismatch:
+    JSON: 'Welche der folgenden Aussagen zur primären Enuresis treffen zu? Wählen Sie zwei Antworten!...'
+  [Q27] Option 1 Mismatch:
+    JSON: 'Nach bereits erworbener Blasenkontrolle über 6 Monate tritt wieder Einnässen auf...'
+  [Q27] Option 2 Mismatch:
+    JSON: 'Familiäre Häufung wird nur selten beobachtet...'
+  [Q27] Option 3 Mismatch:
+    JSON: 'Primäre Enuresis ist definiert als unwillkürliches Einnässen ohne somatischen Befund über das 5. Leb...'
+  [Q27] Option 4 Mismatch:
+    JSON: 'Der Verlauf zeigt eine hohe Spontanheilungsrate...'
+  [Q27] Option 5 Mismatch:
+    JSON: 'Am häufigsten tritt sie tagsüber auf (Enuresis diurna)...'
+  [Q28] Question Text Mismatch:
+    JSON: 'Welche der folgenden Aussagen trifft (treffen) für die bipolare affektive Störung nach ICD-10 (manis...'
+  [Q28] Option 1 Mismatch:
+    JSON: 'Nur die Aussage 1 ist richtig...'
+  [Q28] Option 2 Mismatch:
+    JSON: 'Nur die Aussagen 2 und 3 sind richtig...'
+  [Q28] Option 3 Mismatch:
+    JSON: 'Nur die Aussagen 2, 3 und 4 sind richtig...'
+  [Q28] Option 4 Mismatch:
+    JSON: 'Nur die Aussagen 1, 2, 4 und 5 sind richtig...'
+  [Q28] Option 5 Mismatch:
+    JSON: 'Alle Aussagen sind richtig...'
+  [Q28] Statement 1 Mismatch:
+    JSON: 'Bei der Entwicklung affektiver Störungen können frühere Umwelteinflüsse eine Rolle spielen....'
+  [Q28] Statement 2 Mismatch:
+    JSON: 'Charakteristisch bei der bipolaren affektiven Erkrankung ist eine weitgehende bis vollständige Besse...'
+  [Q28] Statement 3 Mismatch:
+    JSON: 'Von der Erkrankung sind fast nur Männer betroffen....'
+  [Q28] Statement 4 Mismatch:
+    JSON: 'Manische Episoden beginnen in der Regel abrupt (rasch, innerhalb weniger Tage) und dauern zwischen z...'
+  [Q28] Statement 5 Mismatch:
+    JSON: 'Depressive Phasen der bipolaren Störung tendieren zu längerer Dauer, selten allerdings länger als ei...'
+
+--- Exam: 2009 March (2009-march) ---
+  Source PDF: fragen/Maerz-2009.pdf
+  [Q1] Question Text Mismatch:
+    JSON: 'Zu den charakteristischen Symptomen bei der Manie zählen:...'
+  [Q1] Option 1 Mismatch:
+    JSON: 'Nur die Aussagen 1 und 3 sind richtig...'
+  [Q1] Option 2 Mismatch:
+    JSON: 'Nur die Aussagen 2 und 4 sind richtig...'
+  [Q1] Option 3 Mismatch:
+    JSON: 'Nur die Aussagen 3 und 4 sind richtig...'
+  [Q1] Option 4 Mismatch:
+    JSON: 'Nur die Aussagen 1, 3 und 5 sind richtig...'
+  [Q1] Option 5 Mismatch:
+    JSON: 'Nur die Aussagen 2, 3 und 4 sind richtig...'
+  [Q1] Statement 1 Mismatch:
+    JSON: 'Hypersomnie...'
+  [Q1] Statement 2 Mismatch:
+    JSON: 'Perseveration...'
+  [Q1] Statement 3 Mismatch:
+    JSON: 'Größenideen...'
+  [Q1] Statement 4 Mismatch:
+    JSON: 'Psychomotorische Enthemmung...'
+  [Q1] Statement 5 Mismatch:
+    JSON: 'Ambivalenz...'
+  [Q2] Question Text Mismatch:
+    JSON: 'Welche der folgenden Aussagen über die Somatisierungsstörung trifft (treffen) zu?...'
+  [Q2] Option 1 Mismatch:
+    JSON: 'Nur die Aussage 4 ist richtig...'
+  [Q2] Option 2 Mismatch:
+    JSON: 'Nur die Aussagen 2 und 4 sind richtig...'
+  [Q2] Option 3 Mismatch:
+    JSON: 'Nur die Aussagen 1, 2 und 3 sind richtig...'
+  [Q2] Option 4 Mismatch:
+    JSON: 'Nur die Aussagen 1, 2, 3 und 4 sind richtig...'
+  [Q2] Option 5 Mismatch:
+    JSON: 'Alle Aussagen sind richtig...'
+  [Q2] Statement 1 Mismatch:
+    JSON: 'Die Symptome sind nur auf einen Körperteil bezogen...'
+  [Q2] Statement 2 Mismatch:
+    JSON: 'Ängste und Depressionen sind häufige Begleiterscheinungen...'
+  [Q2] Statement 3 Mismatch:
+    JSON: 'Die psychophysische Konstitution spielt bei der Entstehung keine Rolle...'
+  [Q2] Statement 4 Mismatch:
+    JSON: 'Medikamentenmissbrauch bis hin zur Abhängigkeit entsteht häufig...'
+  [Q2] Statement 5 Mismatch:
+    JSON: 'Eine längere Psychotherapie ist in jedem Fall die alleinige Behandlungsmethode...'
+  [Q3] Question Text Mismatch:
+    JSON: 'Welche Aussage zur Demenz trifft zu?...'
+  [Q3] Option 1 Mismatch:
+    JSON: 'Kennzeichen der vaskulären Demenz (arteriosklerotische Demenz) ist der schleichende Beginn bei Fehle...'
+  [Q3] Option 2 Mismatch:
+    JSON: 'Charakteristisch für die Demenz bei Alzheimer-Krankheit ist der plötzliche Beginn der Erkrankung mit...'
+  [Q3] Option 3 Mismatch:
+    JSON: 'Die Alzheimer-Krankheit mit frühem Beginn (vor dem 65. Lebensjahr) zeigt gewöhnlich eine rasche Prog...'
+  [Q3] Option 4 Mismatch:
+    JSON: 'Eine vorbestehende Intelligenzminderung (z.B. bei Down-Syndrom) schließt die Entwicklung einer Demen...'
+  [Q3] Option 5 Mismatch:
+    JSON: 'Die Demenz bei Creutzfeldt-Jakob-Krankheit ist durch einen besonders langsamen Verlauf gekennzeichne...'
+  [Q4] Question Text Mismatch:
+    JSON: 'Welche der folgenden Aussagen zu Drogenund Alkoholmissbrauch treffen zu? Wählen Sie zwei Antworten!...'
+  [Q4] Option 1 Mismatch:
+    JSON: 'Regelmäßiger Amphetamin-Konsum führt primär zu körperlicher Abhängigkeit...'
+  [Q4] Option 2 Mismatch:
+    JSON: 'Ein Alkoholdelir tritt nur nach abruptem Alkoholentzug auf, nicht während fortgesetztem Trinken...'
+  [Q4] Option 3 Mismatch:
+    JSON: 'Im Rahmen eines Cannabis-Missbrauchs kann eine akute Psychose auftreten...'
+  [Q4] Option 4 Mismatch:
+    JSON: 'Ein Benzodiazepin-Entzug kann problemlos ambulant erfolgen, da keinerlei körperliche Symptomatik ode...'
+  [Q4] Option 5 Mismatch:
+    JSON: 'Bei einer Opiat-Intoxikation besteht die Gefahr einer Atemdepression...'
+  [Q5] Question Text Mismatch:
+    JSON: 'Welche der folgenden Aussagen trifft (treffen) zu? Zu den phobischen Störungen nach ICD-10 gehört (g...'
+  [Q5] Option 1 Mismatch:
+    JSON: 'Nur die Aussage 2 ist richtig...'
+  [Q5] Option 2 Mismatch:
+    JSON: 'Nur die Aussagen 1 und 3 sind richtig...'
+  [Q5] Option 3 Mismatch:
+    JSON: 'Nur die Aussagen 2, 4 und 5 sind richtig...'
+  [Q5] Option 4 Mismatch:
+    JSON: 'Nur die Aussagen 1, 2, 4 und 5 sind richtig...'
+  [Q5] Option 5 Mismatch:
+    JSON: 'Alle Aussagen sind richtig...'
+  [Q5] Statement 1 Mismatch:
+    JSON: 'Panikstörung...'
+  [Q5] Statement 2 Mismatch:
+    JSON: 'Agoraphobie...'
+  [Q5] Statement 3 Mismatch:
+    JSON: 'Herzneurose...'
+  [Q5] Statement 4 Mismatch:
+    JSON: 'Spinnenphobie...'
+  [Q5] Statement 5 Mismatch:
+    JSON: 'Soziale Phobie...'
+  [Q6] Question Text Mismatch:
+    JSON: 'Bei chronischem Alkoholismus kann als Spätfolge das sog. Korsakow-Syndrom auftreten. Leitsymptome si...'
+  [Q6] Option 1 Mismatch:
+    JSON: 'Optische Halluzinationen, Verwirrtheit, illusionäre Verkennung...'
+  [Q6] Option 2 Mismatch:
+    JSON: 'Störungen des Kurzzeitgedächtnisses, des Zeitgefühls, fehlende Störung des Immediatgedächtnisses...'
+  [Q6] Option 3 Mismatch:
+    JSON: 'Akustische Halluzinationen, Wahnwahrnehmungen...'
+  [Q6] Option 4 Mismatch:
+    JSON: 'Antriebsschwäche, Depressionen...'
+  [Q6] Option 5 Mismatch:
+    JSON: 'Eifersuchtswahn, Bewusstseinseintrübung...'
+  [Q7] Question Text Mismatch:
+    JSON: 'Die Einschätzung der Introspektionsfähigkeit des Patienten durch den Therapeuten ist für die Beurtei...'
+  [Q7] Option 1 Mismatch:
+    JSON: 'Gesprächspsychotherapie nach Rogers...'
+  [Q7] Option 2 Mismatch:
+    JSON: 'Verhaltenstherapie...'
+  [Q7] Option 3 Mismatch:
+    JSON: 'Hypnosetherapie...'
+  [Q7] Option 4 Mismatch:
+    JSON: 'Psychoanalyse...'
+  [Q7] Option 5 Mismatch:
+    JSON: 'Katathymes Bilderleben...'
+  [Q8] Question Text Mismatch:
+    JSON: 'Welche Aussage zur Schizophrenie trifft zu?...'
+  [Q8] Option 1 Mismatch:
+    JSON: 'Der Krankheitsbeginn ist meist nach dem 40. Lebensjahr...'
+  [Q8] Option 2 Mismatch:
+    JSON: 'Die Prognose der Erkrankung ist bei schleichendem Beginn besser als bei akut einsetzenden psychotisc...'
+  [Q8] Option 3 Mismatch:
+    JSON: 'Die Wahrscheinlichkeit, im Laufe des Lebens an Schizophrenie zu erkranken, liegt bei ca. 1 %...'
+  [Q8] Option 4 Mismatch:
+    JSON: 'Männer erkranken in einem späteren Alter als Frauen...'
+  [Q8] Option 5 Mismatch:
+    JSON: 'Der Verwandtschaftsgrad zu einem an Schizophrenie Erkrankten spielt für das Erkrankungsrisiko keine ...'
+  [Q9] Question Text Mismatch:
+    JSON: 'Während einer Psychotherapie übt eine Patientin mit Bulimie alternative Strategien, die sie zur Impu...'
+  [Q9] Option 1 Mismatch:
+    JSON: 'Gesprächspsychotherapie...'
+  [Q9] Option 2 Mismatch:
+    JSON: 'Psychoanalyse...'
+  [Q9] Option 3 Mismatch:
+    JSON: 'Systemische Psychotherapie...'
+  [Q9] Option 4 Mismatch:
+    JSON: 'Tiefenpsychologisch fundierte Psychotherapie...'
+  [Q9] Option 5 Mismatch:
+    JSON: 'Verhaltenstherapie...'
+  [Q10] Question Text Mismatch:
+    JSON: 'Was sind diagnostische Kriterien (nach ICD-10) für eine depressive Episode? Wählen Sie zwei Antworte...'
+  [Q10] Option 1 Mismatch:
+    JSON: 'Dauer von mind. 2 Wochen...'
+  [Q10] Option 2 Mismatch:
+    JSON: 'Dauer von mind. 6 Monaten...'
+  [Q10] Option 3 Mismatch:
+    JSON: 'Ängstlich vermeidende Persönlichkeit...'
+  [Q10] Option 4 Mismatch:
+    JSON: 'Antriebsminderung...'
+  [Q10] Option 5 Mismatch:
+    JSON: 'Gewichtszunahme...'
+  [Q11] Question Text Mismatch:
+    JSON: 'Welche der folgenden Aussagen zum elektiven Mutismus trifft (treffen) zu?...'
+  [Q11] Option 1 Mismatch:
+    JSON: 'Nur die Aussage 3 ist richtig...'
+  [Q11] Option 2 Mismatch:
+    JSON: 'Nur die Aussagen 2 und 4 sind richtig...'
+  [Q11] Option 3 Mismatch:
+    JSON: 'Nur die Aussagen 1, 2 und 3 sind richtig...'
+  [Q11] Option 4 Mismatch:
+    JSON: 'Nur die Aussagen 2, 3 und 4 sind richtig...'
+  [Q11] Option 5 Mismatch:
+    JSON: 'Alle Aussagen sind richtig...'
+  [Q11] Statement 1 Mismatch:
+    JSON: 'Die Störung tritt fast ausschließlich bei Jungen auf...'
+  [Q11] Statement 2 Mismatch:
+    JSON: 'Es besteht ein normales oder nahezu normales Niveau des Sprachverständnisses...'
+  [Q11] Statement 3 Mismatch:
+    JSON: 'Es besteht eine Voraussagbarkeit für Situationen, in denen gesprochen und nicht gesprochen wird...'
+  [Q11] Statement 4 Mismatch:
+    JSON: 'Andere sozial-emotionale Störungen sind oft ebenfalls vorhanden...'
+  [Q11] Statement 5 Mismatch:
+    JSON: 'In der Vorgeschichte findet sich meist eine Sprachentwicklungsverzögerung...'
+  [Q12] Question Text Mismatch:
+    JSON: 'Welche der folgenden Aussagen zu Zwangsstörungen treffen zu?...'
+  [Q12] Option 1 Mismatch:
+    JSON: 'Nur die Aussagen 1, 2 und 3 sind richtig...'
+  [Q12] Option 2 Mismatch:
+    JSON: 'Nur die Aussagen 1, 4 und 5 sind richtig...'
+  [Q12] Option 3 Mismatch:
+    JSON: 'Nur die Aussagen 2, 3 und 4 sind richtig...'
+  [Q12] Option 4 Mismatch:
+    JSON: 'Nur die Aussagen 2, 4 und 5 sind richtig...'
+  [Q12] Option 5 Mismatch:
+    JSON: 'Alle Aussagen sind richtig...'
+  [Q12] Statement 1 Mismatch:
+    JSON: 'Zwangsstörungen treten deutlich häufiger bei Frauen auf...'
+  [Q12] Statement 2 Mismatch:
+    JSON: 'Der Patient empfindet die Zwangshandlungen/Zwangsgedanken als quälend...'
+  [Q12] Statement 3 Mismatch:
+    JSON: 'Verhaltenstherapeutisch lassen sich Zwangsstörungen günstig beeinflussen...'
+  [Q12] Statement 4 Mismatch:
+    JSON: 'Häufig treten Zwangsstörungen in Verbindung mit Depressionen auf...'
+  [Q12] Statement 5 Mismatch:
+    JSON: 'Bei der Zwangsstörung finden sich ständig wechselnde Zwangshandlungen und Zwangsgedanken...'
+  [Q13] Question Text Mismatch:
+    JSON: 'Welche der folgenden Aussagen trifft (treffen) zu? Was sind wichtige Elemente bei der kognitiv-verha...'
+  [Q13] Option 1 Mismatch:
+    JSON: 'Nur die Aussage 1 ist richtig...'
+  [Q13] Option 2 Mismatch:
+    JSON: 'Nur die Aussagen 4 und 5 sind richtig...'
+  [Q13] Option 3 Mismatch:
+    JSON: 'Nur die Aussagen 1, 2 und 3 sind richtig...'
+  [Q13] Option 4 Mismatch:
+    JSON: 'Nur die Aussagen 1, 2, 4 und 5 sind richtig...'
+  [Q13] Option 5 Mismatch:
+    JSON: 'Alle Aussagen sind richtig...'
+  [Q13] Statement 1 Mismatch:
+    JSON: 'Reizkonfrontation...'
+  [Q13] Statement 2 Mismatch:
+    JSON: 'Vermittlung eines Erklärungsmodells...'
+  [Q13] Statement 3 Mismatch:
+    JSON: 'Psychoedukation...'
+  [Q13] Statement 4 Mismatch:
+    JSON: 'Vermeidung der Angstauslöser...'
+  [Q13] Statement 5 Mismatch:
+    JSON: 'Ermutigung des Patienten, sich in der Angst auslösenden Situation durch Aktivitäten abzulenken...'
+  [Q14] Question Text Mismatch:
+    JSON: 'Welche der folgenden Aussagen zur Agoraphobie trifft (treffen) zu?...'
+  [Q14] Option 1 Mismatch:
+    JSON: 'Nur die Aussage 3 ist richtig...'
+  [Q14] Option 2 Mismatch:
+    JSON: 'Nur die Aussagen 2 und 4 sind richtig...'
+  [Q14] Option 3 Mismatch:
+    JSON: 'Nur die Aussagen 1, 3 und 4 sind richtig...'
+  [Q14] Option 4 Mismatch:
+    JSON: 'Nur die Aussagen 3, 4 und 5 sind richtig...'
+  [Q14] Option 5 Mismatch:
+    JSON: 'Alle Aussagen sind richtig...'
+  [Q14] Statement 1 Mismatch:
+    JSON: 'Überwiegend sind Frauen betroffen...'
+  [Q14] Statement 2 Mismatch:
+    JSON: 'Depressive und zwanghafte Symptome sowie soziale Phobien können zusätzlich vorhanden sein...'
+  [Q14] Statement 3 Mismatch:
+    JSON: 'Aufenthalt auf großen Plätzen oder in Menschenmengen sind typisch angstauslösende Momente...'
+  [Q14] Statement 4 Mismatch:
+    JSON: 'Vermeidung der phobischen Situation ist ein typisches Symptom...'
+  [Q14] Statement 5 Mismatch:
+    JSON: 'Ohne effektive Behandlung wird die Agoraphobie häufig chronisch...'
+  [Q15] Question Text Mismatch:
+    JSON: 'Eine 25-jährige Frau bekommt plötzlich Angstgefühle, „pfötchenartige“ Verkrampfungen der Hände und a...'
+  [Q15] Option 1 Mismatch:
+    JSON: 'Klaustrophobie...'
+  [Q15] Option 2 Mismatch:
+    JSON: 'Soziophobie...'
+  [Q15] Option 3 Mismatch:
+    JSON: 'Hyperventilationstetanie...'
+  [Q15] Option 4 Mismatch:
+    JSON: 'Herzanfall...'
+  [Q15] Option 5 Mismatch:
+    JSON: 'Lungenembolie...'
+  [Q16] Question Text Mismatch:
+    JSON: 'Welche der folgenden Aussagen trifft (treffen) zu? Was ist kennzeichnend für eine körperliche Abhäng...'
+  [Q16] Option 1 Mismatch:
+    JSON: 'Nur die Aussage 1 ist richtig...'
+  [Q16] Option 2 Mismatch:
+    JSON: 'Nur die Aussagen 1 und 2 sind richtig...'
+  [Q16] Option 3 Mismatch:
+    JSON: 'Nur die Aussagen 3 und 4 sind richtig...'
+  [Q16] Option 4 Mismatch:
+    JSON: 'Nur die Aussagen 1, 2, 3 und 5 sind richtig...'
+  [Q16] Option 5 Mismatch:
+    JSON: 'Alle Aussagen sind richtig...'
+  [Q16] Statement 1 Mismatch:
+    JSON: 'Entzugssymptome beim Absetzen der Substanz...'
+  [Q16] Statement 2 Mismatch:
+    JSON: 'Toleranzentwicklung...'
+  [Q16] Statement 3 Mismatch:
+    JSON: 'Akute Bauchspeicheldrüsenentzündung...'
+  [Q16] Statement 4 Mismatch:
+    JSON: 'Vermehrtes Schlafbedürfnis...'
+  [Q16] Statement 5 Mismatch:
+    JSON: 'Konflikte im Familienkreis...'
+  [Q17] Question Text Mismatch:
+    JSON: 'Was sind diagnostische Kriterien (nach ICD-10) für eine Anorexia nervosa? Wählen Sie zwei Antworten!...'
+  [Q17] Option 1 Mismatch:
+    JSON: 'Aktivitätseinschränkung...'
+  [Q17] Option 2 Mismatch:
+    JSON: 'Alkoholmissbrauch...'
+  [Q17] Option 3 Mismatch:
+    JSON: 'Amenorrhö...'
+  [Q17] Option 4 Mismatch:
+    JSON: 'Vergiftungsängste...'
+  [Q17] Option 5 Mismatch:
+    JSON: 'Körperschemastörung...'
+  [Q18] Question Text Mismatch:
+    JSON: 'Welche Aussage trifft zu? Der Gedankenentzug bei schizophrenen Patienten gehört zu welcher Gruppe vo...'
+  [Q18] Option 1 Mismatch:
+    JSON: 'Antriebsstörungen...'
+  [Q18] Option 2 Mismatch:
+    JSON: 'Formale Denkstörungen...'
+  [Q18] Option 3 Mismatch:
+    JSON: 'Wahnwahrnehmungen...'
+  [Q18] Option 4 Mismatch:
+    JSON: 'Ichstörungen...'
+  [Q18] Option 5 Mismatch:
+    JSON: 'Gedächtnisstörungen...'
+  [Q19] Question Text Mismatch:
+    JSON: 'Welche der folgenden Aussagen treffen zu? Ein Patient klagt über Schlafstörungen. Welche Maßnahmen s...'
+  [Q19] Option 1 Mismatch:
+    JSON: 'Nur die Aussagen 1 und 2 sind richtig...'
+  [Q19] Option 2 Mismatch:
+    JSON: 'Nur die Aussagen 2 und 3 sind richtig...'
+  [Q19] Option 3 Mismatch:
+    JSON: 'Nur die Aussagen 4 und 5 sind richtig...'
+  [Q19] Option 4 Mismatch:
+    JSON: 'Nur die Aussagen 1, 2, 3 und 5 sind richtig...'
+  [Q19] Option 5 Mismatch:
+    JSON: 'Alle Aussagen sind richtig...'
+  [Q19] Statement 1 Mismatch:
+    JSON: 'Führen eines Schlaftagebuches...'
+  [Q19] Statement 2 Mismatch:
+    JSON: 'Exploration der Schlafbedingungen...'
+  [Q19] Statement 3 Mismatch:
+    JSON: 'Veranlassung einer körperlichen Untersuchung...'
+  [Q19] Statement 4 Mismatch:
+    JSON: 'Verordnung eines Schlafmittels als Erstmaßnahme...'
+  [Q19] Statement 5 Mismatch:
+    JSON: 'Erhebung eines psychopathologischen Befundes...'
+  [Q20] Question Text Mismatch:
+    JSON: 'Welche der folgenden Aussagen zu ADHS treffen zu?...'
+  [Q20] Option 1 Mismatch:
+    JSON: 'Nur die Aussagen 1, 2 und 4 sind richtig...'
+  [Q20] Option 2 Mismatch:
+    JSON: 'Nur die Aussagen 2, 3 und 5 sind richtig...'
+  [Q20] Option 3 Mismatch:
+    JSON: 'Nur die Aussagen 3, 4 und 5 sind richtig...'
+  [Q20] Option 4 Mismatch:
+    JSON: 'Nur die Aussagen 1, 2, 3 und 5 sind richtig...'
+  [Q20] Option 5 Mismatch:
+    JSON: 'Alle Aussagen sind richtig...'
+  [Q20] Statement 1 Mismatch:
+    JSON: 'Bei ADHS-Patienten besteht ein erhöhtes Risiko für die Ausbildung einer Sucht...'
+  [Q20] Statement 2 Mismatch:
+    JSON: 'Als Differentialdiagnose zum ADHS ist an Minderbegabung zu denken...'
+  [Q20] Statement 3 Mismatch:
+    JSON: 'Organische Erkrankungen wie z.B. eine Schilddrüsenüberfunktion können ähnliche Symptome wie ein ADHS...'
+  [Q20] Statement 4 Mismatch:
+    JSON: 'Wegen des erhöhten Suchtrisikos sollten bei ADHS-Patienten Stimulantien, bei denen die Gefahr einer ...'
+  [Q20] Statement 5 Mismatch:
+    JSON: 'Eine maniforme Psychose kann eine ähnliche Symptomatik zeigen wie ein ADHS...'
+  [Q21] Question Text Mismatch:
+    JSON: 'Welche Aussage zum Suizid bzw. zur Suizidgefahr bei einem depressiven Patienten trifft am ehesten zu...'
+  [Q21] Option 1 Mismatch:
+    JSON: 'Wer nicht über Suizid redet, wird ihn nicht begehen...'
+  [Q21] Option 2 Mismatch:
+    JSON: 'Wer eine Suizidhandlung begeht, will sich unbedingt das Leben nehmen...'
+  [Q21] Option 3 Mismatch:
+    JSON: 'Eine Schwangerschaft schützt zuverlässig vor suizidalen Handlungen...'
+  [Q21] Option 4 Mismatch:
+    JSON: 'Versteckte Suiziddrohungen sprechen für ein erhöhtes Suizidrisiko...'
+  [Q21] Option 5 Mismatch:
+    JSON: 'Fehlende suizidale Handlungen in der Verwandtschaft schließen ein Suizidrisiko nahezu aus...'
+  [Q22] Question Text Mismatch:
+    JSON: 'Welche der folgenden Aussagen treffen zu? Zu den formalen Denkstörungen zählen:...'
+  [Q22] Option 1 Mismatch:
+    JSON: 'Nur die Aussagen 1 und 2 sind richtig...'
+  [Q22] Option 2 Mismatch:
+    JSON: 'Nur die Aussagen 2 und 3 sind richtig...'
+  [Q22] Option 3 Mismatch:
+    JSON: 'Nur die Aussagen 1, 2 und 3 sind richtig...'
+  [Q22] Option 4 Mismatch:
+    JSON: 'Nur die Aussagen 1, 3 und 5 sind richtig...'
+  [Q22] Option 5 Mismatch:
+    JSON: 'Alle Aussagen sind richtig...'
+  [Q22] Statement 1 Mismatch:
+    JSON: 'Denkhemmung...'
+  [Q22] Statement 2 Mismatch:
+    JSON: 'Zerfahrenheit...'
+  [Q22] Statement 3 Mismatch:
+    JSON: 'Gedankenabreißen...'
+  [Q22] Statement 4 Mismatch:
+    JSON: 'Konfabulation...'
+  [Q22] Statement 5 Mismatch:
+    JSON: 'Gedankenentzug...'
+  [Q23] Question Text Mismatch:
+    JSON: 'Überprüfen Sie folgende Beschreibungen des Begriffes der Konfabulation. Welche Aussage trifft am bes...'
+  [Q23] Option 1 Mismatch:
+    JSON: 'Bestehen bleiben sog. Gedächtnisinseln im Rahmen einer umschriebenen Amnesie...'
+  [Q23] Option 2 Mismatch:
+    JSON: 'Zähflüssiges Haften an umschriebenen Erinnerungsresten aus dem Langzeitgedächtnis...'
+  [Q23] Option 3 Mismatch:
+    JSON: 'Hyperamnestisches (abnorm gesteigertes) Erinnerungsvermögen...'
+  [Q23] Option 4 Mismatch:
+    JSON: 'Allgemeines Gefühl der Bekanntheit ohne realen Bezug...'
+  [Q23] Option 5 Mismatch:
+    JSON: 'Mit Phantasien ausgefüllte Erinnerungslücken...'
+  [Q24] Question Text Mismatch:
+    JSON: 'Welche der folgenden Aussagen in Bezug auf die medikamentöse Behandlung von Patienten mit Schizophre...'
+  [Q24] Option 1 Mismatch:
+    JSON: 'Nur die Aussagen 1 und 2 sind richtig...'
+  [Q24] Option 2 Mismatch:
+    JSON: 'Nur die Aussagen 2, 3 und 5 sind richtig...'
+  [Q24] Option 3 Mismatch:
+    JSON: 'Nur die Aussagen 3, 4 und 5 sind richtig...'
+  [Q24] Option 4 Mismatch:
+    JSON: 'Nur die Aussagen 2, 3, 4 und 5 sind richtig...'
+  [Q24] Option 5 Mismatch:
+    JSON: 'Alle Aussagen sind richtig...'
+  [Q24] Statement 1 Mismatch:
+    JSON: 'Wegen der guten Verträglichkeit sind Neuroleptika problemlos in der Therapie einsetzbar...'
+  [Q24] Statement 2 Mismatch:
+    JSON: 'Die Gabe von neuroleptischen Medikamenten kann den psychotischen Leidensdruck erheblich vermindern...'
+  [Q24] Statement 3 Mismatch:
+    JSON: 'Die beste Rezidivprophylaxe ist eine längerfristige medikamentöse Therapie...'
+  [Q24] Statement 4 Mismatch:
+    JSON: 'Die medikamentöse Abschwächung der Psychosesymptome macht die Patienten für aktivierende und stützen...'
+  [Q24] Statement 5 Mismatch:
+    JSON: 'Aktivierende und psychotherapeutische Maßnahmen können das Ergebnis der medikamentösen Therapie und ...'
+  [Q25] Question Text Mismatch:
+    JSON: 'Welche der folgenden Aussagen treffen zu? Wählen Sie zwei Antworten! Verhaltenstherapeutische Method...'
+  [Q25] Option 1 Mismatch:
+    JSON: 'Problemlösetraining...'
+  [Q25] Option 2 Mismatch:
+    JSON: 'Unbedingte Wertschätzung des Klienten durch den Therapeuten...'
+  [Q25] Option 3 Mismatch:
+    JSON: 'Liegende Position des Patienten mit fehlendem Blickkontakt zum Therapeuten...'
+  [Q25] Option 4 Mismatch:
+    JSON: 'Selbstsicherheitstraining...'
+  [Q25] Option 5 Mismatch:
+    JSON: 'Aufforderung an den Patienten, frei zu assoziieren...'
+  [Q26] Question Text Mismatch:
+    JSON: 'Welche der folgenden Aussagen treffen zu? Typische körperliche Symptome einer depressiven Episode si...'
+  [Q26] Option 1 Mismatch:
+    JSON: 'Nur die Aussagen 1, 2 und 4 sind richtig...'
+  [Q26] Option 2 Mismatch:
+    JSON: 'Nur die Aussagen 1, 3 und 5 sind richtig...'
+  [Q26] Option 3 Mismatch:
+    JSON: 'Nur die Aussagen 2, 3 und 4 sind richtig...'
+  [Q26] Option 4 Mismatch:
+    JSON: 'Nur die Aussagen 1, 2, 3 und 4 sind richtig...'
+  [Q26] Option 5 Mismatch:
+    JSON: 'Alle Aussagen sind richtig...'
+  [Q26] Statement 1 Mismatch:
+    JSON: 'Libidoverlust...'
+  [Q26] Statement 2 Mismatch:
+    JSON: 'Schlafstörungen...'
+  [Q26] Statement 3 Mismatch:
+    JSON: 'Suizidgedanken...'
+  [Q26] Statement 4 Mismatch:
+    JSON: 'Appetitlosigkeit...'
+  [Q26] Statement 5 Mismatch:
+    JSON: 'Fieber...'
+  [Q27] Question Text Mismatch:
+    JSON: 'Welche der folgenden Aussagen zur zwanghaften (anankastischen) Persönlichkeitsstörung (nach ICD-10) ...'
+  [Q27] Option 1 Mismatch:
+    JSON: 'Nur die Aussagen 1 und 3 sind richtig...'
+  [Q27] Option 2 Mismatch:
+    JSON: 'Nur die Aussagen 2 und 4 sind richtig...'
+  [Q27] Option 3 Mismatch:
+    JSON: 'Nur die Aussagen 2, 3 und 5 sind richtig...'
+  [Q27] Option 4 Mismatch:
+    JSON: 'Nur die Aussagen 1, 2, 4 und 5 sind richtig...'
+  [Q27] Option 5 Mismatch:
+    JSON: 'Alle Aussagen sind richtig...'
+  [Q27] Statement 1 Mismatch:
+    JSON: 'Es besteht eine Neigung, sich auf intensive, aber instabile Beziehungen einzulassen, oft mit der Fol...'
+  [Q27] Statement 2 Mismatch:
+    JSON: 'Sie ist gekennzeichnet von Gefühlen von Zweifel, Perfektionismus und von übertriebener Gewissenhafti...'
+  [Q27] Statement 3 Mismatch:
+    JSON: 'Typisch sind wiederholte Drohungen oder Handlungen mit Selbstbeschädigung...'
+  [Q27] Statement 4 Mismatch:
+    JSON: 'Damit verbunden sind ständige Kontrollen, Halsstarrigkeit, Vorsicht und Rigidität...'
+  [Q27] Statement 5 Mismatch:
+    JSON: 'Aus einer zwanghaften Persönlichkeitsstörung entwickelt sich häufig eine Zwangsstörung...'
+  [Q28] Question Text Mismatch:
+    JSON: 'Welche Aussage zum Delirium tremens (Alkoholentzugsdelir) trifft zu?...'
+  [Q28] Option 1 Mismatch:
+    JSON: 'Zittern stellt ein seltenes Symptom der Erkrankung dar...'
+  [Q28] Option 2 Mismatch:
+    JSON: 'Das Delirium tremens tritt nur bei einem Blutalkoholspiegel von mehr als 3 Promille auf...'
+  [Q28] Option 3 Mismatch:
+    JSON: 'Unbehandelt führt ein Delirium tremens in unter 1 % zum Tode...'
+  [Q28] Option 4 Mismatch:
+    JSON: 'Krampfanfälle können Vorboten eines nahenden Delirs sein...'
+  [Q28] Option 5 Mismatch:
+    JSON: 'Wahnvorstellungen schließen ein Delirium tremens aus...'
+
+--- Exam: 2010 March (2010-march) ---
+  WARNING: No questions in JSON.
+
+--- Exam: 2011 March (2011-march) ---
+  Source PDF: fragen/Maerz-2011.pdf
+  All questions, options, and statements verified.
+
+--- Exam: 2012 March (2012-march) ---
+  Source PDF: fragen/Maerz-2012.pdf
+  All questions, options, and statements verified.
+
+--- Exam: 2013 March (2013-march) ---
+  Source PDF: fragen/Maerz-2013.pdf
+  All questions, options, and statements verified.
+
+--- Exam: 2014 March (2014-march) ---
+  Source PDF: fragen/Maerz-2014.pdf
+  All questions, options, and statements verified.
+
+--- Exam: 2015 March (2015-march) ---
+  Source PDF: fragen/Maerz-2015.pdf
+  All questions, options, and statements verified.
+
+--- Exam: 2016 March (2016-march) ---
+  Source PDF: fragen/Maerz-2016.pdf
+  All questions, options, and statements verified.
+
+--- Exam: 2017 March (2017-march) ---
+  Source PDF: fragen/Maerz-2017.pdf
+  All questions, options, and statements verified.
+
+--- Exam: 2002 October (2002-october) ---
+  Source PDF: fragen/Oktober-2002.pdf
+  [Q2] Statement 2 Mismatch:
+    JSON: 'Leibmissempfindungen...'
+
+--- Exam: 2003 October (2003-october) ---
+  Source PDF: fragen/Oktober-2003.pdf
+  All questions, options, and statements verified.
+
+--- Exam: 2004 October (2004-october) ---
+  Source PDF: fragen/Oktober-2004.pdf
+  [Q9] Question Text Mismatch:
+    JSON: 'In der psychoanalytischen Theorie werden verschiedene Abwehrmechanismen postuliert. Welcher dieser A...'
+
+--- Exam: 2005 October (2005-october) ---
+  Source PDF: fragen/Oktober-2005.pdf
+  All questions, options, and statements verified.
+
+--- Exam: 2006 October (2006-october) ---
+  Source PDF: fragen/Oktober-2006.pdf
+  All questions, options, and statements verified.
+
+--- Exam: 2007 October (2007-october) ---
+  Source PDF: fragen/Oktober-2007.pdf
+  ERROR: PDF text empty or too short (Scanned image?).
+
+--- Exam: 2008 October (2008-october) ---
+  Source PDF: fragen/Oktober-2008.pdf
+  All questions, options, and statements verified.
+
+--- Exam: 2009 October (2009-october) ---
+  WARNING: No questions in JSON.
+
+--- Exam: 2010 October (2010-october) ---
+  Source PDF: fragen/Oktober-2010.pdf
+  All questions, options, and statements verified.
+
+--- Exam: 2011 October (2011-october) ---
+  Source PDF: fragen/Oktober-2011.pdf
+  All questions, options, and statements verified.
+
+--- Exam: 2012 October (2012-october) ---
+  Source PDF: fragen/Oktober-2012.pdf
+  [Q16] Statement 3 Mismatch:
+    JSON: 'Kognitives Training, wie z. B. Training der sozialen Wahrnehmung, ist sinnvoll Imaginationsübungen s...'
+
+--- Exam: 2013 October (2013-october) ---
+  Source PDF: fragen/Oktober-2013.pdf
+  All questions, options, and statements verified.
+
+--- Exam: 2014 October (2014-october) ---
+  WARNING: No questions in JSON.
+
+--- Exam: 2016 October (2016-october) ---
+  Source PDF: fragen/Oktober-2016.pdf
+  All questions, options, and statements verified.
+
+--- Exam: 2017 October (2017-october) ---
+  Source PDF: fragen/Oktober-2017.pdf
+  All questions, options, and statements verified.
+
+SUMMARY: 11 exams with issues out of 40 exams checked.

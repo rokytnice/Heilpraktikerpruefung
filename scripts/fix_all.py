@@ -145,7 +145,7 @@ def extract_questions_from_pdf(text):
         statements = []
         q_text = ""
         if qtype == 'Aussagenkombination':
-            stmt_matches = list(re.finditer(r'(?:^|\n)\s*(\d)\.\s*(.*?)(?=\n\s*\d\.\s|\n\s*[A-E][.)]\s|\Z)',
+            stmt_matches = list(re.finditer(r'(?:^|\n)\s*(\d)[.)]\s*(.*?)(?=\n\s*\d[.)]\s|\n\s*[A-E][.)]\s|\Z)',
                                            pre_opts, re.DOTALL))
             if stmt_matches:
                 q_text = pre_opts[:stmt_matches[0].start()].strip()
@@ -619,6 +619,48 @@ def main():
                 if q['id'] == 3 and not q.get('statements'):
                     q['statements'] = ["Ataxie", "Desorientierung", "Konfabulationen",
                                        "Bewusstseinsst\u00f6rungen", "Ged\u00e4chtnisst\u00f6rungen"]
+                    manual_fixes += 1
+
+    # 2011-March Q26 - statements use 1) format, PDF extraction may miss them
+    for e in exams:
+        if e['id'] == '2011-march':
+            for q in e['questions']:
+                if q['id'] == 26 and not q.get('statements'):
+                    q['statements'] = [
+                        "St\u00f6rungen im Neurotransmittersystem wirken entscheidend bei der Entstehung affektiver Erkrankungen mit",
+                        "Wichtige Transmitter hei\u00dfen Adrenalin, Noradrenalin und Serotonin",
+                        "Synapse nennt man den Bereich, in dem ein Reiz mittels Neurotransmittern von einer Nervenzelle auf eine andere \u00fcbertragen wird",
+                        "Johanniskraut hat als pflanzliches Medikament keine Wirkung auf das Neurotransmittersystem",
+                        "Ein \u00dcberangebot von Neurotransmittern f\u00fchrt h\u00e4ufig zu vaskul\u00e4rer Demenz"]
+                    manual_fixes += 1
+
+    # 2005-March Q5 - garbled OCR, reconstructed from context (bipolare affektive St\u00f6rung)
+    for e in exams:
+        if e['id'] == '2005-march':
+            for q in e['questions']:
+                if q['id'] == 5 and not q.get('statements'):
+                    q['statements'] = [
+                        "Es handelt sich um eine St\u00f6rung, die durch wenigstens zwei Episoden charakterisiert ist, in denen Stimmung und Aktivit\u00e4tsniveau des Betroffenen deutlich gest\u00f6rt sind",
+                        "Es besteht manchmal angehobene Stimmung, vermehrter Antrieb und Aktivit\u00e4t",
+                        "Es besteht manchmal Stimmungssenkung, verminderter Antrieb und verminderte Aktivit\u00e4t",
+                        "Depressive Episoden kommen nicht vor",
+                        "Depressiver Wahn kann auftreten"]
+                    manual_fixes += 1
+                if q['id'] == 12 and not q.get('statements'):
+                    q['statements'] = [
+                        "Es gibt erfolglose Versuche oder den bleibenden Wunsch, den Substanzgebrauch zu regulieren oder zu reduzieren",
+                        "Intoxikations- oder Entzugssymptome k\u00f6nnen auftreten",
+                        "Es findet sich eine deutliche Toleranzentwicklung",
+                        "F\u00fcr die Beschaffung der Substanz, die Einnahme oder die notwendige Erholung nach Gebrauch der Substanz wird viel Zeit aufgewendet",
+                        "Wichtige Aktivit\u00e4ten in Beruf und/oder Freizeit leiden nicht unter einem Suchtverhalten"]
+                    manual_fixes += 1
+                if q['id'] == 15 and not q.get('statements'):
+                    q['statements'] = [
+                        "Die Betreuung kann ggf. auch nur einen Aufgabenkreis betreffen",
+                        "Das Vormundschaftsgericht kann anordnen, dass bei dem Betreuten zwei Betreuer einzelne der festgelegten Aufgabenkreise \u00fcbernehmen",
+                        "Beim Einwilligungsvorbehalt handelt es sich um ein Vetorecht in allen Angelegenheiten, das jedem Betreuten zusteht",
+                        "Das Gesetz regelt u.a. die Betreuung k\u00f6rperlich Behinderter",
+                        "Beim Betreuungsgesetz handelt es sich um eine l\u00e4ndergesetzliche Regelung"]
                     manual_fixes += 1
 
     # 2017-March Q1 - clean embedded options from text

@@ -31,13 +31,13 @@ public final class AppDatabase_Impl extends AppDatabase {
   @Override
   @NonNull
   protected SupportSQLiteOpenHelper createOpenHelper(@NonNull final DatabaseConfiguration config) {
-    final SupportSQLiteOpenHelper.Callback _openCallback = new RoomOpenHelper(config, new RoomOpenHelper.Delegate(1) {
+    final SupportSQLiteOpenHelper.Callback _openCallback = new RoomOpenHelper(config, new RoomOpenHelper.Delegate(2) {
       @Override
       public void createAllTables(@NonNull final SupportSQLiteDatabase db) {
         db.execSQL("CREATE TABLE IF NOT EXISTS `exam_results` (`examId` TEXT NOT NULL, `score` INTEGER NOT NULL, `totalQuestions` INTEGER NOT NULL, `isFinished` INTEGER NOT NULL, `lastUpdated` INTEGER NOT NULL, PRIMARY KEY(`examId`))");
-        db.execSQL("CREATE TABLE IF NOT EXISTS `question_results` (`examId` TEXT NOT NULL, `questionIndex` INTEGER NOT NULL, `isCorrect` INTEGER NOT NULL, `timestamp` INTEGER NOT NULL, PRIMARY KEY(`examId`, `questionIndex`))");
+        db.execSQL("CREATE TABLE IF NOT EXISTS `question_results` (`examId` TEXT NOT NULL, `questionIndex` INTEGER NOT NULL, `isCorrect` INTEGER NOT NULL, `timestamp` INTEGER NOT NULL, `selectedIndices` TEXT NOT NULL, PRIMARY KEY(`examId`, `questionIndex`))");
         db.execSQL("CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)");
-        db.execSQL("INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, 'dacf2d0da2a81a27bc2367b70c0e6069')");
+        db.execSQL("INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, '5bf33dad08e9b5090c4f57b33402ca70')");
       }
 
       @Override
@@ -102,11 +102,12 @@ public final class AppDatabase_Impl extends AppDatabase {
                   + " Expected:\n" + _infoExamResults + "\n"
                   + " Found:\n" + _existingExamResults);
         }
-        final HashMap<String, TableInfo.Column> _columnsQuestionResults = new HashMap<String, TableInfo.Column>(4);
+        final HashMap<String, TableInfo.Column> _columnsQuestionResults = new HashMap<String, TableInfo.Column>(5);
         _columnsQuestionResults.put("examId", new TableInfo.Column("examId", "TEXT", true, 1, null, TableInfo.CREATED_FROM_ENTITY));
         _columnsQuestionResults.put("questionIndex", new TableInfo.Column("questionIndex", "INTEGER", true, 2, null, TableInfo.CREATED_FROM_ENTITY));
         _columnsQuestionResults.put("isCorrect", new TableInfo.Column("isCorrect", "INTEGER", true, 0, null, TableInfo.CREATED_FROM_ENTITY));
         _columnsQuestionResults.put("timestamp", new TableInfo.Column("timestamp", "INTEGER", true, 0, null, TableInfo.CREATED_FROM_ENTITY));
+        _columnsQuestionResults.put("selectedIndices", new TableInfo.Column("selectedIndices", "TEXT", true, 0, null, TableInfo.CREATED_FROM_ENTITY));
         final HashSet<TableInfo.ForeignKey> _foreignKeysQuestionResults = new HashSet<TableInfo.ForeignKey>(0);
         final HashSet<TableInfo.Index> _indicesQuestionResults = new HashSet<TableInfo.Index>(0);
         final TableInfo _infoQuestionResults = new TableInfo("question_results", _columnsQuestionResults, _foreignKeysQuestionResults, _indicesQuestionResults);
@@ -118,7 +119,7 @@ public final class AppDatabase_Impl extends AppDatabase {
         }
         return new RoomOpenHelper.ValidationResult(true, null);
       }
-    }, "dacf2d0da2a81a27bc2367b70c0e6069", "8af5df703c1fb7d73c37f5c7f703b02a");
+    }, "5bf33dad08e9b5090c4f57b33402ca70", "a65d8d319809ae8e81f4195066aafa4e");
     final SupportSQLiteOpenHelper.Configuration _sqliteConfig = SupportSQLiteOpenHelper.Configuration.builder(config.context).name(config.name).callback(_openCallback).build();
     final SupportSQLiteOpenHelper _helper = config.sqliteOpenHelperFactory.create(_sqliteConfig);
     return _helper;

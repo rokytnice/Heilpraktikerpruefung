@@ -10,6 +10,8 @@ import androidx.room.Query
 import androidx.room.RoomDatabase
 import android.content.Context
 import androidx.room.Room
+import androidx.room.migration.Migration
+import androidx.sqlite.db.SupportSQLiteDatabase
 
 @Entity(tableName = "exam_results")
 data class ExamResultEntity(
@@ -25,7 +27,8 @@ data class QuestionResultEntity(
     val examId: String,
     val questionIndex: Int,
     val isCorrect: Boolean,
-    val timestamp: Long
+    val timestamp: Long,
+    val selectedIndices: String = ""
 )
 
 @Dao
@@ -50,9 +53,21 @@ interface ExamDao {
 
     @Query("SELECT * FROM question_results WHERE isCorrect = 0")
     suspend fun getAllWrongQuestionResults(): List<QuestionResultEntity>
+
+    @Query("DELETE FROM question_results WHERE examId = :examId")
+    suspend fun deleteQuestionResults(examId: String)
+
+    @Query("DELETE FROM exam_results WHERE examId = :examId")
+    suspend fun deleteExamResult(examId: String)
 }
 
-@Database(entities = [ExamResultEntity::class, QuestionResultEntity::class], version = 1, exportSchema = false)
+val MIGRATION_1_2 = object : Migration(1, 2) {
+    override fun migrate(db: SupportSQLiteDatabase) {
+        db.execSQL("ALTER TABLE question_results ADD COLUMN selectedIndices TEXT NOT NULL DEFAULT ''")
+    }
+}
+
+@Database(entities = [ExamResultEntity::class, QuestionResultEntity::class], version = 2, exportSchema = false)
 abstract class AppDatabase : RoomDatabase() {
     abstract fun examDao(): ExamDao
 
@@ -66,7 +81,9 @@ abstract class AppDatabase : RoomDatabase() {
                     context.applicationContext,
                     AppDatabase::class.java,
                     "hpp-database"
-                ).build()
+                )
+                    .addMigrations(MIGRATION_1_2)
+                    .build()
                 INSTANCE = instance
                 instance
             }

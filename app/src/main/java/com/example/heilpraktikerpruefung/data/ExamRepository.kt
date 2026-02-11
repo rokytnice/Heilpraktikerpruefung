@@ -60,15 +60,21 @@ class ExamRepository(private val context: Context) {
         return db.examDao().getAllExamResults()
     }
 
-     suspend fun saveQuestionResult(examId: String, questionIndex: Int, isCorrect: Boolean) {
+    suspend fun saveQuestionResult(examId: String, questionIndex: Int, isCorrect: Boolean, selectedIndices: Set<Int> = emptySet()) {
         db.examDao().insertQuestionResult(
             QuestionResultEntity(
                 examId = examId,
                 questionIndex = questionIndex,
                 isCorrect = isCorrect,
-                timestamp = System.currentTimeMillis()
+                timestamp = System.currentTimeMillis(),
+                selectedIndices = selectedIndices.sorted().joinToString(",")
             )
         )
+    }
+
+    suspend fun deleteQuestionResults(examId: String) {
+        db.examDao().deleteQuestionResults(examId)
+        db.examDao().deleteExamResult(examId)
     }
 
     suspend fun getQuestionResults(examId: String): List<QuestionResultEntity> {

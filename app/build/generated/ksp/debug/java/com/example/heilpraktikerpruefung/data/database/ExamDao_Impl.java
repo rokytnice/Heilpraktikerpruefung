@@ -8,6 +8,7 @@ import androidx.room.CoroutinesRoom;
 import androidx.room.EntityInsertionAdapter;
 import androidx.room.RoomDatabase;
 import androidx.room.RoomSQLiteQuery;
+import androidx.room.SharedSQLiteStatement;
 import androidx.room.util.CursorUtil;
 import androidx.room.util.DBUtil;
 import androidx.sqlite.db.SupportSQLiteStatement;
@@ -34,6 +35,10 @@ public final class ExamDao_Impl implements ExamDao {
 
   private final EntityInsertionAdapter<QuestionResultEntity> __insertionAdapterOfQuestionResultEntity;
 
+  private final SharedSQLiteStatement __preparedStmtOfDeleteQuestionResults;
+
+  private final SharedSQLiteStatement __preparedStmtOfDeleteExamResult;
+
   public ExamDao_Impl(@NonNull final RoomDatabase __db) {
     this.__db = __db;
     this.__insertionAdapterOfExamResultEntity = new EntityInsertionAdapter<ExamResultEntity>(__db) {
@@ -58,7 +63,7 @@ public final class ExamDao_Impl implements ExamDao {
       @Override
       @NonNull
       protected String createQuery() {
-        return "INSERT OR REPLACE INTO `question_results` (`examId`,`questionIndex`,`isCorrect`,`timestamp`) VALUES (?,?,?,?)";
+        return "INSERT OR REPLACE INTO `question_results` (`examId`,`questionIndex`,`isCorrect`,`timestamp`,`selectedIndices`) VALUES (?,?,?,?,?)";
       }
 
       @Override
@@ -69,6 +74,23 @@ public final class ExamDao_Impl implements ExamDao {
         final int _tmp = entity.isCorrect() ? 1 : 0;
         statement.bindLong(3, _tmp);
         statement.bindLong(4, entity.getTimestamp());
+        statement.bindString(5, entity.getSelectedIndices());
+      }
+    };
+    this.__preparedStmtOfDeleteQuestionResults = new SharedSQLiteStatement(__db) {
+      @Override
+      @NonNull
+      public String createQuery() {
+        final String _query = "DELETE FROM question_results WHERE examId = ?";
+        return _query;
+      }
+    };
+    this.__preparedStmtOfDeleteExamResult = new SharedSQLiteStatement(__db) {
+      @Override
+      @NonNull
+      public String createQuery() {
+        final String _query = "DELETE FROM exam_results WHERE examId = ?";
+        return _query;
       }
     };
   }
@@ -106,6 +128,58 @@ public final class ExamDao_Impl implements ExamDao {
           return Unit.INSTANCE;
         } finally {
           __db.endTransaction();
+        }
+      }
+    }, $completion);
+  }
+
+  @Override
+  public Object deleteQuestionResults(final String examId,
+      final Continuation<? super Unit> $completion) {
+    return CoroutinesRoom.execute(__db, true, new Callable<Unit>() {
+      @Override
+      @NonNull
+      public Unit call() throws Exception {
+        final SupportSQLiteStatement _stmt = __preparedStmtOfDeleteQuestionResults.acquire();
+        int _argIndex = 1;
+        _stmt.bindString(_argIndex, examId);
+        try {
+          __db.beginTransaction();
+          try {
+            _stmt.executeUpdateDelete();
+            __db.setTransactionSuccessful();
+            return Unit.INSTANCE;
+          } finally {
+            __db.endTransaction();
+          }
+        } finally {
+          __preparedStmtOfDeleteQuestionResults.release(_stmt);
+        }
+      }
+    }, $completion);
+  }
+
+  @Override
+  public Object deleteExamResult(final String examId,
+      final Continuation<? super Unit> $completion) {
+    return CoroutinesRoom.execute(__db, true, new Callable<Unit>() {
+      @Override
+      @NonNull
+      public Unit call() throws Exception {
+        final SupportSQLiteStatement _stmt = __preparedStmtOfDeleteExamResult.acquire();
+        int _argIndex = 1;
+        _stmt.bindString(_argIndex, examId);
+        try {
+          __db.beginTransaction();
+          try {
+            _stmt.executeUpdateDelete();
+            __db.setTransactionSuccessful();
+            return Unit.INSTANCE;
+          } finally {
+            __db.endTransaction();
+          }
+        } finally {
+          __preparedStmtOfDeleteExamResult.release(_stmt);
         }
       }
     }, $completion);
@@ -218,6 +292,7 @@ public final class ExamDao_Impl implements ExamDao {
           final int _cursorIndexOfQuestionIndex = CursorUtil.getColumnIndexOrThrow(_cursor, "questionIndex");
           final int _cursorIndexOfIsCorrect = CursorUtil.getColumnIndexOrThrow(_cursor, "isCorrect");
           final int _cursorIndexOfTimestamp = CursorUtil.getColumnIndexOrThrow(_cursor, "timestamp");
+          final int _cursorIndexOfSelectedIndices = CursorUtil.getColumnIndexOrThrow(_cursor, "selectedIndices");
           final List<QuestionResultEntity> _result = new ArrayList<QuestionResultEntity>(_cursor.getCount());
           while (_cursor.moveToNext()) {
             final QuestionResultEntity _item;
@@ -231,7 +306,9 @@ public final class ExamDao_Impl implements ExamDao {
             _tmpIsCorrect = _tmp != 0;
             final long _tmpTimestamp;
             _tmpTimestamp = _cursor.getLong(_cursorIndexOfTimestamp);
-            _item = new QuestionResultEntity(_tmpExamId,_tmpQuestionIndex,_tmpIsCorrect,_tmpTimestamp);
+            final String _tmpSelectedIndices;
+            _tmpSelectedIndices = _cursor.getString(_cursorIndexOfSelectedIndices);
+            _item = new QuestionResultEntity(_tmpExamId,_tmpQuestionIndex,_tmpIsCorrect,_tmpTimestamp,_tmpSelectedIndices);
             _result.add(_item);
           }
           return _result;
@@ -259,6 +336,7 @@ public final class ExamDao_Impl implements ExamDao {
           final int _cursorIndexOfQuestionIndex = CursorUtil.getColumnIndexOrThrow(_cursor, "questionIndex");
           final int _cursorIndexOfIsCorrect = CursorUtil.getColumnIndexOrThrow(_cursor, "isCorrect");
           final int _cursorIndexOfTimestamp = CursorUtil.getColumnIndexOrThrow(_cursor, "timestamp");
+          final int _cursorIndexOfSelectedIndices = CursorUtil.getColumnIndexOrThrow(_cursor, "selectedIndices");
           final List<QuestionResultEntity> _result = new ArrayList<QuestionResultEntity>(_cursor.getCount());
           while (_cursor.moveToNext()) {
             final QuestionResultEntity _item;
@@ -272,7 +350,9 @@ public final class ExamDao_Impl implements ExamDao {
             _tmpIsCorrect = _tmp != 0;
             final long _tmpTimestamp;
             _tmpTimestamp = _cursor.getLong(_cursorIndexOfTimestamp);
-            _item = new QuestionResultEntity(_tmpExamId,_tmpQuestionIndex,_tmpIsCorrect,_tmpTimestamp);
+            final String _tmpSelectedIndices;
+            _tmpSelectedIndices = _cursor.getString(_cursorIndexOfSelectedIndices);
+            _item = new QuestionResultEntity(_tmpExamId,_tmpQuestionIndex,_tmpIsCorrect,_tmpTimestamp,_tmpSelectedIndices);
             _result.add(_item);
           }
           return _result;
@@ -300,6 +380,7 @@ public final class ExamDao_Impl implements ExamDao {
           final int _cursorIndexOfQuestionIndex = CursorUtil.getColumnIndexOrThrow(_cursor, "questionIndex");
           final int _cursorIndexOfIsCorrect = CursorUtil.getColumnIndexOrThrow(_cursor, "isCorrect");
           final int _cursorIndexOfTimestamp = CursorUtil.getColumnIndexOrThrow(_cursor, "timestamp");
+          final int _cursorIndexOfSelectedIndices = CursorUtil.getColumnIndexOrThrow(_cursor, "selectedIndices");
           final List<QuestionResultEntity> _result = new ArrayList<QuestionResultEntity>(_cursor.getCount());
           while (_cursor.moveToNext()) {
             final QuestionResultEntity _item;
@@ -313,7 +394,9 @@ public final class ExamDao_Impl implements ExamDao {
             _tmpIsCorrect = _tmp != 0;
             final long _tmpTimestamp;
             _tmpTimestamp = _cursor.getLong(_cursorIndexOfTimestamp);
-            _item = new QuestionResultEntity(_tmpExamId,_tmpQuestionIndex,_tmpIsCorrect,_tmpTimestamp);
+            final String _tmpSelectedIndices;
+            _tmpSelectedIndices = _cursor.getString(_cursorIndexOfSelectedIndices);
+            _item = new QuestionResultEntity(_tmpExamId,_tmpQuestionIndex,_tmpIsCorrect,_tmpTimestamp,_tmpSelectedIndices);
             _result.add(_item);
           }
           return _result;

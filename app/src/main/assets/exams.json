@@ -24,7 +24,7 @@
       {
         "id": 2,
         "type": "Aussagenkombination",
-        "text": "Welche der folgenden Aussagen trifft (treffen) zu?   Negativsymptome eines schizophrenen Residuums ist/sind:  ‚A) Nur die Aussage 5 ist richtig ",
+        "text": "Welche der folgenden Aussagen trifft (treffen) zu? Negativsymptome eines schizophrenen Residuums ist/sind:",
         "options": [
           "Nur die Aussage 5 ist richtig",
           "Nur die Aussagen 1 und 4 sind richtig",
@@ -33,7 +33,11 @@
           "Alle Aussagen sind richtig"
         ],
         "statements": [
-          "Psychomotorische Verlangsamung 2.  Affektverflachung 3.  Passivität und Initiativemangel 4.  Akustische und optische Halluzinationen 5.  Negativismus"
+          "Psychomotorische Verlangsamung",
+          "Affektverflachung",
+          "Passivität und Initiativemangel",
+          "Akustische und optische Halluzinationen",
+          "Negativismus"
         ],
         "correctIndices": [
           2
@@ -1925,7 +1929,7 @@
       {
         "id": 12,
         "type": "Aussagenkombination",
-        "text": "Welche Aussagen zu organisch bedingten psychischen Störungen sind richtig? von chronischen Erkrankungen einer Bewusstseinsstörung einher Arzneimittel ausgelöst werden immer um einen Notfall psychischen Störung sind z.B. Gedächtnis- und Orientierungsstörungen Wählen Sie eine richtige Aussagenkombination! ",
+        "text": "Welche Aussagen zu organisch bedingten psychischen Störungen sind richtig?",
         "options": [
           "Nur die Aussagen 1 und 3 sind richtig",
           "Nur die Aussagen 2 und 4 sind richtig",
@@ -1934,11 +1938,11 @@
           "Nur die Aussagen 1, 3, 4 und 5 sind richtig"
         ],
         "statements": [
-          "Bei den organisch bedingten psychischen Störungen unterscheiden wir akute",
-          "Nur die chronisch organisch bedingten psychischen Störungen gehen mit",
-          "Akute organisch bedingte psychische Störungen können durch Drogen oder",
-          "Bei einer akuten organisch bedingten psychischen Störung handelt es sich",
-          "Krankheitszeichen einer auf Dauer bestehenden organisch bedingten"
+          "Bei den organisch bedingten psychischen Störungen unterscheiden wir akute von chronischen Erkrankungen",
+          "Nur die chronisch organisch bedingten psychischen Störungen gehen mit einer Bewusstseinsstörung einher",
+          "Akute organisch bedingte psychische Störungen können durch Drogen oder Arzneimittel ausgelöst werden",
+          "Bei einer akuten organisch bedingten psychischen Störung handelt es sich immer um einen Notfall",
+          "Krankheitszeichen einer auf Dauer bestehenden organisch bedingten psychischen Störung sind z.B. Gedächtnis- und Orientierungsstörungen"
         ],
         "correctIndices": [
           4
@@ -2627,7 +2631,7 @@
         "text": "Die Fetale Alkoholspektrum-Störung (Fetal Alcohol Spectrum Disorder, FASD) zählt zu den häufigsten angeborenen Behinderungen in Deutschland und tritt deutlich häufiger auf als das chromosomal bedingte Down-Syndrom. Sie haben aufgrund Ihrer Beobachtungen und der Anamnese bei einer neuen Klientin den Verdacht, dass sie von der FASD betroffen sein könnte.  Welche Auffälligkeiten sprechen für die Diagnose FASD?  Wählen Sie zwei Antworten! ",
         "options": [
           "Hochwuchs",
-          "Leichtere Gesichtsanomalien wie z.B. eine schmale Oberlippe und ein",
+          "Leichtere Gesichtsanomalien wie z.B. eine schmale Oberlippe und ein glattes Philtrum",
           "Vorzeitige Pubertät (Pubertas praecox)",
           "Übergewicht im Kindesalter",
           "Störung der Exekutivfunktionen"
@@ -6695,6 +6699,27 @@
     "month": "March",
     "questions": [
       {
+        "id": 1,
+        "type": "Aussagenkombination",
+        "text": "Welche der folgenden Veränderungen kann (können) auch durch eine Alkoholkrankheit bedingt sein?",
+        "options": [
+          "Nur die Aussage 3 ist richtig",
+          "Nur die Aussagen 3 und 4 sind richtig",
+          "Nur die Aussagen 3 und 5 sind richtig",
+          "Nur die Aussagen 1, 2, 3 und 4 sind richtig",
+          "Alle Aussagen sind richtig"
+        ],
+        "statements": [
+          "Vorgealtertes Erscheinungsbild",
+          "Übergewicht",
+          "Zittern der Hände",
+          "Undeutliche Aussprache",
+          "Schlechter allgemeiner Körpflegezustand"
+        ],
+        "correctIndices": [],
+        "explanation": ""
+      },
+      {
         "id": 2,
         "type": "Aussagenkombination",
         "text": "In der Psychoanalyse ist die Abstinenzregel einer der Kernpunkte der\nBehandlung .\nWelche der folgenden Aussagen treffen zu?",
@@ -6801,6 +6826,21 @@
         "explanation": ""
       },
       {
+        "id": 8,
+        "type": "Mehrfachauswahl",
+        "text": "Verhaltenstherapeutische Methoden und Techniken sind: Wählen Sie zwei Antworten!",
+        "options": [
+          "Problemlösetraining",
+          "Unbedingte Wertschätzung des Klienten durch den Therapeuten",
+          "Liegende Position des Patienten mit fehlendem Blickkontakt zum Therapeuten",
+          "Shaping (schrittweise Ausformung des Verhaltens)",
+          "Aufforderung an den Patienten, frei zu assoziieren"
+        ],
+        "statements": [],
+        "correctIndices": [],
+        "explanation": ""
+      },
+      {
         "id": 9,
         "type": "Mehrfachauswahl",
         "text": "aufgabe\nWelche der folgenden Aussagen zur Psychotherapie treffen zu?\nWählen Sie zwei Antworten!",
@@ -6827,6 +6867,21 @@
           "Eine therapeutische tiefe Regression ist Therapieziel der Verhaltenstherapie",
           "Das Standardverfahren der klassischen Psychoanalyse ist die Kurzzeittherapie Korrekturrand rechts bitte. nicht beschriften! A) Die Betroffenen weichen in der Selbstwahrnehmung, in ihrer Kontaktaufnahme und in ihren Beziehungen zu anderen von der Mehrzahl der Bevölkerung ab . 0 B) Das abnorme Verhalt"
         ],
+        "correctIndices": [],
+        "explanation": ""
+      },
+      {
+        "id": 11,
+        "type": "Einfachauswahl",
+        "text": "Welche Aussage trifft zu? Ein Patient gibt an, dass seine eigenen Gedanken laut würden. Die Angabe spricht am ehesten für eine",
+        "options": [
+          "organische Wesensänderung",
+          "Schizophrenie",
+          "endogene Manie",
+          "endogene Depression",
+          "symptomatische Psychose"
+        ],
+        "statements": [],
         "correctIndices": [],
         "explanation": ""
       },
@@ -7118,19 +7173,36 @@
       {
         "id": 27,
         "type": "Aussagenkombination",
-        "text": "Welche der folgenden Aussagen treffen zu?\nMerkmale der sog . \u001evoll funktionsfähigen Person\" (\u001efully functioning person\")\nnach Rogers sind :",
+        "text": "Welche der folgenden Aussagen treffen zu? Merkmale der sog. voll funktionsfähigen Person (fully functioning person) nach Rogers sind:",
         "statements": [
+          "Unverzerrte Realitätswahrnehmung und reife, befriedigende soziale Interaktionen",
+          "Offenheit gegenüber Erfahrungen",
           "Totale Übereinstimmung von Selbstbild und Idealbild",
           "Wertschätzung des eigenen Selbst",
-          "Übereinstimmung von Selbstbild und Erfahrung 0"
+          "Übereinstimmung von Selbstbild und Erfahrung"
         ],
         "options": [
-          "Nur die Aussagen 1 und 4 sind richtig Nur die Aussagen 1, 2 und 4 sind richtig Nur die Aussagen 1, 3 und 5 sind richtig Nur die Aussagen 1, 2, 4 und 5 sind richtig Alle Aussagen sind richtig Einfachauswahl Welche Aussage trifft für eine Hebephrenie (hebephrene Schizophrenie) zu? A) Die Krankheit beginnt meist nach dem 45 . Lebensjahr",
+          "Nur die Aussagen 1 und 4 sind richtig",
+          "Nur die Aussagen 1, 2 und 4 sind richtig",
+          "Nur die Aussagen 1, 3 und 5 sind richtig",
+          "Nur die Aussagen 1, 2, 4 und 5 sind richtig",
+          "Alle Aussagen sind richtig"
+        ],
+        "correctIndices": [],
+        "explanation": ""
+      },
+      {
+        "id": 28,
+        "type": "Einfachauswahl",
+        "text": "Welche Aussage trifft für eine Hebephrenie (hebephrene Schizophrenie) zu?",
+        "options": [
+          "Die Krankheit beginnt meist nach dem 45. Lebensjahr",
           "Wahnvorstellungen und Halluzinationen stehen im Vordergrund des Krankheitsbildes",
           "Die Stimmung ist flach und unpassend",
           "Ursache ist ein chronischer Alkoholmissbrauch",
-          "Das Verhalten ist zielgerichtet und vorhersehbar Korrekturrand rechts bitte nicht beschriftenl"
+          "Das Verhalten ist zielgerichtet und vorhersehbar"
         ],
+        "statements": [],
         "correctIndices": [],
         "explanation": ""
       }
@@ -8234,13 +8306,1133 @@
     "id": "2008-march",
     "year": 2008,
     "month": "March",
-    "questions": []
+    "questions": [
+      {
+        "id": 1,
+        "type": "Aussagenkombination",
+        "text": "Welche der im Folgenden genannten Begriffe kommen als Differentialdiagnose zu Tic-Störungen in Frage?",
+        "options": [
+          "Nur die Aussagen 1 und 4 sind richtig",
+          "Nur die Aussagen 2 und 3 sind richtig",
+          "Nur die Aussagen 1, 3 und 5 sind richtig",
+          "Nur die Aussagen 3, 4 und 5 sind richtig",
+          "Alle Aussagen sind richtig"
+        ],
+        "statements": [
+          "Spätdyskinesien nach Neuroleptika-Behandlung",
+          "Aufmerksamkeitsdefizit-Hyperaktivitätsstörung (ADHS)",
+          "Zwangsstörungen",
+          "Hyperkinesen durch Medikamente",
+          "Folgen bestimmter Infektionskrankheiten"
+        ],
+        "correctIndices": [
+          4
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 2,
+        "type": "Aussagenkombination",
+        "text": "Welche der folgenden Aussagen treffen zu? Ursachen für eine Demenz können sein:",
+        "options": [
+          "Nur die Aussagen 1, 2 und 3 sind richtig",
+          "Nur die Aussagen 1, 3 und 5 sind richtig",
+          "Nur die Aussagen 1, 2, 3 und 4 sind richtig",
+          "Nur die Aussagen 1, 2, 4 und 5 sind richtig",
+          "Nur die Aussagen 2, 3, 4 und 5 sind richtig"
+        ],
+        "statements": [
+          "HIV-Infektion",
+          "Fehlernährung (Nikotinsäuremangel)",
+          "Schilddrüsenunterfunktion",
+          "Wiederholte Schlaganfälle",
+          "Kurzfristiger Alkoholgenuss unter 15 g Alkohol/Tag bei einem gesunden Erwachsenen"
+        ],
+        "correctIndices": [
+          2
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 3,
+        "type": "Aussagenkombination",
+        "text": "Welche der folgenden Aussagen passen zur Manie?",
+        "options": [
+          "Nur die Aussagen 1 und 3 sind richtig",
+          "Nur die Aussagen 1, 3 und 4 sind richtig",
+          "Nur die Aussagen 2, 4 und 5 sind richtig",
+          "Nur die Aussagen 1, 3, 4 und 5 sind richtig",
+          "Alle Aussagen sind richtig"
+        ],
+        "statements": [
+          "Der Betroffene überschätzt sich selbst",
+          "Es bestehen hypochondrische Züge",
+          "Es kommt zu Assoziationslockerungen",
+          "Es besteht ein erhöhtes Schlafbedürfnis",
+          "Es kommt zu Minderwertigkeitsgefühlen"
+        ],
+        "correctIndices": [
+          0
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 4,
+        "type": "Einfachauswahl",
+        "text": "Eine „anankastische (zwanghafte) Persönlichkeit“ (nach ICD-10) ist unter anderem durch folgende Begriffe definiert:",
+        "options": [
+          "Deutliche und andauernde Verantwortungslosigkeit und Missachtung sozialer Normen, Regeln und Verpflichtungen",
+          "Übermäßige Inanspruchnahme durch Phantasie und Introspektion",
+          "Ausgeprägte Sorge, in sozialen Situationen kritisiert oder abgelehnt zu werden",
+          "Rigidität und Eigensinn",
+          "Dramatisierung bezüglich der eigenen Person, theatralisches Verhalten, übertriebener Ausdruck von Gefühlen"
+        ],
+        "statements": [],
+        "correctIndices": [
+          3
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 5,
+        "type": "Einfachauswahl",
+        "text": "Unter einer Verhaltenstherapie versteht man",
+        "options": [
+          "eine klientenzentrierte Gesprächspsychotherapie (nach Rogers)",
+          "eine psychoanalytische Psychotherapie",
+          "eine psychoanalytische Fokaltherapie",
+          "eine übertragungsfokussierte Psychotherapie",
+          "ein Behandlungsverfahren, das auf Erkenntnissen der empirischen Psychologie (z.B. Lerntheorie) basiert"
+        ],
+        "statements": [],
+        "correctIndices": [
+          4
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 6,
+        "type": "Mehrfachauswahl",
+        "text": "Welche der folgenden Aussagen treffen zu? Wählen Sie zwei Antworten! An chronischen Opiatkonsum (Drogenkonsument) ist zu denken bei:",
+        "options": [
+          "Engen Pupillen",
+          "Weiten Pupillen",
+          "Schlechten Zähnen",
+          "Deutlicher Gewichtszunahme",
+          "Diarrhö"
+        ],
+        "statements": [],
+        "correctIndices": [
+          0,
+          2
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 7,
+        "type": "Mehrfachauswahl",
+        "text": "Welche der folgenden Aussagen treffen zu? Wählen Sie zwei Antworten! In der klientenzentrierten Psychotherapie (nach Rogers)",
+        "options": [
+          "wird die Technik der freien Assoziation angewendet",
+          "können Anpassungsstörungen bearbeitet werden",
+          "wiederholt der Therapeut die Aussagen des Patienten",
+          "berät der Therapeut den Patienten in Lebenskrisen",
+          "muss der Patient so lange in der Angstsituation verbleiben, bis die Angst abnimmt"
+        ],
+        "statements": [],
+        "correctIndices": [
+          1,
+          2
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 8,
+        "type": "Aussagenkombination",
+        "text": "Bei welchen der folgenden Medikamentengruppen ist bei regelmäßiger Einnahme mit einer Abhängigkeitsentwicklung zu rechnen?",
+        "options": [
+          "Nur die Aussagen 1, 2 und 4 sind richtig",
+          "Nur die Aussagen 1, 3 und 4 sind richtig",
+          "Nur die Aussagen 1, 3 und 5 sind richtig",
+          "Nur die Aussagen 3, 4 und 5 sind richtig",
+          "Alle Aussagen sind richtig"
+        ],
+        "statements": [
+          "Bei Morphinpräparaten",
+          "Bei Antidepressiva",
+          "Bei Codeinpräparaten",
+          "Bei Tranquilizern",
+          "Bei Neuroleptika"
+        ],
+        "correctIndices": [
+          1
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 9,
+        "type": "Einfachauswahl",
+        "text": "Welche Aussage trifft zu? Typisch für die hebephrene Schizophrenie ist:",
+        "options": [
+          "Im Vordergrund stehen akustische Halluzinationen (Stimmenhören)",
+          "Im Vordergrund stehen affektive Veränderungen",
+          "Im Vordergrund steht vor allem eine allgemeine Antriebssteigerung",
+          "Sie tritt vor allem im höheren Lebensalter auf (typischerweise nach dem 60. Lebensjahr)",
+          "Denkstörungen treten sehr selten auf"
+        ],
+        "statements": [],
+        "correctIndices": [
+          1
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 10,
+        "type": "Aussagenkombination",
+        "text": "Welche Komplikationen bzw. Symptome können bei einer Anorexia nervosa auftreten?",
+        "options": [
+          "Nur die Aussagen 1 und 3 sind richtig",
+          "Nur die Aussagen 2, 4 und 5 sind richtig",
+          "Nur die Aussagen 1, 2, 3 und 4 sind richtig",
+          "Nur die Aussagen 2, 3, 4 und 5 sind richtig",
+          "Alle Aussagen sind richtig"
+        ],
+        "statements": [
+          "Abführmittelmissbrauch",
+          "Suizidalität",
+          "Natrium- und Kaliummangel",
+          "Selbst induziertes Erbrechen",
+          "Deutliche Verminderung der Libido bei Männern"
+        ],
+        "correctIndices": [
+          4
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 11,
+        "type": "Mehrfachauswahl",
+        "text": "Welche der folgenden Störungen des Denkens gelten als Ich-Störungen? Wählen Sie zwei Antworten!",
+        "options": [
+          "Gedankenentzug",
+          "Stimmungslabilität",
+          "Gesteigertes Selbstwertgefühl",
+          "Gedankeneingebung",
+          "Innere Unruhe"
+        ],
+        "statements": [],
+        "correctIndices": [
+          0,
+          3
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 12,
+        "type": "Aussagenkombination",
+        "text": "Welche der folgenden Aussagen zur Depression treffen zu?",
+        "options": [
+          "Nur die Aussagen 1, 2 und 3 sind richtig",
+          "Nur die Aussagen 1, 3 und 5 sind richtig",
+          "Nur die Aussagen 2, 4 und 5 sind richtig",
+          "Nur die Aussagen 1, 2, 3 und 5 sind richtig",
+          "Alle Aussagen sind richtig"
+        ],
+        "statements": [
+          "Depressive Störungen können in jedem Lebensalter – auch in der Kindheit – auftreten.",
+          "Die Lichttherapie wird bei der sog. Winterdepression als Behandlungsform eingesetzt.",
+          "Typische Symptome sind Verminderung des Antriebs und Aktivitätseinschränkung.",
+          "Wahnideen wie z. B. Versündigungs- oder Verarmungsideen schließen eine schwere depressive Störung aus.",
+          "In der depressiven Phase kann es zu Störungen des Vegetativums kommen (z. B. der Libido)."
+        ],
+        "correctIndices": [
+          3
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 13,
+        "type": "Einfachauswahl",
+        "text": "Welche Aussage trifft zu? Die Panikstörung, auch als „episodisch paroxysmale Angst“ bezeichnet,",
+        "options": [
+          "ist gekennzeichnet durch wiederkehrende schwere Angstattacken, die vorhersagbar sind, da sie im Zusammenhang mit spezifischen Auslösern auftreten, z.B. beim Betreten eines Aufzuges",
+          "äußert sich oft mit plötzlich auftretendem Herzklopfen, Brustschmerz, Erstickungsgefühlen, Schwindel und Entfremdungsgefühlen (Depersonalisation oder Derealisation)",
+          "lässt sich medikamentös problemlos beseitigen",
+          "lässt sich durch das Auftreten optischer Halluzinationen diagnostizieren",
+          "ist Ursache einer paranoiden Schizophrenie"
+        ],
+        "statements": [],
+        "correctIndices": [
+          1
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 14,
+        "type": "Aussagenkombination",
+        "text": "Welche der folgenden Aussagen zur geistigen Behinderung treffen zu?",
+        "options": [
+          "Nur die Aussagen 1 und 3 sind richtig",
+          "Nur die Aussagen 1, 4 und 5 sind richtig",
+          "Nur die Aussagen 2, 3 und 5 sind richtig",
+          "Nur die Aussagen 2, 4 und 5 sind richtig",
+          "Alle Aussagen sind richtig"
+        ],
+        "statements": [
+          "Menschen mit geistiger Behinderung haben oft eine Mehrfachbehinderung.",
+          "Von einer mittelgradigen Intelligenzminderung (Imbezillität) spricht man bei einem IQ von 85.",
+          "Bei Kindern mit geistiger Behinderung gelingt es heute in über 90 % der Fälle die Ursachen zu klären.",
+          "Je schwerer der Grad der geistigen Behinderung, desto häufiger bestehen psychische Störungen und Symptome.",
+          "Zu den präventiven Maßnahmen gegen bestimmte angeborene Intelligenzminderungen gehören Schutzimpfungen der Mutter vor Eintritt der Schwangerschaft."
+        ],
+        "correctIndices": [
+          1
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 15,
+        "type": "Mehrfachauswahl",
+        "text": "Welche der folgenden Begriffe sind typisch für die Aufmerksamkeitsdefizit-Hyperaktivitätsstörung (ADHS) bei Kindern? Wählen Sie zwei Antworten!",
+        "options": [
+          "Gute Schulnoten",
+          "Beginn ab dem 9. Lebensjahr",
+          "Regelverletzungen",
+          "Großer Freundeskreis",
+          "Niedrige Frustrationstoleranz"
+        ],
+        "statements": [],
+        "correctIndices": [
+          2,
+          4
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 16,
+        "type": "Einfachauswahl",
+        "text": "Sie machen einen Hausbesuch bei einem Patienten, der ständig nestelnde Bewegungen mit den Händen ausführt. Er ist scheinbar orientierungslos, redet ohne erkennbaren Zusammenhang und hat scheinbar optische Halluzinationen. Welche der genannten Erkrankungen kommt am ehesten in Betracht?",
+        "options": [
+          "Manische Phase",
+          "Demenz",
+          "Delirium tremens",
+          "SHT (Schädel-Hirn-Trauma)",
+          "Schizophrenie"
+        ],
+        "statements": [],
+        "correctIndices": [
+          2
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 17,
+        "type": "Aussagenkombination",
+        "text": "Welche der folgenden Aussagen zum Suizid trifft (treffen) zu?",
+        "options": [
+          "Nur die Aussage 3 ist richtig",
+          "Nur die Aussagen 1 und 4 sind richtig",
+          "Nur die Aussagen 2 und 3 sind richtig",
+          "Nur die Aussagen 4 und 5 sind richtig",
+          "Alle Aussagen sind richtig"
+        ],
+        "statements": [
+          "Der Betroffene sollte nicht auf einen geplanten Suizid angesprochen werden",
+          "In Deutschland liegt der Suizid an Rang 2 der Todesursachen",
+          "Zu den Risikogruppen zählen alleinlebende Patienten ohne enge familiäre Bindung",
+          "Wer einmal einen Suizidversuch unternommen hat wird dies nie wieder tun",
+          "Lehnt ein Suizidgefährdeter eine Behandlung ab, so muss dies akzeptiert werden"
+        ],
+        "correctIndices": [
+          0
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 18,
+        "type": "Einfachauswahl",
+        "text": "Welche der genannten Krankheiten kann Ursache eines endokrinen (hormonell bedingten) Psychosyndroms sein?",
+        "options": [
+          "Gehirnerschütterung",
+          "Alkoholmissbrauch",
+          "Hypothyreose",
+          "Alzheimer-Erkrankung",
+          "Drogensucht"
+        ],
+        "statements": [],
+        "correctIndices": [
+          2
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 19,
+        "type": "Aussagenkombination",
+        "text": "Zu den formalen Denkstörungen gehören:",
+        "options": [
+          "Nur die Aussagen 1, 3 und 4 sind richtig",
+          "Nur die Aussagen 1, 2, 3 und 5 sind richtig",
+          "Nur die Aussagen 1, 2, 4 und 5 sind richtig",
+          "Nur die Aussagen 2, 3, 4 und 5 sind richtig",
+          "Alle Aussagen sind richtig"
+        ],
+        "statements": [
+          "Perseveration bei hirnorganischen Erkrankungen",
+          "Denkhemmung bei depressiven Zuständen",
+          "Ideenflucht bei manischen Erkrankungen",
+          "Wahnhaftes Denken bei paranoiden Psychosen",
+          "Zerfahrenes Denken bei Schizophrenie"
+        ],
+        "correctIndices": [
+          1
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 20,
+        "type": "Einfachauswahl",
+        "text": "Welche Aussage trifft zu? Typisch für eine organische Halluzinose ist:",
+        "options": [
+          "Im Vordergrund steht eine getrübte Bewusstseinseinslage",
+          "Die Halluzinationen können vom Patienten manchmal als solche erkannt werden",
+          "Sie ist mit Verhaltenstherapie gut therapierbar",
+          "Sie tritt bevorzugt zu Beginn der Pubertät auf",
+          "Wahn dominiert das klinische Bild"
+        ],
+        "statements": [],
+        "correctIndices": [
+          1
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 21,
+        "type": "Einfachauswahl",
+        "text": "Sie werden zu einem Hausbesuch zu einer Patientin gebeten und erfahren, dass sie an einer Depression leidet, die vom Arzt medikamentös behandelt wird. Seit 5 Tagen nimmt sie schon die (trizyklischen) Antidepressiva ein, und es zeigt sich keinerlei Besserung der Stimmung. (Eine Suizidgefährdung ist nicht gegeben). Wie ist Ihr weiteres Vorgehen?",
+        "options": [
+          "Da sich nach 5 Tagen noch keinerlei Besserung zeigt, setzen Sie das Medikament ab und raten einen Psychiater aufzusuchen.",
+          "Sie setzen das bisher verordnete Medikament ab und verordnen Johanniskraut.",
+          "Da sich bisher keinerlei Besserung eingestellt hat, schlagen Sie vor, die Dosis des verschriebenen Medikaments zu erhöhen.",
+          "Nachdem Sie sich überzeugt haben, dass die Patientin gut betreut wird, raten Sie ihr weiter abzuwarten, da die Medikamente meist längere Zeit brauchen, bis sich eine Wirkung einstellt.",
+          "Da das Medikament keine Wirkung zeigt, muss die Ursache der Depression herausgefunden werden, am besten durch eine analytische Vorgehensweise."
+        ],
+        "statements": [],
+        "correctIndices": [
+          3
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 22,
+        "type": "Aussagenkombination",
+        "text": "Welche der folgenden Aussagen zum Korsakow-Syndrom treffen zu?",
+        "options": [
+          "Nur die Aussagen 3 und 5 sind richtig",
+          "Nur die Aussagen 1, 2 und 4 sind richtig",
+          "Nur die Aussagen 1, 4 und 5 sind richtig",
+          "Nur die Aussagen 1, 2, 4 und 5 sind richtig",
+          "Alle Aussagen sind richtig"
+        ],
+        "statements": [
+          "Typisch hierfür sind Desorientiertheit und Konfabulieren",
+          "Primäre Ursache ist ein Mangel an Vitamin C",
+          "Störungen des Zeitgefühls und des Zeitgitters treten nicht auf",
+          "Irreversible Verläufe werden beobachtet",
+          "Persönlichkeitsveränderungen treten auf"
+        ],
+        "correctIndices": [
+          2
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 23,
+        "type": "Einfachauswahl",
+        "text": "Welche Aussage trifft zu? Als Übertragung (im engeren Sinne) bezeichnet man in der Psychoanalyse:",
+        "options": [
+          "Den Vorgang, durch den ein Psychisches in ein körperliches Symptom umgewandelt wird.",
+          "Einen psychodynamischen Vorgang, durch den ein Angstimpuls in psychotisches Erlebnis übertragen wird.",
+          "Den Vorgang, durch den ein – z.B. optisch wahrgenommenes – Geschehen in die subjektive, für andere unverständliche Logik eines psychotischen Erlebens übertragen wird.",
+          "Den Vorgang des Übergehens depressiver Erlebnisweisen in manisches Erleben.",
+          "Frühere Beziehungs- und Interaktionsmuster werden auf die therapeutische Beziehung übertragen."
+        ],
+        "statements": [],
+        "correctIndices": [
+          4
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 24,
+        "type": "Mehrfachauswahl",
+        "text": "Welche der folgenden Aussagen zur Demenz treffen zu? Wählen Sie zwei Antworten!",
+        "options": [
+          "Bei der Demenz vom Alzheimer Typ fällt ein akuter Beginn eines amnestischen Syndroms auf.",
+          "Die vaskuläre Demenz ist häufig mit einem Bluthochdruck verbunden.",
+          "Im Rahmen einer AIDS-Erkrankung kann im späteren Verlauf eine Demenz beobachtet werden.",
+          "Die Alzheimer-Krankheit ist mit Medikamenten heilbar.",
+          "Bei der Diagnose von Demenzerkrankungen spielen bildgebende Verfahren (z.B. kraniale Computertomographie) keine Rolle."
+        ],
+        "statements": [],
+        "correctIndices": [
+          1,
+          2
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 25,
+        "type": "Einfachauswahl",
+        "text": "Sie sehen sich einem Patienten gegenüber, der Ihrer Meinung nach ernsthaft ankündigt, sich das Leben zu nehmen. Unter welchen Voraussetzungen müssen Sie auch gegen seinen Willen die Unterbringung in einem psychiatrischen Krankenhaus einleiten?",
+        "options": [
+          "In keinem Fall, auch ein Selbsttötungskandidat sollte nicht gegen seinen Willen stationär untergebracht werden.",
+          "In jedem Fall, wenn Sie von der Ernsthaftigkeit der Ankündigung und einer unmittelbar drohenden Gefährdung überzeugt sind.",
+          "In keinem Fall, da die Einschränkung des Rechts auf freie Entfaltung der Persönlichkeit entgegensteht.",
+          "In keinem Fall, da bei ausreichend intensiver Zuwendung eine stationäre Einweisung vermeidbar ist.",
+          "In keinem Fall, da es sich nicht um eine Störung der öffentlichen Sicherheit und Ordnung handelt."
+        ],
+        "statements": [],
+        "correctIndices": [
+          1
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 26,
+        "type": "Aussagenkombination",
+        "text": "Welche der folgenden Aussagen treffen zu? Zu den diagnostischen Leitlinien der Alkoholabhängigkeit nach ICD-10 zählen:",
+        "options": [
+          "Nur die Aussagen 1 und 2 sind richtig",
+          "Nur die Aussagen 3 und 4 sind richtig",
+          "Nur die Aussagen 1, 2 und 3 sind richtig",
+          "Nur die Aussagen 1, 3, 4 und 5 sind richtig",
+          "Alle Aussagen sind richtig"
+        ],
+        "statements": [
+          "Verminderte Kontrollfähigkeit bezüglich des Beginns, der Beendigung und der Menge des Konsums",
+          "Dauerhafte Organschäden, beispielsweise der Leber",
+          "Ein körperliches Entzugssyndrom bei Beendigung oder Reduktion des Konsums",
+          "Nachweis einer Toleranz",
+          "Fortschreitende Vernachlässigung anderer Vergnügen oder Interessen zugunsten des Substanzkonsums"
+        ],
+        "correctIndices": [
+          3
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 27,
+        "type": "Mehrfachauswahl",
+        "text": "Welche der folgenden Aussagen zur primären Enuresis treffen zu? Wählen Sie zwei Antworten!",
+        "options": [
+          "Nach bereits erworbener Blasenkontrolle über 6 Monate tritt wieder Einnässen auf",
+          "Familiäre Häufung wird nur selten beobachtet",
+          "Primäre Enuresis ist definiert als unwillkürliches Einnässen ohne somatischen Befund über das 5. Lebensjahr hinaus",
+          "Der Verlauf zeigt eine hohe Spontanheilungsrate",
+          "Am häufigsten tritt sie tagsüber auf (Enuresis diurna)"
+        ],
+        "statements": [],
+        "correctIndices": [
+          2,
+          3
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 28,
+        "type": "Aussagenkombination",
+        "text": "Welche der folgenden Aussagen trifft (treffen) für die bipolare affektive Störung nach ICD-10 (manisch-depressive Krankheit) zu?",
+        "options": [
+          "Nur die Aussage 1 ist richtig",
+          "Nur die Aussagen 2 und 3 sind richtig",
+          "Nur die Aussagen 2, 3 und 4 sind richtig",
+          "Nur die Aussagen 1, 2, 4 und 5 sind richtig",
+          "Alle Aussagen sind richtig"
+        ],
+        "statements": [
+          "Bei der Entwicklung affektiver Störungen können frühere Umwelteinflüsse eine Rolle spielen.",
+          "Charakteristisch bei der bipolaren affektiven Erkrankung ist eine weitgehende bis vollständige Besserung zwischen den Episoden.",
+          "Von der Erkrankung sind fast nur Männer betroffen.",
+          "Manische Episoden beginnen in der Regel abrupt (rasch, innerhalb weniger Tage) und dauern zwischen zwei Wochen und vier bis fünf Monaten.",
+          "Depressive Phasen der bipolaren Störung tendieren zu längerer Dauer, selten allerdings länger als ein Jahr."
+        ],
+        "correctIndices": [
+          3
+        ],
+        "explanation": ""
+      }
+    ]
   },
   {
     "id": "2009-march",
     "year": 2009,
     "month": "March",
-    "questions": []
+    "questions": [
+      {
+        "id": 1,
+        "type": "Aussagenkombination",
+        "text": "Zu den charakteristischen Symptomen bei der Manie zählen:",
+        "options": [
+          "Nur die Aussagen 1 und 3 sind richtig",
+          "Nur die Aussagen 2 und 4 sind richtig",
+          "Nur die Aussagen 3 und 4 sind richtig",
+          "Nur die Aussagen 1, 3 und 5 sind richtig",
+          "Nur die Aussagen 2, 3 und 4 sind richtig"
+        ],
+        "statements": [
+          "Hypersomnie",
+          "Perseveration",
+          "Größenideen",
+          "Psychomotorische Enthemmung",
+          "Ambivalenz"
+        ],
+        "correctIndices": [
+          2
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 2,
+        "type": "Aussagenkombination",
+        "text": "Welche der folgenden Aussagen über die Somatisierungsstörung trifft (treffen) zu?",
+        "options": [
+          "Nur die Aussage 4 ist richtig",
+          "Nur die Aussagen 2 und 4 sind richtig",
+          "Nur die Aussagen 1, 2 und 3 sind richtig",
+          "Nur die Aussagen 1, 2, 3 und 4 sind richtig",
+          "Alle Aussagen sind richtig"
+        ],
+        "statements": [
+          "Die Symptome sind nur auf einen Körperteil bezogen",
+          "Ängste und Depressionen sind häufige Begleiterscheinungen",
+          "Die psychophysische Konstitution spielt bei der Entstehung keine Rolle",
+          "Medikamentenmissbrauch bis hin zur Abhängigkeit entsteht häufig",
+          "Eine längere Psychotherapie ist in jedem Fall die alleinige Behandlungsmethode"
+        ],
+        "correctIndices": [
+          1
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 3,
+        "type": "Einfachauswahl",
+        "text": "Welche Aussage zur Demenz trifft zu?",
+        "options": [
+          "Kennzeichen der vaskulären Demenz (arteriosklerotische Demenz) ist der schleichende Beginn bei Fehlen körperlicher Begleitbefunde",
+          "Charakteristisch für die Demenz bei Alzheimer-Krankheit ist der plötzliche Beginn der Erkrankung mit rascher Verschlechterung",
+          "Die Alzheimer-Krankheit mit frühem Beginn (vor dem 65. Lebensjahr) zeigt gewöhnlich eine rasche Progredienz der Symptome",
+          "Eine vorbestehende Intelligenzminderung (z.B. bei Down-Syndrom) schließt die Entwicklung einer Demenz aus",
+          "Die Demenz bei Creutzfeldt-Jakob-Krankheit ist durch einen besonders langsamen Verlauf gekennzeichnet"
+        ],
+        "statements": [],
+        "correctIndices": [
+          2
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 4,
+        "type": "Mehrfachauswahl",
+        "text": "Welche der folgenden Aussagen zu Drogen- und Alkoholmissbrauch treffen zu? Wählen Sie zwei Antworten!",
+        "options": [
+          "Regelmäßiger Amphetamin-Konsum führt primär zu körperlicher Abhängigkeit",
+          "Ein Alkoholdelir tritt nur nach abruptem Alkoholentzug auf, nicht während fortgesetztem Trinken",
+          "Im Rahmen eines Cannabis-Missbrauchs kann eine akute Psychose auftreten",
+          "Ein Benzodiazepin-Entzug kann problemlos ambulant erfolgen, da keinerlei körperliche Symptomatik oder Gefährdung zu erwarten ist",
+          "Bei einer Opiat-Intoxikation besteht die Gefahr einer Atemdepression"
+        ],
+        "statements": [],
+        "correctIndices": [
+          2,
+          4
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 5,
+        "type": "Aussagenkombination",
+        "text": "Welche der folgenden Aussagen trifft (treffen) zu? Zu den phobischen Störungen nach ICD-10 gehört (gehören):",
+        "options": [
+          "Nur die Aussage 2 ist richtig",
+          "Nur die Aussagen 1 und 3 sind richtig",
+          "Nur die Aussagen 2, 4 und 5 sind richtig",
+          "Nur die Aussagen 1, 2, 4 und 5 sind richtig",
+          "Alle Aussagen sind richtig"
+        ],
+        "statements": [
+          "Panikstörung",
+          "Agoraphobie",
+          "Herzneurose",
+          "Spinnenphobie",
+          "Soziale Phobie"
+        ],
+        "correctIndices": [
+          2
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 6,
+        "type": "Einfachauswahl",
+        "text": "Bei chronischem Alkoholismus kann als Spätfolge das sog. Korsakow-Syndrom auftreten. Leitsymptome sind:",
+        "options": [
+          "Optische Halluzinationen, Verwirrtheit, illusionäre Verkennung",
+          "Störungen des Kurzzeitgedächtnisses, des Zeitgefühls, fehlende Störung des Immediatgedächtnisses",
+          "Akustische Halluzinationen, Wahnwahrnehmungen",
+          "Antriebsschwäche, Depressionen",
+          "Eifersuchtswahn, Bewusstseinseintrübung"
+        ],
+        "statements": [],
+        "correctIndices": [
+          1
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 7,
+        "type": "Einfachauswahl",
+        "text": "Die Einschätzung der Introspektionsfähigkeit des Patienten durch den Therapeuten ist für die Beurteilung der Therapiefähigkeit des Patienten von Bedeutung. Für welches der folgenden Psychotherapieverfahren trifft dies vor allem zu?",
+        "options": [
+          "Gesprächspsychotherapie nach Rogers",
+          "Verhaltenstherapie",
+          "Hypnosetherapie",
+          "Psychoanalyse",
+          "Katathymes Bilderleben"
+        ],
+        "statements": [],
+        "correctIndices": [
+          3
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 8,
+        "type": "Einfachauswahl",
+        "text": "Welche Aussage zur Schizophrenie trifft zu?",
+        "options": [
+          "Der Krankheitsbeginn ist meist nach dem 40. Lebensjahr",
+          "Die Prognose der Erkrankung ist bei schleichendem Beginn besser als bei akut einsetzenden psychotischen Symptomen",
+          "Die Wahrscheinlichkeit, im Laufe des Lebens an Schizophrenie zu erkranken, liegt bei ca. 1 %",
+          "Männer erkranken in einem späteren Alter als Frauen",
+          "Der Verwandtschaftsgrad zu einem an Schizophrenie Erkrankten spielt für das Erkrankungsrisiko keine Rolle"
+        ],
+        "statements": [],
+        "correctIndices": [
+          2
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 9,
+        "type": "Einfachauswahl",
+        "text": "Während einer Psychotherapie übt eine Patientin mit Bulimie alternative Strategien, die sie zur Impulskontrolle und Unterdrückung eines Essanfalls einsetzen kann. Welcher psychotherapeutischen Richtung ist diese Vorgehensweise am ehesten zuzuordnen?",
+        "options": [
+          "Gesprächspsychotherapie",
+          "Psychoanalyse",
+          "Systemische Psychotherapie",
+          "Tiefenpsychologisch fundierte Psychotherapie",
+          "Verhaltenstherapie"
+        ],
+        "statements": [],
+        "correctIndices": [
+          4
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 10,
+        "type": "Mehrfachauswahl",
+        "text": "Was sind diagnostische Kriterien (nach ICD-10) für eine depressive Episode? Wählen Sie zwei Antworten!",
+        "options": [
+          "Dauer von mind. 2 Wochen",
+          "Dauer von mind. 6 Monaten",
+          "Ängstlich vermeidende Persönlichkeit",
+          "Antriebsminderung",
+          "Gewichtszunahme"
+        ],
+        "statements": [],
+        "correctIndices": [
+          0,
+          3
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 11,
+        "type": "Aussagenkombination",
+        "text": "Welche der folgenden Aussagen zum elektiven Mutismus trifft (treffen) zu?",
+        "options": [
+          "Nur die Aussage 3 ist richtig",
+          "Nur die Aussagen 2 und 4 sind richtig",
+          "Nur die Aussagen 1, 2 und 3 sind richtig",
+          "Nur die Aussagen 2, 3 und 4 sind richtig",
+          "Alle Aussagen sind richtig"
+        ],
+        "statements": [
+          "Die Störung tritt fast ausschließlich bei Jungen auf",
+          "Es besteht ein normales oder nahezu normales Niveau des Sprachverständnisses",
+          "Es besteht eine Voraussagbarkeit für Situationen, in denen gesprochen und nicht gesprochen wird",
+          "Andere sozial-emotionale Störungen sind oft ebenfalls vorhanden",
+          "In der Vorgeschichte findet sich meist eine Sprachentwicklungsverzögerung"
+        ],
+        "correctIndices": [
+          3
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 12,
+        "type": "Aussagenkombination",
+        "text": "Welche der folgenden Aussagen zu Zwangsstörungen treffen zu?",
+        "options": [
+          "Nur die Aussagen 1, 2 und 3 sind richtig",
+          "Nur die Aussagen 1, 4 und 5 sind richtig",
+          "Nur die Aussagen 2, 3 und 4 sind richtig",
+          "Nur die Aussagen 2, 4 und 5 sind richtig",
+          "Alle Aussagen sind richtig"
+        ],
+        "statements": [
+          "Zwangsstörungen treten deutlich häufiger bei Frauen auf",
+          "Der Patient empfindet die Zwangshandlungen/Zwangsgedanken als quälend",
+          "Verhaltenstherapeutisch lassen sich Zwangsstörungen günstig beeinflussen",
+          "Häufig treten Zwangsstörungen in Verbindung mit Depressionen auf",
+          "Bei der Zwangsstörung finden sich ständig wechselnde Zwangshandlungen und Zwangsgedanken"
+        ],
+        "correctIndices": [
+          2
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 13,
+        "type": "Aussagenkombination",
+        "text": "Welche der folgenden Aussagen trifft (treffen) zu? Was sind wichtige Elemente bei der kognitiv-verhaltenstherapeutischen Behandlung einer Angststörung, wenn identifizierbare Angstauslöser vorhanden sind und der Patient Vermeidungsverhalten zeigt?",
+        "options": [
+          "Nur die Aussage 1 ist richtig",
+          "Nur die Aussagen 4 und 5 sind richtig",
+          "Nur die Aussagen 1, 2 und 3 sind richtig",
+          "Nur die Aussagen 1, 2, 4 und 5 sind richtig",
+          "Alle Aussagen sind richtig"
+        ],
+        "statements": [
+          "Reizkonfrontation",
+          "Vermittlung eines Erklärungsmodells",
+          "Psychoedukation",
+          "Vermeidung der Angstauslöser",
+          "Ermutigung des Patienten, sich in der Angst auslösenden Situation durch Aktivitäten abzulenken"
+        ],
+        "correctIndices": [
+          2
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 14,
+        "type": "Aussagenkombination",
+        "text": "Welche der folgenden Aussagen zur Agoraphobie trifft (treffen) zu?",
+        "options": [
+          "Nur die Aussage 3 ist richtig",
+          "Nur die Aussagen 2 und 4 sind richtig",
+          "Nur die Aussagen 1, 3 und 4 sind richtig",
+          "Nur die Aussagen 3, 4 und 5 sind richtig",
+          "Alle Aussagen sind richtig"
+        ],
+        "statements": [
+          "Überwiegend sind Frauen betroffen",
+          "Depressive und zwanghafte Symptome sowie soziale Phobien können zusätzlich vorhanden sein",
+          "Aufenthalt auf großen Plätzen oder in Menschenmengen sind typisch angstauslösende Momente",
+          "Vermeidung der phobischen Situation ist ein typisches Symptom",
+          "Ohne effektive Behandlung wird die Agoraphobie häufig chronisch"
+        ],
+        "correctIndices": [
+          4
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 15,
+        "type": "Einfachauswahl",
+        "text": "Eine 25-jährige Frau bekommt plötzlich Angstgefühle, „pfötchenartige“ Verkrampfungen der Hände und atmet schnell und flach. Es handelt sich am ehesten um eine/einen",
+        "options": [
+          "Klaustrophobie",
+          "Soziophobie",
+          "Hyperventilationstetanie",
+          "Herzanfall",
+          "Lungenembolie"
+        ],
+        "statements": [],
+        "correctIndices": [
+          2
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 16,
+        "type": "Aussagenkombination",
+        "text": "Welche der folgenden Aussagen trifft (treffen) zu? Was ist kennzeichnend für eine körperliche Abhängigkeit von psychotropen Substanzen?",
+        "options": [
+          "Nur die Aussage 1 ist richtig",
+          "Nur die Aussagen 1 und 2 sind richtig",
+          "Nur die Aussagen 3 und 4 sind richtig",
+          "Nur die Aussagen 1, 2, 3 und 5 sind richtig",
+          "Alle Aussagen sind richtig"
+        ],
+        "statements": [
+          "Entzugssymptome beim Absetzen der Substanz",
+          "Toleranzentwicklung",
+          "Akute Bauchspeicheldrüsenentzündung",
+          "Vermehrtes Schlafbedürfnis",
+          "Konflikte im Familienkreis"
+        ],
+        "correctIndices": [
+          1
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 17,
+        "type": "Mehrfachauswahl",
+        "text": "Was sind diagnostische Kriterien (nach ICD-10) für eine Anorexia nervosa? Wählen Sie zwei Antworten!",
+        "options": [
+          "Aktivitätseinschränkung",
+          "Alkoholmissbrauch",
+          "Amenorrhö",
+          "Vergiftungsängste",
+          "Körperschemastörung"
+        ],
+        "statements": [],
+        "correctIndices": [
+          2,
+          4
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 18,
+        "type": "Einfachauswahl",
+        "text": "Welche Aussage trifft zu? Der Gedankenentzug bei schizophrenen Patienten gehört zu welcher Gruppe von Störungen?",
+        "options": [
+          "Antriebsstörungen",
+          "Formale Denkstörungen",
+          "Wahnwahrnehmungen",
+          "Ichstörungen",
+          "Gedächtnisstörungen"
+        ],
+        "statements": [],
+        "correctIndices": [
+          3
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 19,
+        "type": "Aussagenkombination",
+        "text": "Welche der folgenden Aussagen treffen zu? Ein Patient klagt über Schlafstörungen. Welche Maßnahmen sollten ergriffen werden?",
+        "options": [
+          "Nur die Aussagen 1 und 2 sind richtig",
+          "Nur die Aussagen 2 und 3 sind richtig",
+          "Nur die Aussagen 4 und 5 sind richtig",
+          "Nur die Aussagen 1, 2, 3 und 5 sind richtig",
+          "Alle Aussagen sind richtig"
+        ],
+        "statements": [
+          "Führen eines Schlaftagebuches",
+          "Exploration der Schlafbedingungen",
+          "Veranlassung einer körperlichen Untersuchung",
+          "Verordnung eines Schlafmittels als Erstmaßnahme",
+          "Erhebung eines psychopathologischen Befundes"
+        ],
+        "correctIndices": [
+          3
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 20,
+        "type": "Aussagenkombination",
+        "text": "Welche der folgenden Aussagen zu ADHS treffen zu?",
+        "options": [
+          "Nur die Aussagen 1, 2 und 4 sind richtig",
+          "Nur die Aussagen 2, 3 und 5 sind richtig",
+          "Nur die Aussagen 3, 4 und 5 sind richtig",
+          "Nur die Aussagen 1, 2, 3 und 5 sind richtig",
+          "Alle Aussagen sind richtig"
+        ],
+        "statements": [
+          "Bei ADHS-Patienten besteht ein erhöhtes Risiko für die Ausbildung einer Sucht",
+          "Als Differentialdiagnose zum ADHS ist an Minderbegabung zu denken",
+          "Organische Erkrankungen wie z.B. eine Schilddrüsenüberfunktion können ähnliche Symptome wie ein ADHS bewirken",
+          "Wegen des erhöhten Suchtrisikos sollten bei ADHS-Patienten Stimulantien, bei denen die Gefahr einer Abhängigkeitsentwicklung besteht, nicht eingesetzt werden",
+          "Eine maniforme Psychose kann eine ähnliche Symptomatik zeigen wie ein ADHS"
+        ],
+        "correctIndices": [
+          3
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 21,
+        "type": "Einfachauswahl",
+        "text": "Welche Aussage zum Suizid bzw. zur Suizidgefahr bei einem depressiven Patienten trifft am ehesten zu?",
+        "options": [
+          "Wer nicht über Suizid redet, wird ihn nicht begehen",
+          "Wer eine Suizidhandlung begeht, will sich unbedingt das Leben nehmen",
+          "Eine Schwangerschaft schützt zuverlässig vor suizidalen Handlungen",
+          "Versteckte Suiziddrohungen sprechen für ein erhöhtes Suizidrisiko",
+          "Fehlende suizidale Handlungen in der Verwandtschaft schließen ein Suizidrisiko nahezu aus"
+        ],
+        "statements": [],
+        "correctIndices": [
+          3
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 22,
+        "type": "Aussagenkombination",
+        "text": "Welche der folgenden Aussagen treffen zu? Zu den formalen Denkstörungen zählen:",
+        "options": [
+          "Nur die Aussagen 1 und 2 sind richtig",
+          "Nur die Aussagen 2 und 3 sind richtig",
+          "Nur die Aussagen 1, 2 und 3 sind richtig",
+          "Nur die Aussagen 1, 3 und 5 sind richtig",
+          "Alle Aussagen sind richtig"
+        ],
+        "statements": [
+          "Denkhemmung",
+          "Zerfahrenheit",
+          "Gedankenabreißen",
+          "Konfabulation",
+          "Gedankenentzug"
+        ],
+        "correctIndices": [
+          2
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 23,
+        "type": "Einfachauswahl",
+        "text": "Überprüfen Sie folgende Beschreibungen des Begriffes der Konfabulation. Welche Aussage trifft am besten dafür zu?",
+        "options": [
+          "Bestehen bleiben sog. Gedächtnisinseln im Rahmen einer umschriebenen Amnesie",
+          "Zähflüssiges Haften an umschriebenen Erinnerungsresten aus dem Langzeitgedächtnis",
+          "Hyperamnestisches (abnorm gesteigertes) Erinnerungsvermögen",
+          "Allgemeines Gefühl der Bekanntheit ohne realen Bezug",
+          "Mit Phantasien ausgefüllte Erinnerungslücken"
+        ],
+        "statements": [],
+        "correctIndices": [
+          4
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 24,
+        "type": "Aussagenkombination",
+        "text": "Welche der folgenden Aussagen in Bezug auf die medikamentöse Behandlung von Patienten mit Schizophrenie treffen zu?",
+        "options": [
+          "Nur die Aussagen 1 und 2 sind richtig",
+          "Nur die Aussagen 2, 3 und 5 sind richtig",
+          "Nur die Aussagen 3, 4 und 5 sind richtig",
+          "Nur die Aussagen 2, 3, 4 und 5 sind richtig",
+          "Alle Aussagen sind richtig"
+        ],
+        "statements": [
+          "Wegen der guten Verträglichkeit sind Neuroleptika problemlos in der Therapie einsetzbar",
+          "Die Gabe von neuroleptischen Medikamenten kann den psychotischen Leidensdruck erheblich vermindern",
+          "Die beste Rezidivprophylaxe ist eine längerfristige medikamentöse Therapie",
+          "Die medikamentöse Abschwächung der Psychosesymptome macht die Patienten für aktivierende und stützende Therapie zugänglich",
+          "Aktivierende und psychotherapeutische Maßnahmen können das Ergebnis der medikamentösen Therapie und das subjektive Befinden der Patienten erheblich verbessern"
+        ],
+        "correctIndices": [
+          3
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 25,
+        "type": "Mehrfachauswahl",
+        "text": "Welche der folgenden Aussagen treffen zu? Wählen Sie zwei Antworten! Verhaltenstherapeutische Methoden und Techniken sind:",
+        "options": [
+          "Problemlösetraining",
+          "Unbedingte Wertschätzung des Klienten durch den Therapeuten",
+          "Liegende Position des Patienten mit fehlendem Blickkontakt zum Therapeuten",
+          "Selbstsicherheitstraining",
+          "Aufforderung an den Patienten, frei zu assoziieren"
+        ],
+        "statements": [],
+        "correctIndices": [
+          0,
+          3
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 26,
+        "type": "Aussagenkombination",
+        "text": "Welche der folgenden Aussagen treffen zu? Typische körperliche Symptome einer depressiven Episode sind:",
+        "options": [
+          "Nur die Aussagen 1, 2 und 4 sind richtig",
+          "Nur die Aussagen 1, 3 und 5 sind richtig",
+          "Nur die Aussagen 2, 3 und 4 sind richtig",
+          "Nur die Aussagen 1, 2, 3 und 4 sind richtig",
+          "Alle Aussagen sind richtig"
+        ],
+        "statements": [
+          "Libidoverlust",
+          "Schlafstörungen",
+          "Suizidgedanken",
+          "Appetitlosigkeit",
+          "Fieber"
+        ],
+        "correctIndices": [
+          0
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 27,
+        "type": "Aussagenkombination",
+        "text": "Welche der folgenden Aussagen zur zwanghaften (anankastischen) Persönlichkeitsstörung (nach ICD-10) treffen zu?",
+        "options": [
+          "Nur die Aussagen 1 und 3 sind richtig",
+          "Nur die Aussagen 2 und 4 sind richtig",
+          "Nur die Aussagen 2, 3 und 5 sind richtig",
+          "Nur die Aussagen 1, 2, 4 und 5 sind richtig",
+          "Alle Aussagen sind richtig"
+        ],
+        "statements": [
+          "Es besteht eine Neigung, sich auf intensive, aber instabile Beziehungen einzulassen, oft mit der Folge von emotionalen Krisen",
+          "Sie ist gekennzeichnet von Gefühlen von Zweifel, Perfektionismus und von übertriebener Gewissenhaftigkeit",
+          "Typisch sind wiederholte Drohungen oder Handlungen mit Selbstbeschädigung",
+          "Damit verbunden sind ständige Kontrollen, Halsstarrigkeit, Vorsicht und Rigidität",
+          "Aus einer zwanghaften Persönlichkeitsstörung entwickelt sich häufig eine Zwangsstörung"
+        ],
+        "correctIndices": [
+          1
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 28,
+        "type": "Einfachauswahl",
+        "text": "Welche Aussage zum Delirium tremens (Alkoholentzugsdelir) trifft zu?",
+        "options": [
+          "Zittern stellt ein seltenes Symptom der Erkrankung dar",
+          "Das Delirium tremens tritt nur bei einem Blutalkoholspiegel von mehr als 3 Promille auf",
+          "Unbehandelt führt ein Delirium tremens in unter 1 % zum Tode",
+          "Krampfanfälle können Vorboten eines nahenden Delirs sein",
+          "Wahnvorstellungen schließen ein Delirium tremens aus"
+        ],
+        "statements": [],
+        "correctIndices": [
+          3
+        ],
+        "explanation": ""
+      }
+    ]
   },
   {
     "id": "2010-march",
@@ -8253,6 +9445,23 @@
     "year": 2011,
     "month": "March",
     "questions": [
+      {
+        "id": 1,
+        "type": "Einfachauswahl",
+        "text": "",
+        "options": [
+          "sind Störungen mit objektivierbaren Symptomen der vegetativen Simulation wie Herzklopfen, Schwitzen, Erröten, Zittern",
+          "sind Störungen mit Schmerz und anderen komplexen Empfindun- gen, die durch das vegetative Nervensystem vermittelt werden",
+          "sind Störungen der normalen Integration von Erinnerungen an die Vergangenheit, des Identitätsbewusstseins, der unmittelbaren Emp- findungen sowie der Kontrolle von Körperbewegungen",
+          "werden vom Patienten als abnorm und belastend interpretiert; die Aufmerksamkeit wird meist auf ein oder zwei Organe oder Organ- systeme fokussiert",
+          "sind Störungen, die trotz anders lautender ärztlicher Befunde mit der anhaltenden Überzeugung und ständigen Sorge darum einher- gehen, an einer schweren körperlichen Erkrankung zu leiden"
+        ],
+        "statements": [],
+        "correctIndices": [
+          2
+        ],
+        "explanation": ""
+      },
       {
         "id": 2,
         "type": "Einfachauswahl",
@@ -8486,6 +9695,29 @@
         "explanation": ""
       },
       {
+        "id": 14,
+        "type": "Aussagenkombination",
+        "text": "Die 46 Jährige Bewohnerin einer sozialen Wohngruppe greift einen Mitbewoh- ner mit ihrem Taschenmesser an und fügt ihm schwere Verletzungen zu. Anschließend berichtet sie, aus Notwehr gehandelt zu haben, da der Mitbe- wohner sie und ihre Familie seit vielen Jahren schädige. Er stehe mit dem Sa- tan im Bunde und habe über Jahre hinweg ihre Gedanken mitgehört. Dass er gerade sie als Opfer ausgewählt habe, hänge damit zusammen, dass sie die Mutter von Jesus sei. In einem anderen Leben sei sie Nofretete gewesen. Welche folgenden Symptome liegen vor?",
+        "options": [
+          "Nur die Aussagen 1, 2 und 3 sind richtig",
+          "Nur die Aussagen 1, 2 und 4 sind richtig",
+          "Nur die Aussagen 1, 3 und 5 sind richtig",
+          "Nur die Aussagen 2, 4 und 5 sind richtig",
+          "Nur die Aussagen 3, 4 und 5 sind richtig"
+        ],
+        "statements": [
+          "Depersonalisation",
+          "Größenwahn",
+          "Halluzinationen",
+          "Verfolgungswahn",
+          "Gedankenausbreitung"
+        ],
+        "correctIndices": [
+          3
+        ],
+        "explanation": ""
+      },
+      {
         "id": 15,
         "type": "Einfachauswahl",
         "text": "Ein Patient, der gerne auf Volksfesten Bier trinkt, bittet Sie um eine Beratung\nzur Alkoholmenge.\n\nWelche Aussage zur Alkoholmenge in Gramm von Bier trifft zu?\n\n1Maß (1Liter) Bier mit einem normalen Alkoholgehalt (von ca. 5 Vol%) enthält\netwa",
@@ -8586,6 +9818,25 @@
         "correctIndices": [
           2,
           4
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 21,
+        "type": "Aussagenkombination",
+        "text": "Welche der folgenden Aussagen über die Wernicke-Enzephalopathie treffen zu?",
+        "options": [
+          "Nur die Aussagen 2 und 4 sind richtig",
+          "Nur die Aussagen 1, 2 und 3 sind richtig",
+          "Nur die Aussagen 1, 2 und 4 sind richtig",
+          "Nur die Aussagen 3, 4 und 5 sind richtig",
+          "Nur die Aussagen 1, 2, 4 und 5 sind richtig"
+        ],
+        "statements": [
+          "Ursache ist ein Thiaminmangel (Vitamin B1), der z."
+        ],
+        "correctIndices": [
+          2
         ],
         "explanation": ""
       },
@@ -8988,6 +10239,29 @@
         "explanation": ""
       },
       {
+        "id": 14,
+        "type": "Aussagenkombination",
+        "text": "Welche der folgenden Aussagen über die antidepressive Medikation treffen zu?",
+        "options": [
+          "Nur die Aussagen 1, 2, und 3 sind richtig",
+          "Nur die Aussagen 1, 4 und 5 sind richtig",
+          "Nur die Aussagen 2, 4 und 5 sind richtig",
+          "Nur die Aussagen 3, 4 und 5 sind richtig",
+          "Alle Aussagen sind richtig"
+        ],
+        "statements": [
+          "Alle trizyklischen Antidepressiva sind psychomotorisch aktivierend",
+          "Bei SSRI (selektiven Serotoninwiederaufnahme-Hemmern) können unter anderem folgende Nebenwirkungen auftreten: Übelkeit, Erbrechen und innere Unruhe",
+          "Johanniskraut hat als pflanzliches Mittel keinen Einfluss auf die Wir- kung anderer Medikamente",
+          "Zu Beginn der antidepressiven Medikation stehen häufig Nebenwir- kungen im Vordergrund",
+          "Antidepressiva können auch bei Angst- und Zwangsstörungen indi- ziert sein"
+        ],
+        "correctIndices": [
+          2
+        ],
+        "explanation": ""
+      },
+      {
         "id": 15,
         "type": "Einfachauswahl",
         "text": "Ein 50-jähriger Mann wird von Angehörigen zu Ihnen gebracht. Er ist erregt,\nunruhig, angespannt, schwitzt und zittert. Er zeigt sich nicht orientiert. Sie ver-\nmuten halluzinatorisches Erleben.\nAuf welche Erkrankung weist dies hin?",
@@ -9001,6 +10275,29 @@
         ],
         "correctIndices": [
           1
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 16,
+        "type": "Aussagenkombination",
+        "text": "Welche der folgenden Aussagen zu Persönlichkeitsstörungen treffen zu?",
+        "options": [
+          "Nur die Aussagen 1, 2, und 4 sind richtig",
+          "Nur die Aussagen 1, 3 und 5 sind richtig",
+          "Nur die Aussagen 1, 4 und 5 sind richtig",
+          "Nur die Aussagen 2, 4 und 5 sind richtig",
+          "Nur die Aussagen 3, 4 und 5 sind richtig"
+        ],
+        "statements": [
+          "Eine Persönlichkeitsstörung wird im Erwachsenenalter erworben",
+          "Bei einer Persönlichkeitsstörung besteht eine deutliche Abweichung u.a. im Wahrnehmen und Denken im Vergleich zur Mehrheit der Bevölkerung",
+          "Persönlichkeitsstörungen entstehen in der Regel bei einer Erkran- kung oder Verletzung des Gehirns",
+          "Oft ist eine Persönlichkeitsstörung mit einer gestörten sozialen Leis- tungsfähigkeit verbunden",
+          "Persönlichkeitsstörungen können mit anderen psychischen Störun- gen einhergehen"
+        ],
+        "correctIndices": [
+          3
         ],
         "explanation": ""
       },
@@ -9054,6 +10351,29 @@
         "correctIndices": [
           0,
           3
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 20,
+        "type": "Aussagenkombination",
+        "text": "Welche der folgenden Aussagen zur verhaltenstherapeutischen Technik der Reizkonfrontation trifft (treffen) zu?",
+        "options": [
+          "Nur die Aussage 3 ist richtig",
+          "Nur die Aussagen 2 und 4 sind richtig",
+          "Nur die Aussagen 3 und 5 sind richtig",
+          "Nur die Aussagen 2, 3 und 5 sind richtig",
+          "Alle Aussagen sind richtig"
+        ],
+        "statements": [
+          "Patienten mit einem Waschzwang dürfen sich spätestens 1-2 Stun- den nach Beginn der Reizkonfrontation wieder die Hände waschen",
+          "Wenn die Patienten während einer Reizkonfrontation Angst verspü- ren, sollen sie sich zur Angstbewältigung ablenken und an etwas Schönes denken",
+          "Die Patienten können mit dieser Technik die Erfahrung machen, dass die vorgestellte Katastrophe nicht eintreten wird",
+          "Bei der Reizkonfrontation ist eine gedankliche Exposition (in sensu) nicht möglich",
+          "Bei Herzinfarkt gefährdeten Patienten sollte die Reizkonfrontation als Flooding (Reizüberflutung) erfolgen"
+        ],
+        "correctIndices": [
+          0
         ],
         "explanation": ""
       },
@@ -9483,6 +10803,29 @@
         "correctIndices": [
           1,
           4
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 14,
+        "type": "Aussagenkombination",
+        "text": "Welche der folgenden Verfahren zählen zu den Psychotherapieverfahren?",
+        "options": [
+          "Nur die Aussagen 1 und 2 sind richtig",
+          "Nur die Aussagen 1 und 4 sind richtig",
+          "Nur die Aussagen 3, 4 und 5 sind richtig",
+          "Nur die Aussagen 1, 2, 4 und 5 sind richtig",
+          "Alle Aussagen sind richtig"
+        ],
+        "statements": [
+          "Hypnose",
+          "Gestalttherapie",
+          "Lichttherapie",
+          "Psychodrama",
+          "EMDR (Eye Movement Desensitization and Reprocessing)"
+        ],
+        "correctIndices": [
+          3
         ],
         "explanation": ""
       },
@@ -11963,7 +13306,484 @@
     "id": "2002-october",
     "year": 2002,
     "month": "October",
-    "questions": []
+    "questions": [
+      {
+        "id": 1,
+        "type": "Aussagenkombination",
+        "text": "",
+        "options": [
+          "Nur die Aussage 2 ist richtig",
+          "Nur die Aussagen 1 und 2 sind richtig",
+          "Nur die Aussagen 1 und 3 sind richtig",
+          "Nur die Aussagen 2 und 3 sind richtig",
+          "Alle Aussagen sind richtig 2 Bei einer drogeninduzierten Psychose können folgende Symptome auftreten: 1. Starke Angst 2. Leibmissempfndungen 3. Verworrenheit 4. Ekstase 5. Dranghafte Geschäftigkeit A) Nur die Aussagen 1 und 2 sind richtig B) Nur die Aussagen 1 und 4 sind richtig C) Nur die Aussagen 1, 2 und 3 sind richtig D) Nur die Aussagen 3, 4 und 5 sind richtig E) Alle Aussagen sind richtig"
+        ],
+        "statements": [],
+        "correctIndices": [
+          1
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 2,
+        "type": "Aussagenkombination",
+        "text": "",
+        "options": [
+          "Nur die Aussagen 1 und 2 sind richtig",
+          "Nur die Aussagen 1 und 4 sind richtig",
+          "Nur die Aussagen 1, 2 und 3 sind richtig",
+          "Nur die Aussagen 3, 4 und 5 sind richtig",
+          "Alle Aussagen sind richtig"
+        ],
+        "statements": [],
+        "correctIndices": [
+          4
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 3,
+        "type": "Einfachauswahl",
+        "text": "",
+        "options": [
+          "Akustische Halluzinationen",
+          "Extreme Bewegungsunruhe mit unaufhörlichen Nestelbewegungen",
+          "Gustatorische (geschmackliche) Halluzinationen",
+          "Beim Einschlafen auftretende optische Sinnestäuschungen",
+          "Schwere Bewusstseinsstörung 4 Zur Anorexia nervosa gehören folgende Symptome: 1. Verstärkte Monatsblutung bei Frauen 2. Übertriebene körperliche Aktivitäten 3. Hoher Leidensdruck 4. Selbst induziertes Erbrechen 5. Eingeschränkte Nahrungsauswahl A) Nur die Aussagen 2 und 4 sind richtig B) Nur die Aussagen 2, 4 und 5 sind richtig C) Nur die Aussagen 1, 2, 4 und 5 sind richtig D) Nur die Aussagen 2, 3, 4 und 5 sind richtig E) Alle Aussagen sind richtig"
+        ],
+        "statements": [],
+        "correctIndices": [
+          0
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 4,
+        "type": "Aussagenkombination",
+        "text": "",
+        "options": [
+          "Nur die Aussagen 2 und 4 sind richtig",
+          "Nur die Aussagen 2, 4 und 5 sind richtig",
+          "Nur die Aussagen 1, 2, 4 und 5 sind richtig",
+          "Nur die Aussagen 2, 3, 4 und 5 sind richtig",
+          "Alle Aussagen sind richtig"
+        ],
+        "statements": [],
+        "correctIndices": [
+          1
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 5,
+        "type": "Aussagenkombination",
+        "text": "",
+        "options": [
+          "Nur die Aussagen 3 und 4 sind richtig",
+          "Nur die Aussagen 1, 2 und 3 sind richtig",
+          "Nur die Aussagen 1, 2 und 5 sind richtig",
+          "Nur die Aussagen 3, 4 und 5 sind richtig",
+          "Alle Aussagen sind richtig 6 Ein Patient, der gerade vom Heilpraktiker die Mitteilung einer ungünstigen Prognose seiner Erkrankung bekommen hat, äußert gegenüber der Praxismitarbeiterin: „Ich werde wohl nicht mehr lange leben, aber es ist so merkwürdig: Ich weiß nicht, wie es mir geht. Ich komm"
+        ],
+        "statements": [],
+        "correctIndices": [
+          2
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 6,
+        "type": "Einfachauswahl",
+        "text": "",
+        "options": [
+          "Isolierung",
+          "Projektion",
+          "Rationalisierung",
+          "Ungeschehen-Machen",
+          "Sublimierung"
+        ],
+        "statements": [],
+        "correctIndices": [
+          0
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 7,
+        "type": "Aussagenkombination",
+        "text": "",
+        "options": [
+          "Nur die Aussagen 1, 2 und 3 sind richtig",
+          "Nur die Aussagen 3, 4 und 5 sind richtig",
+          "Nur die Aussagen 1, 2, 3 und 4 sind richtig",
+          "Nur die Aussagen 1, 2, 3 und 5 sind richtig",
+          "Alle Aussagen sind richtig"
+        ],
+        "statements": [],
+        "correctIndices": [
+          3
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 8,
+        "type": "Aussagenkombination",
+        "text": "",
+        "options": [
+          "Nur die Aussage 1 ist richtig",
+          "Nur die Aussagen 1 und 2 sind richtig",
+          "Nur die Aussagen 3 und 5 sind richtig",
+          "Nur die Aussagen 2, 3 und 4 sind richtig",
+          "Alle Aussagen sind richtig 9 Als Form der Gruppentherapie finden Anwendung: 1. Rollenspiel 2. Psychodrama 3. Themenzentrierte Interaktion 4. Systemische Therapie 5. Tiefenpsychologisch orientierte Gruppe A) Nur die Aussagen 1 und 2 sind richtig B) Nur die Aussagen 3 und 4 sind richtig C) Nur die Aussagen 4 und 5 sind richtig D) Nur die Aussagen 1, 2 und 3 sind richtig E) Alle Aussagen sind richtig"
+        ],
+        "statements": [],
+        "correctIndices": [
+          4
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 9,
+        "type": "Aussagenkombination",
+        "text": "",
+        "options": [
+          "Nur die Aussagen 1 und 2 sind richtig",
+          "Nur die Aussagen 3 und 4 sind richtig",
+          "Nur die Aussagen 4 und 5 sind richtig",
+          "Nur die Aussagen 1, 2 und 3 sind richtig",
+          "Alle Aussagen sind richtig"
+        ],
+        "statements": [],
+        "correctIndices": [
+          4
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 10,
+        "type": "Aussagenkombination",
+        "text": "",
+        "options": [
+          "Nur die Aussagen 1 und 2 sind richtig",
+          "Nur die Aussagen 3 und 4 sind richtig",
+          "Nur die Aussagen 3, 4 und 5 sind richtig",
+          "Nur die Aussagen 1, 2, 3 und 5 sind richtig",
+          "Alle Aussagen sind richtig"
+        ],
+        "statements": [],
+        "correctIndices": [
+          3
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 11,
+        "type": "Aussagenkombination",
+        "text": "",
+        "options": [
+          "Nur die Aussagen 1 und 4 sind richtig",
+          "Nur die Aussagen 1, 2 und 3 sind richtig",
+          "Nur die Aussagen 2, 3 und 5 sind richtig",
+          "Nur die Aussagen 1, 2, 3 und 4 sind richtig",
+          "Alle Aussagen sind richtig"
+        ],
+        "statements": [],
+        "correctIndices": [
+          3
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 12,
+        "type": "Einfachauswahl",
+        "text": "",
+        "options": [
+          "Größenwahn",
+          "Akustische Halluzinationen in Form dialogisierender Stimmen",
+          "Nihilistischer Wahn",
+          "Affektverflachung",
+          "Akustische Halluzinationen in Form aggressiver imperativer Stimmen"
+        ],
+        "statements": [],
+        "correctIndices": [
+          3
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 13,
+        "type": "Aussagenkombination",
+        "text": "",
+        "options": [
+          "Nur die Aussagen 1 und 2 sind richtig",
+          "Nur die Aussagen 2, 3 und 5 sind richtig",
+          "Nur die Aussagen 1, 2, 4 und 5 sind richtig",
+          "Nur die Aussagen 1, 3, 4 und 5 sind richtig",
+          "Alle Aussagen sind richtig"
+        ],
+        "statements": [],
+        "correctIndices": [
+          3
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 14,
+        "type": "Aussagenkombination",
+        "text": "",
+        "options": [
+          "Nur die Aussagen 1 und 2 sind richtig",
+          "Nur die Aussagen 2 und 4 sind richtig",
+          "Nur die Aussagen 1, 3 und 5 sind richtig",
+          "Nur die Aussagen 2, 3, 4 und 5 sind richtig",
+          "Alle Aussagen sind richtig"
+        ],
+        "statements": [],
+        "correctIndices": [
+          4
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 15,
+        "type": "Aussagenkombination",
+        "text": "",
+        "options": [
+          "Nur die Aussagen 1 und 2 sind richtig",
+          "Nur die Aussagen 1 und 3 sind richtig",
+          "Nur die Aussagen 2, 4 und 5 sind richtig",
+          "Nur die Aussagen 1, 2, 3 und 4 sind richtig",
+          "Alle Aussagen sind richtig 16 Zu den neurotischen Störungen zählen: 1. Agoraphobie 2. Hysterie 3. Manie 4. Klaustrophobie 5. Anorexia nervosa A) Nur die Aussagen 3 und 4 sind richtig B) Nur die Aussagen 3 und 5 sind richtig C) Nur die Aussagen 1, 2 und 4 sind richtig D) Nur die Aussagen 2, 4 und 5 sind richtig E) Alle Aussagen sind richtig"
+        ],
+        "statements": [],
+        "correctIndices": [
+          3
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 16,
+        "type": "Aussagenkombination",
+        "text": "",
+        "options": [
+          "Nur die Aussagen 3 und 4 sind richtig",
+          "Nur die Aussagen 3 und 5 sind richtig",
+          "Nur die Aussagen 1, 2 und 4 sind richtig",
+          "Nur die Aussagen 2, 4 und 5 sind richtig",
+          "Alle Aussagen sind richtig"
+        ],
+        "statements": [],
+        "correctIndices": [
+          2
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 17,
+        "type": "Einfachauswahl",
+        "text": "",
+        "options": [
+          "Der Betreuer wird im Regelfall vom Gesundheitsamt bestellt und eingesetzt.",
+          "Das Vormundschaftsgericht kann einen Einwilligungsvorbehalt anordnen.",
+          "Betreute sind stets geschäftsunfähig.",
+          "Unabdingbare Folge der Einrichtung einer Betreuung ist die Entmündigung.",
+          "Den Antrag auf Betreuung kann die betroffene (zu betreuende) Person laut Gesetz nicht selbst stellen. 18 Zu den formalen Denkstörungen zählen: 1. Denkhemmung 2. Zerfahrenheit 3. Logorrhoe (sprachliche Enthemmungserscheinung in Form eines unkontrollierten Redeflusses) 4. Halluzinationen"
+        ],
+        "statements": [],
+        "correctIndices": [
+          1
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 18,
+        "type": "Aussagenkombination",
+        "text": "",
+        "options": [
+          "Nur die Aussagen 1 und 4 sind richtig",
+          "Nur die Aussagen 2 und 3 sind richtig",
+          "Nur die Aussagen 2, 4 und 5 sind richtig",
+          "Nur die Aussagen 1, 2, 3 und 5 sind richtig",
+          "Alle Aussagen sind richtig"
+        ],
+        "statements": [],
+        "correctIndices": [
+          3
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 19,
+        "type": "Einfachauswahl",
+        "text": "",
+        "options": [
+          "Eine visuelle Halluzination",
+          "Gedankenabreißen",
+          "Eine Wahnwahrnehmung",
+          "Eine illusionäre Verkennung",
+          "Kontamination 20 Bei den Zönästhesien im Rahmen der so genannten zönästhetischen Schizophrenie handelt es sich in erster Linie um Folgendes: A) Manisch-depressive Stimmungslagen B) Bestimmte Leibgefühlsstörungen C) Komplexe visuelle Halluzinationen D) Phänomene der Gedankenbeeinflussung (z. B. Gedankenentzug, Gedankeneingebung) E) Chronische Störungen des Affektes (z. B. Affektverarmung, sozialer Rückzug)"
+        ],
+        "statements": [],
+        "correctIndices": [
+          2
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 20,
+        "type": "Einfachauswahl",
+        "text": "",
+        "options": [
+          "Manisch-depressive Stimmungslagen",
+          "Bestimmte Leibgefühlsstörungen",
+          "Komplexe visuelle Halluzinationen",
+          "Phänomene der Gedankenbeeinflussung (z. B. Gedankenentzug, Gedankeneingebung)",
+          "Chronische Störungen des Affektes (z. B. Affektverarmung, sozialer Rückzug)"
+        ],
+        "statements": [],
+        "correctIndices": [
+          1
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 21,
+        "type": "Aussagenkombination",
+        "text": "",
+        "options": [
+          "Nur die Aussagen 1 und 2 sind richtig",
+          "Nur die Aussagen 2 und 3 sind richtig",
+          "Nur die Aussagen 1, 2, 4 und 5 sind richtig",
+          "Nur die Aussagen 1, 3, 4 und 5 sind richtig",
+          "Alle Aussagen sind richtig 22 Hinsichtlich der Panikstörung gilt: A) Panikattacken treten laut Definition nur in bestimmten örtlichen Situationen (z. B. freie Plätze, größere Menschenansammlungen, Theater, U-Bahn) auf. B) Die Panikattacke geht häufig einher mit einer Angst vor Kontrollverlu"
+        ],
+        "statements": [],
+        "correctIndices": [
+          2
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 22,
+        "type": "Einfachauswahl",
+        "text": "",
+        "options": [
+          "Panikattacken treten laut Definition nur in bestimmten örtlichen Situationen (z. B. freie Plätze, größere Menschenansammlungen, Theater, U-Bahn) auf.",
+          "Die Panikattacke geht häufig einher mit einer Angst vor Kontrollverlust.",
+          "Im Regelfall ist zu Beginn der Behandlung die Aufnahme auf eine geschlossene Station unvermeidlich, da es anderenfalls; zumeist zu Suizidhandlungen kommt.",
+          "Im Allgemeinen ist eine Langzeittherapie mit Benzodiazepinen erforderlich.",
+          "Bei der psychotherapeutischen Behandlung kommt eine Verhaltenstherapie nicht in Betracht."
+        ],
+        "statements": [],
+        "correctIndices": [
+          1
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 23,
+        "type": "Einfachauswahl",
+        "text": "",
+        "options": [
+          "Allgemeine Schwäche",
+          "Ängstliches und gewissenhaftes Verhalten",
+          "Erhöhte Suggestibilität",
+          "Mangel an Empathie",
+          "Angst vor Verlassenwerden 24 Bei Morphinabhängigen im Morphinrausch ist in erster Linie folgendes der genannten Phänomene charakteristisch: A) Sehr enge Pupillen B) Kataplexie (kurzdauernder Spannungsverlust von Muskeln) C) Hypersexualität D) Kontrollwahn E) Größenwahn"
+        ],
+        "statements": [],
+        "correctIndices": [
+          3
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 24,
+        "type": "Einfachauswahl",
+        "text": "",
+        "options": [
+          "Sehr enge Pupillen",
+          "Kataplexie (kurzdauernder Spannungsverlust von Muskeln)",
+          "Hypersexualität",
+          "Kontrollwahn",
+          "Größenwahn"
+        ],
+        "statements": [],
+        "correctIndices": [
+          0
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 25,
+        "type": "Einfachauswahl",
+        "text": "",
+        "options": [
+          "Projektion bedeutet Verlegung eigener abgewehrter Wünsche in eine andere Person.",
+          "Reaktionsbildung bedeutet Abwehr der Realität von traumatisierenden Wahrnehmungen.",
+          "Verdrängung bedeutet Verlagerung einer Emotion von einem bedrohlichen auf ein ungefährliches Objekt.",
+          "Rationalisierung bedeutet künstliches Abtrennen der Gefühle vom gedanklichen Inhalt.",
+          "Verleugnung bedeutet unbewusste Aktivierung eines entgegengesetzten Impulses. 26 Ein Verhaltenstest bei Zwangsstörungen dient vor allem dazu, A) Aufschluss über Neutralisierungsstrategien zu gewinnen B) positive Verstärkung zu erfahren C) stereotype Rituale zu unterbrechen D) Verleugnung zu durchbrechen E) Widerstand in der Therapie zu thematisieren"
+        ],
+        "statements": [],
+        "correctIndices": [
+          0
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 26,
+        "type": "Einfachauswahl",
+        "text": "",
+        "options": [
+          "Aufschluss über Neutralisierungsstrategien zu gewinnen",
+          "positive Verstärkung zu erfahren",
+          "stereotype Rituale zu unterbrechen",
+          "Verleugnung zu durchbrechen",
+          "Widerstand in der Therapie zu thematisieren"
+        ],
+        "statements": [],
+        "correctIndices": [
+          0
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 27,
+        "type": "Aussagenkombination",
+        "text": "",
+        "options": [
+          "Nur die Aussage 1 ist richtig",
+          "Nur die Aussagen 2 und 3 sind richtig",
+          "Nur die Aussagen 1, 2 und 4 sind richtig",
+          "Nur die Aussagen 1, 2, 3 und 4 sind richtig",
+          "Alle Aussagen sind richtig 28 Welche charakteristischen Symptome zeigen Patienten mit einer Borderline-Störung? 1. Emotionale Instabilität 2. Unbeständige Beziehungen 3. Häufig Selbstmordgedanken und -versuche 4. Dementielle Symptome 5. Chronisches Gefühl der Leere A) Nur die Aussage 1 ist richtig B) Nur die Aussagen 1 und 4 sind richtig C) Nur die Aussagen 2 und 3 sind richtig D) Nur die Aussagen 1, 2, 3 und 5 sind richtig E) Alle Aussagen sind richtig"
+        ],
+        "statements": [],
+        "correctIndices": [
+          3
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 28,
+        "type": "Aussagenkombination",
+        "text": "",
+        "options": [
+          "Nur die Aussage 1 ist richtig",
+          "Nur die Aussagen 1 und 4 sind richtig",
+          "Nur die Aussagen 2 und 3 sind richtig",
+          "Nur die Aussagen 1, 2, 3 und 5 sind richtig",
+          "Alle Aussagen sind richtig"
+        ],
+        "statements": [],
+        "correctIndices": [
+          3
+        ],
+        "explanation": ""
+      }
+    ]
   },
   {
     "id": "2003-october",
@@ -12148,6 +13968,29 @@
         "explanation": ""
       },
       {
+        "id": 10,
+        "type": "Aussagenkombination",
+        "text": "Welche der folgenden Aussagen trifft (treffen) zu?",
+        "options": [
+          "Nur die Aussage 1 ist richtig",
+          "Nur die Aussagen 1 und 3 sind richtig",
+          "Nur die Aussagen 1, 2 und 5 sind richtig",
+          "Nur die Aussagen 2, 3 und 5 sind richtig",
+          "Alle Aussagen sind richtig"
+        ],
+        "statements": [
+          "Die operante Konditionierung kann bei chronisch Schizophrenen eingesetzt werden.",
+          "Bei akuten Psychosen kann durch kognitive Restrukturierung eine anhaltende Distanzierung von Wahninhalten erreicht werden.",
+          "Die operante Konditionierung darf auch von ausgebildeten Helfern ausgeführt werden.",
+          "In der Behandlung von Kindern bevorzugt man die klassische Konditionierung.",
+          "Beim operanten Konditionieren wird durch systematische Reiz Reduktion eine Verhaltensänderung bewirkt."
+        ],
+        "correctIndices": [
+          1
+        ],
+        "explanation": ""
+      },
+      {
         "id": 11,
         "type": "Aussagenkombination",
         "text": "Welche der folgenden Aussagen über das Aufmerksamkeitsdefizitsyndrom\n(ADS) trifft (treffen) zu?",
@@ -12288,6 +14131,25 @@
         ],
         "correctIndices": [
           1
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 19,
+        "type": "Mehrfachauswahl",
+        "text": "Was ist für die katatone Form der Schizophrenie charakteristisch? Wählen Sie drei Antworten!",
+        "options": [
+          "Rededrang",
+          "Bewegungsstereotypien",
+          "Psychomotorische Unruhe",
+          "Konfabulation",
+          "Mutismus"
+        ],
+        "statements": [],
+        "correctIndices": [
+          1,
+          2,
+          4
         ],
         "explanation": ""
       },
@@ -13878,6 +15740,75 @@
         "explanation": ""
       },
       {
+        "id": 19,
+        "type": "Aussagenkombination",
+        "text": "Welcher der folgenden Aussagen zu Inhalten der Verhaltenstherapie trifft (treffen) zu?",
+        "options": [
+          "Nur die Aussage 1 ist richtig",
+          "Nur die Aussagen 2 und 3 sind richtig",
+          "Nur die Aussagen 1, 4 und 5 sind richtig",
+          "Nur die Aussagen 1, 2, 4 und 5 sind richtig",
+          "Alle Aussagen sind richtig"
+        ],
+        "statements": [
+          "Intermittierende Verstärker (mal wird verstärkt, mal nicht) erwiesen sich – was den langzeitigen Behandlungserfolg (Löschungsresistenz) betrifft – wirksamer als kontinuierliche Verstärker",
+          "Verschieben einer Prüfung bei starker Prüfungsangst (Vermeidungsverhalten) ist ein Beispiel für negative Verstärkung",
+          "Körperliche Züchtigung bei einem Kind, das immer nicht richtig aufisst, ist ein Beispiel für positive Verstärkung",
+          "Wichtig bei operanten Verfahren ist die zeitliche Nähe zwischen problematischem Verhalten und den folgenden Konsequenzen",
+          "Die apparative Enuresis-Behandlung basiert überwiegend auf einer klassischen Konditionierung"
+        ],
+        "correctIndices": [
+          3
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 20,
+        "type": "Aussagenkombination",
+        "text": "Welcher der folgenden Aussagen trifft (treffen) zu? Zu den Negativsymptomen einer Schizophrenie zählt (zählen):",
+        "options": [
+          "Nur die Aussage 1 ist richtig",
+          "Nur die Aussagen 2 und 4 sind richtig",
+          "Nur die Aussagen 2, 3 und 4 sind richtig",
+          "Nur die Aussagen 1, 2, 4 und 5 sind richtig",
+          "Alle Aussagen sind richtig"
+        ],
+        "statements": [
+          "Inhaltliche Denkstörungen",
+          "Emotionale Verarmung",
+          "Gedankenausbreitung",
+          "Sozialer Rückzug",
+          "Manie"
+        ],
+        "correctIndices": [
+          1
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 21,
+        "type": "Aussagenkombination",
+        "text": "Welcher der folgenden Aussagen treffen zu? Zu den typischen Symptomen einer Manie zählen:",
+        "options": [
+          "Nur die Aussagen 1 und 2 sind richtig",
+          "Nur die Aussagen 3 und 4 sind richtig",
+          "Nur die Aussagen 1, 2 und 4 sind richtig",
+          "Nur die Aussagen 1, 2, 3 und 4 sind richtig",
+          "Alle Aussagen sind richtig"
+        ],
+        "statements": [
+          "Ein deutlich vermehrtes Redebedürfnis",
+          "Man hält sich für deutlich qualifizierter und intelligenter als man tatsächlich ist",
+          "Ein deutlich erhöhtes Schlafbedürfnis",
+          "Formale Denkstörungen",
+          "Vermindertes Selbstwertgefühl mit Zweifel an sich selbst"
+        ],
+        "correctIndices": [
+          2
+        ],
+        "explanation": ""
+      },
+      {
         "id": 22,
         "type": "Aussagenkombination",
         "text": "Welche der folgenden Aussagen trifft (treffen) zu?\nBei welchen der folgenden Therapieverfahren handelt es sich um verhaltens-\ntherapeutische Interventionen?",
@@ -14027,7 +15958,580 @@
     "id": "2007-october",
     "year": 2007,
     "month": "October",
-    "questions": []
+    "questions": [
+      {
+        "id": 1,
+        "type": "Mehrfachauswahl",
+        "text": "Welche der folgenden Aussagen treffen zu? Wählen Sie zwei Antworten! Typische Symptome der Manie sind:",
+        "options": [
+          "Ideenflucht",
+          "Depersonalisation",
+          "Zwangsgedanken",
+          "Vermindertes Schlafbedürfnis",
+          "Somatisierungsstörung"
+        ],
+        "statements": [],
+        "correctIndices": [
+          0,
+          3
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 2,
+        "type": "Einfachauswahl",
+        "text": "Der frühkindliche Autismus ist eine Erkrankung mit meist chronischem Verlauf. Welche Aussage zum frühkindlichen Autismus trifft zu?",
+        "options": [
+          "Autismus kommt bei Mädchen wesentlich häufiger vor als bei Knaben (etwa drei- bis viermal häufiger)",
+          "Ein autistisches Kind bedarf keiner Therapie, da die Symptome in der Pubertät (spätestens in der Adoleszenz) eine Spontanheilung erfahren",
+          "Autistische Kinder kapseln sich zwar von ihrer Umgebung ab, entwickeln aber ein hohes Maß an Empathie, Mitleid und Wunsch nach emotionaler Zuwendung",
+          "Die Kommunikation ist von klein auf gestört, die aktive Sprache bleibt wenig produktiv, sie ist unmoduliert, affektarm und wird kaum von Mimik und Gestik begleitet",
+          "Hirnorganische Störungen, insbesondere eine Epilepsie oder Intelligenzminderungen werden bei autistischen Kindern in der Regel nicht beobachtet"
+        ],
+        "statements": [],
+        "correctIndices": [
+          3
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 3,
+        "type": "Aussagenkombination",
+        "text": "Welche der folgenden Aussagen zur Akathisie treffen zu?",
+        "options": [
+          "Nur die Aussagen 1 und 2 sind richtig",
+          "Nur die Aussagen 1, 2 und 5 sind richtig",
+          "Nur die Aussagen 2, 3 und 4 sind richtig",
+          "Nur die Aussagen 3, 4 und 5 sind richtig",
+          "Alle Aussagen sind richtig"
+        ],
+        "statements": [
+          "Die Akathisie kommt im Verlauf einer Neuroleptikatherapie vor",
+          "Die Akathisie hat einen hohen subjektiven Beschwerdecharakter",
+          "Die Akathisie ist ein wesentlicher Grund für medikamentöse Non-Compliance",
+          "Die Akathisie bereitet nicht selten erhebliche differenzialdiagnostische Probleme, vor allem kann sie als psychosebedingte Unruhesymptomatik fehlgedeutet werden",
+          "Charakteristisch für Akathisie ist innere Unruhe und Bewegungsdrang"
+        ],
+        "correctIndices": [
+          4
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 4,
+        "type": "Aussagenkombination",
+        "text": "Welche der folgenden Aussagen zum Einnässen oder Einkoten bei Kindern trifft (treffen) zu?",
+        "options": [
+          "Nur die Aussage 4 ist richtig",
+          "Nur die Aussagen 1 und 4 sind richtig",
+          "Nur die Aussagen 2, 3 und 5 sind richtig",
+          "Nur die Aussagen 1, 2, 4 und 5 sind richtig",
+          "Alle Aussagen sind richtig"
+        ],
+        "statements": [
+          "Die Anwendung von Verstärkerplänen ist eine Therapieoption",
+          "Für das Toilettentraining beim Einkoten werden feste Uhrzeiten für den Toilettengang vereinbart",
+          "Einkoten ist bei Kleinkindern (unter 2 Jahren) i. d. R. psychisch bedingt",
+          "Eine genaue Dokumentation der Häufigkeit von Einnässen oder Einkoten ist unerlässlich",
+          "Ein Blasentraining wird oft mit gesteigerter Flüssigkeitszufuhr gekoppelt"
+        ],
+        "correctIndices": [
+          3
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 5,
+        "type": "Mehrfachauswahl",
+        "text": "Ein Therapeut besitzt eine auf das Gebiet der heilkundlichen Psychotherapie beschränkte Erlaubnis nach dem Heilpraktikergesetz. Welche der folgenden Verfahren oder Techniken darf dieser Therapeut anwenden? Wählen Sie zwei Antworten!",
+        "options": [
+          "Entspannungstraining",
+          "Chirotherapie",
+          "Akupressur",
+          "Testpsychologische Untersuchungen",
+          "Sauerstoff-Mehrschritt-Therapie zur Krebsbehandlung"
+        ],
+        "statements": [],
+        "correctIndices": [
+          0,
+          3
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 6,
+        "type": "Aussagenkombination",
+        "text": "Welche der folgenden Symptome/Erkrankungen sind typisch für chronischen Alkoholismus?",
+        "options": [
+          "Nur die Aussagen 1 und 3 sind richtig",
+          "Nur die Aussagen 1 und 5 sind richtig",
+          "Nur die Aussagen 2 und 4 sind richtig",
+          "Nur die Aussagen 1, 2, 4 und 5 sind richtig",
+          "Nur die Aussagen 2, 3, 4 und 5 sind richtig"
+        ],
+        "statements": [
+          "Mangelernährung",
+          "Gerinnungsstörung",
+          "Erhöhte Kreativität",
+          "Potenzstörung",
+          "Wernicke-Syndrom"
+        ],
+        "correctIndices": [
+          3
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 7,
+        "type": "Einfachauswahl",
+        "text": "Welche Aussage trifft zu? Eine Negativsymptomatik",
+        "options": [
+          "tritt im Rahmen des Übertragungswiderstands bei der Psychoanalyse auf",
+          "wird oft bei dissozialen Persönlichkeitsstörungen beobachtet",
+          "ist ein häufiges Symptom bei chronischen Schizophrenien",
+          "charakterisiert den Verlauf therapieresistenter Depressionen",
+          "bezeichnet die Krankheitsuneinsichtigkeit bei Manikern"
+        ],
+        "statements": [],
+        "correctIndices": [
+          2
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 8,
+        "type": "Einfachauswahl",
+        "text": "Eine Ihrer Patientinnen berichtet von ihrem Mann. Dieser sei seit seiner Pensionierung vor 6 Jahren reizbar und depressiv. Er verhalte sich teilweise wie ein kleines Kind und sie müsse ihm die Schuhe zubinden, weil er mit offenen Schuhen herumlaufen würde. Wichtige Telefonnummern vergesse er immer wieder und sie müsse sie ihm aufschreiben. Welche Verdachtsdiagnose haben Sie?",
+        "options": [
+          "Schizophrenie",
+          "Multiple Sklerose",
+          "Demenz",
+          "Parkinson-Syndrom",
+          "Depression"
+        ],
+        "statements": [],
+        "correctIndices": [
+          2
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 9,
+        "type": "Einfachauswahl",
+        "text": "Ideenflucht ist ein Symptom bei psychiatrischen Erkrankungen. Darunter ist zu verstehen:",
+        "options": [
+          "Eine besondere Überlastungsreaktion",
+          "Eine Zerstreutheit bei körperlicher Ermüdung",
+          "Eine Zerfahrenheit",
+          "Ein krankhaft beschleunigter Denkablauf",
+          "Eine Wahnvorstellung"
+        ],
+        "statements": [],
+        "correctIndices": [
+          3
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 10,
+        "type": "Einfachauswahl",
+        "text": "Hypochondrische Befürchtungen sind am wenigsten zu erwarten bei:",
+        "options": [
+          "Somatisierungsstörung",
+          "Herzangstneurose",
+          "Dysmorphophobie",
+          "Manische Episode im Rahmen der bipolaren affektiven Störung",
+          "Anhaltende somatoforme Schmerzstörung"
+        ],
+        "statements": [],
+        "correctIndices": [
+          3
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 11,
+        "type": "Aussagenkombination",
+        "text": "Eine Ihrer Patientinnen ist vom Psychiater mit Antidepressiva eingestellt worden. Der Psychiater ist zur Zeit im Urlaub und sie möchte nicht zu dessen Vertreter gehen. Mit welchen der folgenden Nebenwirkungen von (trizyklischen) Antidepressiva ist am ehesten zu rechnen?",
+        "options": [
+          "Nur die Aussagen 1, 2, 3 und 4 sind richtig",
+          "Nur die Aussagen 1, 2, 3 und 5 sind richtig",
+          "Nur die Aussagen 1, 2, 4 und 5 sind richtig",
+          "Nur die Aussagen 1, 3, 4 und 5 sind richtig",
+          "Nur die Aussagen 2, 3, 4 und 5 sind richtig"
+        ],
+        "statements": [
+          "Mundtrockenheit",
+          "Schwitzen",
+          "Durchfall",
+          "Hypotonie",
+          "Gewichtszunahme"
+        ],
+        "correctIndices": [
+          2
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 12,
+        "type": "Aussagenkombination",
+        "text": "Welche der folgenden Aussagen trifft (treffen) zu?",
+        "options": [
+          "Nur die Aussage 1 ist richtig",
+          "Nur die Aussagen 1 und 3 sind richtig",
+          "Nur die Aussagen 1, 2 und 5 sind richtig",
+          "Nur die Aussagen 2, 3 und 5 sind richtig",
+          "Alle Aussagen sind richtig"
+        ],
+        "statements": [
+          "Die operante Konditionierung kann bei chronisch Schizophrenen eingesetzt werden.",
+          "Bei akuten Psychosen kann durch kognitive Restrukturierung eine anhaltende Distanzierung von Wahninhalten erreicht werden.",
+          "Die operante Konditionierung darf auch von ausgebildeten Helfern ausgeführt werden (nach Verordnung durch befugte Personen, z.B. Arzt, Heilpraktiker).",
+          "In der Behandlung von Kindern bevorzugt man die klassische Konditionierung.",
+          "Beim operanten Konditionieren wird durch systematische Reizreduktion eine Verhaltensänderung bewirkt."
+        ],
+        "correctIndices": [
+          1
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 13,
+        "type": "Aussagenkombination",
+        "text": "Welche der folgenden Aussagen treffen zu? In bestimmten Phasen des Kindes- und Jugendalters finden sich jeweils für diese Phase typische entwicklungsabhängige emotionale Phänomene bzw. Störungen. Hierzu zählen:",
+        "options": [
+          "Nur die Aussagen 1 und 4 sind richtig",
+          "Nur die Aussagen 2 und 3 sind richtig",
+          "Nur die Aussagen 2 und 4 sind richtig",
+          "Nur die Aussagen 1, 2 und 3 sind richtig",
+          "Nur die Aussagen 2, 3 und 5 sind richtig"
+        ],
+        "statements": [
+          "Dunkelangst in der Adoleszenz",
+          "Trennungsangst im Kindesalter",
+          "Agoraphobie im Kleinkindalter",
+          "Passagere zwangsähnliche Rituale bei jungen Kindern",
+          "Artikulationsstörungen im Säuglingsalter"
+        ],
+        "correctIndices": [
+          2
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 14,
+        "type": "Aussagenkombination",
+        "text": "Bei welchen der folgenden Erkrankungen kann es zur Entwicklung einer Demenz kommen?",
+        "options": [
+          "Nur die Aussagen 1 und 2 sind richtig",
+          "Nur die Aussagen 3 und 4 sind richtig",
+          "Nur die Aussagen 1, 2 und 3 sind richtig",
+          "Nur die Aussagen 1, 2, 4 und 5 sind richtig",
+          "Alle Aussagen sind richtig"
+        ],
+        "statements": [
+          "Rezidivierende zerebrale Insulte",
+          "M. Parkinson",
+          "Creutzfeldt-Jakob-Krankheit",
+          "Multiple Sklerose",
+          "Epilepsie"
+        ],
+        "correctIndices": [
+          4
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 15,
+        "type": "Aussagenkombination",
+        "text": "Welche der folgenden Aussagen zur Anorexia nervosa treffen zu?",
+        "options": [
+          "Nur die Aussagen 2 und 4 sind richtig",
+          "Nur die Aussagen 1, 2 und 3 sind richtig",
+          "Nur die Aussagen 1, 3 und 4 sind richtig",
+          "Nur die Aussagen 2, 3 und 4 sind richtig",
+          "Alle Aussagen sind richtig"
+        ],
+        "statements": [
+          "Alle Anorexia nervosa-Kranken sind Frauen",
+          "Anorexia nervosa-Kranke sind in Schule oder Beruf ehrgeizig und leistungsfähig",
+          "Ein Body-Mass-Index (BMI) von 25 ist typisch",
+          "Bei starker Abmagerung anorektischer Patienten/Patientinnen können Zwangsmaßnahmen (z.B. Zwangseinweisung in ein psychiatrisches Krankenhaus) notwendig werden",
+          "Anorexia nervosa-Kranke haben ein stabiles Selbstbewusstsein"
+        ],
+        "correctIndices": [
+          0
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 16,
+        "type": "Aussagenkombination",
+        "text": "Welche der folgenden Aussagen über das Aufmerksamkeitsdefizitsyndrom (ADS) trifft (treffen) zu?",
+        "options": [
+          "Nur die Aussage 1 ist richtig",
+          "Nur die Aussagen 1 und 2 sind richtig",
+          "Nur die Aussagen 2 und 5 sind richtig",
+          "Nur die Aussagen 1, 2, 3 und 5 sind richtig",
+          "Alle Aussagen sind richtig"
+        ],
+        "statements": [
+          "Bei der Behandlung von ADS sollten nicht gleichzeitig Medikamente und psychotherapeutische Techniken eingesetzt werden.",
+          "Bei der Aufmerksamkeitsdefizitstörung des Kindesalters (ADS) kann eine motorisch hyperaktive Symptomatik völlig fehlen.",
+          "Störungen der Fein- oder Grobmotorik sind ein Ausschlusskriterium für die Diagnose ADS.",
+          "Mit Flooding-Techniken erreicht man bei ADS-Patienten oft ein rascheres Verschwinden der Symptomatik als bei anderen Indikationen.",
+          "Symptome wie z. B. Distanzlosigkeit oder Impulsivität stützen die Diagnose."
+        ],
+        "correctIndices": [
+          2
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 17,
+        "type": "Aussagenkombination",
+        "text": "Welche der folgenden Aussagen über Autogenes Training treffen zu?",
+        "options": [
+          "Nur die Aussagen 1 und 2 sind richtig",
+          "Nur die Aussagen 2 und 3 sind richtig",
+          "Nur die Aussagen 2, 3 und 5 sind richtig",
+          "Nur die Aussagen 3, 4 und 5 sind richtig",
+          "Alle Aussagen sind richtig"
+        ],
+        "statements": [
+          "Das Erlernen des Autogenen Trainings kann nur im Gruppensetting erfolgen",
+          "Das vegetative Nervensystem wird beeinflusst",
+          "Nach Anleitung kann das Autogene Training schon von 8 bis 10-jährigen Kindern selbstständig ausgeübt werden",
+          "Das Autogene Training ist bei psychotischen Erkrankungen immer gut zur Lösung von Ängsten und Spannungen geeignet",
+          "Die Wirksamkeit des Autogenen Trainings bei Neurodermitis wurde nachgewiesen"
+        ],
+        "correctIndices": [
+          2
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 18,
+        "type": "Mehrfachauswahl",
+        "text": "Welche der folgenden Symptome lassen Sie in erster Linie an eine körperlich verursachte Erkrankung denken? Wählen Sie zwei Antworten!",
+        "options": [
+          "„Anfälle“ kurzdauernder Bewusstlosigkeit",
+          "Störungen der Orientiertheit",
+          "Gedankenentzug",
+          "Kommentierende Stimmen",
+          "Kontrollwahn"
+        ],
+        "statements": [],
+        "correctIndices": [
+          0,
+          1
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 19,
+        "type": "Aussagenkombination",
+        "text": "Welche der folgenden Aussagen treffen zu? Die Differenzialdiagnose der Schizophrenie umfasst u.a. folgende Krankheiten:",
+        "options": [
+          "Nur die Aussagen 2 und 3 sind richtig",
+          "Nur die Aussagen 1, 2 und 5 sind richtig",
+          "Nur die Aussagen 1, 3 und 5 sind richtig",
+          "Nur die Aussagen 2, 3 und 4 sind richtig",
+          "Alle Aussagen sind richtig"
+        ],
+        "statements": [
+          "Zustand nach Schädel-Hirn-Trauma",
+          "Schizoaffektive Störung",
+          "Depression",
+          "Substanzmittelmissbrauch",
+          "Substanzmittelentzug"
+        ],
+        "correctIndices": [
+          4
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 20,
+        "type": "Mehrfachauswahl",
+        "text": "Welche der folgenden Aussagen zur Suizidalität treffen zu? Wählen Sie zwei Antworten!",
+        "options": [
+          "Die Mehrzahl der in Folge eines Suizids Verstorbenen hat ihren Suizid vorher angekündigt",
+          "Menschen, die an einer Psychose leiden, verüben selten Suizid",
+          "Bei einem Patienten mit Suizidversuch in der Vorgeschichte besteht besonders im ersten Jahr Wiederholungsgefahr",
+          "Bei der Zahl der Suizidversuche überwiegt die Zahl der Männer",
+          "Bei Verdacht auf Suizidalität sollte dieses Thema im Rahmen der Untersuchung nicht direkt angesprochen werden"
+        ],
+        "statements": [],
+        "correctIndices": [
+          0,
+          2
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 21,
+        "type": "Aussagenkombination",
+        "text": "Welche der folgenden Begriffe gehören zu den Abwehrmechanismen im psychoanalytischen Sinne?",
+        "options": [
+          "Nur die Aussagen 1 und 4 sind richtig",
+          "Nur die Aussagen 1, 2 und 3 sind richtig",
+          "Nur die Aussagen 1, 3 und 4 sind richtig",
+          "Nur die Aussagen 2, 3 und 4 sind richtig",
+          "Nur die Aussagen 3, 4 und 5 sind richtig"
+        ],
+        "statements": [
+          "Introjektion",
+          "Dyslalie",
+          "Reaktionsbildung",
+          "Intellektualisierung",
+          "Internalisierung"
+        ],
+        "correctIndices": [
+          2
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 22,
+        "type": "Einfachauswahl",
+        "text": "Ein 45-jähriger Mann hatte vor einem Jahr einen Unfall mit seinem Wagen. Seit dieser Zeit hat er nicht nur Angst vor dem Autofahren, sondern auch Angst, mit öffentlichen Verkehrsmitteln zu fahren. Für die Ausweitung der Angst kommt aus lerntheoretischer Sicht am ehesten in Betracht?",
+        "options": [
+          "Diskriminationslernen",
+          "Modelllernen",
+          "Verstärkung",
+          "Konditionierung",
+          "Reizgeneralisierung"
+        ],
+        "statements": [],
+        "correctIndices": [
+          4
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 23,
+        "type": "Mehrfachauswahl",
+        "text": "Welche der folgenden Begriffe gehören zu den formalen Denkstörungen? Wählen Sie zwei Antworten!",
+        "options": [
+          "Projektion",
+          "Gedankenabreißen",
+          "Residualwahn",
+          "Zerfahrenheit",
+          "Mutismus"
+        ],
+        "statements": [],
+        "correctIndices": [
+          1,
+          3
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 24,
+        "type": "Einfachauswahl",
+        "text": "Welche Aussage zum Alkoholdelir trifft zu?",
+        "options": [
+          "Ein Delirium tremens kann auch während fortgesetzten Trinkens auftreten",
+          "Ein Vorbote des Delirium tremens ist vermehrter Schlaf",
+          "Ein Alkoholentzugsdelir tritt frühestens 5 Tage nach Beginn des Entzugs auf",
+          "Typisch ist die Symptomtrias: Bewusstseinsklarheit, ungestörte Orientierung und akustische Halluzinationen",
+          "Bei einem Delir treten folgende vegetativen Störungen auf: Hypotonie, Bradykardie, Frösteln"
+        ],
+        "statements": [],
+        "correctIndices": [
+          0
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 25,
+        "type": "Aussagenkombination",
+        "text": "Welche der folgenden Aussagen treffen zu? Kennzeichen der narzisstischen Persönlichkeitsstörung sind:",
+        "options": [
+          "Nur die Aussagen 1 und 3 sind richtig",
+          "Nur die Aussagen 1 und 4 sind richtig",
+          "Nur die Aussagen 3 und 5 sind richtig",
+          "Nur die Aussagen 1, 2 und 5 sind richtig",
+          "Nur die Aussagen 2, 4 und 5 sind richtig"
+        ],
+        "statements": [
+          "Arrogantes, überhebliches Verhalten",
+          "Theatralischer Ausdruck von Gefühlen",
+          "Die Störung beginnt bei Frauen nach der Menopause",
+          "Erwartung, durch andere bevorzugt behandelt zu werden",
+          "Übertriebene Gewissenhaftigkeit und Perfektionismus"
+        ],
+        "correctIndices": [
+          1
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 26,
+        "type": "Aussagenkombination",
+        "text": "Welche der folgenden Aussagen trifft (treffen) zu? Die Borderline-Persönlichkeitsstörung umfasst:",
+        "options": [
+          "Nur die Aussage 1 ist richtig",
+          "Nur die Aussagen 1 und 5 sind richtig",
+          "Nur die Aussagen 1, 2 und 5 sind richtig",
+          "Nur die Aussagen 2, 3 und 5 sind richtig",
+          "Alle Aussagen sind richtig"
+        ],
+        "statements": [
+          "Impulsive, häufig selbstschädigende Verhaltensweisen",
+          "Instabile und wechselhafte Stimmung",
+          "Identitätsunsicherheit",
+          "Dissoziative und paranoide Symptome",
+          "Inkonstante und krisenhafte Beziehungen"
+        ],
+        "correctIndices": [
+          4
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 27,
+        "type": "Mehrfachauswahl",
+        "text": "Welche der folgenden Aussagen treffen für Cannabiskonsum zu? Wählen Sie zwei Antworten!",
+        "options": [
+          "Regelmäßiger Cannabiskonsum führt zu ausgeprägter körperlicher Abhängigkeit",
+          "Cannabiskonsum verursacht eine Pupillenverengung (Miosis)",
+          "Durch regelmäßigen Cannabiskonsum können Psychosen ausgelöst werden",
+          "Längerdauernder Cannabiskonsum kann zu psychischer Abhängigkeit führen",
+          "Bei chronischem Cannabiskonsum kommt es häufig zu einer starken Antriebssteigerung"
+        ],
+        "statements": [],
+        "correctIndices": [
+          2,
+          3
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 28,
+        "type": "Aussagenkombination",
+        "text": "Welche der folgenden Aussagen treffen zu? Mögliche Hinweise auf Suizidgefährdung bei Verdacht auf Suizidalität sind:",
+        "options": [
+          "Nur die Aussagen 1, 2 und 3 sind richtig",
+          "Nur die Aussagen 1, 3 und 4 sind richtig",
+          "Nur die Aussagen 2, 4 und 5 sind richtig",
+          "Nur die Aussagen 1, 2, 3 und 4 sind richtig",
+          "Alle Aussagen sind richtig"
+        ],
+        "statements": [
+          "Aggressionsstau und Wendung der Aggression gegen sich selbst",
+          "Einengung (sozial, kognitiv) der Wertewelt",
+          "Anbehandelte Depression",
+          "Suizidphantasien",
+          "Vorkommen von Suiziden in der Familie oder Umgebung"
+        ],
+        "correctIndices": [
+          4
+        ],
+        "explanation": ""
+      }
+    ]
   },
   {
     "id": "2008-october",
@@ -14955,6 +17459,25 @@
         "explanation": ""
       },
       {
+        "id": 19,
+        "type": "Aussagenkombination",
+        "text": "Welche der folgenden Aussagen zum Delir treffen zu",
+        "options": [
+          "Nur die Aussagen 2 und 3 sind richtig",
+          "Nur die Aussagen 1, 3 und 5 sind richtig",
+          "Nur die Aussagen 1, 4 und 5 sind richtig",
+          "Nur die Aussagen 1, 2, 3 und 5 sind richtig",
+          "Alle Aussagen sind richtig"
+        ],
+        "statements": [
+          "Bei einem Delir liegt ein akuter, möglicherweise vital bedrohlicher Zustand vor 2.Eine Störung der Bewusstseinslage spricht gegen ein Delir 3.Typisch sind Desorientiertheit, optische Sinnestäuschungen und Situationsverkennung 4.Es handelt sich um eine chronische irreversible Psychose 5.Typisch sind Veränderungen des Schlaf-Wach-Rhythmus"
+        ],
+        "correctIndices": [
+          1
+        ],
+        "explanation": ""
+      },
+      {
         "id": 20,
         "type": "Aussagenkombination",
         "text": "Welche der folgenden Aussagen zum Störungsbild der sozialen Phobie treffen zu?\n1.Die Symptome treten in (fast) allen Lebensbereichen auf\n2.Die Störung ist gekennzeichnet durch eine deutliche Furcht, sich in sozialen\nSituationen auf peinliche oder erniedrigende Weise zu verhalten\n3.Typische hinzukommende Symptome sind Erröten, Zittern oder die Angst zu\nerbrechen\n4.Patienten mit einer sozialen Phobie weisen nur selten ein niedriges\nSelbstwertgefühl auf\n5.Die Ängste in sozialen Situationen werden als übertrieben bzw. unvernünftig erlebt",
@@ -15383,6 +17906,29 @@
         ],
         "correctIndices": [
           4
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 14,
+        "type": "Aussagenkombination",
+        "text": "Welche der folgenden Aussagen zur Wochenbettpsychose (postpartale Psychose) treffen zu?",
+        "options": [
+          "Nur die Aussagen 1, und 3 sind richtig",
+          "Nur die Aussagen 2 und 5 sind richtig",
+          "Nur die Aussagen 1, 2 und 3 sind richtig",
+          "Nur die Aussagen 1, 3 und 4 sind richtig",
+          "Nur die Aussagen 1, 3 und 5 sind richtig"
+        ],
+        "statements": [
+          "Typische Symptome sind Wahn oder Halluzinationen",
+          "Eine Suizidgefahr besteht nicht",
+          "Bei einem Teil der Patientinnen besteht bei der nächsten Entbindung wieder eine psychotische Störung",
+          "Sie tritt frühestens 4 Wochen nach der Entbindung auf",
+          "Bei Hausgeburten sind Wochenbettdepressionen im Vergleich zu Klinikgeburten sehr seltener"
+        ],
+        "correctIndices": [
+          0
         ],
         "explanation": ""
       },
@@ -15888,6 +18434,52 @@
         "explanation": ""
       },
       {
+        "id": 13,
+        "type": "Aussagenkombination",
+        "text": "Welche der folgenden Symptome sind einer posttraumatischen Belastungsstö- rung zuzuordnen?",
+        "options": [
+          "Nur die Aussagen 1 und 2 sind richtig",
+          "Nur die Aussagen 1 und 3 sind richtig",
+          "Nur die Aussagen 2 und 3 sind richtig",
+          "Nur die Aussagen 1, 2 und 5 sind richtig",
+          "Nur die Aussagen 1, 2, 4 und 5 sind richtig"
+        ],
+        "statements": [
+          "Dissoziation",
+          "Intrusion",
+          "Gedankenentzug",
+          "Vermeidungsverhalten",
+          "Interessenverlust"
+        ],
+        "correctIndices": [
+          4
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 14,
+        "type": "Aussagenkombination",
+        "text": "Welche der folgenden Aussagen treffen zu? Abwehrmechanismen sind:",
+        "options": [
+          "Nur die Aussagen 1, 2, und 3 sind richtig",
+          "Nur die Aussagen 1, 2 und 4 sind richtig",
+          "Nur die Aussagen 1, 3 und 4 sind richtig",
+          "Nur die Aussagen 2, 3, 4 und 5 sind richtig",
+          "Alle Aussagen sind richtig"
+        ],
+        "statements": [
+          "Regression",
+          "Autosuggestion",
+          "Projektion",
+          "Verschiebung",
+          "Imitation"
+        ],
+        "correctIndices": [
+          2
+        ],
+        "explanation": ""
+      },
+      {
         "id": 15,
         "type": "Einfachauswahl",
         "text": "Eine 59-jährige Patientin legt seit mehreren Monaten das Fundament ihres\nHauses auf ganzer Länge am Stück frei. Sie entfernt lose Steine, da dies ihrer\nMeinung nach den Beginn des Paradieses behindere. Der hinzugezogene Ar-\nchitekt warnt dringend vor dieser Maßname, da die Hausstatik gefährdet ist.\nTrotzdem unterstützt der Ehemann das Vorhaben seiner Frau vehement. Durch\neine stationäre psychiatrische Behandlung der Patientin kommt es zur vorüber-\ngehenden Trennung der Ehepartner. In dieser Zeit distanziert sich der Mann\ndeutlich von den Ideen seiner Frau.\nUm welche Diagnose handelt es sich bei dem Ehemann am ehesten?",
@@ -15901,6 +18493,117 @@
         ],
         "correctIndices": [
           3
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 16,
+        "type": "Aussagenkombination",
+        "text": "Welche der folgenden Aussagen zur Therapie von schizophrenen Patienten treffen zu?",
+        "options": [
+          "Nur die Aussagen 1, und 3 sind richtig",
+          "Nur die Aussagen 1 und 4 sind richtig",
+          "Nur die Aussagen 1, 3 und 4 sind richtig",
+          "Nur die Aussagen 2, 3und 4 sind richtig",
+          "Nur die Aussagen 1, 2, 3 und 5 sind richtig"
+        ],
+        "statements": [
+          "Kognitives Training, wie z."
+        ],
+        "correctIndices": [
+          0
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 17,
+        "type": "Aussagenkombination",
+        "text": "Welche der folgenden Aussagen trifft (treffen) zu? Was sind wichtige Elemente der kognitiv-verhaltenstherapeutischen Behand- lung einer Angststörung, wenn identifizierbare Angstauslöser vorhanden sind und der Patient Vermeidungsverhalten zeigt?",
+        "options": [
+          "Nur die Aussage 1 ist richtig",
+          "Nur die Aussagen 4 und 5 sind richtig",
+          "Nur die Aussagen 1, 2 und 3 sind richtig",
+          "Nur die Aussagen 1, 2und 5 sind richtig",
+          "Alle Aussagen sind richtig"
+        ],
+        "statements": [
+          "Reizkonfrontation",
+          "Vermittlung eines Erklärungsmodells",
+          "Psychoedukation",
+          "Vermeidung der Angstauslöser",
+          "Ermutigung des Patienten, sich in der Angst auslösenden Situation durch Aktivitäten abzulenken"
+        ],
+        "correctIndices": [
+          2
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 18,
+        "type": "Aussagenkombination",
+        "text": "Welche der folgenden Aussagen zu den organischen psychischen Störungen (nach ICD-10) treffen zu?",
+        "options": [
+          "Nur die Aussagen 1 und 3 sind richtig",
+          "Nur die Aussagen 1 und 4 sind richtig",
+          "Nur die Aussagen 1, 2 und 3 sind richtig",
+          "Nur die Aussagen 1, 3 und 5 sind richtig",
+          "Alle Aussagen sind richtig"
+        ],
+        "statements": [
+          "Verfolgungswahn kann ein Symptom einer organischen psychischen Störung sein",
+          "Die Alkoholabhängigkeit zählt zu den organischen psychischen Störungen",
+          "Die Demenz bei HIV-Krankheit zählt zu den organischen psychischen Störungen",
+          "Eine internistische Abklärung ist nicht notwendig",
+          "Unterschiedliche körperliche Erkrankungen können die gleichen psychischen Symptome hervorrufen, d. h. die Symptome sind nicht spezifisch für die Ursache der Erkrankung"
+        ],
+        "correctIndices": [
+          3
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 19,
+        "type": "Aussagenkombination",
+        "text": "Welche der folgenden Aussagen treffen auf eine typische Anorexia nervosa (nach ICD-10) zu?",
+        "options": [
+          "Nur die Aussagen 1, 2 und 3 sind richtig",
+          "Nur die Aussagen 1, 2 und 4 sind richtig",
+          "Nur die Aussagen 1, 3 und 5 sind richtig",
+          "Nur die Aussagen 2, 3 und 5 sind richtig",
+          "Alle Aussagen sind richtig"
+        ],
+        "statements": [
+          "Ein Gewichtsverlust kann durch übertriebene körperliche Aktivität herbeigeführt sein",
+          "Ein Gewichtsverlust kann durch eine somatische Ursache begrün- det sein",
+          "Es liegt eine Störung des Körperschemas vor und die Betroffenen legen selbst eine zu niedrige Gewichtsschwelle fest",
+          "Ein Body-mass-Index (BMI) von 19,5 kg/m² ist in der Regel mit ei- ner Anorexia nervosa in Zusammenhang zu bringen",
+          "Es kann zu einer endokrinen Störung kommen"
+        ],
+        "correctIndices": [
+          2
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 20,
+        "type": "Aussagenkombination",
+        "text": "Welche der folgenden Symptome ordnen Sie einem amnestischen Syndrom (Korsakow-Syndrom) zu?",
+        "options": [
+          "Nur die Aussagen 1, 2 und 3 sind richtig",
+          "Nur die Aussagen 1, 2 und 5 sind richtig",
+          "Nur die Aussagen 2, 3 und 5 sind richtig",
+          "Nur die Aussagen 3, 4 und 5 sind richtig",
+          "Alle Aussagen sind richtig"
+        ],
+        "statements": [
+          "Zönästesien",
+          "Desorientiertheit",
+          "Konfabulationen",
+          "Gedankenausbreitung",
+          "Merkfähigkeitsstörung"
+        ],
+        "correctIndices": [
+          2
         ],
         "explanation": ""
       },

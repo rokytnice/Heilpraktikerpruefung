@@ -1,130 +1,175 @@
 import json
 import os
-import glob
 import re
 from pypdf import PdfReader
 
-# Configuration
+# Config
 JSON_PATH = "app/src/main/assets/exams.json"
 PDF_DIR = "fragen/"
+REPORT_PATH = "Final_Verification_Report.md"
 
-# Month mapping
 MONTH_MAP = {
     "March": "Maerz",
     "October": "Oktober"
 }
 
 def normalize_text(text):
-    """Removes whitespace and converts to lowercase for comparison."""
-    return re.sub(r'\s+', ' ', text).strip().lower()
+    text = text.lower()
+    text = re.sub(r'\s+', ' ', text)
+    return text.strip()
 
-def extract_text_from_pdf(pdf_path):
-    """Extracts text from a PDF file."""
+def normalize_nospace(text):
+    text = text.lower()
+    text = re.sub(r'[^a-z0-9]', '', text)
+    return text
+
+def extract_text(pdf_path):
     try:
         reader = PdfReader(pdf_path)
         text = ""
         for page in reader.pages:
-            extracted = page.extract_text()
-            if extracted:
-                text += extracted + " "
+            text += page.extract_text() + " "
         return text
     except Exception as e:
         return ""
 
-def find_pdf_file(year, month_en):
-    """Finds the PDF file corresponding to the exam year and month."""
-    month_de = MONTH_MAP.get(month_en, month_en)
-
-    # List all files in the directory
-    files = os.listdir(PDF_DIR)
-
-    # Filter files that contain both the year and the German month
+def find_pdf(year, month):
+    month_de = MONTH_MAP.get(month, month)
     candidates = []
+    # List directory and filter
+    try:
+        files = os.listdir(PDF_DIR)
+    except FileNotFoundError:
+        return []
+
     for f in files:
         if str(year) in f and month_de in f and f.lower().endswith(".pdf"):
             candidates.append(os.path.join(PDF_DIR, f))
-
     return candidates
 
-def verify_exam(exam):
-    """Verifies a single exam entry against its PDF."""
-    exam_id = exam.get("id")
-    year = exam.get("year")
-    month = exam.get("month")
-    questions = exam.get("questions", [])
+def check_match(needle, haystack_norm, haystack_nospace):
+    if not needle or not needle.strip():
+        return "Match" # Empty needle matches anything (or ignore)
 
-    print(f"--- Verifying Exam: {year} {month} ({exam_id}) ---")
+    needle_norm = normalize_text(needle)
+    needle_nospace = normalize_nospace(needle)
 
-    if not questions:
-        print(f"WARNING: No questions found in JSON for {exam_id}.")
-        return
+    if len(needle_nospace) < 5:
+        return "Match" # Ignore very short strings
 
-    pdf_files = find_pdf_file(year, month)
+    # 1. Exact Match (Normalized)
+    if needle_norm in haystack_norm:
+        return "Match"
 
-    if not pdf_files:
-        print(f"ERROR: No matching PDF file found in {PDF_DIR} for {month} {year}.")
-        return
+    # 2. No-Space Match (Merged words)
+    if needle_nospace in haystack_nospace:
+        return "Match (No Space)"
 
-    print(f"Found PDF candidate(s): {pdf_files}")
+    # 3. Partial Match (Start + End) - Likely Typo in middle
+    # Only do this if needle is long enough
+    if len(needle_norm) > 40:
+        # Check first 20 chars (normalized)
+        start_chunk = needle_norm[:20]
+        end_chunk = needle_norm[-20:]
 
-    # Try to extract text from the best candidate (or all)
-    pdf_text = ""
-    for pdf_path in pdf_files:
-        text = extract_text_from_pdf(pdf_path)
-        if len(text.strip()) > 100: # Heuristic for readable text
-            pdf_text += text
-            print(f"Successfully extracted text from {pdf_path} ({len(text)} chars).")
-        else:
-            print(f"WARNING: PDF {pdf_path} appears to be an image scan or empty (text length: {len(text)}).")
+        # We need to be careful. 'start_chunk in haystack' is true for common phrases.
+        # But if BOTH start and end are present, it's a good hint.
+        # Ideally we'd check distance between them, but let's keep it simple for now.
+        if start_chunk in haystack_norm and end_chunk in haystack_norm:
+            return "Potential Typo/OCR Error"
 
-    if not pdf_text:
-        print(f"ERROR: Could not extract readable text from any PDF for {month} {year}. Manual verification required.")
-        return
+    return "Mismatch"
 
-    pdf_text_normalized = normalize_text(pdf_text)
-
-    match_count = 0
-    mismatch_count = 0
-
-    for q in questions:
-        q_text = q.get("text", "")
-        q_text_norm = normalize_text(q_text)
-
-        # We search for a significant portion of the question to handle minor OCR errors or formatting
-        # Using a substring check of the first 50 chars might be too strict if there's a typo.
-        # Let's try to find the full normalized string first.
-
-        if q_text_norm in pdf_text_normalized:
-            match_count += 1
-        else:
-            # Fallback: Try searching for a substring (first half)
-            substring_len = len(q_text_norm) // 2
-            if substring_len > 10 and q_text_norm[:substring_len] in pdf_text_normalized:
-                 match_count += 1
-                 # print(f"  Question {q.get('id')}: Partial match found.")
-            else:
-                mismatch_count += 1
-                print(f"  MISMATCH: Question {q.get('id')} text not found in PDF.")
-                print(f"    JSON: {q_text[:100]}...")
-                # Optional: print surrounding text in PDF to see if it's there but garbled? No, too verbose.
-
-    print(f"Result: {match_count} questions matched, {mismatch_count} potential mismatches out of {len(questions)} questions.")
-
-def main():
+def generate_report():
     if not os.path.exists(JSON_PATH):
-        print(f"Error: JSON file not found at {JSON_PATH}")
+        print("JSON file not found.")
         return
 
-    try:
-        with open(JSON_PATH, 'r', encoding='utf-8') as f:
-            exams = json.load(f)
-    except json.JSONDecodeError as e:
-        print(f"Error decoding JSON: {e}")
-        return
+    with open(JSON_PATH, 'r', encoding='utf-8') as f:
+        exams = json.load(f)
 
-    for exam in exams:
-        verify_exam(exam)
-        print("\n")
+    with open(REPORT_PATH, 'w', encoding='utf-8') as report:
+        report.write("# Verification Report for HPP Exams\n\n")
+        report.write("Generated by automated script comparing `exams.json` against `/fragen/*.pdf`.\n\n")
+
+        issues_count = 0
+        total_exams = 0
+
+        for exam in exams:
+            total_exams += 1
+            exam_id = exam.get("id")
+            year = exam.get("year")
+            month = exam.get("month")
+            questions = exam.get("questions", [])
+
+            report.write(f"## Exam: {month} {year} ({exam_id})\n")
+
+            if not questions:
+                report.write("**Status: MISSING QUESTIONS in JSON.**\n\n")
+                issues_count += 1
+                continue
+
+            pdf_files = find_pdf(year, month)
+            if not pdf_files:
+                report.write("**Status: PDF NOT FOUND.**\n\n")
+                issues_count += 1
+                continue
+
+            pdf_path = pdf_files[0]
+            report.write(f"Source PDF: `{pdf_path}`\n\n")
+
+            raw_text = extract_text(pdf_path)
+
+            # Check for empty/unreadable
+            if len(raw_text) < 100:
+                report.write("**Status: PDF UNREADABLE / SCANNED (Image-based). Cannot verify content.**\n\n")
+                issues_count += 1
+                continue
+
+            # Check for solution-only PDFs
+            # Heuristic: Short text and contains "Lösungen"
+            if "Lösungen" in raw_text and len(raw_text) < 1000:
+                 report.write("**Status: PDF contains only solutions (or extraction failed). Cannot verify content.**\n\n")
+                 issues_count += 1
+                 continue
+
+            pdf_norm = normalize_text(raw_text)
+            pdf_nospace = normalize_nospace(raw_text)
+
+            exam_issues = []
+
+            for q in questions:
+                qid = q.get("id")
+                q_text = q.get("text", "")
+
+                # Check Question Text
+                res = check_match(q_text, pdf_norm, pdf_nospace)
+                if res != "Match" and res != "Match (No Space)":
+                    exam_issues.append(f"- **Q{qid} Text**: {res} - '{q_text[:60]}...'")
+
+                # Check Options
+                for idx, opt in enumerate(q.get("options", [])):
+                    res_opt = check_match(opt, pdf_norm, pdf_nospace)
+                    if res_opt != "Match" and res_opt != "Match (No Space)":
+                         exam_issues.append(f"- **Q{qid} Option {idx+1}**: {res_opt} - '{opt[:60]}...'")
+
+                # Check Statements
+                for idx, stmt in enumerate(q.get("statements", [])):
+                    res_stmt = check_match(stmt, pdf_norm, pdf_nospace)
+                    if res_stmt != "Match" and res_stmt != "Match (No Space)":
+                         exam_issues.append(f"- **Q{qid} Statement {idx+1}**: {res_stmt} - '{stmt[:60]}...'")
+
+            if exam_issues:
+                report.write("**Issues Found:**\n")
+                for issue in exam_issues:
+                    report.write(issue + "\n")
+                report.write("\n")
+                issues_count += 1
+            else:
+                report.write("**Status: VERIFIED (All content matched).**\n\n")
+
+        report.write(f"---\n**Summary**: {issues_count} exams with issues out of {total_exams} checked.\n")
+    print(f"Report written to {REPORT_PATH}")
 
 if __name__ == "__main__":
-    main()
+    generate_report()

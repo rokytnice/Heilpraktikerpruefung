@@ -8,9 +8,8 @@ VERIFICATION REPORT
 
 --- Exam: 2022 March (2022-march) ---
   Source PDF: fragen/HPP_Pruefung_Maerz_2022_mit_Loesungen_.pdf
-  [Q14] Option 3 Mismatch:
-    JSON: 'Gefordert wird, sich stärker mit seinem Gefühl zu identifizi...'
-  Stats: Questions 28/28, Answers 139/140
+  All questions and answers verified.
+  Stats: Questions 28/28, Answers 140/140
 
 --- Exam: 2023 March (2023-march) ---
   Source PDF: fragen/HPP_Pruefung_Maerz_2023_mit_Loesungen_.pdf
@@ -29,17 +28,8 @@ VERIFICATION REPORT
 
 --- Exam: 2020 October (2020-october) ---
   Source PDF: fragen/HPP_Pruefung_Oktober_2020_mit_Loesungen.pdf
-  [Q18] Option 1 Mismatch:
-    JSON: 'Geschlechtsinkongruenz...'
-  [Q18] Option 2 Mismatch:
-    JSON: 'Fetischismus...'
-  [Q18] Option 3 Mismatch:
-    JSON: 'Sadismus...'
-  [Q18] Option 4 Mismatch:
-    JSON: 'Pädophilie...'
-  [Q18] Option 5 Mismatch:
-    JSON: 'Anorgasmie...'
-  Stats: Questions 28/28, Answers 135/140
+  All questions and answers verified.
+  Stats: Questions 28/28, Answers 140/140
 
 --- Exam: 2022 October (2022-october) ---
   Source PDF: fragen/HPP_Pruefung_Oktober_2022_mit_Loesungen_.pdf
@@ -58,9 +48,8 @@ VERIFICATION REPORT
 
 --- Exam: 2025 October (2025-october) ---
   Source PDF: fragen/HPP_Pruefung_Oktober_2025_mit_Loesungen_Gruppe_A.pdf
-  [Q16] Question Text Mismatch:
-    JSON: 'Sie möchten eine Raucherentwöhnung als , anbieten. Welche/s ...'
-  Stats: Questions 27/28, Answers 140/140
+  All questions and answers verified.
+  Stats: Questions 28/28, Answers 140/140
 
 --- Exam: 2003 March (2003-march) ---
   Source PDF: fragen/Maerz-2003.pdf
@@ -75,17 +64,12 @@ VERIFICATION REPORT
 --- Exam: 2005 March (2005-march) ---
   Source PDF: fragen/Maerz-2005.pdf
   [Q5] Question Text Mismatch:
-    JSON: 'Welche der folgenden Aussagen trifft (treffen) zu?
-Für eine ...'
+    JSON: 'Welche der folgenden Aussagen trifft (treffen) zu? Für eine ...'
   [Q8] Question Text Mismatch:
     JSON: 'Verhaltenstherapeutische Methoden und Techniken sind: Wählen...'
-  [Q17] Option 1 Mismatch:
-    JSON: 'Projektion Konversion Regression Narzissmus Psychosoziale Ab...'
-  [Q25] Option 2 Mismatch:
-    JSON: 'Nur die Aussagen 1, 3 und 5 sind richtig c) Nur dieAussagen ...'
-  [Q27] Question Text Mismatch:
-    JSON: 'Welche der folgenden Aussagen treffen zu? Merkmale der sog ....'
-  Stats: Questions 25/28, Answers 138/140
+  [Q17] Question Text Mismatch:
+    JSON: 'Ein seelischer (für diesen Menschen unerträglicher) Konflikt...'
+  Stats: Questions 25/28, Answers 140/140
 
 --- Exam: 2006 March (2006-march) ---
   Source PDF: fragen/Maerz-2006.pdf
@@ -374,7 +358,7 @@ Für eine ...'
   [Q23] Option 4 Mismatch:
     JSON: 'Den Vorgang des Übergehens depressiver Erlebnisweisen in man...'
   [Q23] Option 5 Mismatch:
-    JSON: 'Frühere Beziehungs- und Interaktionsmuster werden auf die th...'
+    JSON: 'Frühere Beziehungsund Interaktionsmuster werden auf die ther...'
   [Q24] Question Text Mismatch:
     JSON: 'Welche der folgenden Aussagen zur Demenz treffen zu? Wählen ...'
   [Q24] Option 1 Mismatch:
@@ -476,7 +460,7 @@ Für eine ...'
   [Q3] Option 5 Mismatch:
     JSON: 'Die Demenz bei Creutzfeldt-Jakob-Krankheit ist durch einen b...'
   [Q4] Question Text Mismatch:
-    JSON: 'Welche der folgenden Aussagen zu Drogen- und Alkoholmissbrau...'
+    JSON: 'Welche der folgenden Aussagen zu Drogenund Alkoholmissbrauch...'
   [Q4] Option 1 Mismatch:
     JSON: 'Regelmäßiger Amphetamin-Konsum führt primär zu körperlicher ...'
   [Q4] Option 2 Mismatch:
@@ -828,11 +812,9 @@ Für eine ...'
 
 --- Exam: 2004 October (2004-october) ---
   Source PDF: fragen/Oktober-2004.pdf
-  [Q7] Question Text Mismatch:
-    JSON: 'Zu den Methoden/Techniken üblicherweise: der Verhaltensthera...'
   [Q9] Question Text Mismatch:
-    JSON: 'In der psychoanalytischen Abwehrmechanismen postuliert. Theo...'
-  Stats: Questions 26/28, Answers 140/140
+    JSON: 'In der psychoanalytischen Theorie werden verschiedene Abwehr...'
+  Stats: Questions 27/28, Answers 140/140
 
 --- Exam: 2005 October (2005-october) ---
   Source PDF: fragen/Oktober-2005.pdf
@@ -868,9 +850,8 @@ Für eine ...'
 
 --- Exam: 2012 October (2012-october) ---
   Source PDF: fragen/Oktober-2012.pdf
-  [Q2] Option 4 Mismatch:
-    JSON: 'Vorhandensein von zwei oder mehr Persönlichkeiten in einem I...'
-  Stats: Questions 28/28, Answers 139/140
+  All questions and answers verified.
+  Stats: Questions 28/28, Answers 140/140
 
 --- Exam: 2013 October (2013-october) ---
   Source PDF: fragen/Oktober-2013.pdf
@@ -890,4 +871,4 @@ Für eine ...'
   All questions and answers verified.
   Stats: Questions 28/28, Answers 140/140
 
-summary: 13 exams with issues out of 40 exams checked.
+summary: 9 exams with issues out of 40 exams checked.

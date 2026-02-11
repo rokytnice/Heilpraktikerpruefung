@@ -212,8 +212,13 @@ fun ExamItem(exam: Exam, result: ExamResultEntity?, questionStats: Pair<Int, Int
                     // Status badge - only show if exam has progress
                     if (hasProgress) {
                         Spacer(modifier = Modifier.width(8.dp))
-                        val percentage = if (totalQuestions > 0) (correctAnswers * 100) / totalQuestions else 0
                         val isComplete = totalAnswered >= totalQuestions
+                        // Partial: show accuracy (correct/answered), Complete: show score (correct/total)
+                        val percentage = if (isComplete) {
+                            if (totalQuestions > 0) (correctAnswers * 100) / totalQuestions else 0
+                        } else {
+                            if (totalAnswered > 0) (correctAnswers * 100) / totalAnswered else 0
+                        }
 
                         val (badgeText, badgeColor) = when {
                             !isComplete -> "In Bearbeitung" to MaterialTheme.colorScheme.tertiary
@@ -254,7 +259,12 @@ fun ExamItem(exam: Exam, result: ExamResultEntity?, questionStats: Pair<Int, Int
             }
             
             if (hasProgress) {
-                val percentage = if (totalQuestions > 0) (correctAnswers * 100) / totalQuestions else 0
+                val isCompleteForCircle = totalAnswered >= totalQuestions
+                val percentage = if (isCompleteForCircle) {
+                    if (totalQuestions > 0) (correctAnswers * 100) / totalQuestions else 0
+                } else {
+                    if (totalAnswered > 0) (correctAnswers * 100) / totalAnswered else 0
+                }
                 val color = when {
                     percentage >= 75 -> MaterialTheme.colorScheme.primary
                     percentage >= 60 -> MaterialTheme.colorScheme.tertiary

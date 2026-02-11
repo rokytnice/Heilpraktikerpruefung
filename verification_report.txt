@@ -1,0 +1,665 @@
+--- Verifying Exam: 2019 March (2019-march) ---
+Found PDF candidate(s): ['fragen/HPP_Pruefung_Maerz_2019_.pdf']
+Successfully extracted text from fragen/HPP_Pruefung_Maerz_2019_.pdf (18536 chars).
+  MISMATCH: Question 12 text not found in PDF.
+    JSON: Welche der folgenden Aussagen zur psychiatrisch-psychotherapeutischen Diagnostik treffen zu? gefragt...
+  MISMATCH: Question 16 text not found in PDF.
+    JSON: Welche der folgenden Aussagen zur Benzodiazepinabhängigkeit trifft (treffen) zu? Regel erst nach 6 M...
+  MISMATCH: Question 23 text not found in PDF.
+    JSON: Welche der folgenden Aussagen zur freiheitsentziehenden Unterbringung eines Betreuten (nach Bürgerli...
+  MISMATCH: Question 28 text not found in PDF.
+    JSON: Welche der folgenden Aussagen zu somatoformen Störungen (nach ICD-10) treffen zu? nachweisbare organ...
+Result: 24 questions matched, 4 potential mismatches out of 28 questions.
+
+
+--- Verifying Exam: 2022 March (2022-march) ---
+Found PDF candidate(s): ['fragen/HPP_Pruefung_Maerz_2022_mit_Loesungen_.pdf']
+Successfully extracted text from fragen/HPP_Pruefung_Maerz_2022_mit_Loesungen_.pdf (18900 chars).
+Result: 28 questions matched, 0 potential mismatches out of 28 questions.
+
+
+--- Verifying Exam: 2023 March (2023-march) ---
+Found PDF candidate(s): ['fragen/HPP_Pruefung_Maerz_2023_mit_Loesungen_.pdf']
+Successfully extracted text from fragen/HPP_Pruefung_Maerz_2023_mit_Loesungen_.pdf (16527 chars).
+  MISMATCH: Question 2 text not found in PDF.
+    JSON: Welcher der folgenden Aussagen zu psychischen Störungen im Wochenbett treffen zu? einem Antidepressi...
+  MISMATCH: Question 3 text not found in PDF.
+    JSON: Welcher der folgenden Aussagen zu somatoformen Störungen (nach ICD-10) sind richtig? Ursache zugrund...
+  MISMATCH: Question 6 text not found in PDF.
+    JSON: Welche der folgenden Aussagen zur rechtlichen Betreuung treffen zu? beschränken. evidenzbasierten Me...
+  MISMATCH: Question 7 text not found in PDF.
+    JSON: Welcher der folgenden Aussagen zur Psychotherapie treffen zu? 1. „Erlernte Hilflosigkeit“ ist ein in...
+  MISMATCH: Question 11 text not found in PDF.
+    JSON: Welcher der folgenden Aussagen trifft (treffen) zu? Für Zwangsstörungen gilt typischerweise: der Rea...
+  MISMATCH: Question 27 text not found in PDF.
+    JSON: Welcher der folgenden Aussagen zu Psychotherapieverfahren treffen zu? Störungen sich bei der general...
+Result: 22 questions matched, 6 potential mismatches out of 28 questions.
+
+
+--- Verifying Exam: 2024 March (2024-march) ---
+Found PDF candidate(s): ['fragen/HPP_Pruefung_Maerz_2024_mit_Loesungen_A_B.pdf']
+Successfully extracted text from fragen/HPP_Pruefung_Maerz_2024_mit_Loesungen_A_B.pdf (20374 chars).
+  MISMATCH: Question 2 text not found in PDF.
+    JSON: Welche Aussagen zur Aufmerksamkeitsdefizit-Hyperaktivitätsstörung (ADHS) sind richtig? gesteigerten ...
+  MISMATCH: Question 9 text not found in PDF.
+    JSON: Welche der nachgenannten Aussagen sind richtig? erworben werden Sozialverhalten auf ADS oder ADHS ei...
+  MISMATCH: Question 14 text not found in PDF.
+    JSON: Welche der nachfolgenden Aussagen sind richtig? elektronischer Form durchführen. aufnehmen. für 10 J...
+  MISMATCH: Question 16 text not found in PDF.
+    JSON: Welche Aussagen sind richtig? Handlungszwang zur Abwendung von Lebensgefahr oder von anderen schwerw...
+  MISMATCH: Question 17 text not found in PDF.
+    JSON: Welche der nachgenannten Aussagen über Inhalte des psychopathologischen Befundes sind richtig? Sprün...
+  MISMATCH: Question 18 text not found in PDF.
+    JSON: Welche der nachgenannten Aussagen sind richtig? Bewusstseinstrübung, die Bewusstseinseinengung und d...
+  MISMATCH: Question 20 text not found in PDF.
+    JSON: Welche der nachgenannten Aussagen sind richtig? abwechseln akustischen, die optischen und die körper...
+  MISMATCH: Question 25 text not found in PDF.
+    JSON: Welche Aussagen zur Vergütung sind richtig? dem Gebiet der Psychotherapie. festlegen. der Kassenärzt...
+  MISMATCH: Question 27 text not found in PDF.
+    JSON: Was trifft auf den Begriff „Wahn“ zu? Wählen Sie eine richtige Aussagenkombination! ...
+  MISMATCH: Question 28 text not found in PDF.
+    JSON: Welche Aussagen zu Zwangserkrankungen sind richtig? berichtet. Bewusstseinsstörung. nicht und können...
+Result: 18 questions matched, 10 potential mismatches out of 28 questions.
+
+
+--- Verifying Exam: 2025 March (2025-march) ---
+Found PDF candidate(s): ['fragen/HPP_Pruefung_Maerz_2025_Gruppe_A_mit_Loesungen.pdf']
+Successfully extracted text from fragen/HPP_Pruefung_Maerz_2025_Gruppe_A_mit_Loesungen.pdf (21110 chars).
+  MISMATCH: Question 6 text not found in PDF.
+    JSON: Welche der folgenden Aussagen treffen zu?   In der Verhaltenstherapie … eine wichtige Grundlage von ...
+  MISMATCH: Question 8 text not found in PDF.
+    JSON: Welche Aussagen sind richtig? Autoimmunerkrankung des ZNS. Begleitsymptomen wie Angst, Depression un...
+  MISMATCH: Question 12 text not found in PDF.
+    JSON: Welche Aussagen treffen in Bezug auf die Aufmerksamkeitsdefizit-Hyperaktivitätsstörung (ADHS) nicht ...
+  MISMATCH: Question 22 text not found in PDF.
+    JSON: Welche der Aussagen zu familientherapeutischen Maßnahmen ist richtig? Familienmitglieds eine Besseru...
+  MISMATCH: Question 26 text not found in PDF.
+    JSON: W elche Aussagen zur Behandlungsmethode „Eye Movement Desensitization and Reprocessing“ treffen zu? ...
+Result: 23 questions matched, 5 potential mismatches out of 28 questions.
+
+
+--- Verifying Exam: 2020 October (2020-october) ---
+Found PDF candidate(s): ['fragen/HPP_Pruefung_Oktober_2020_mit_Loesungen.pdf']
+Successfully extracted text from fragen/HPP_Pruefung_Oktober_2020_mit_Loesungen.pdf (17998 chars).
+  MISMATCH: Question 1 text not found in PDF.
+    JSON: Welche Aussagen zu Bindungsstörungen (nach ICD-10) treffen zu? kognitiven Defiziten, die denen des A...
+  MISMATCH: Question 7 text not found in PDF.
+    JSON: Welche der folgenden Aussagen zu Essstörungen treffen zu? körperliche Erschöpfung spricht man von Un...
+  MISMATCH: Question 15 text not found in PDF.
+    JSON: Eine Patientin mit einer emotional-instabilen Persönlichkeitsstörung vom Borderline-Typ (BPS) stellt...
+Result: 25 questions matched, 3 potential mismatches out of 28 questions.
+
+
+--- Verifying Exam: 2022 October (2022-october) ---
+Found PDF candidate(s): ['fragen/HPP_Pruefung_Oktober_2022_mit_Loesungen_.pdf']
+Successfully extracted text from fragen/HPP_Pruefung_Oktober_2022_mit_Loesungen_.pdf (17669 chars).
+Result: 28 questions matched, 0 potential mismatches out of 28 questions.
+
+
+--- Verifying Exam: 2023 October (2023-october) ---
+Found PDF candidate(s): ['fragen/HPP_Pruefung_Oktober_2023_mit_Loesungen_.pdf']
+Successfully extracted text from fragen/HPP_Pruefung_Oktober_2023_mit_Loesungen_.pdf (19478 chars).
+  MISMATCH: Question 7 text not found in PDF.
+    JSON: Eine Patientin mit einer emotional-instabilen Persönlichkeitsstörung vom Borderline-Typ stellt sich ...
+  MISMATCH: Question 11 text not found in PDF.
+    JSON: Welche der folgenden Aussagen zur psychiatrisch-psychotherapeutischen Diagnostik treffen zu? werden ...
+  MISMATCH: Question 13 text not found in PDF.
+    JSON: Eine Patientin mit einer Suchterkrankung stellt sich nach einem stationären Klinikaufenthalt in ihre...
+  MISMATCH: Question 21 text not found in PDF.
+    JSON: Welche der folgenden Aussagen zu Bindungsstörungen nach ICD-10 treffen zu? Defiziten, die denen des ...
+Result: 24 questions matched, 4 potential mismatches out of 28 questions.
+
+
+--- Verifying Exam: 2024 October (2024-october) ---
+Found PDF candidate(s): ['fragen/HPP_Pruefung_Oktober_2024_mit_Loesungen_A_B.pdf']
+Successfully extracted text from fragen/HPP_Pruefung_Oktober_2024_mit_Loesungen_A_B.pdf (21457 chars).
+  MISMATCH: Question 1 text not found in PDF.
+    JSON: Was sind die Hauptmerkmale einer Agoraphobie? Vergangenheit Wählen Sie eine richtige Aussagenkombina...
+  MISMATCH: Question 2 text not found in PDF.
+    JSON: Welche der folgenden Aussagen über „Neue psychoaktive Stoffe“ (NPS) treffen zu? NPS werden häufiger ...
+  MISMATCH: Question 6 text not found in PDF.
+    JSON: Welche der folgenden Aussagen zu § 1831 BGB (freiheitsentziehende Unterbringung nach BGB) treffen zu...
+  MISMATCH: Question 9 text not found in PDF.
+    JSON: Welche Aussagen zu Psychopharmaka treffen zu? dämpfend. Schwindel, Mundtrockenheit und Gewichtszunah...
+  MISMATCH: Question 15 text not found in PDF.
+    JSON: Welche Aussagen im Umgang mit suizidalen Patientinnen / Patienten sind richtig? Vorgehen. Suizidvers...
+  MISMATCH: Question 16 text not found in PDF.
+    JSON: Welche Aussagen zur Gesprächsführung mit Patientinnen / Patienten treffen zu? werden, um rasch zu er...
+  MISMATCH: Question 21 text not found in PDF.
+    JSON: Welche der folgenden Aussagen zu Zwangshandlungen sind richtig? und Zählzwänge. aktuellen Symptomen ...
+  MISMATCH: Question 24 text not found in PDF.
+    JSON: Im Heilpraktikergesetz ist geregelt: – außer im Notfall – zu leisten Kiefererkrankungen Wählen Sie e...
+  MISMATCH: Question 27 text not found in PDF.
+    JSON: Welche Aussagen zur Praxisgründung sind richtig? Gesundheitsbehörde (Gesundheitsamt) anmelden. erfor...
+Result: 19 questions matched, 9 potential mismatches out of 28 questions.
+
+
+--- Verifying Exam: 2025 October (2025-october) ---
+Found PDF candidate(s): ['fragen/HPP_Pruefung_Oktober_2025_mit_Loesungen_Gruppe_A.pdf']
+Successfully extracted text from fragen/HPP_Pruefung_Oktober_2025_mit_Loesungen_Gruppe_A.pdf (22090 chars).
+  MISMATCH: Question 1 text not found in PDF.
+    JSON: Eine Ihnen bekannte Patientin mit rezidivierenden depressiven Episoden stellt sich mit folgenden Bes...
+  MISMATCH: Question 11 text not found in PDF.
+    JSON: Welche der folgenden Aussagen in Bezug auf das Nervensystem sind richtig? getrennte Systeme. des veg...
+  MISMATCH: Question 15 text not found in PDF.
+    JSON: Welche der folgenden Aussagen zu Psychotherapieverfahren treffen zu? (CBASP) wird die positive Verst...
+  MISMATCH: Question 27 text not found in PDF.
+    JSON: Welche Antworten zur posttraumatischen Belastungsstörung (PTBS) sind richtig? Ereignis erinnern. kom...
+Result: 24 questions matched, 4 potential mismatches out of 28 questions.
+
+
+--- Verifying Exam: 2003 March (2003-march) ---
+Found PDF candidate(s): ['fragen/Maerz-2003.pdf']
+Successfully extracted text from fragen/Maerz-2003.pdf (16990 chars).
+Result: 28 questions matched, 0 potential mismatches out of 28 questions.
+
+
+--- Verifying Exam: 2004 March (2004-march) ---
+Found PDF candidate(s): ['fragen/Maerz-2004.pdf']
+Successfully extracted text from fragen/Maerz-2004.pdf (16584 chars).
+  MISMATCH: Question 17 text not found in PDF.
+    JSON: Ein an Schizophrenie erkrankter Patient berichtet (nachdem der nachts durch das
+Gebell eines Hundes ...
+  MISMATCH: Question 18 text not found in PDF.
+    JSON: Ein zuvor gesunder 56-jähriger Landwirt klagt seit ca. 3 Jahren über zunehmend
+quälende, krabbelnde ...
+  MISMATCH: Question 26 text not found in PDF.
+    JSON: Welche der folgenden Aussagen hinsichtlich der nicht organischen Enkopresis
+(Einkoten) bei geistig n...
+  MISMATCH: Question 27 text not found in PDF.
+    JSON: Welche der folgenden Maßnahmen sind typischerweise Bestandteil der operanten
+Therapie chronischer Sc...
+Result: 24 questions matched, 4 potential mismatches out of 28 questions.
+
+
+--- Verifying Exam: 2005 March (2005-march) ---
+Found PDF candidate(s): ['fragen/Maerz-2005.pdf']
+Successfully extracted text from fragen/Maerz-2005.pdf (19257 chars).
+  MISMATCH: Question 1 text not found in PDF.
+    JSON: Welche der folgenden Veränderungen kann (können) auch durch eine Alkoholkrankheit bedingt sein?...
+  MISMATCH: Question 2 text not found in PDF.
+    JSON: In der Psychoanalyse ist die Abstinenzregel einer der Kernpunkte der
+Behandlung .
+Welche der folgend...
+  MISMATCH: Question 3 text not found in PDF.
+    JSON: Typische(s) Merkmal(e) des somatischen Syndroms bei einer depressiven
+Episode (nach ICD-10) ist (sin...
+  MISMATCH: Question 4 text not found in PDF.
+    JSON: Welche der folgenden Aussagen trifft (treffen) zu?
+Was kommt nach ICD-10 als Form (Formen) einer dis...
+  MISMATCH: Question 5 text not found in PDF.
+    JSON: Weiche
+
+Für                                                                                      :...
+  MISMATCH: Question 6 text not found in PDF.
+    JSON: Leitsymptom
+/Hyperaktivitätsstörung,                     :
+
+0...
+  MISMATCH: Question 8 text not found in PDF.
+    JSON: Verhaltenstherapeutische Methoden und Techniken sind: Wählen Sie zwei Antworten!...
+  MISMATCH: Question 9 text not found in PDF.
+    JSON: aufgabe
+Welche der folgenden Aussagen zur Psychotherapie treffen zu?
+Wählen Sie zwei Antworten!...
+  MISMATCH: Question 10 text not found in PDF.
+    JSON: aufgabe
+Welche der folgenden Aussagen zu Persönlichkeitsstörungen sind richtig?
+Wählen Sie zwei Antw...
+  MISMATCH: Question 11 text not found in PDF.
+    JSON: Welche Aussage trifft zu? Ein Patient gibt an, dass seine eigenen Gedanken laut würden. Die Angabe s...
+  MISMATCH: Question 12 text not found in PDF.
+    JSON: Welche der folgenden Aussagen zur Suchterkrankung treffen zu?...
+  MISMATCH: Question 13 text not found in PDF.
+    JSON: Welche der folgenden Aussagen zum Alkoholdelir trifft (treffen) zu?...
+  MISMATCH: Question 14 text not found in PDF.
+    JSON: Welche der folgenden Aussagen zur larvierten Depression trifft (treffen) zu?...
+  MISMATCH: Question 15 text not found in PDF.
+    JSON: Welche der folgenden Aussagen zum Betreuungsgesetz (BtG) trifft (treffen) zu?...
+  MISMATCH: Question 16 text not found in PDF.
+    JSON: Eine 30-jährige Verkäuferin, die vor einem Monat ihre Arbeitsstelle verloren hat,
+berichtet Ihnen, d...
+  MISMATCH: Question 17 text not found in PDF.
+    JSON: Ein seelischer (für diesen Menschen unerträglicher) Konflikt wird von einem
+Menschen unbewusst so in...
+  MISMATCH: Question 18 text not found in PDF.
+    JSON: Welche der folgenden Aussagen zur anankastischen Persönlichkeitsstörung
+(nach ICD-10) trifft (treffe...
+  MISMATCH: Question 19 text not found in PDF.
+    JSON: aufgabe
+Welche der folgenden Aussagen zur histrionischen Persönlichkeitsstörung
+(nach ICD-10) treffe...
+  MISMATCH: Question 20 text not found in PDF.
+    JSON: Welche der folgenden Aussagen zur organischen Persönlichkeitsstörung
+(nach ICD-10) trifft (treffen) ...
+  MISMATCH: Question 21 text not found in PDF.
+    JSON: Welche der folgenden Aussagen zur klassischen Psychoanalyse treffen zu?...
+  MISMATCH: Question 22 text not found in PDF.
+    JSON: Welche der folgenden Aussagen zur klassischen Psychoanalyse trifft (treffen)
+zu?...
+  MISMATCH: Question 23 text not found in PDF.
+    JSON: Bei welchen der folgenden Aussagen handelt es sich um einen
+Abwehrmechanismus in der Psychoanalyse?...
+  MISMATCH: Question 24 text not found in PDF.
+    JSON: Welche der folgenden Aussagen zur systematischen Desensibilisierung treffen
+zu?...
+  MISMATCH: Question 25 text not found in PDF.
+    JSON: Welche Behandlungselemente setzt man- in der Therapie der Anorexia nervosa
+ein?...
+  MISMATCH: Question 26 text not found in PDF.
+    JSON: Weiche der folgenden Aussagen zur Gesprächstherapie nach Rogers trifft
+(treffen) zu?...
+  MISMATCH: Question 27 text not found in PDF.
+    JSON: Welche der folgenden Aussagen treffen zu? Merkmale der sog. voll funktionsfähigen Person (fully func...
+  MISMATCH: Question 28 text not found in PDF.
+    JSON: Welche Aussage trifft für eine Hebephrenie (hebephrene Schizophrenie) zu?...
+Result: 1 questions matched, 27 potential mismatches out of 28 questions.
+
+
+--- Verifying Exam: 2006 March (2006-march) ---
+Found PDF candidate(s): ['fragen/Maerz-2006.pdf']
+Successfully extracted text from fragen/Maerz-2006.pdf (16263 chars).
+Result: 28 questions matched, 0 potential mismatches out of 28 questions.
+
+
+--- Verifying Exam: 2007 March (2007-march) ---
+Found PDF candidate(s): ['fragen/Maerz-2007.pdf']
+Successfully extracted text from fragen/Maerz-2007.pdf (19461 chars).
+Result: 28 questions matched, 0 potential mismatches out of 28 questions.
+
+
+--- Verifying Exam: 2008 March (2008-march) ---
+Found PDF candidate(s): ['fragen/Maerz-2008.pdf']
+Successfully extracted text from fragen/Maerz-2008.pdf (401 chars).
+  MISMATCH: Question 1 text not found in PDF.
+    JSON: Welche der im Folgenden genannten Begriffe kommen als Differentialdiagnose zu Tic-Störungen in Frage...
+  MISMATCH: Question 2 text not found in PDF.
+    JSON: Welche der folgenden Aussagen treffen zu? Ursachen für eine Demenz können sein:...
+  MISMATCH: Question 3 text not found in PDF.
+    JSON: Welche der folgenden Aussagen passen zur Manie?...
+  MISMATCH: Question 4 text not found in PDF.
+    JSON: Eine „anankastische (zwanghafte) Persönlichkeit“ (nach ICD-10) ist unter anderem durch folgende Begr...
+  MISMATCH: Question 5 text not found in PDF.
+    JSON: Unter einer Verhaltenstherapie versteht man...
+  MISMATCH: Question 6 text not found in PDF.
+    JSON: Welche der folgenden Aussagen treffen zu? Wählen Sie zwei Antworten! An chronischen Opiatkonsum (Dro...
+  MISMATCH: Question 7 text not found in PDF.
+    JSON: Welche der folgenden Aussagen treffen zu? Wählen Sie zwei Antworten! In der klientenzentrierten Psyc...
+  MISMATCH: Question 8 text not found in PDF.
+    JSON: Bei welchen der folgenden Medikamentengruppen ist bei regelmäßiger Einnahme mit einer Abhängigkeitse...
+  MISMATCH: Question 9 text not found in PDF.
+    JSON: Welche Aussage trifft zu? Typisch für die hebephrene Schizophrenie ist:...
+  MISMATCH: Question 10 text not found in PDF.
+    JSON: Welche Komplikationen bzw. Symptome können bei einer Anorexia nervosa auftreten?...
+  MISMATCH: Question 11 text not found in PDF.
+    JSON: Welche der folgenden Störungen des Denkens gelten als Ich-Störungen? Wählen Sie zwei Antworten!...
+  MISMATCH: Question 12 text not found in PDF.
+    JSON: Welche der folgenden Aussagen zur Depression treffen zu?...
+  MISMATCH: Question 13 text not found in PDF.
+    JSON: Welche Aussage trifft zu? Die Panikstörung, auch als „episodisch paroxysmale Angst“ bezeichnet,...
+  MISMATCH: Question 14 text not found in PDF.
+    JSON: Welche der folgenden Aussagen zur geistigen Behinderung treffen zu?...
+  MISMATCH: Question 15 text not found in PDF.
+    JSON: Welche der folgenden Begriffe sind typisch für die Aufmerksamkeitsdefizit-Hyperaktivitätsstörung (AD...
+  MISMATCH: Question 16 text not found in PDF.
+    JSON: Sie machen einen Hausbesuch bei einem Patienten, der ständig nestelnde Bewegungen mit den Händen aus...
+  MISMATCH: Question 17 text not found in PDF.
+    JSON: Welche der folgenden Aussagen zum Suizid trifft (treffen) zu?...
+  MISMATCH: Question 18 text not found in PDF.
+    JSON: Welche der genannten Krankheiten kann Ursache eines endokrinen (hormonell bedingten) Psychosyndroms ...
+  MISMATCH: Question 19 text not found in PDF.
+    JSON: Zu den formalen Denkstörungen gehören:...
+  MISMATCH: Question 20 text not found in PDF.
+    JSON: Welche Aussage trifft zu? Typisch für eine organische Halluzinose ist:...
+  MISMATCH: Question 21 text not found in PDF.
+    JSON: Sie werden zu einem Hausbesuch zu einer Patientin gebeten und erfahren, dass sie an einer Depression...
+  MISMATCH: Question 22 text not found in PDF.
+    JSON: Welche der folgenden Aussagen zum Korsakow-Syndrom treffen zu?...
+  MISMATCH: Question 23 text not found in PDF.
+    JSON: Welche Aussage trifft zu? Als Übertragung (im engeren Sinne) bezeichnet man in der Psychoanalyse:...
+  MISMATCH: Question 24 text not found in PDF.
+    JSON: Welche der folgenden Aussagen zur Demenz treffen zu? Wählen Sie zwei Antworten!...
+  MISMATCH: Question 25 text not found in PDF.
+    JSON: Sie sehen sich einem Patienten gegenüber, der Ihrer Meinung nach ernsthaft ankündigt, sich das Leben...
+  MISMATCH: Question 26 text not found in PDF.
+    JSON: Welche der folgenden Aussagen treffen zu? Zu den diagnostischen Leitlinien der Alkoholabhängigkeit n...
+  MISMATCH: Question 27 text not found in PDF.
+    JSON: Welche der folgenden Aussagen zur primären Enuresis treffen zu? Wählen Sie zwei Antworten!...
+  MISMATCH: Question 28 text not found in PDF.
+    JSON: Welche der folgenden Aussagen trifft (treffen) für die bipolare affektive Störung nach ICD-10 (manis...
+Result: 0 questions matched, 28 potential mismatches out of 28 questions.
+
+
+--- Verifying Exam: 2009 March (2009-march) ---
+Found PDF candidate(s): ['fragen/Maerz-2009.pdf']
+Successfully extracted text from fragen/Maerz-2009.pdf (408 chars).
+  MISMATCH: Question 1 text not found in PDF.
+    JSON: Zu den charakteristischen Symptomen bei der Manie zählen:...
+  MISMATCH: Question 2 text not found in PDF.
+    JSON: Welche der folgenden Aussagen über die Somatisierungsstörung trifft (treffen) zu?...
+  MISMATCH: Question 3 text not found in PDF.
+    JSON: Welche Aussage zur Demenz trifft zu?...
+  MISMATCH: Question 4 text not found in PDF.
+    JSON: Welche der folgenden Aussagen zu Drogen- und Alkoholmissbrauch treffen zu? Wählen Sie zwei Antworten...
+  MISMATCH: Question 5 text not found in PDF.
+    JSON: Welche der folgenden Aussagen trifft (treffen) zu? Zu den phobischen Störungen nach ICD-10 gehört (g...
+  MISMATCH: Question 6 text not found in PDF.
+    JSON: Bei chronischem Alkoholismus kann als Spätfolge das sog. Korsakow-Syndrom auftreten. Leitsymptome si...
+  MISMATCH: Question 7 text not found in PDF.
+    JSON: Die Einschätzung der Introspektionsfähigkeit des Patienten durch den Therapeuten ist für die Beurtei...
+  MISMATCH: Question 8 text not found in PDF.
+    JSON: Welche Aussage zur Schizophrenie trifft zu?...
+  MISMATCH: Question 9 text not found in PDF.
+    JSON: Während einer Psychotherapie übt eine Patientin mit Bulimie alternative Strategien, die sie zur Impu...
+  MISMATCH: Question 10 text not found in PDF.
+    JSON: Was sind diagnostische Kriterien (nach ICD-10) für eine depressive Episode? Wählen Sie zwei Antworte...
+  MISMATCH: Question 11 text not found in PDF.
+    JSON: Welche der folgenden Aussagen zum elektiven Mutismus trifft (treffen) zu?...
+  MISMATCH: Question 12 text not found in PDF.
+    JSON: Welche der folgenden Aussagen zu Zwangsstörungen treffen zu?...
+  MISMATCH: Question 13 text not found in PDF.
+    JSON: Welche der folgenden Aussagen trifft (treffen) zu? Was sind wichtige Elemente bei der kognitiv-verha...
+  MISMATCH: Question 14 text not found in PDF.
+    JSON: Welche der folgenden Aussagen zur Agoraphobie trifft (treffen) zu?...
+  MISMATCH: Question 15 text not found in PDF.
+    JSON: Eine 25-jährige Frau bekommt plötzlich Angstgefühle, „pfötchenartige“ Verkrampfungen der Hände und a...
+  MISMATCH: Question 16 text not found in PDF.
+    JSON: Welche der folgenden Aussagen trifft (treffen) zu? Was ist kennzeichnend für eine körperliche Abhäng...
+  MISMATCH: Question 17 text not found in PDF.
+    JSON: Was sind diagnostische Kriterien (nach ICD-10) für eine Anorexia nervosa? Wählen Sie zwei Antworten!...
+  MISMATCH: Question 18 text not found in PDF.
+    JSON: Welche Aussage trifft zu? Der Gedankenentzug bei schizophrenen Patienten gehört zu welcher Gruppe vo...
+  MISMATCH: Question 19 text not found in PDF.
+    JSON: Welche der folgenden Aussagen treffen zu? Ein Patient klagt über Schlafstörungen. Welche Maßnahmen s...
+  MISMATCH: Question 20 text not found in PDF.
+    JSON: Welche der folgenden Aussagen zu ADHS treffen zu?...
+  MISMATCH: Question 21 text not found in PDF.
+    JSON: Welche Aussage zum Suizid bzw. zur Suizidgefahr bei einem depressiven Patienten trifft am ehesten zu...
+  MISMATCH: Question 22 text not found in PDF.
+    JSON: Welche der folgenden Aussagen treffen zu? Zu den formalen Denkstörungen zählen:...
+  MISMATCH: Question 23 text not found in PDF.
+    JSON: Überprüfen Sie folgende Beschreibungen des Begriffes der Konfabulation. Welche Aussage trifft am bes...
+  MISMATCH: Question 24 text not found in PDF.
+    JSON: Welche der folgenden Aussagen in Bezug auf die medikamentöse Behandlung von Patienten mit Schizophre...
+  MISMATCH: Question 25 text not found in PDF.
+    JSON: Welche der folgenden Aussagen treffen zu? Wählen Sie zwei Antworten! Verhaltenstherapeutische Method...
+  MISMATCH: Question 26 text not found in PDF.
+    JSON: Welche der folgenden Aussagen treffen zu? Typische körperliche Symptome einer depressiven Episode si...
+  MISMATCH: Question 27 text not found in PDF.
+    JSON: Welche der folgenden Aussagen zur zwanghaften (anankastischen) Persönlichkeitsstörung (nach ICD-10) ...
+  MISMATCH: Question 28 text not found in PDF.
+    JSON: Welche Aussage zum Delirium tremens (Alkoholentzugsdelir) trifft zu?...
+Result: 0 questions matched, 28 potential mismatches out of 28 questions.
+
+
+--- Verifying Exam: 2010 March (2010-march) ---
+WARNING: No questions found in JSON for 2010-march.
+
+
+--- Verifying Exam: 2011 March (2011-march) ---
+Found PDF candidate(s): ['fragen/Maerz-2011.pdf']
+Successfully extracted text from fragen/Maerz-2011.pdf (20469 chars).
+Result: 28 questions matched, 0 potential mismatches out of 28 questions.
+
+
+--- Verifying Exam: 2012 March (2012-march) ---
+Found PDF candidate(s): ['fragen/Maerz-2012.pdf']
+Successfully extracted text from fragen/Maerz-2012.pdf (17875 chars).
+  MISMATCH: Question 2 text not found in PDF.
+    JSON: Welche der folgenden Merkmale treffen am ehesten auf eine anankastische
+(zwanghafte) Persönlichkeits...
+  MISMATCH: Question 11 text not found in PDF.
+    JSON: In welche der folgenden Typen teilt man die emotional instabile Persönlichkeits-
+störung entsprechen...
+  MISMATCH: Question 13 text not found in PDF.
+    JSON: Welche der folgenden Untersuchungen sind bei Verdacht auf eine Lese- und
+Rechtschreibstörung primär ...
+  MISMATCH: Question 17 text not found in PDF.
+    JSON: Ein neuer Patient sucht Sie wegen psychischer Probleme auf. Sie erfahren im
+Rahmen der Anamnese, das...
+  MISMATCH: Question 18 text not found in PDF.
+    JSON: Bei welchen der folgenden Erkrankungen werden akustische Halluzinationen
+gehäuft beobachtet?
+Wählen ...
+  MISMATCH: Question 20 text not found in PDF.
+    JSON: Welche der folgenden Aussagen zur verhaltenstherapeutischen Technik der Reizkonfrontation trifft (tr...
+Result: 22 questions matched, 6 potential mismatches out of 28 questions.
+
+
+--- Verifying Exam: 2013 March (2013-march) ---
+Found PDF candidate(s): ['fragen/Maerz-2013.pdf']
+Successfully extracted text from fragen/Maerz-2013.pdf (17490 chars).
+  MISMATCH: Question 1 text not found in PDF.
+    JSON: Welche der folgenden Aussagen zum somatischen Syndrom bei depressiver
+Episode (nach ICD-10) treffen ...
+  MISMATCH: Question 11 text not found in PDF.
+    JSON: Eine Ihrer Patientinnen nimmt wegen einer Depression einen Selektiven Sero-
+toninwiederaufnahme-Hemm...
+  MISMATCH: Question 16 text not found in PDF.
+    JSON: Eine histrionische Persönlichkeitsstörung (nach ICD-10) ist unter anderem
+durch folgende Begriffe de...
+  MISMATCH: Question 17 text not found in PDF.
+    JSON: Eine Patientin von Ihnen klagt über körperliche Symptome, für die keine organi-
+schen Ursachen gefun...
+  MISMATCH: Question 19 text not found in PDF.
+    JSON: Wie lange müssen die spezifischen Symptome bei einer paranoiden Schizo-
+phrenie für die Diagnosestel...
+  MISMATCH: Question 24 text not found in PDF.
+    JSON: An welche(n) Erkrankung/Zustand ist bei einem Alkoholkranken in erster Linie
+zu denken, der optische...
+  MISMATCH: Question 28 text not found in PDF.
+    JSON: Eine 38-jährige Büroangestellte berichtet Ihnen, seit etwa 5 Jahren sehr häufig
+unter einer trüben u...
+Result: 21 questions matched, 7 potential mismatches out of 28 questions.
+
+
+--- Verifying Exam: 2014 March (2014-march) ---
+Found PDF candidate(s): ['fragen/Maerz-2014.pdf']
+Successfully extracted text from fragen/Maerz-2014.pdf (17772 chars).
+Result: 28 questions matched, 0 potential mismatches out of 28 questions.
+
+
+--- Verifying Exam: 2015 March (2015-march) ---
+Found PDF candidate(s): ['fragen/Maerz-2015.pdf']
+Successfully extracted text from fragen/Maerz-2015.pdf (16013 chars).
+Result: 28 questions matched, 0 potential mismatches out of 28 questions.
+
+
+--- Verifying Exam: 2016 March (2016-march) ---
+Found PDF candidate(s): ['fragen/Maerz-2016.pdf']
+Successfully extracted text from fragen/Maerz-2016.pdf (15523 chars).
+Result: 28 questions matched, 0 potential mismatches out of 28 questions.
+
+
+--- Verifying Exam: 2017 March (2017-march) ---
+Found PDF candidate(s): ['fragen/Maerz-2017.pdf']
+Successfully extracted text from fragen/Maerz-2017.pdf (15663 chars).
+Result: 27 questions matched, 0 potential mismatches out of 27 questions.
+
+
+--- Verifying Exam: 2002 October (2002-october) ---
+Found PDF candidate(s): ['fragen/Oktober-2002.pdf']
+Successfully extracted text from fragen/Oktober-2002.pdf (16848 chars).
+Result: 28 questions matched, 0 potential mismatches out of 28 questions.
+
+
+--- Verifying Exam: 2003 October (2003-october) ---
+Found PDF candidate(s): ['fragen/Oktober-2003.pdf']
+Successfully extracted text from fragen/Oktober-2003.pdf (16092 chars).
+  MISMATCH: Question 4 text not found in PDF.
+    JSON: Welche der folgenden Au ssagen zur verhaltenstherapeutischen Behandlung von
+Phobien treffen zu?...
+  MISMATCH: Question 13 text not found in PDF.
+    JSON: Ein 5-jähriger Junge befand sich zwei Monate in der Kinderklinik wegen einer
+komplizierten Untersche...
+  MISMATCH: Question 16 text not found in PDF.
+    JSON: aufgabe
+Ein 50-jähriger Karzinompatient tritt in eine Selbsthilfegruppe ein, um seine
+Erkrankung dor...
+  MISMATCH: Question 21 text not found in PDF.
+    JSON: aufgabe
+Als Ausdruck pathologischer Tics bei einem Kind mit einer vorübergehenden Tic-Störung,
+nach ...
+Result: 24 questions matched, 4 potential mismatches out of 28 questions.
+
+
+--- Verifying Exam: 2004 October (2004-october) ---
+Found PDF candidate(s): ['fragen/Oktober-2004.pdf']
+Successfully extracted text from fragen/Oktober-2004.pdf (19268 chars).
+  MISMATCH: Question 4 text not found in PDF.
+    JSON: Bei Patienten mit schwerer depressiver Episode (nach ICD-10) tritt
+am wahrscheinlichsten folgende de...
+  MISMATCH: Question 8 text not found in PDF.
+    JSON: In einer Paarbeziehung agieren zwei Partner nach einem
+gemeinsamen Schema, dass ihnen nicht bewusst ...
+  MISMATCH: Question 9 text not found in PDF.
+    JSON: In der psychoanalytischen                       Theorie        werden       verschiedene
+Abwehrmecha...
+  MISMATCH: Question 10 text not found in PDF.
+    JSON: Ein Patient litt unter starken Ängsten, wenn er einen Fahrstuhl
+benutzte. Weiter beobachtete er, das...
+  MISMATCH: Question 11 text not found in PDF.
+    JSON: Eine Patientin leidet seit Jahren unter Spannungskopfschmerz. Trotz
+regelmäßiger Massage und Wärmeth...
+  MISMATCH: Question 17 text not found in PDF.
+    JSON: Bei der klassischen Psychoanalyse ist - neben anderen, hier nicht
+aufgeführten Wirkfaktoren - nach p...
+  MISMATCH: Question 18 text not found in PDF.
+    JSON: Bei der 17-jährigen Patientin Frau M. sind seit dem 15, Lebensjahr
+Verhaltensauffälligkeiten beschri...
+  MISMATCH: Question 20 text not found in PDF.
+    JSON: aufgabe
+Wählen Sie drei Antworten!
+Herr T, ein 19-jähriger intellektuell leistungsfähiger Abiturient...
+  MISMATCH: Question 23 text not found in PDF.
+    JSON: Ein (bisher unauffälliger) 25-jähriger - bewusstseinsklarer - Mann
+sucht Rat bei ihnen in der Praxis...
+Result: 19 questions matched, 9 potential mismatches out of 28 questions.
+
+
+--- Verifying Exam: 2005 October (2005-october) ---
+Found PDF candidate(s): ['fragen/Oktober-2005.pdf']
+Successfully extracted text from fragen/Oktober-2005.pdf (16836 chars).
+Result: 28 questions matched, 0 potential mismatches out of 28 questions.
+
+
+--- Verifying Exam: 2006 October (2006-october) ---
+Found PDF candidate(s): ['fragen/Oktober-2006.pdf']
+Successfully extracted text from fragen/Oktober-2006.pdf (18195 chars).
+Result: 28 questions matched, 0 potential mismatches out of 28 questions.
+
+
+--- Verifying Exam: 2007 October (2007-october) ---
+Found PDF candidate(s): ['fragen/Oktober-2007.pdf']
+WARNING: PDF fragen/Oktober-2007.pdf appears to be an image scan or empty (text length: 0).
+ERROR: Could not extract readable text from any PDF for October 2007. Manual verification required.
+
+
+--- Verifying Exam: 2008 October (2008-october) ---
+Found PDF candidate(s): ['fragen/Oktober-2008.pdf']
+Successfully extracted text from fragen/Oktober-2008.pdf (18553 chars).
+Result: 28 questions matched, 0 potential mismatches out of 28 questions.
+
+
+--- Verifying Exam: 2009 October (2009-october) ---
+WARNING: No questions found in JSON for 2009-october.
+
+
+--- Verifying Exam: 2010 October (2010-october) ---
+Found PDF candidate(s): ['fragen/Oktober-2010.pdf']
+Successfully extracted text from fragen/Oktober-2010.pdf (17084 chars).
+Result: 28 questions matched, 0 potential mismatches out of 28 questions.
+
+
+--- Verifying Exam: 2011 October (2011-october) ---
+Found PDF candidate(s): ['fragen/Oktober-2011.pdf']
+Successfully extracted text from fragen/Oktober-2011.pdf (21348 chars).
+  MISMATCH: Question 9 text not found in PDF.
+    JSON: Persönlichkeitsstörungen zeichnen sich durch ein deutliches Abweichen der
+charakteristischen und dau...
+  MISMATCH: Question 11 text not found in PDF.
+    JSON: Ein     Symptomenkomplex       aus    Erregung,     Unruhe,     Anspannung,
+Orientierungsstörungen, ...
+  MISMATCH: Question 13 text not found in PDF.
+    JSON: Während einer Psychotherapie übt eine Patientin mit Bulimie alternative
+Strategien, die sie zur Impu...
+  MISMATCH: Question 16 text not found in PDF.
+    JSON: Eine sehr schlanke 17-jährige Frau kommt in Begleitung ihrer Mutter in Ihre
+Praxis.
+Welche der folge...
+  MISMATCH: Question 18 text not found in PDF.
+    JSON: Die Polizei wird zum wiederholten Male zu einer belebten Straße gerufen, weil
+ein junger Mann – trot...
+Result: 23 questions matched, 5 potential mismatches out of 28 questions.
+
+
+--- Verifying Exam: 2012 October (2012-october) ---
+Found PDF candidate(s): ['fragen/Oktober-2012.pdf']
+Successfully extracted text from fragen/Oktober-2012.pdf (18519 chars).
+  MISMATCH: Question 3 text not found in PDF.
+    JSON: Bei einem 10-jährigen jungen treten wiederkehrend nächtliche Episoden äu-
+ßerster Furcht und Panik m...
+  MISMATCH: Question 4 text not found in PDF.
+    JSON: Welche der folgenden Aussagen zur psychotischen Störung Alkoholhalluzinose
+treffen zu?
+Wählen Sie zw...
+  MISMATCH: Question 9 text not found in PDF.
+    JSON: Welche der folgenden Aussagen treffen für eine Somatisierungsstörung (nach
+ICD-10) zu?
+Wählen Sie zw...
+  MISMATCH: Question 10 text not found in PDF.
+    JSON: Welche der folgenden Aussagen zu Halluzinogenen bzw. den durch Halluzino-
+gene verursachten Störunge...
+  MISMATCH: Question 11 text not found in PDF.
+    JSON: Welche der folgenden Aussagen treffen zu?
+Bei einem 65-jährigen Patienten bemerken Sie während des G...
+  MISMATCH: Question 15 text not found in PDF.
+    JSON: Eine 59-jährige Patientin legt seit mehreren Monaten das Fundament ihres
+Hauses auf ganzer Länge am ...
+  MISMATCH: Question 17 text not found in PDF.
+    JSON: Welche der folgenden Aussagen trifft (treffen) zu? Was sind wichtige Elemente der kognitiv-verhalten...
+  MISMATCH: Question 22 text not found in PDF.
+    JSON: Ein 22-jähriger Mann berichtet Ihnen, außerhalb der Familienumgebung in klei-
+nen Gruppen von dem Ge...
+  MISMATCH: Question 23 text not found in PDF.
+    JSON: Eine 25-jährige Frau bekommt plötzlich Angstgefühle, „pfötchenartige“ Ver-
+krampfungen der Hände und...
+Result: 19 questions matched, 9 potential mismatches out of 28 questions.
+
+
+--- Verifying Exam: 2013 October (2013-october) ---
+Found PDF candidate(s): ['fragen/Oktober-2013.pdf']
+Successfully extracted text from fragen/Oktober-2013.pdf (18078 chars).
+  MISMATCH: Question 1 text not found in PDF.
+    JSON: Menschen, die ihre Angelegenheiten aufgrund einer psychischen Erkrankung
+nicht mehr selbst regeln kö...
+  MISMATCH: Question 3 text not found in PDF.
+    JSON: Welche der folgenden Symptome gehören typischerweise zur Korsakow-
+Psychose (organisches amnestische...
+  MISMATCH: Question 7 text not found in PDF.
+    JSON: Welche der folgenden Symptome sind bei der posttraumatischen Belastungs-
+störung (PTBS) häufig zu be...
+  MISMATCH: Question 17 text not found in PDF.
+    JSON: Welche der folgenden Aussagen zur zwangsweisen Unterbringung eines
+psychisch Kranken treffen zu?
+Wäh...
+  MISMATCH: Question 18 text not found in PDF.
+    JSON: Welche Aussage trifft zu?
+Bei einem 17-jährigen Gymnasiasten verschlechtern sich die Schulleistungen...
+Result: 23 questions matched, 5 potential mismatches out of 28 questions.
+
+
+--- Verifying Exam: 2014 October (2014-october) ---
+WARNING: No questions found in JSON for 2014-october.
+
+
+--- Verifying Exam: 2016 October (2016-october) ---
+Found PDF candidate(s): ['fragen/Oktober-2016.pdf']
+Successfully extracted text from fragen/Oktober-2016.pdf (17241 chars).
+Result: 28 questions matched, 0 potential mismatches out of 28 questions.
+
+
+--- Verifying Exam: 2017 October (2017-october) ---
+Found PDF candidate(s): ['fragen/Oktober-2017.pdf']
+Successfully extracted text from fragen/Oktober-2017.pdf (18697 chars).
+Result: 28 questions matched, 0 potential mismatches out of 28 questions.

@@ -171,11 +171,11 @@ fun QuizScreen(examId: String, onFinished: (Int, Int) -> Unit) {
                 Spacer(modifier = Modifier.height(16.dp))
 
                 if (currentQuestion.statements.isNotEmpty()) {
-                    Text(text = "Aussagen:", style = MaterialTheme.typography.titleMedium)
+                    Text(text = "Aussagen:", style = MaterialTheme.typography.bodyLarge)
                     currentQuestion.statements.forEachIndexed { index, statement ->
                         Text(
                             text = "${index + 1}. $statement",
-                            style = MaterialTheme.typography.bodyMedium,
+                            style = MaterialTheme.typography.bodyLarge,
                             modifier = Modifier.padding(vertical = 4.dp, horizontal = 8.dp)
                         )
                     }
@@ -226,7 +226,7 @@ fun QuizScreen(examId: String, onFinished: (Int, Int) -> Unit) {
                                     onClick = null
                                 )
                             }
-                            Text(text = option, modifier = Modifier.padding(start = 8.dp))
+                            Text(text = option, style = MaterialTheme.typography.bodyLarge, modifier = Modifier.padding(start = 8.dp))
                         }
                     }
                     Divider(color = MaterialTheme.colorScheme.outlineVariant, thickness = 0.5.dp)
@@ -244,11 +244,11 @@ fun QuizScreen(examId: String, onFinished: (Int, Int) -> Unit) {
                         )
                         if (!isFullyCorrect) {
                             val correctLetters = currentQuestion.correctIndices.map { (it + 'A'.code).toChar() }.joinToString(", ")
-                            Text(text = "Richtig wäre: $correctLetters", style = MaterialTheme.typography.bodyMedium, color = Color(0xFF4CAF50))
+                            Text(text = "Richtig wäre: $correctLetters", style = MaterialTheme.typography.bodyLarge, color = Color(0xFF4CAF50))
                         }
                         if (!currentQuestion.explanation.isNullOrEmpty()) {
                             Spacer(modifier = Modifier.height(8.dp))
-                            Text(text = "Erklärung: ${currentQuestion.explanation}", style = MaterialTheme.typography.bodyMedium)
+                            Text(text = "Erklärung: ${currentQuestion.explanation}", style = MaterialTheme.typography.bodyLarge)
                         }
                         Spacer(modifier = Modifier.height(16.dp))
                     }

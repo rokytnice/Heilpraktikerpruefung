@@ -9617,7 +9617,531 @@
     "id": "2010-march",
     "year": 2010,
     "month": "March",
-    "questions": []
+    "questions": [
+      {
+        "id": 1,
+        "type": "Mehrfachauswahl",
+        "text": "Welche der folgenden Aussagen zur vaskulären Demenz treffen zu? Wählen Sie zwei Antworten!",
+        "options": [
+          "Transitorisch-ischämische Attacken (TIA) in der Vorgeschichte stützen die Diagnose",
+          "Neurologische Herdzeichen wie Gangstörungen sind mit einer vaskulären Demenz nicht vereinbar",
+          "Die Erkrankung beginnt gewöhnlich im höheren Lebensalter",
+          "Frühere Schlaganfälle sprechen gegen eine vaskuläre Demenz",
+          "Gedächtnis und Denken sind von der Erkrankung nicht betroffen"
+        ],
+        "statements": [],
+        "correctIndices": [
+          0,
+          2
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 2,
+        "type": "Mehrfachauswahl",
+        "text": "Welche der folgenden Aussagen treffen zu? Wählen Sie zwei Antworten! Zu den Ursachen einer Intelligenzminderung zählen:",
+        "options": [
+          "Down-Syndrom",
+          "Vorgeburtliche Rötelninfektion",
+          "Neurasthenie",
+          "Parkinson-Syndrom",
+          "Schizophrenes Residuum"
+        ],
+        "statements": [],
+        "correctIndices": [
+          0,
+          1
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 3,
+        "type": "Aussagenkombination",
+        "text": "Typische(s) Symptom(e) bei einer Manie ist (sind):",
+        "options": [
+          "Nur die Aussage 2 ist richtig",
+          "Nur die Aussagen 2 und 4 sind richtig",
+          "Nur die Aussagen 2 und 5 sind richtig",
+          "Nur die Aussagen 1, 3 und 4 sind richtig",
+          "Alle Aussagen sind richtig"
+        ],
+        "statements": [
+          "Selbstzweifel",
+          "Ideenflucht",
+          "Müdigkeit",
+          "Soziale Hemmungen",
+          "Beschäftigungsdrang"
+        ],
+        "correctIndices": [
+          2
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 4,
+        "type": "Mehrfachauswahl",
+        "text": "Welche der folgenden Aussagen zur Aufmerksamkeitsdefizit-Hyperaktivitätsstörung (ADHS) treffen zu? Wählen Sie zwei Antworten!",
+        "options": [
+          "Beginn vor dem siebten Lebensjahr",
+          "Bei nahezu allen Betroffenen heilt die Störung im Kindesalter aus",
+          "Die Symptome bestehen meist nur im Schulunterricht",
+          "In sozialen Beziehungen oft distanzloses Verhalten",
+          "Im Erwachsenenalter sind vorwiegend Frauen betroffen"
+        ],
+        "statements": [],
+        "correctIndices": [
+          0,
+          3
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 5,
+        "type": "Aussagenkombination",
+        "text": "Welche der folgenden Aussagen ist (sind) typisch für eine Alzheimer-Demenz?",
+        "options": [
+          "Nur die Aussage 1 ist richtig",
+          "Nur die Aussage 2 ist richtig",
+          "Nur die Aussagen 1 und 4 sind richtig",
+          "Nur die Aussagen 3 und 5 sind richtig",
+          "Nur die Aussagen 1, 2 und 5 sind richtig"
+        ],
+        "statements": [
+          "Charakteristisch ist der progrediente Verlauf",
+          "Plötzlicher Erkrankungsbeginn",
+          "Zerebrale Herdsymptome",
+          "Ausgeprägte Gangstörungen schon im Frühstadium",
+          "Ursächlich ist eine Arteriosklerose"
+        ],
+        "correctIndices": [
+          0
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 6,
+        "type": "Mehrfachauswahl",
+        "text": "Welche der folgenden Aussagen treffen zu? Wählen Sie zwei Antworten! Welche der folgenden Wahninhalte finden sich typischerweise bei psychotischen (\"wahnhaften\") Depressionen?",
+        "options": [
+          "Liebeswahn",
+          "Größenwahn",
+          "Verarmungswahn",
+          "Vergiftungswahn",
+          "Versündigungswahn"
+        ],
+        "statements": [],
+        "correctIndices": [
+          2,
+          4
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 7,
+        "type": "Mehrfachauswahl",
+        "text": "Ein 19-jähriger Schüler irrte nach einem Disco-Besuch umher. Er wurde verängstigt und zitternd auf die Akutstation einer psychiatrischen Klinik aufgenommen, wo er sich erleichtert und sicher vor Verfolgern fühlte. Welche der folgenden Aussagen treffen zu? Wählen Sie zwei Antworten!",
+        "options": [
+          "Ein Drogenscreening ist überflüssig, da es sich um Verfolgungswahn handelt",
+          "Das Symptom der örtlichen Desorientierung weist auf eine schizophrene Psychose hin",
+          "Angst ist häufig ein führendes Symptom zu Beginn einer psychotischen Störung",
+          "Eine Zwangsunterbringung kommt auf keinen Fall in Frage, weil der Patient dankbar für die stationäre Aufnahme ist",
+          "Die Angaben der Freunde zum Ablauf des Abends in der Disco können entscheidende Hinweise zur Diagnose geben"
+        ],
+        "statements": [],
+        "correctIndices": [
+          2,
+          4
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 8,
+        "type": "Mehrfachauswahl",
+        "text": "Welche der folgenden Aussagen treffen zu? Wählen Sie zwei Antworten! Hinweise für eine manische Episode sind:",
+        "options": [
+          "Bewusstseinstrübung",
+          "Zeitliche Desorientierung",
+          "Gesteigertes Schlafbedürfnis",
+          "Distanzlosigkeit",
+          "Konzentrationsschwierigkeiten"
+        ],
+        "statements": [],
+        "correctIndices": [
+          3,
+          4
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 9,
+        "type": "Mehrfachauswahl",
+        "text": "Welche der folgenden Aussagen zur Suizidalität treffen zu? Wählen Sie zwei Antworten!",
+        "options": [
+          "Als besonders suizidgefährdet gelten Personen mit Suizidversuch in der Vorgeschichte",
+          "Frauen haben eine höhere Suizidrate als Männer",
+          "Die Suizidversuchsrate liegt bei Männern höher als bei Frauen",
+          "Die Begriffe „Erweiterter Suizid“ und „Doppelsuizid“ beschreiben das selbe Phänomen",
+          "Ein Großteil aller Suizide ist durch eine psychische Krise oder Krankheit bedingt"
+        ],
+        "statements": [],
+        "correctIndices": [
+          0,
+          4
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 10,
+        "type": "Einfachauswahl",
+        "text": "Welche Aussage trifft zu? Bei einem psychisch Kranken ist eine Voraussetzung zur Unterbringung in einem psychiatrischen Krankenhaus nach dem Unterbringungsrecht des jeweiligen Bundeslandes:",
+        "options": [
+          "Fehlende Krankheitseinsicht",
+          "Gefährdung der öffentlichen Sicherheit",
+          "Suchtmittelgebrauch",
+          "Bestellung eines rechtlichen Betreuers",
+          "Die Krankheitseinschätzung durch nächste Angehörige"
+        ],
+        "statements": [],
+        "correctIndices": [
+          1
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 11,
+        "type": "Mehrfachauswahl",
+        "text": "Eine 51-jährige Frau verbringt seit 5 Monaten jeden Tag Stunden am Grab des verstorbenen Ehemannes und trägt seine Kleidung mit sich herum. Sie brach alle sozialen Kontakte mit z.T. dramatischen Vorwürfen an Familienangehörige, die objektiv unberechtigt sind, ab. Welche der folgenden Aussagen treffen zu? Wählen Sie zwei Antworten!",
+        "options": [
+          "Es muss schon vorher eine neurotische Störung vorhanden gewesen sein",
+          "Die abnorme Trauerreaktion gehört nach ICD-10 zur Anpassungsstörung",
+          "Eine Störung von Krankheitswert kann erst nach Ablauf des Trauerjahres diagnostiziert werden",
+          "Es handelt sich um individuelle Verarbeitung ohne Krankheitswert",
+          "Das Auftreten der Symptomatik muss bei Anpassungsstörung mit dem belastenden Lebensereignis in Beziehung stehen"
+        ],
+        "statements": [],
+        "correctIndices": [
+          1,
+          4
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 12,
+        "type": "Aussagenkombination",
+        "text": "Welche der folgenden Aussagen zur Schizophrenie treffen zu?",
+        "options": [
+          "Nur die Aussagen 1 und 4 sind richtig",
+          "Nur die Aussagen 2 und 5 sind richtig",
+          "Nur die Aussagen 1, 3 und 5 sind richtig",
+          "Nur die Aussagen 2, 4 und 5 sind richtig",
+          "Alle Aussagen sind richtig"
+        ],
+        "statements": [
+          "Es sind immer Prodromalsymptome feststellbar",
+          "Die Lebenszeitprävalenz für Schizophrenie liegt bei etwa 1%",
+          "Bei vollständiger Ausheilung der Schizophrenie spricht man von einem schizophrenen Residuum",
+          "Bei der paranoiden Schizophrenie stehen Wahnsymptome und Halluzinationen im Vordergrund des klinischen Bildes",
+          "Der Erkrankungsbeginn bei hebephrener Schizophrenie liegt im Allgemeinen im Jugend- und frühen Erwachsenenalter"
+        ],
+        "correctIndices": [
+          3
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 13,
+        "type": "Einfachauswahl",
+        "text": "Eine Patientin von Ihnen klagt über körperliche Symptome, für die keine organischen Ursachen gefunden werden können. Welches Merkmal muss für die Diagnose einer Somatisierungsstörung erfüllt sein?",
+        "options": [
+          "Die Beschwerden sind auf ein bestimmtes Organ bzw. einen bestimmten Bereich begrenzt",
+          "Die Patientin zeigt Symptome der Niedergeschlagenheit und Antriebslosigkeit",
+          "Die Beschwerden bestehen seit maximal 6 Monaten",
+          "Die Beschwerden stammen aus multiplen Symptombereichen",
+          "Die Patientin gibt an, davon überzeugt zu sein, an einer schwerwiegenden, fortschreitenden Krankheit zu leiden"
+        ],
+        "statements": [],
+        "correctIndices": [
+          3
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 14,
+        "type": "Mehrfachauswahl",
+        "text": "Welche der folgenden Aussagen zum schizophrenen Residuum treffen zu? Wählen Sie zwei Antworten!",
+        "options": [
+          "Kennzeichnend sind ausgeprägte Wahnvorstellungen",
+          "Meist plötzlicher Beginn",
+          "Typisch ist Gesprächigkeit und Geselligkeit",
+          "Antriebsminderung ist charakteristisch",
+          "Vernachlässigung der Körperpflege ist ein mögliches Symptom"
+        ],
+        "statements": [],
+        "correctIndices": [
+          3,
+          4
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 15,
+        "type": "Mehrfachauswahl",
+        "text": "Welche der folgenden Merkmale/Symptome treffen auf einen Patienten mit einer Zwangsstörung zu? Wählen Sie zwei Antworten!",
+        "options": [
+          "Die Symptome (Zwangsgedanken, -impulse, -handlungen) werden vom Patienten als unsinnig oder übertrieben erlebt",
+          "Die Zwangssymptome bestehen über einen Zeitraum von mindestens 2 Wochen",
+          "Zur Diagnosestellung nach ICD-10 müssen Zwangsgedanken auf jeden Fall, nicht aber Zwangshandlungen vorliegen",
+          "Der Inhalt der Zwangsgedanken ändert sich ständig",
+          "Die Zwangsinhalte dürfen sich nicht auf Themen wie Sexualität und Religion beziehen"
+        ],
+        "statements": [],
+        "correctIndices": [
+          0,
+          1
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 16,
+        "type": "Mehrfachauswahl",
+        "text": "Welche der folgenden Aussagen zur schizoaffektiven Störung treffen zu? Wählen Sie zwei Antworten!",
+        "options": [
+          "Sowohl affektive als auch schizophrene Symptome treten in derselben Krankheitsphase auf",
+          "Affektive und schizophrene Symptome treten in unterschiedlichen Krankheitsphasen auf",
+          "Die Langzeitprognose ist deutlich schlechter als bei der Schizophrenie",
+          "Sowohl manische als auch depressive Symptome können auftreten",
+          "Positive Symptome der Schizophrenie treten nicht auf"
+        ],
+        "statements": [],
+        "correctIndices": [
+          0,
+          3
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 17,
+        "type": "Einfachauswahl",
+        "text": "Eine typische inhaltliche Denkstörung ist:",
+        "options": [
+          "die Ideenflucht",
+          "das Gedankenabreißen",
+          "die Wahnidee",
+          "die Denkverlangsamung",
+          "die Perseveration"
+        ],
+        "statements": [],
+        "correctIndices": [
+          2
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 18,
+        "type": "Mehrfachauswahl",
+        "text": "Welche der folgenden Aussagen treffen zu? Wählen Sie zwei Antworten! Zur Negativsymptomatik einer Schizophrenie zählen:",
+        "options": [
+          "Störung des Ich-Erlebens",
+          "Sprachverarmung",
+          "Wahn",
+          "Affektverflachung",
+          "Denkzerfahrenheit"
+        ],
+        "statements": [],
+        "correctIndices": [
+          1,
+          3
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 19,
+        "type": "Aussagenkombination",
+        "text": "Welche der folgenden Phänomene passen zu einem Delirium tremens?",
+        "options": [
+          "Nur die Aussagen 1 und 4 sind richtig",
+          "Nur die Aussagen 2 und 4 sind richtig",
+          "Nur die Aussagen 1, 2 und 3 sind richtig",
+          "Nur die Aussagen 2, 3, 4 und 5 sind richtig",
+          "Alle Aussagen sind richtig"
+        ],
+        "statements": [
+          "Illusionäre Verkennungen",
+          "Akuter Beginn",
+          "Desorientiertheit",
+          "Vegetative Entgleisung",
+          "Motorische Unruhe"
+        ],
+        "correctIndices": [
+          4
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 20,
+        "type": "Einfachauswahl",
+        "text": "Welche Aussage trifft zu? Für Patientinnen mit Anorexia nervosa ist charakteristisch,",
+        "options": [
+          "dass sie schon vor der Pubertät untergewichtig waren",
+          "dass wegen der begleitenden psychischen Probleme schon frühzeitig ein Arzt aufgesucht wird",
+          "dass der Gewichtsverlust durch eine körperliche Erkrankung verursacht wurde",
+          "dass der Gewichtsverlust, z. B. durch Vermeidung hochkalorischer Speisen, selbst herbeigeführt wird",
+          "dass die Krankheit ausschließlich in der Pubertät vorkommt und sich als vorübergehende Störung erweist"
+        ],
+        "statements": [],
+        "correctIndices": [
+          3
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 21,
+        "type": "Mehrfachauswahl",
+        "text": "Welche der folgenden Aussagen treffen zu? Wählen Sie zwei Antworten! Indikationen für eine Elektrokrampftherapie (EKT) sind:",
+        "options": [
+          "Schwere Depressionen",
+          "Katatonien",
+          "Borderline-Störung",
+          "Fortschreitende Demenz",
+          "Persönlichkeitsstörung"
+        ],
+        "statements": [],
+        "correctIndices": [
+          0,
+          1
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 22,
+        "type": "Mehrfachauswahl",
+        "text": "Welche der folgenden Aussagen treffen zu? Wählen Sie zwei Antworten! Hinweise für eine paranoid-halluzinatorische Form der Schizophrenie sind:",
+        "options": [
+          "Bewusstseinstrübung",
+          "Örtliche Desorientierung",
+          "Verfolgungswahn",
+          "Kommentierende Stimmen",
+          "Gedächtnisstörung"
+        ],
+        "statements": [],
+        "correctIndices": [
+          2,
+          3
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 23,
+        "type": "Mehrfachauswahl",
+        "text": "Welche der folgenden Aussagen treffen zu? Wählen Sie zwei Antworten! Hinweise für eine depressive Episode sind:",
+        "options": [
+          "Rasche Ermüdbarkeit",
+          "Zeitliche Orientierungsstörung",
+          "Schuldwahn",
+          "Störung des Langzeitgedächtnisses",
+          "Vermindertes Schlafbedürfnis"
+        ],
+        "statements": [],
+        "correctIndices": [
+          0,
+          2
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 24,
+        "type": "Mehrfachauswahl",
+        "text": "Welche der folgenden Aussagen zur wahnhaften Störung treffen zu? Wählen Sie zwei Antworten!",
+        "options": [
+          "Besonders bei jungen Patienten sind anhaltende akustische Halluzinationen typisch",
+          "Die Wahninhalte können manchmal lebenslang bestehen",
+          "Bei den Wahninhalten kann es sich oft um einen Verfolgungswahn oder einen Größenwahn handeln",
+          "Charakteristisch sind rasch wechselnde Wahnvorstellungen ohne inhaltlichen Bezug",
+          "Außerhalb der den Wahn betreffenden Lebensbereiche bestehen meistens ausgeprägte Auffälligkeiten des Affektes, der Sprache und des Verhaltens"
+        ],
+        "statements": [],
+        "correctIndices": [
+          1,
+          2
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 25,
+        "type": "Aussagenkombination",
+        "text": "Bei einem 75-jährigen Patienten bemerken Sie eine zunehmende Zerstreutheit und Vergesslichkeit. Welche der folgenden Ursachen kommt (kommen) am ehesten in Betracht?",
+        "options": [
+          "Nur die Aussage 3 ist richtig",
+          "Nur die Aussagen 1, 3 und 4 sind richtig",
+          "Nur die Aussagen 2, 3 und 4 sind richtig",
+          "Nur die Aussagen 2, 3 und 5 sind richtig",
+          "Nur die Aussagen 2, 4 und 5 sind richtig"
+        ],
+        "statements": [
+          "Manie",
+          "Depression",
+          "Hypothyreose (Schilddrüsenunterfunktion)",
+          "Zwangsstörungen",
+          "Arteriosklerose"
+        ],
+        "correctIndices": [
+          3
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 26,
+        "type": "Mehrfachauswahl",
+        "text": "Welche der folgenden Aussagen zur Borderline-Störung treffen zu? Wählen Sie zwei Antworten!",
+        "options": [
+          "Es handelt sich um eine Entwicklungsstörung ab dem Jugendalter",
+          "Sowohl Trennungen als auch Nähe können als bedrohlich erlebt werden und zu suizidalen Krisen führen",
+          "Typisch ist Perfektionismus, Pedanterie und Eigensinn",
+          "Die sexuelle Identität und persönliche Ziele sind häufig unklar und gestört",
+          "Bei fehlendem Wunsch nach Bindung und Gleichgültigkeit gegenüber Mitmenschen werden Partnerbeziehungen gemieden"
+        ],
+        "statements": [],
+        "correctIndices": [
+          1,
+          3
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 27,
+        "type": "Einfachauswahl",
+        "text": "Welche Aussage trifft zu? Zu dem psychotherapeutischen „Setting“ gehört die",
+        "options": [
+          "Vereinbarung des Honorars",
+          "Testpsychologie",
+          "Fremdanamnese",
+          "Klärung der unbewussten Ursachen der inneren Konflikte",
+          "systematische Desensibilisierung"
+        ],
+        "statements": [],
+        "correctIndices": [
+          0
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 28,
+        "type": "Einfachauswahl",
+        "text": "Das Betreuungsgesetz regelt u.a. unter welcher Voraussetzung ein Betreuer bestellt werden kann. Welche Aussage trifft zu?",
+        "options": [
+          "Einem Volljährigen mit einer psychotischen Erkrankung ist immer ein Betreuer gemäß Betreuungsgesetz zur Seite zu stellen.",
+          "Wenn eine Betreuung errichtet wird, ist gleichzeitig eine Entmündigung des Betroffenen durch das Gericht vorzunehmen.",
+          "Kann ein Volljähriger aufgrund einer psychischen Krankheit oder einer körperlichen, geistigen oder seelischen Behinderung seine Angelegenheiten ganz oder teilweise nicht besorgen, so bestellt das Betreuungsgericht auf seinen Antrag oder von Amts wegen für ihn einen Betreuer.",
+          "Eine Betreuuung ist immer dann erforderlich, wenn ein Bevollmächtigter eingesetzt wurde.",
+          "Volljährige, die aufgrund einer körperlichen Behinderung ihre Angelegenheiten nicht selbst besorgen können, benötigen für die Antragstellung einen Nachweis über die Behinderung laut Schwerbehindertengesetz."
+        ],
+        "statements": [],
+        "correctIndices": [
+          2
+        ],
+        "explanation": ""
+      }
+    ]
   },
   {
     "id": "2011-march",

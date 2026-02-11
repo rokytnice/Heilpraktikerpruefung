@@ -82,7 +82,7 @@ fun HomeScreen(onExamClick: (String) -> Unit) {
                     }
                 },
                 colors = TopAppBarDefaults.centerAlignedTopAppBarColors(
-                    containerColor = MaterialTheme.colorScheme.surfaceVariant
+                    containerColor = androidx.compose.ui.graphics.Color.White
                 )
             )
         }

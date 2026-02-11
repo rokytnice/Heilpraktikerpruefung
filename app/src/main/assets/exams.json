@@ -1894,7 +1894,7 @@
         ],
         "statements": [
           "Das Führen der Berufsbezeichnung „Heilpraktiker“ wird durch das Heilpraktikergesetz (HeilprG) geregelt",
-          "Das Führen der Berufsbezeichnung „wird durch das Psychotherapeutengesetz (PsychThG) geregelt.",
+          "Das Führen der Berufsbezeichnung „Heilpraktiker/in\" beschränkt auf das Gebiet der Psychotherapie wird durch das Psychotherapeutengesetz (PsychThG) geregelt.",
           "Die Weiterbildungspflicht wird in der Berufsordnung für Heilpraktiker (BOH) erwähnt.",
           "Die Verabreichung von Betäubungsmitteln wie Fentanyl wird durch das Arzneimittelgesetz (AMG) geregelt.",
           "Die Meldung von ansteckenden Geschlechtskrankheiten wird durch das Infektionsschutzgesetz (IfSG) geregelt."
@@ -5312,8 +5312,8 @@
           "Die Enuresis nocturna tritt häufiger auf als die Enuresis diurna.",
           "Man unterscheidet zwischen willkürlicher und unwillkürlicher Enuresis.",
           "Enuresis tritt nicht über das 18. Lebensjahr hinaus auf.",
-          "Verhaltenstherapeutische Interventionen sollen möglichst vor dem 3.",
-          "Kinderpsychiatrische komorbide Störungen liegen der der sekundären"
+          "Verhaltenstherapeutische Interventionen sollen möglichst vor dem 3. Lebensjahr eingesetzt werden.",
+          "Kinderpsychiatrische komorbide Störungen liegen der der sekundären Enuresis häufiger vor als bei der primären Enuresis."
         ],
         "statements": [],
         "correctIndices": [
@@ -5348,7 +5348,7 @@
       {
         "id": 10,
         "type": "Aussagenkombination",
-        "text": "Der Heilpraktiker für Psychotherapie beschränkt auf Psychotherapie unterliegt verschiedenen Pflichten, die gesetzlich geregelt sind. Eine wichtige Pflicht ist die in der Berufsordnung der Heilpraktiker verankerte Schweigepflicht. In welchen der folgenden Situationen darf oder muss ein Heilpraktiker beschränkt auf Psychotherapie seine Schweigepflicht brechen? Informationen an einen Facharzt weiterzugeben, um eine bessere Abstimmung der Behandlung zu bekommen. Strafverfahrens auf, als Zeuge über Aussagen eines ehemaligen Patienten auszusagen. plant. konkrete Absicht zur Selbsttötung geäußert hat, sodass unmittelbare Maßnahmen erforderlich sind, um ihn zu schützen. Wählen Sie eine richtige Aussagenkombination!",
+        "text": "Der Heilpraktiker für Psychotherapie beschränkt auf Psychotherapie unterliegt verschiedenen Pflichten, die gesetzlich geregelt sind. Eine wichtige Pflicht ist die in der Berufsordnung der Heilpraktiker verankerte Schweigepflicht. In welchen der folgenden Situationen darf oder muss ein Heilpraktiker beschränkt auf Psychotherapie seine Schweigepflicht brechen?",
         "options": [
           "Nur die Aussagen 1 und 2 sind richtig",
           "Nur die Aussagen 3, 4 und 5 sind richtig",
@@ -5359,7 +5359,7 @@
         "statements": [
           "Ein Patient bittet seinen Therapeuten schriftlich darum, medizinische Informationen an einen Facharzt weiterzugeben, um eine bessere Abstimmung der Behandlung zu bekommen.",
           "Eine Therapeutin erfährt, dass ihr Klient an einer Maserninfektion leidet.",
-          "Ein Gericht fordert einen ) im Rahmen eines Strafverfahrens auf, als Zeuge über Aussagen eines ehemaligen Patienten auszusagen.",
+          "Ein Gericht fordert einen Heilpraktiker (Psychotherapie) im Rahmen eines Strafverfahrens auf, als Zeuge über Aussagen eines ehemaligen Patienten auszusagen.",
           "Während einer Therapiesitzung offenbart ein Klient, dass er eine Geiselnahme plant.",
           "Ein Therapeut erkennt, dass sein Patient akut suizidgefährdet ist und eine konkrete Absicht zur Selbsttötung geäußert hat, sodass unmittelbare Maßnahmen erforderlich sind, um ihn zu schützen."
         ],
@@ -5587,11 +5587,11 @@
         "type": "Mehrfachauswahl",
         "text": "Entspannungsverfahren haben einen breitgefächerten therapeutischen Anwendungsbereich, sowohl bei Kindern und Jugendlichen als auch bei Erwachsenen. Welche der folgenden Aussagen sind nicht richtig? Wählen Sie zwei Antworten!",
         "options": [
-          "Entspannungsverfahren führen zu verringertem Muskeltonus, Abnahme der",
-          "Imaginative Entspannungsverfahren haben sich bei posttraumatischen",
-          "MBSR (Mindfulness-Based Stress Reduction) ist ein autosuggestives",
+          "Entspannungsverfahren führen zu verringertem Muskeltonus, Abnahme der Herzfrequenz sowie periphere Gefäßerweiterungen.",
+          "Imaginative Entspannungsverfahren haben sich bei posttraumatischen Belastungsstörungen und Schizophrenie als wirksames Therapiewerkzeug etabliert.",
+          "MBSR (Mindfulness-Based Stress Reduction) ist ein autosuggestives Entspannungsverfahren, dass in Akutsituationen eingesetzt wird, um intrapsychischen Stress zu reduzieren. Über standardisierte Suggestionen wie Schwere- und Wärmesuggestionen kann schnell ein Zustand tiefer Entspannung herbeigeführt werden.",
           "Eine stark ausgeprägte Hypotonie gilt als Kontraindikation.",
-          "Therapeutische Anwendungsbereiche für Entspannungsverfahren sind u.a."
+          "Therapeutische Anwendungsbereiche für Entspannungsverfahren sind u.a. nicht-organische In- und Parasomnien, Ängste und Hypertonie."
         ],
         "statements": [],
         "correctIndices": [
@@ -5605,11 +5605,11 @@
         "type": "Mehrfachauswahl",
         "text": "Ein 34-jähriger Patient mit einem schweren Waschzwang sucht therapeutische Hilfe. Neben kognitiven Methoden planen Sie Expositionstherapie mit Reaktionsmanagement einzusetzen. Welche der folgenden zur Expositionstherapie mit Reaktionsmanagement sind dabei am ehesten zutreffend? Wählen Sie zwei Antworten!",
         "options": [
-          "Die Exposition sollte gezielt oft wiederholt werden, um eine bestmögliche",
-          "Expositionen sind nur bei sichtbaren Zwangshandlungen wirksam und",
-          "Um die Effektivität zu steigern, sollten Expositionen hauptsächlich in-sensu",
-          "Bei Zwangsstörungen ist eine massierte Vorgehensweise angeraten,",
-          "Auch extrem aversive und ungewöhnliche Situationen, die nicht zum"
+          "Die Exposition sollte gezielt oft wiederholt werden, um eine bestmögliche Habituation an die angstauslösenden Reize zu ermöglichen.",
+          "Expositionen sind nur bei sichtbaren Zwangshandlungen wirksam und zeigen bei Zwangsgedanken keine signifikanten Effekte.",
+          "Um die Effektivität zu steigern, sollten Expositionen hauptsächlich in-sensu durchgeführt werden.",
+          "Bei Zwangsstörungen ist eine massierte Vorgehensweise angeraten, während ein graduierter Ansatz nicht zielführend ist.",
+          "Auch extrem aversive und ungewöhnliche Situationen, die nicht zum normalen Alltag gehören, können in die Expositionstherapie einbezogen werden, um eine möglichst umfassende Konfrontation mit den Ängsten zu ermöglichen."
         ],
         "statements": [],
         "correctIndices": [
@@ -17937,7 +17937,547 @@
     "id": "2009-october",
     "year": 2009,
     "month": "October",
-    "questions": []
+    "questions": [
+      {
+        "id": 1,
+        "type": "Aussagenkombination",
+        "text": "Welche der folgenden Aussagen zu Persönlichkeitsstörungen treffen zu?",
+        "options": [
+          "Nur die Aussagen 1 und 2 sind richtig",
+          "Nur die Aussagen 4 und 5 sind richtig",
+          "Nur die Aussagen 1, 2 und 3 sind richtig",
+          "Nur die Aussagen 1, 2 und 5 sind richtig",
+          "Nur die Aussagen 3, 4 und 5 sind richtig"
+        ],
+        "statements": [
+          "Das abnorme Verhaltensmuster ist andauernd und nicht auf Episoden psychischer Krankheiten begrenzt",
+          "Verhaltensauffälligkeiten bestehen in Bereichen wie Affektivität, Antrieb, Wahrnehmung, Denken, Impulskontrolle und sozialen Beziehungen",
+          "Beginn im mittleren bis höheren Erwachsenenalter",
+          "Die Häufigkeit in der Allgemeinbevölkerung liegt zwischen 1 bis 3 %",
+          "Die Persönlichkeitszüge sind unflexibel und wenig angepasst"
+        ],
+        "correctIndices": [
+          3
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 2,
+        "type": "Einfachauswahl",
+        "text": "Welche Aussage trifft zu? Leidet ein Mensch unter der Angst das eigene Haus zu verlassen, Geschäfte zu betreten, sich in eine Menschenmenge oder auf öffentliche Plätze zu begeben oder alleine in Zügen, Bussen oder Flugzeugen zu reisen, dann ist das Ausdruck einer",
+        "options": [
+          "sozialen Phobie",
+          "Zwangsstörung",
+          "generalisierten Angststörung",
+          "posttraumatischen Belastungsstörung",
+          "Agoraphobie"
+        ],
+        "statements": [],
+        "correctIndices": [
+          4
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 3,
+        "type": "Aussagenkombination",
+        "text": "Welche der folgenden Aussagen über depressive Syndrome im Alter treffen zu?",
+        "options": [
+          "Nur die Aussagen 1 und 2 sind richtig",
+          "Nur die Aussagen 2 und 5 sind richtig",
+          "Nur die Aussagen 4 und 5 sind richtig",
+          "Nur die Aussagen 1, 3 und 4 sind richtig",
+          "Nur die Aussagen 2, 4 und 5 sind richtig"
+        ],
+        "statements": [
+          "Depressive Syndrome im Alter treten selten auf",
+          "Auffällige Merkmale können Reizbarkeit, Hypochondrie und Misstrauen sein",
+          "Symptome einer Demenz sind gut von denen einer Depression zu unterscheiden",
+          "Antidepressiva sollten in jedem Fall gegeben werden",
+          "Risikofaktoren für eine Depression im Alter können die Einnahme bestimmter Medikamente sein"
+        ],
+        "correctIndices": [
+          1
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 4,
+        "type": "Mehrfachauswahl",
+        "text": "Welche der folgenden Aussagen zur hebephrenen Schizophrenie treffen zu? Wählen Sie zwei Antworten!",
+        "options": [
+          "Das Denken ist in der Regel nicht beeinträchtigt",
+          "Erste Symptome treten meist erst nach dem 40. Lebensjahr auf",
+          "Typisch ist eine übertriebene Befolgung von Konventionen",
+          "Affektive Veränderungen stehen im Vordergrund",
+          "Soziale Isolierung droht"
+        ],
+        "statements": [],
+        "correctIndices": [
+          3,
+          4
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 5,
+        "type": "Mehrfachauswahl",
+        "text": "Welche der folgenden Zuordnungen (Erkrankung - Therapieverfahren) treffen zu? Wählen Sie zwei Antworten!",
+        "options": [
+          "Schizophrenie - Licht-Therapie",
+          "ADHS - Reizkonfrontation",
+          "Manie - Schlafentzugs-Therapie",
+          "Phobie - Verhaltenstherapie",
+          "Schwere, schlecht behandelbare Depressionen - Elektrokrampf-Therapie"
+        ],
+        "statements": [],
+        "correctIndices": [
+          3,
+          4
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 6,
+        "type": "Einfachauswahl",
+        "text": "Was versteht man unter einem erweiterten Suizid?",
+        "options": [
+          "Suizid unter Mitnahme von Bezugspersonen - ohne deren Einwilligung",
+          "Etappenweiser Suizid durch bewusste Schädigung des Körpers (z.B. Alkoholmissbrauch)",
+          "Suizid als Folge eines anderen Suizides in der näheren Umgebung des Betroffenen",
+          "Gemeinsamer Suizid von zwei oder mehreren Personen (im freiwilligen Einvernehmen)",
+          "Zwei Personen töten sich gegenseitig mit dem jeweiligen Einverständnis"
+        ],
+        "statements": [],
+        "correctIndices": [
+          0
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 7,
+        "type": "Aussagenkombination",
+        "text": "Welche der folgenden Aussagen treffen zu? Was ist bei der Behandlung von Patienten mit somatoformen Störungen unerlässlich?",
+        "options": [
+          "Nur die Aussagen 1 und 3 sind richtig",
+          "Nur die Aussagen 1 und 4 sind richtig",
+          "Nur die Aussagen 3 und 4 sind richtig",
+          "Nur die Aussagen 1, 2 und 4 sind richtig",
+          "Alle Aussagen sind richtig"
+        ],
+        "statements": [
+          "Vor der Behandlung müssen körperliche Erkrankungen, die die Symptomatik verursachen könnten, ausgeschlossen werden",
+          "Die Verordnung von Schmerzmitteln",
+          "Die Beschwerden der Patienten ernst zu nehmen",
+          "Die Patienten immer wieder auf mögliche körperliche Ursachen hinweisen",
+          "Die Patienten darin zu bestärken, regelmäßig zu verschiedenen Fachärzten zu gehen"
+        ],
+        "correctIndices": [
+          0
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 8,
+        "type": "Aussagenkombination",
+        "text": "Welche der folgenden Aussagen treffen zu? Dementielle Syndrome können auftreten bei:",
+        "options": [
+          "Nur die Aussagen 1 und 2 sind richtig",
+          "Nur die Aussagen 3 und 4 sind richtig",
+          "Nur die Aussagen 1, 3 und 5 sind richtig",
+          "Nur die Aussagen 2, 4 und 5 sind richtig",
+          "Alle Aussagen sind richtig"
+        ],
+        "statements": [
+          "Multipler Sklerose",
+          "Leberzirrhose",
+          "Austrocknung (Exsikkose)",
+          "Elektrolytstörung",
+          "M. Parkinson"
+        ],
+        "correctIndices": [
+          4
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 9,
+        "type": "Mehrfachauswahl",
+        "text": "Welche der folgenden Aussagen zur Demenz bei Alzheimer-Krankheit treffen zu? Wählen Sie zwei Antworten!",
+        "options": [
+          "Schleichender Beginn mit langsamer Verschlechterung",
+          "Von Beginn an besteht eine Bewusstseinstrübung",
+          "Ein Krankheitsbeginn vor dem 65. Lebensjahr ist möglich",
+          "Neurologische Herdzeichen wie Hemiparese bestehen in der Frühphase der Krankheit",
+          "Wahn oder depressive Verstimmung treten bei der Erkrankung nicht auf"
+        ],
+        "statements": [],
+        "correctIndices": [
+          0,
+          2
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 10,
+        "type": "Mehrfachauswahl",
+        "text": "Welche der folgenden Aussagen treffen zu? Wählen Sie zwei Antworten! Hinweise für ein organisches amnestisches Syndrom sind:",
+        "options": [
+          "Bewusstseinstrübung",
+          "Wahnideen",
+          "Erhaltene Gedächtnisfunktion",
+          "Beeinträchtigung des Kurzzeitgedächtnisses",
+          "Zustand nach Schlaganfall"
+        ],
+        "statements": [],
+        "correctIndices": [
+          3,
+          4
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 11,
+        "type": "Aussagenkombination",
+        "text": "Welche der folgenden Aussagen zu umschriebenen Entwicklungsstörungen bei Kindern treffen zu?",
+        "options": [
+          "Nur die Aussagen 1 und 2 sind richtig",
+          "Nur die Aussagen 2 und 3 sind richtig",
+          "Nur die Aussagen 2, 3 und 4 sind richtig",
+          "Nur die Aussagen 2, 3 und 5 sind richtig",
+          "Nur die Aussagen 3, 4 und 5 sind richtig"
+        ],
+        "statements": [
+          "Eine Sprachentwicklungsstörung liegt vor, wenn im Alter von bis zu einem Jahr nur drei bis vier Wörter gesprochen werden.",
+          "Entwicklungsstörungen werden auch als Teilleistungsschwächen bezeichnet.",
+          "Die häufigste umschriebene Entwicklungsstörung des Kindesalters ist die Legasthenie (Lese- und Rechtschreibschwäche).",
+          "Der Intelligenzquotient der betroffenen Kinder ist deutlich erniedrigt.",
+          "Umschriebene Entwicklungsstörungen schulischer Fertigkeiten werden meist erst am Ende der Schullaufbahn erworben."
+        ],
+        "correctIndices": [
+          1
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 12,
+        "type": "Mehrfachauswahl",
+        "text": "Welche der folgenden Aussagen sind im Kontext einer Abhängigkeit von Benzodiazepinen richtig? Wählen Sie zwei Antworten!",
+        "options": [
+          "Beim Absetzen von Benzodiazepinen kann es zu körperlichen und psychischen Entzugssymptomen kommen.",
+          "Ein Delir tritt ausschließlich bei vollständigem Absetzen von Benzodiazepinen auf.",
+          "Beim Absetzen von Benzodiazepinen kommt es ausschließlich zu körperlichen Entzugssymptomen.",
+          "Das Entzugsdelir und epileptische Anfälle sind potenziell lebensbedrohliche Komplikationen beim Benzodiazepinentzug.",
+          "Eine ambulante Entzugsbehandlung ist bei Benzodiazepinen nicht möglich."
+        ],
+        "statements": [],
+        "correctIndices": [
+          0,
+          3
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 13,
+        "type": "Einfachauswahl",
+        "text": "Ein Patient berichtet Ihnen, dass er Panikattacken erleidet. Anhand welches Merkmals/Kriteriums können Sie differentialdiagnostisch feststellen, ob bei dem Patienten eine Panikstörung vorliegt?",
+        "options": [
+          "Der Patient erlebt anhaltend Sorgen, Angst und Grübeleien",
+          "Die Panikattacken treten in unterschiedlichen Situationen und unter unterschiedlichen Umständen auf (nicht vorhersehbar)",
+          "Die Symptome beginnen allmählich und schleichend",
+          "Die Anfälle dauern maximal 15 Minuten an",
+          "Der Patient leidet ebenfalls unter einer depressiven Störung"
+        ],
+        "statements": [],
+        "correctIndices": [
+          1
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 14,
+        "type": "Aussagenkombination",
+        "text": "Welche der folgenden Aussagen treffen in Bezug auf eine Anpassungsstörung zu?",
+        "options": [
+          "Nur die Aussagen 1 und 2 sind richtig",
+          "Nur die Aussagen 2 und 4 sind richtig",
+          "Nur die Aussagen 3 und 5 sind richtig",
+          "Nur die Aussagen 1, 2 und 5 sind richtig",
+          "Nur die Aussagen 3, 4 und 5 sind richtig"
+        ],
+        "statements": [
+          "Die Störung beginnt im Allgemeinen innerhalb eines Monats nach einem belastenden Ereignis oder einer Lebensveränderung.",
+          "Das Vorhandensein eines belastenden Ereignisses oder einer Lebensveränderung muss als Kriterium für die Diagnose gegeben sein.",
+          "Zur Diagnosestellung einer Anpassungsstörung dürfen keine Angstsymptome vorhanden sein.",
+          "Beginn und Remission der Störung erfolgen innerhalb von 4 Wochen nach einem belastenden Ereignis oder einer Lebensveränderung.",
+          "Die Diagnose Anpassungsstörung soll nicht vergeben werden, wenn die Kriterien einer depressiven Episode erfüllt sind."
+        ],
+        "correctIndices": [
+          3
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 15,
+        "type": "Einfachauswahl",
+        "text": "Welche Aussage zur Schizophrenie trifft zu?",
+        "options": [
+          "Das Erkrankungsrisiko ist bei Kindern eines an Schizophrenie Erkrankten erhöht",
+          "Männer sind deutlich häufiger betroffen als Frauen",
+          "Die sechs sog. „A-Symptome“ (Alogie, Affektverflachung, Apathie, Anhedonie, Asozialität, Aufmerksamkeitsstörungen) sind Kennzeichen der schizophrenen Positivsymptomatik",
+          "Die Symptome „Wahn“ und „Halluzination“ sind bei Schizophrenien immer ausgebildet",
+          "Die Symptome „Wahn“ und „Halluzination“ beweisen das Vorliegen einer Schizophrenie"
+        ],
+        "statements": [],
+        "correctIndices": [
+          0
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 16,
+        "type": "Mehrfachauswahl",
+        "text": "Welche der folgenden Aussagen treffen für die emotional instabile Persönlichkeitsstörung vom Borderline-Typ zu? Wählen Sie zwei Antworten!",
+        "options": [
+          "Die Borderline-Persönlichkeitsstörung ist mittels Psychotherapie rasch heilbar.",
+          "Selbstverletzendes Verhalten dient dem Spannungsabbau.",
+          "Patienten mit Borderline-Persönlichkeitsstörung leiden selten an weiteren psychischen Störungen, wie Angststörungen oder affektiven Störungen.",
+          "Frauen sind häufiger von der Störung betroffen als Männer.",
+          "Suizidalität ist bei Patienten mit Borderline-Persönlichkeitsstörung selten."
+        ],
+        "statements": [],
+        "correctIndices": [
+          1,
+          3
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 17,
+        "type": "Aussagenkombination",
+        "text": "Welche der folgenden Aussagen treffen zu? Zu den Abwehrmechanismen zählen:",
+        "options": [
+          "Nur die Aussagen 1 und 2 sind richtig",
+          "Nur die Aussagen 2 und 3 sind richtig",
+          "Nur die Aussagen 1, 3 und 5 sind richtig",
+          "Nur die Aussagen 2, 3 und 5 sind richtig",
+          "Nur die Aussagen 3, 4 und 5 sind richtig"
+        ],
+        "statements": [
+          "Symboldeuten",
+          "Rationalisierung",
+          "Verschiebung",
+          "Gedankensperrung",
+          "Isolierung"
+        ],
+        "correctIndices": [
+          3
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 18,
+        "type": "Einfachauswahl",
+        "text": "Ein Patient berichtet, er habe einen Regenwurm auf der Straße liegen sehen. Dieser Regenwurm sei eigens für ihn ein Zeichen, dass er ein bestimmtes Geschäft aufsuchen solle. Bei diesem Phänomen handelt es sich am ehesten um eine/einen",
+        "options": [
+          "Verschiebung",
+          "Wahnwahrnehmung",
+          "Zönästhesie",
+          "Zwangsgedanken",
+          "sensitiven Beziehungswahn"
+        ],
+        "statements": [],
+        "correctIndices": [
+          1
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 19,
+        "type": "Mehrfachauswahl",
+        "text": "Welche der folgenden psychotherapeutischen Techniken gehören zur Verhaltenstherapie? Wählen Sie zwei Antworten!",
+        "options": [
+          "Gesprächstherapie",
+          "Reizüberflutung (Konfrontationsverfahren)",
+          "Token (Spielmünzen) - Verstärkungssysteme",
+          "Familientherapie",
+          "Gruppentherapie"
+        ],
+        "statements": [],
+        "correctIndices": [
+          1,
+          2
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 20,
+        "type": "Einfachauswahl",
+        "text": "Welche Aussage trifft zu? Wenn wirkliche Gegenstände für etwas anderes gehalten werden, handelt es sich um eine",
+        "options": [
+          "Metamorphose",
+          "Zönästhesie",
+          "Pseudohalluzination",
+          "Halluzination",
+          "Illusion"
+        ],
+        "statements": [],
+        "correctIndices": [
+          4
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 21,
+        "type": "Einfachauswahl",
+        "text": "Welche Aussage zu einem depressiven Patienten spricht am ehesten gegen eine akute Suizidgefahr?",
+        "options": [
+          "Tragfähige religiöse Bindungen",
+          "Medikamentenabhängigkeit",
+          "Pubertät",
+          "Getriebenes Verhalten",
+          "Versteckte Suiziddrohungen"
+        ],
+        "statements": [],
+        "correctIndices": [
+          0
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 22,
+        "type": "Einfachauswahl",
+        "text": "Welche Aussage trifft zu? Lithiumsalze werden bevorzugt eingesetzt bei:",
+        "options": [
+          "Anorexie",
+          "Katatonie",
+          "Hebephrenie",
+          "Schlafstörungen",
+          "Bipolarer affektiver Störung"
+        ],
+        "statements": [],
+        "correctIndices": [
+          4
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 23,
+        "type": "Mehrfachauswahl",
+        "text": "Welche der folgenden Aussagen treffen zu? Wählen Sie zwei Antworten! Hinweise für ein delirantes Syndrom sind:",
+        "options": [
+          "Bewusstseinstrübung",
+          "Länger als ein Jahr bestehende Symptomatik",
+          "Zeitliche Desorientierung",
+          "Schleichender Beginn",
+          "Schlaf-Wach-Rhythmus ist nicht gestört"
+        ],
+        "statements": [],
+        "correctIndices": [
+          0,
+          2
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 24,
+        "type": "Aussagenkombination",
+        "text": "Welche(s) der genannten Phänomene lässt (lassen) an eine Zwangsstörung denken?",
+        "options": [
+          "Nur die Aussage 2 ist richtig",
+          "Nur die Aussagen 1 und 4 sind richtig",
+          "Nur die Aussagen 2 und 4 sind richtig",
+          "Nur die Aussagen 1, 3 und 5 sind richtig",
+          "Nur die Aussagen 2, 4 und 5 sind richtig"
+        ],
+        "statements": [
+          "Furcht vor Beobachtung durch andere Menschen",
+          "Impuls, eine Handlung immer wieder auszuführen, obwohl diese als unsinnig erkannt wird",
+          "Feste Überzeugung eines Patienten von Parasiten befallen zu sein",
+          "Der Patient erlebt die Handlung oft als Vorbeugung gegen ein objektiv unwahrscheinliches Ereignis, das ihm Schaden bringen oder bei dem er selbst Unheil anrichten könnte",
+          "Gedankeneingebung"
+        ],
+        "correctIndices": [
+          2
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 25,
+        "type": "Mehrfachauswahl",
+        "text": "Welche der folgenden Aussagen zum somatischen Syndrom bei depressiver Episode (nach ICD-10) treffen zu? Wählen Sie zwei Antworten!",
+        "options": [
+          "Gewichtsverlust ist ein typisches Merkmal des somatischen Syndroms",
+          "Frühmorgendliches Erwachen spricht gegen ein somatisches Syndrom",
+          "Psychomotorische Hemmung oder Agitiertheit ist ein Merkmal des somatischen Syndroms",
+          "Bei schwerer depressiver Episode ist das somatische Syndrom normalerweise nicht vorhanden",
+          "Bei der rezidivierenden depressiven Störung fehlen charakteristischerweise Symptome eines somatischen Syndroms"
+        ],
+        "statements": [],
+        "correctIndices": [
+          0,
+          2
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 26,
+        "type": "Einfachauswahl",
+        "text": "Welche Aussage trifft zu? Zur formalen Denkstörung gehört:",
+        "options": [
+          "Überwertige Ideen",
+          "Gedankenentzug",
+          "Assoziativ gelockertes Denken",
+          "Gedankenausbreitung",
+          "Kommentierende Stimmen"
+        ],
+        "statements": [],
+        "correctIndices": [
+          2
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 27,
+        "type": "Einfachauswahl",
+        "text": "Welcher Befund spricht am ehesten für eine leichte Intelligenzminderung?",
+        "options": [
+          "Sprachgebrauch reicht zur Mitteilung der Basisbedürfnisse nicht aus",
+          "Unfähigkeit, einfache praktische Arbeiten auszuüben",
+          "Intelligenzquotient (IQ) liegt unter 35",
+          "Verzögerter, für die Anforderungen des täglichen Lebens ausreichender Spracherwerb",
+          "Unfähigkeit, Aufforderungen zu verstehen"
+        ],
+        "statements": [],
+        "correctIndices": [
+          3
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 28,
+        "type": "Aussagenkombination",
+        "text": "Welche der folgenden Aussagen treffen zu? Bei der verhaltenstherapeutischen Behandlung von chronischer Insomnie (Schlaflosigkeit)",
+        "options": [
+          "Nur die Aussagen 1, 2 und 3 sind richtig",
+          "Nur die Aussagen 1, 4 und 5 sind richtig",
+          "Nur die Aussagen 3, 4 und 5 sind richtig",
+          "Nur die Aussagen 1, 3, 4 und 5 sind richtig",
+          "Alle Aussagen sind richtig"
+        ],
+        "statements": [
+          "werden schlaffördernde Verhaltensweisen verstärkt",
+          "wird der Patient angehalten, im Bett zu bleiben, während er wach liegt",
+          "wird der Patient angehalten, möglichst lange zu schlafen",
+          "wird Gedankenstopp eingesetzt",
+          "vermindert Entspannungstraining die körperliche Übererregung"
+        ],
+        "correctIndices": [
+          1
+        ],
+        "explanation": ""
+      }
+    ]
   },
   {
     "id": "2010-october",
@@ -20166,7 +20706,552 @@
     "id": "2014-october",
     "year": 2014,
     "month": "October",
-    "questions": []
+    "questions": [
+      {
+        "id": 1,
+        "type": "Mehrfachauswahl",
+        "text": "Welche der folgenden Aussagen zu selbstverletzenden Verhaltensweisen in der Adoleszenz treffen zu? Wählen Sie zwei Antworten!",
+        "options": [
+          "Selbstverletzendes Verhalten ist untypisch bei Borderlinestörungen",
+          "Vor dem 14. Lebensjahr sind keine selbstverletzenden Verhaltensweisen zu beobachten",
+          "Jungen sind seltener betroffen als Mädchen",
+          "Sie haben oft eine affekt- und spannungsregulierende Funktion",
+          "Selbstverletzendes Verhalten in der Adoleszenz weist grundsätzlich auf eine schwere psychische Störung im Erwachsenenalter hin"
+        ],
+        "statements": [],
+        "correctIndices": [
+          2,
+          3
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 2,
+        "type": "Aussagenkombination",
+        "text": "Welche der folgenden Aussagen zur histrionischen Persönlichkeitsstörung treffen zu?",
+        "options": [
+          "Nur die Aussagen 1, 2 und 3 sind richtig",
+          "Nur die Aussagen 1, 2 und 5 sind richtig",
+          "Nur die Aussagen 1, 4 und 5 sind richtig",
+          "Nur die Aussagen 2, 3 und 4 sind richtig",
+          "Nur die Aussagen 2, 3 und 5 sind richtig"
+        ],
+        "statements": [
+          "Fühlt sich unwohl, wenn er/sie im Mittelpunkt der Aufmerksamkeit steht",
+          "Die Interaktion mit anderen ist oft durch ein unangemessen verführerisches oder provokantes Verhalten charakterisiert",
+          "Zeigt einen rasch wechselnden und oberflächlichen Gefühlsausdruck",
+          "Versucht die eigene körperliche Erscheinung aus dem Blickpunkt zu nehmen",
+          "Dramatisierung bezüglich der eigenen Person, theatralisches Verhalten"
+        ],
+        "correctIndices": [
+          4
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 3,
+        "type": "Mehrfachauswahl",
+        "text": "Sie vermuten bei einem 80-jährigen Patienten, der Ihnen wegen Gedächtnisstörungen vorgestellt wird, eine Demenz vom Alzheimer Typ. Welche der folgenden Symptome stützen Ihren Verdacht bei der Differentialdiagnose? Wählen Sie zwei Antworten!",
+        "options": [
+          "Seit einem Jahr bestehende Störungen der Merkfähigkeit",
+          "Rechtsseitige Gesichtslähmung nach mehreren Schlaganfällen",
+          "Rasche Verschlechterung innerhalb weniger Tage",
+          "Keine qualitative Bewusstseinsstörung",
+          "Anamnestisch bekannter langjähriger übermäßiger Alkoholkonsum"
+        ],
+        "statements": [],
+        "correctIndices": [
+          0,
+          3
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 4,
+        "type": "Einfachauswahl",
+        "text": "Welche Aussage trifft zu? Die Aussage eines Patienten: \"Neulich im Bus sah ich, wie einige Fahrgäste miteinander tuschelten. Ich wusste sofort, dass sie dies taten, um mich zu verhexen\" bezeichnet am ehesten eine",
+        "options": [
+          "Zwangsstörung",
+          "Wahnwahrnehmung",
+          "optische Halluzination",
+          "Illusion",
+          "Gegenübertragung"
+        ],
+        "statements": [],
+        "correctIndices": [
+          1
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 5,
+        "type": "Mehrfachauswahl",
+        "text": "Ein Patient wird von seinem Psychiater mit Lithium behandelt. An welche der folgenden psychiatrischen Erkrankungen müssen Sie am ehesten denken? Wählen Sie zwei Antworten!",
+        "options": [
+          "Hirnorganisches Psychosyndrom",
+          "Manie",
+          "Intelligenzminderung",
+          "Alkoholkrankheit",
+          "Bipolare affektive Störung"
+        ],
+        "statements": [],
+        "correctIndices": [
+          1,
+          4
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 6,
+        "type": "Aussagenkombination",
+        "text": "Welche der folgenden Aussagen treffen zu? Faktoren, die bei der Erstmanifestation einer Schizophrenie hinsichtlich der Prognose als eher günstig gelten, sind:",
+        "options": [
+          "Nur die Aussagen 1, 2 und 3 sind richtig",
+          "Nur die Aussagen 1, 2 und 4 sind richtig",
+          "Nur die Aussagen 1, 2 und 5 sind richtig",
+          "Nur die Aussagen 1, 4 und 5 sind richtig",
+          "Nur die Aussagen 2, 3 und 5 sind richtig"
+        ],
+        "statements": [
+          "Heftige Begleitaffekte",
+          "Unterstützende Familie",
+          "Akuter Krankheitsbeginn",
+          "Schleichender Krankheitsbeginn",
+          "Auftreten von Schizophrenie bei nahen Angehörigen"
+        ],
+        "correctIndices": [
+          0
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 7,
+        "type": "Einfachauswahl",
+        "text": "Welche der nachfolgenden Beschreibungen charakterisiert am ehesten ein Tourette-Syndrom?",
+        "options": [
+          "Partielle oder vollständige Amnesie für kürzlich traumatisierende oder belastende Ereignisse",
+          "Die Unfähigkeit einem ständigen Impuls zum Haareausreißen zu widerstehen",
+          "Das offensichtliche oder scheinbare Vorhandensein von zwei oder mehreren Persönlichkeiten bei einem Individuum",
+          "Auftreten von motorischen Tics kombiniert mit vokalen Tics mit explosivem und wiederholtem Räuspern, Grunzen und Gebrauch von obszönen Wörtern",
+          "Qualitative Beeinträchtigung bei der sozialen Interaktion sowie eingeschränkte, sich wiederholende, stereotype Verhaltensmuster, Interessen und Aktivität"
+        ],
+        "statements": [],
+        "correctIndices": [
+          3
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 8,
+        "type": "Mehrfachauswahl",
+        "text": "Welche der folgenden Aussagen zur Zwangsstörung treffen zu? Wählen Sie zwei Antworten!",
+        "options": [
+          "Für die eindeutige Diagnose sollen die Symptome mindestens zwei Monate lang nachweisbar sein",
+          "Zwangsgedanken treten weit überwiegend bei Frauen auf",
+          "Die Zwangsgedanken werden vom Betroffenen als unangenehm erlebt",
+          "Die Zwangsgedanken werden als von außen eingegeben empfunden",
+          "Der Krankheitsbeginn liegt meist in der Kindheit oder im frühen Erwachsenenalter"
+        ],
+        "statements": [],
+        "correctIndices": [
+          2,
+          4
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 9,
+        "type": "Mehrfachauswahl",
+        "text": "Sie vermuten bei einer Patientin eine Anorexia nervosa. Welche der genannten anamnestischen Angaben oder Befunde stützen Ihren Verdacht? Wählen Sie zwei Antworten!",
+        "options": [
+          "BMI 22 kg/m²",
+          "Körpergröße 1,65 m, Gewicht 38 kg",
+          "Bluthochdruck",
+          "Teerstuhl",
+          "Einnahme von Abführmitteln"
+        ],
+        "statements": [],
+        "correctIndices": [
+          1,
+          4
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 10,
+        "type": "Einfachauswahl",
+        "text": "Welche Aussage zur Behandlung psychisch Kranker trifft zu?",
+        "options": [
+          "Psychisch Kranke mit akuter Psychose werden für mindestens 10 Wochen zwangsweise in einer psychiatrischen Fachklinik untergebracht",
+          "Psychisch Kranke mit einer schizophrenen Psychose können bei akuter Selbstgefährdung auch gegen ihren Willen in die Fachklinik eingewiesen werden",
+          "Chronisch psychisch Kranke können auch vom Heilpraktiker gegen ihren Willen in eine Fachklinik eingewiesen werden",
+          "Ein Heilpraktiker mit allgemeiner Erlaubnis darf keine Patienten mit seelischen Krankheiten behandeln",
+          "Chronisch psychisch Kranke werden vom Psychiater grundsätzlich auf ein injizierbares Depot-Neuroleptikum eingestellt"
+        ],
+        "statements": [],
+        "correctIndices": [
+          1
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 11,
+        "type": "Aussagenkombination",
+        "text": "Welche der folgenden Aussagen zu Gedächtnisstörungen trifft (treffen) zu?",
+        "options": [
+          "Nur die Aussage 4 ist richtig",
+          "Nur die Aussagen 1 und 2 sind richtig",
+          "Nur die Aussagen 4 und 5 sind richtig",
+          "Nur die Aussagen 1, 4 und 5 sind richtig",
+          "Nur die Aussagen 2, 3 und 5 sind richtig"
+        ],
+        "statements": [
+          "Störungen des Kurzzeitgedächtnisses sprechen gegen eine alkoholbedingte Korsakow-Psychose",
+          "Störungen der Merkfähigkeit treten bei affektiven Störungen nicht auf",
+          "Eine retrograde Amnesie ist der Verlust der Erinnerung an den Zeitraum, der nach einem Ereignis (z.B. Unfall) lag",
+          "Bei Konfabulationen füllt ein Patient Erinnerungslücken mit Einfällen, die er selber für Erinnerungen hält",
+          "Paramnesien (Wahn- oder Trugerinnerungen) beinhalten das falsche Wiedererkennen von Situationen"
+        ],
+        "correctIndices": [
+          2
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 12,
+        "type": "Aussagenkombination",
+        "text": "Welche der folgenden Diagnosen oder Verhaltensweisen zählen nach ICD-10 zu den abnormen Gewohnheiten und Störungen der Impulskontrolle?",
+        "options": [
+          "Nur die Aussagen 1, 2 und 3 sind richtig",
+          "Nur die Aussagen 1, 3 und 4 sind richtig",
+          "Nur die Aussagen 1, 4 und 5 sind richtig",
+          "Nur die Aussagen 2, 3 und 5 sind richtig",
+          "Nur die Aussagen 2, 4 und 5 sind richtig"
+        ],
+        "statements": [
+          "Pyromanie",
+          "Dissoziative Störung",
+          "Fetischismus",
+          "Pathologisches Glücksspiel",
+          "Kleptomanie"
+        ],
+        "correctIndices": [
+          2
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 13,
+        "type": "Aussagenkombination",
+        "text": "Welche der folgenden Aussagen zum Asperger-Syndrom treffen zu?",
+        "options": [
+          "Nur die Aussagen 1 und 4 sind richtig",
+          "Nur die Aussagen 2 und 3 sind richtig",
+          "Nur die Aussagen 3 und 4 sind richtig",
+          "Nur die Aussagen 3, 4 und 5 sind richtig",
+          "Nur die Aussagen 2, 3, 4 und 5 sind richtig"
+        ],
+        "statements": [
+          "Es erkranken deutlich mehr Mädchen als Jungen",
+          "Bei den Betroffenen besteht meist eine Intelligenzminderung",
+          "Die Sprache ist gut entwickelt, aber in kommunikativer Form gestört",
+          "Vorliegen von Spezialinteressen bei gestörter Beziehungsfähigkeit",
+          "Die Kinder zeichnen sich durch eine geschickte Motorik aus"
+        ],
+        "correctIndices": [
+          2
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 14,
+        "type": "Einfachauswahl",
+        "text": "Welche Aussage trifft zu? Wenn ein Patient berichtet, dass er Stimmen hört, die sein Handeln kommentieren, so handelt es sich um eine",
+        "options": [
+          "Pseudohalluzination",
+          "Akoasme",
+          "Zönästhesie",
+          "Ich-Störung",
+          "Halluzination"
+        ],
+        "statements": [],
+        "correctIndices": [
+          0,
+          2
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 15,
+        "type": "Mehrfachauswahl",
+        "text": "Welche der folgenden Störungen gehören zu den quantitativen Bewusstseinsstörungen? Wählen Sie zwei Antworten!",
+        "options": [
+          "Benommenheit",
+          "Verwirrtheit",
+          "Sopor",
+          "Bewusstseinseinengung",
+          "Halluzinationen"
+        ],
+        "statements": [],
+        "correctIndices": [
+          0,
+          2
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 16,
+        "type": "Mehrfachauswahl",
+        "text": "Welche der folgenden Aussagen zur Hebephrenie treffen zu? Wählen Sie zwei Antworten!",
+        "options": [
+          "Das Krankheitsbild ist unter anderem gekennzeichnet durch ungeordnetes Denken, weitschweifige Sprache sowie verantwortungsloses und unvorhersehbares Verhalten",
+          "Halluzinationen und Wahn bestimmen das klinische Bild",
+          "Eindeutige und anhaltende Verflachung oder Inadäquatheit des Affekts können zwar in leichter Form vorkommen, bestimmen aber nicht das klinische Bild",
+          "Der Beginn der Erkrankung liegt meist zwischen der Pubertät und der Mitte des 3. Lebensjahrzehntes",
+          "Die Störung wird meist rasch erkannt, da Halluzinationen, Wahnideen und katatone motorische Erscheinungen im Vordergrund stehen"
+        ],
+        "statements": [],
+        "correctIndices": [
+          0,
+          3
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 17,
+        "type": "Aussagenkombination",
+        "text": "Welche der folgenden Aussagen treffen zu? Zur Positivsymptomatik bei Schizophrenie gehören:",
+        "options": [
+          "Nur die Aussagen 1 und 2 sind richtig",
+          "Nur die Aussagen 1, 3 und 4 sind richtig",
+          "Nur die Aussagen 2, 3 und 5 sind richtig",
+          "Nur die Aussagen 1, 2, 3 und 5 sind richtig",
+          "Alle Aussagen sind richtig"
+        ],
+        "statements": [
+          "Halluzinationen",
+          "Wahn",
+          "Denkzerfahrenheit",
+          "Affektverflachung",
+          "Erregtheit"
+        ],
+        "correctIndices": [
+          3
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 18,
+        "type": "Mehrfachauswahl",
+        "text": "Welche der folgenden Aussagen zu Benzodiazepinen treffen zu? Wählen Sie zwei Antworten!",
+        "options": [
+          "Kurz wirksame Benzodiazepine führen deutlich langsamer zu einer Toleranzentwicklung als länger wirksame Benzodiazepine",
+          "Im Gegensatz zum Alkoholentzug treten beim Entzug von Benzodiazepinen keine vegetativen Symptome auf",
+          "Nach Absetzen von Benzodiazepinen können Krampfanfälle auftreten",
+          "Charakteristisch für den Entzug ist ein ausgeprägtes Müdigkeitsgefühl",
+          "Ältere Patienten können paradox auf Tranquilizer mit Erregungszuständen, Schlaflosigkeit oder feindseligem Verhalten reagieren"
+        ],
+        "statements": [],
+        "correctIndices": [
+          2,
+          4
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 19,
+        "type": "Mehrfachauswahl",
+        "text": "Welche der folgenden Symptome zählen zu den Ich-Störungen? Wählen Sie zwei Antworten!",
+        "options": [
+          "Gedankendrängen",
+          "Gedankenausbreitung",
+          "Gedankenabreißen",
+          "Gedankenentzug",
+          "Gedankenblockierung"
+        ],
+        "statements": [],
+        "correctIndices": [
+          1,
+          3
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 20,
+        "type": "Aussagenkombination",
+        "text": "Welche der folgenden therapeutischen Techniken gehören zu den typischen verhaltenstherapeutischen Verfahren?",
+        "options": [
+          "Nur die Aussagen 1, 2 und 3 sind richtig",
+          "Nur die Aussagen 1, 2 und 4 sind richtig",
+          "Nur die Aussagen 2, 3 und 4 sind richtig",
+          "Nur die Aussagen 3, 4 and 5 sind richtig",
+          "Alle Aussagen sind richtig"
+        ],
+        "statements": [
+          "Reizkonfrontation",
+          "Training sozialer Kompetenz",
+          "Zirkuläres Fragen",
+          "Kognitive Therapie",
+          "Genogramm"
+        ],
+        "correctIndices": [
+          1
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 21,
+        "type": "Mehrfachauswahl",
+        "text": "Welche der folgenden Aussagen zur schizoaffektiven Störung treffen zu? Wählen Sie zwei Antworten!",
+        "options": [
+          "Sowohl affektive als auch schizophrene Symptome treten in derselben Krankheitsphase auf",
+          "Affektive und schizophrene Symptome treten nur in unterschiedlichen Krankheitsphasen auf",
+          "Die Langzeitprognose ist deutlich schlechter als bei der Schizophrenie",
+          "Sowohl manische als auch depressive Symptome können auftreten",
+          "Ich-Störungen treten nicht auf"
+        ],
+        "statements": [],
+        "correctIndices": [
+          0,
+          3
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 22,
+        "type": "Mehrfachauswahl",
+        "text": "Welche der folgenden Aussagen für delirante Syndrome treffen zu? Wählen Sie zwei Antworten!",
+        "options": [
+          "Sie beginnen schleichend (Wochen)",
+          "Typisch ist eine Orientierungsstörung bei klarem Bewusstsein",
+          "Es ist auch an eine Stoffwechselstörung zu denken",
+          "Beim Alkoholentzugsdelir treten Halluzinationen jeglicher Wahrnehmungsqualität auf",
+          "Es handelt sich um eine irreversible Psychose"
+        ],
+        "statements": [],
+        "correctIndices": [
+          2,
+          3
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 23,
+        "type": "Einfachauswahl",
+        "text": "Ein Patient mit Spinnenphobie soll mit \"Flooding\" (Reizüberflutung) behandelt werden. Bei welcher der folgenden Erkrankungen ist diese Behandlung mit besonderen Risiken verbunden?",
+        "options": [
+          "Krampfadern an beiden Beinen",
+          "Koronare Herzkrankheit",
+          "Chronische Alkoholkrankheit mit längerer Abstinenz",
+          "HIV-Infektion",
+          "Nikotinabhängigkeit"
+        ],
+        "statements": [],
+        "correctIndices": [
+          1
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 24,
+        "type": "Aussagenkombination",
+        "text": "Welche der folgenden Aussagen trifft (treffen) zu? Die Behandlungsbefugnis von Inhabern einer auf das Gebiet der Psychotherapie beschränkten Heilpraktikererlaubnis beinhaltet grundsätzlich",
+        "options": [
+          "Nur die Aussage 1 ist richtig",
+          "Nur die Aussagen 1 und 3 sind richtig",
+          "Nur die Aussagen 2 und 3 sind richtig",
+          "Nur die Aussagen 1, 2 und 5 sind richtig",
+          "Nur die Aussagen 1, 2, 3 und 4 sind richtig"
+        ],
+        "statements": [
+          "die Anwendung von Hypnose",
+          "die Anwendung wissenschaftlich anerkannter Psychotherapieverfahren",
+          "die Feststellung einer psychischen Erkrankung",
+          "die Stellung einer Diagnose im Sinne der ICD-10",
+          "die Verordnung von rezeptpflichtigen Psychopharmaka"
+        ],
+        "correctIndices": [
+          4
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 25,
+        "type": "Mehrfachauswahl",
+        "text": "Welche der folgenden Aussagen zur Schizophrenie treffen zu? Wählen Sie zwei Antworten!",
+        "options": [
+          "Die Suizidrate ist hoch (ca. 5-15 %)",
+          "Durch eine mehrmonatige neuroleptische Therapie lassen sich Rezidive dauerhaft verhindern",
+          "Bei Patienten mit schizophrenem Residuum besteht für Heilpraktiker Behandlungsverbot",
+          "Bei chronischem Verlauf stehen häufig kognitive Störungen und sozialer Rückzug im Vordergrund der Symptomatik",
+          "Bei einer Erstmanifestation einer akuten Schizophrenie besteht für Heilpraktiker Meldepflicht"
+        ],
+        "statements": [],
+        "correctIndices": [
+          0,
+          3
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 26,
+        "type": "Mehrfachauswahl",
+        "text": "Welche der folgenden Aussagen treffen zu? Wählen Sie zwei Antworten! Akustische Halluzinationen treten typischerweise auf bei",
+        "options": [
+          "paranoider Schizophrenie",
+          "Alkoholhalluzinose",
+          "Aufmerksamkeitsdefizit-/Hyperaktivitätsstörung (ADHS) im Erwachsenenalter",
+          "hypochondrischer Störung",
+          "paranoider Persönlichkeitsstörung"
+        ],
+        "statements": [],
+        "correctIndices": [
+          0,
+          1
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 27,
+        "type": "Aussagenkombination",
+        "text": "Welche der folgenden Symptome können bei manischen Phasen einer manisch-depressiven Psychose (bipolare affektive Störung) häufig beobachtet werden?",
+        "options": [
+          "Nur die Aussagen 1 und 5 sind richtig",
+          "Nur die Aussagen 2 und 3 sind richtig",
+          "Nur die Aussagen 3 und 4 sind richtig",
+          "Nur die Aussagen 1, 3 und 4 sind richtig",
+          "Nur die Aussagen 1, 3, 4 und 5 sind richtig"
+        ],
+        "statements": [
+          "Fehlendes Krankheitsgefühl",
+          "Leibliche Beeinflussungserlebnisse",
+          "Ideenflucht",
+          "Vermindertes Schlafbedürfnis",
+          "Gesteigerte sexuelle Aktivität"
+        ],
+        "correctIndices": [
+          4
+        ],
+        "explanation": ""
+      },
+      {
+        "id": 28,
+        "type": "Einfachauswahl",
+        "text": "Welche Aussage zum Begriff „Inkohärenz im Denken“, der im psychopathologischen Befund verwendet werden kann, trifft zu?",
+        "options": [
+          "Auffüllen von Erinnerungslücken mit frei erfundenen Faktoren, die für Erinnerungen gehalten werden",
+          "Haftenbleiben an bestimmten Vorstellungen und Gedanken, die zuvor verwendet wurden",
+          "Sprunghaftes Denken, Fehlen logischer und assoziativer Verknüpfungen im Gedankengang",
+          "Schleppender, verzögert ablaufender und für den Patienten mühsamer Gedankengang",
+          "Unkorrigierbar falsche Beurteilungen der Realität aus einer Stimmung des Unheimlichen und Vieldeutigen heraus"
+        ],
+        "statements": [],
+        "correctIndices": [
+          2
+        ],
+        "explanation": ""
+      }
+    ]
   },
   {
     "id": "2016-october",

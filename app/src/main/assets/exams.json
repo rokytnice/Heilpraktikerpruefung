@@ -2668,10 +2668,11 @@
           "Alle Aussagen sind richtig"
         ],
         "statements": [
-          "Es besteht eine wirtschaftliche Aufklärungspflicht bezüglich der zu",
-          "Die Gebührenordnung für Heilpraktiker (GebüH) regelt verbindlich die Höhe",
-          "Privaten Versicherungen ist eine Kostenübernahme der Behandlungskosten",
-          "Heilpraktikerinnen/Heilpraktiker unterliegen der Verschwiegenheitspflicht und"
+          "Die Führung der Berufsbezeichnung „Psychotherapeutin“ oder „Psychotherapeut“ wird durch das Psychotherapeutengesetz (PsychThG) geregelt. Die Ausübung von Psychotherapie mit einer Erlaubnis nach dem Heilpraktikergesetz berechtigt nicht zur Führung der Berufsbezeichnung „Psychotherapeut.“",
+          "Es besteht eine wirtschaftliche Aufklärungspflicht bezüglich der zu erwartenden Behandlungskosten.",
+          "Die Gebührenordnung für Heilpraktiker (GebüH) regelt verbindlich die Höhe der Vergütung für Tätigkeiten auf dem Gebiet der Psychotherapie.",
+          "Privaten Versicherungen ist eine Kostenübernahme der Behandlungskosten untersagt.",
+          "Heilpraktikerinnen/Heilpraktiker unterliegen der Verschwiegenheitspflicht und haben sowohl in Zivilprozessen als auch in Strafverfahren ein Zeugnisverweigerungsrecht."
         ],
         "correctIndices": [
           0
@@ -2737,9 +2738,9 @@
         "text": "Welche Aussagen zum Fibromyalgiesyndrom treffen zu? Wählen Sie zwei Antworten!",
         "options": [
           "Beweisend für das Vorliegen ist der Nachweis von Rheumafaktoren.",
-          "Die Krankheit gehört in die Gruppe der seltenen Erkrankungen, sogenannte",
+          "Die Krankheit gehört in die Gruppe der seltenen Erkrankungen, sogenannte Orphan Diseases (weniger als 0,05% der Bevölkerung betroffen.",
           "Ein Kernsymptom des Syndroms sind chronische Schmerzen und Schlafstörungen",
-          "Die Krankheit ist einer anhaltenden somatoformen Schmerzstörung",
+          "Die Krankheit ist einer anhaltenden somatoformen Schmerzstörung gleichzusetzen.",
           "Die Durchführung einer kognitiven Verhaltenstherapie ist sinnvoll."
         ],
         "statements": [],
@@ -2777,9 +2778,9 @@
         "type": "Mehrfachauswahl",
         "text": "Welche Aussagen zur bipolaren affektiven Störung sind richtig? Wählen Sie zwei Antworten!",
         "options": [
-          "Bei beiden Polen der Erkrankung können psychotische Symptome",
-          "Im Zusammenhang mit dieser Störung treten keine psychosomatischen",
-          "Die Diagnose einer Persönlichkeitsstörung schließt die Diagnose einer",
+          "Bei beiden Polen der Erkrankung können psychotische Symptome auftreten.",
+          "Im Zusammenhang mit dieser Störung treten keine psychosomatischen Beschwerden auf.",
+          "Die Diagnose einer Persönlichkeitsstörung schließt die Diagnose einer bipolaren affektiven Störung aus.",
           "Eine medikamentöse Phasenprophylaxe sollte erwogen werden.",
           "Eine hypomanische Phase ist von Traurigkeit geprägt."
         ],
@@ -2799,7 +2800,7 @@
           "Ideenflucht findet man häufig bei Erkrankten in einer depressiven Episode.",
           "Verfolgungswahn zählt zu den formalen Denkstörungen.",
           "Formale Denkstörungen treten häufig in manischen Phasen auf.",
-          "Formale Denkstörungen können in der Regel nur durch konkrete Nachfrage"
+          "Formale Denkstörungen können in der Regel nur durch konkrete Nachfrage exploriert werden."
         ],
         "statements": [],
         "correctIndices": [
@@ -2812,11 +2813,11 @@
         "type": "Mehrfachauswahl",
         "text": "Bei Klienten mit Hypochondrie findet sich oftmals sogenanntes „Checking-Verhalten“, dem eine krankheitsaufrechterhaltende Funktion zugeschrieben wird. Welche der folgenden Beispiele fallen am ehesten unter „Checking-Verhalten“? Wählen Sie zwei Antworten!",
         "options": [
-          "Ein Klient mit Angst vor Hautkrebs tastet leicht gerötet Hautstellen",
-          "Ein Klient mit der Angst vor Hodenkrebs vermeidet sexuelle Kontakte, um",
-          "Ein Klient mit Angst vor Magenkrebs sucht im Internet Informationen über",
-          "Eine Klientin mit Angst vor Brustkrebs fragt häufig ihre Mitbewohnerin, ob",
-          "Eine Klientin mit Angst vor Kehlkopfkrebs schluckt morgens nach dem"
+          "Ein Klient mit Angst vor Hautkrebs tastet leicht gerötet Hautstellen wiederholt ab, um deren Beschaffenheit zu testen.",
+          "Ein Klient mit der Angst vor Hodenkrebs vermeidet sexuelle Kontakte, um nicht zu sehr mit seiner Angst konfrontiert zu werden.",
+          "Ein Klient mit Angst vor Magenkrebs sucht im Internet Informationen über die Zusammensetzung von Nahrungsmitteln.",
+          "Eine Klientin mit Angst vor Brustkrebs fragt häufig ihre Mitbewohnerin, ob diese ihr wirklich versprechen könne, dass sie keinen Brustkrebs habe.",
+          "Eine Klientin mit Angst vor Kehlkopfkrebs schluckt morgens nach dem Aufwachen mehrfach, um die Funktionsweise des Kehlkopfes zu überprüfen."
         ],
         "statements": [],
         "correctIndices": [
@@ -2830,11 +2831,11 @@
         "type": "Mehrfachauswahl",
         "text": "W elche Aussagen zur Behandlungsmethode „Eye Movement Desensitization and Reprocessing“ treffen zu? Wählen Sie zwei Antworten!",
         "options": [
-          "Die Wirkung der Intervention basiert auf der tiefen Absenkung des",
-          "Ziel ist die fokussierte Bearbeitung von negativen, dysfunktionalen",
+          "Die Wirkung der Intervention basiert auf der tiefen Absenkung des Bewusstseins.",
+          "Ziel ist die fokussierte Bearbeitung von negativen, dysfunktionalen Kognitionen.",
           "Es wird zur Verarbeitung von traumatischen Erlebnissen eingesetzt.",
-          "Die Wirkung wird auf die Stimulation von Hirnstamm und Kleinhirn",
-          "Es ist eine hochwirksame Therapiemethode ohne Risiken und"
+          "Die Wirkung wird auf die Stimulation von Hirnstamm und Kleinhirn zurückgeführt.",
+          "Es ist eine hochwirksame Therapiemethode ohne Risiken und Nebenwirkungen."
         ],
         "statements": [],
         "correctIndices": [
@@ -2852,7 +2853,7 @@
           "Im Rahmen einer Kleinhirnschädigung kann eine Ataxie auftreten",
           "Im Stammhirn liegt das Regulationszentrum für Atmung und Kreislauf",
           "Das Gehirn besitzt Schmerzrezeptoren",
-          "Im limbischen System, speziell im Hippocampus, wird die Feinmotorik"
+          "Im limbischen System, speziell im Hippocampus, wird die Feinmotorik gesteuert"
         ],
         "statements": [],
         "correctIndices": [

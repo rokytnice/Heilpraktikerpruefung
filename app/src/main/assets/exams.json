@@ -2626,11 +2626,11 @@
         "type": "Einfachauswahl",
         "text": "Ein 33-jähriger Klient, der seit seiner Kindheit unter Neurodermitis leidet, kommt in Ihre Praxis. Seit einigen Wochen habe sich die Symptomatik verschlechtert, besonders in den Abendstunden trete ein massiver Juckreiz auf, der durch exzessives Kratzen kurzzeitig vermindert werden könne. Da er auch unter Einschlafstörungen leide, kratze er mittlerweile immer mehr, teilweise, bis die Haut blutig sei. Mit welcher klassisch lerntheoretischen Begrifflichkeit wird der Mechanismus der Zunahme des Problemverhaltens (Kratzen) infolge der Unterdrückung des aversiven Reizes (Juckreiz) bezeichnet? Wählen Sie eine Antwort!",
         "options": [
-          "Nur die Aussagen 1 und 4 sind richtig",
-          "Nur die Aussagen 4 und 5 sind richtig",
-          "Nur die Aussagen 1, 2 und 4 sind richtig",
-          "Nur die Aussagen 1, 4 und 5 sind richtig",
-          "Nur die Aussagen 1, 2, 3 und 5 sind richtig"
+          "Stimuluskontrolle",
+          "Negative Bestrafung (Entzugsbestrafung)",
+          "Negative Verstärkung",
+          "Generalisierter Strafreiz",
+          "Positive Vermeidung"
         ],
         "statements": [],
         "correctIndices": [
@@ -2644,10 +2644,10 @@
         "text": "Welche Aussagen zum Neurotransmitter Serotonin sind richtig? Wählen Sie zwei Antworten!",
         "options": [
           "Serotonin kommt im zentralen und peripheren Nervensystem vor.",
-          "Mit der Nahrung aufgenommenes Serotonin gelangt innerhalb von 10",
-          "Serotonin beeinflusst die Stimmung, die Körpertemperatur, die",
-          "SSRI (Serotonin-Wiederaufnahmehemmer), die bei der Behandlung einer",
-          "L-Serotonin kann als Nahrungsergänzungsmittel zur Behandlung von"
+          "Mit der Nahrung aufgenommenes Serotonin gelangt innerhalb von 10 Minuten über die Blut-Hirn-Schranke ins zentrale Nervensystem.",
+          "Serotonin beeinflusst die Stimmung, die Körpertemperatur, die Schmerzbewertung und den Schlaf-Wach-Rhythmus.",
+          "SSRI (Serotonin-Wiederaufnahmehemmer), die bei der Behandlung einer Depression eingesetzt werden, wirken ausschließlich im zentralen Nervensystem. Der Vorteil ist, dass unerwünschte Wirkungen in der Peripherie, z.B. am Magen-Darm-Trakt, nicht auftreten.",
+          "L-Serotonin kann als Nahrungsergänzungsmittel zur Behandlung von Schlafstörungen eingesetzt werden."
         ],
         "statements": [],
         "correctIndices": [

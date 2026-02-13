@@ -1315,7 +1315,7 @@
           "Bei einer akuten schweren depressiven Episode ist eine ambulante psychodynamisch orientierte Psychotherapie indiziert.",
           "Ziel der kognitiven Therapie nach Beck ist die sogenannte kognitive Umstrukturierung.",
           "Beim SORKC-Modell handelt es sich um ein in der verhaltenstherapeutischen Diagnostik anwendbares Modell zur Problem-, Situationsund Verhaltensanalyse.",
-          "Psychodynamisch orientierte Methoden spielen in der Kinderund Jugendpsychiatrie keine wesentliche Rolle."
+          "Psychodynamisch orientierte Methoden spielen in der Kinder- und Jugendpsychiatrie keine wesentliche Rolle."
         ],
         "correctIndices": [
           0
@@ -1507,7 +1507,7 @@
         "type": "Einfachauswahl",
         "text": "Welche Aussage trifft zu? Grübeln gehört im psychopathologischen Befund zur Gruppe der:",
         "options": [
-          "Aufmerksamkeitsund Gedächtnisstörungen",
+          "Aufmerksamkeits- und Gedächtnisstörungen",
           "Formalen Denkstörungen",
           "Befürchtungen und Zwänge",
           "Ich-Störungen",
@@ -2262,7 +2262,7 @@
           "Alle Aussagen sind richtig"
         ],
         "statements": [
-          "Die Gebührenordnung für .",
+          "Die Gebührenordnung für Heilpraktiker (GebüH) gilt auch für Tätigkeiten auf dem Gebiet der Psychotherapie.",
           "Der Heilpraktiker / die Heilpraktikerin darf die Höhe der Vergütung frei festlegen.",
           "Der Heilpraktiker / die Heilpraktikerin benötigt eine Zulassungsnummer von der Kassenärztlichen Bundesvereinigung, um die Abrechnung mit gesetzlich versicherten Patienten zu gewährleisten.",
           "Mit privatversicherten Patienten rechnet der Heilpraktiker / die Heilpraktikerin ebenfalls über die Kassenärztliche Vereinigung ab.",
@@ -4151,7 +4151,7 @@
         ],
         "statements": [
           "Ängste, Anspannungen, depressive Gefühle, Selbstwertprobleme werden durch den Konsum von Opioiden unterdrückt.",
-          "dürfen keine Suchtberatung durchführen.",
+          "Heilpraktiker beschränkt auf das Gebiet der Psychotherapie dürfen keine Suchtberatung durchführen.",
           "Depressive Verstimmung, Antriebsund Konzentrationsstörungen, Schlafstörungen und Persönlichkeitsveränderungen können als psychische Folgeschäden eines Opioid-/Heroinkonsums auftreten.",
           "Ein Opioid Entzug ist deutlich weniger gefährlich als ein Alkoholentzug, sollte aber sinnvollerweise von Anfang an therapeutisch begleitet werden.",
           "Die psychische Abhängigkeit kann nach dem körperlichen Entzug noch über Wochen weiterbestehen."
@@ -4572,7 +4572,7 @@
         "type": "Einfachauswahl",
         "text": "Ein Patient stellt sich erstmals beim Heilpraktiker/der Heilpraktiker vor. Er sei wegen Herzbeschwerden, Schwindel häufigen Bauchschmerzen, Durchfall und Hautjucken schon bei vielen Ärzten gewesen und habe sich vielen Behandlungen unterzogen. Die Symptome seien aber immer wieder aufgetreten. Zu welcher Gesundheitsstörung passen die genannten Symptome am ehesten?",
         "options": [
-          "Paranoidhalluzinatorische Schizophrenie",
+          "Paranoid-halluzinatorische Schizophrenie",
           "Somatoforme Störung",
           "Multiple Sklerose",
           "Colitis ulcerosa",
@@ -4680,7 +4680,7 @@
           "Affektive Veränderung ",
           "Paranoider Wahn ",
           "Bewusstseinsverschiebung ",
-          "Stuhlund Harninkontinenz"
+          "Stuhl- und Harninkontinenz"
         ],
         "statements": [],
         "correctIndices": [
@@ -6891,7 +6891,9 @@
           "Undeutliche Aussprache",
           "Schlechter allgemeiner Körperpflegezustand"
         ],
-        "correctIndices": [],
+        "correctIndices": [
+          3
+        ],
         "explanation": ""
       },
       {
@@ -6912,7 +6914,9 @@
           "Nur die Aussagen 1, 3 und 5 sind richtig 0",
           "Alle Aussagen sind richtig"
         ],
-        "correctIndices": [],
+        "correctIndices": [
+          0
+        ],
         "explanation": ""
       },
       {
@@ -6933,7 +6937,9 @@
           "Nur dieAussagen 1, 3, 4 und 5 sind richtig 0",
           "Alle Aussagen sind richtig"
         ],
-        "correctIndices": [],
+        "correctIndices": [
+          2
+        ],
         "explanation": ""
       },
       {
@@ -6945,7 +6951,7 @@
           "Fugue (zielgerichtete Ortsveränderung von zu Haus oder vom Arbeitsplatz fort)",
           "Stupor",
           "Besessenheitszustände",
-          "Sensibilitätsund Empfindungsstörungen"
+          "Sensibilitäts- und Empfindungsstörungen"
         ],
         "options": [
           "Nur die Aussage 1 ist richtig",
@@ -6954,7 +6960,9 @@
           "Nur die Aussagen 2, 3 und 5 sind richtig",
           "Alle Aussagen sind richtig"
         ],
-        "correctIndices": [],
+        "correctIndices": [
+          4
+        ],
         "explanation": ""
       },
       {
@@ -6975,7 +6983,9 @@
           "Nur die Aussagen 1, 2, 3 und 4 sind richtig",
           "Nur die Aussagen 1, 2, 3 und 5 sind richtig"
         ],
-        "correctIndices": [],
+        "correctIndices": [
+          3
+        ],
         "explanation": ""
       },
       {
@@ -6990,7 +7000,9 @@
           "Hochbegabung",
           "Gesteigerte eigene Verhaltenskontrolle"
         ],
-        "correctIndices": [],
+        "correctIndices": [
+          3
+        ],
         "explanation": ""
       },
       {
@@ -7005,7 +7017,9 @@
           "Eine vorbestehende Intelligenzminderung (z.B . bei Down-Syndrom) schließt die Entwicklung einer Demenz aus",
           "Die Demenz bei Creutzfeldt-Jakob-Krankheit ist durch einen besonders langsamen Verlauf gekennzeichnet Mehrfachauswahlaufgabe Wählen Sie zwei Antworten! Verhaltenstherapeutische Methoden und Techniken sind : A) Problemlösetraining B) Unbedingte Wertschätzung des Klienten durch den Therapeuten 0 C) Li"
         ],
-        "correctIndices": [],
+        "correctIndices": [
+          4
+        ],
         "explanation": ""
       },
       {
@@ -7020,7 +7034,9 @@
           "Aufforderung an den Patienten, frei zu assoziieren"
         ],
         "statements": [],
-        "correctIndices": [],
+        "correctIndices": [
+          2
+        ],
         "explanation": ""
       },
       {
@@ -7035,7 +7051,9 @@
           "Eine therapeutische tiefe Regression ist Therapieziel der Verhaltenstherapie",
           "Das Standardverfahren der klassischen Psychoanalyse ist die Kurzzeittherapie"
         ],
-        "correctIndices": [],
+        "correctIndices": [
+          2
+        ],
         "explanation": ""
       },
       {
@@ -7050,7 +7068,9 @@
           "Eine therapeutische tiefe Regression ist Therapieziel der Verhaltenstherapie",
           "Das Standardverfahren der klassischen Psychoanalyse ist die Kurzzeittherapie Korrekturrand rechts bitte. nicht beschriften! A) Die Betroffenen weichen in der Selbstwahrnehmung, in ihrer Kontaktaufnahme und in ihren Beziehungen zu anderen von der Mehrzahl der Bevölkerung ab . 0 B) Das abnorme Verhalt"
         ],
-        "correctIndices": [],
+        "correctIndices": [
+          3
+        ],
         "explanation": ""
       },
       {
@@ -7065,7 +7085,9 @@
           "symptomatische Psychose"
         ],
         "statements": [],
-        "correctIndices": [],
+        "correctIndices": [
+          4
+        ],
         "explanation": ""
       },
       {
@@ -7086,7 +7108,9 @@
           "Nur die Aussagen 1, 2, 3 und 4 sind richtig",
           "Alle Aussagen sind richtig"
         ],
-        "correctIndices": [],
+        "correctIndices": [
+          3
+        ],
         "explanation": ""
       },
       {
@@ -7107,7 +7131,9 @@
           "Nur die Aussagen 1, 2, 4 und 5 sind richtig",
           "Alle Aussagen sind richtig"
         ],
-        "correctIndices": [],
+        "correctIndices": [
+          3
+        ],
         "explanation": ""
       },
       {
@@ -7128,7 +7154,9 @@
           "Nur die Aussagen 2, 3 und 5 sind richtig",
           "Alle Aussagen sind richtig"
         ],
-        "correctIndices": [],
+        "correctIndices": [
+          0
+        ],
         "explanation": ""
       },
       {
@@ -7149,7 +7177,9 @@
           "Nur die Aussagen 1, 3, 4 und 5 sind richtig",
           "Nur die Aussagen 2, 3, 4 und 5 sind richtig"
         ],
-        "correctIndices": [],
+        "correctIndices": [
+          0
+        ],
         "explanation": ""
       },
       {
@@ -7164,7 +7194,9 @@
           "Katatone Schizophrenie 0",
           "Anankastische Persönlichkeitsstörung"
         ],
-        "correctIndices": [],
+        "correctIndices": [
+          3
+        ],
         "explanation": ""
       },
       {
@@ -7179,7 +7211,9 @@
           "Narzissmus",
           "Psychosoziale Abwehr"
         ],
-        "correctIndices": [],
+        "correctIndices": [
+          3
+        ],
         "explanation": ""
       },
       {
@@ -7200,7 +7234,9 @@
           "Nur die Aussagen 1, 3 und 5 sind richtig",
           "Alle Aussagen sind richtig"
         ],
-        "correctIndices": [],
+        "correctIndices": [
+          3
+        ],
         "explanation": ""
       },
       {
@@ -7215,7 +7251,9 @@
           "Übermäßige Befolgung von Konventionen",
           "Andauerndes Verlangen nach Anerkennung"
         ],
-        "correctIndices": [],
+        "correctIndices": [
+          0
+        ],
         "explanation": ""
       },
       {
@@ -7236,7 +7274,9 @@
           "Nur die Aussagen 1, 2, 3 und 5 sind richtig",
           "Alle Aussagen sind richtig"
         ],
-        "correctIndices": [],
+        "correctIndices": [
+          3
+        ],
         "explanation": ""
       },
       {
@@ -7257,7 +7297,9 @@
           "Nur die Aussagen 1, 2, 4 und 5 sind richtig 0",
           "Nur die Aussagen 1, 3, 4 und 5 sind richtig"
         ],
-        "correctIndices": [],
+        "correctIndices": [
+          1
+        ],
         "explanation": ""
       },
       {
@@ -7278,7 +7320,9 @@
           "Nur die Aussagen 1, 2, 3 und 5 sind richtig",
           "Alle Aussagen sind richtig"
         ],
-        "correctIndices": [],
+        "correctIndices": [
+          3
+        ],
         "explanation": ""
       },
       {
@@ -7299,7 +7343,9 @@
           "Nur die Aussagen 2, 4 und 5 sind richtig",
           "Alle Aussagen sind richtig"
         ],
-        "correctIndices": [],
+        "correctIndices": [
+          4
+        ],
         "explanation": ""
       },
       {
@@ -7320,7 +7366,9 @@
           "Nur dieAussagen 2, 3, 4 und 5 sind richtig",
           "Alle Aussagen sind richtig"
         ],
-        "correctIndices": [],
+        "correctIndices": [
+          1
+        ],
         "explanation": ""
       },
       {
@@ -7341,7 +7389,9 @@
           "Nur die Aussagen 1, 2, 3 und 5 sind richtig",
           "Alle Aussagen sind richtig"
         ],
-        "correctIndices": [],
+        "correctIndices": [
+          3
+        ],
         "explanation": ""
       },
       {
@@ -7362,7 +7412,9 @@
           "Nur die Aussagen 1, 2, 3 und 5 sind richtig",
           "Alle Aussagen sind richtig"
         ],
-        "correctIndices": [],
+        "correctIndices": [
+          2
+        ],
         "explanation": ""
       },
       {
@@ -7383,7 +7435,9 @@
           "Nur die Aussagen 1, 2, 4 und 5 sind richtig",
           "Alle Aussagen sind richtig"
         ],
-        "correctIndices": [],
+        "correctIndices": [
+          3
+        ],
         "explanation": ""
       },
       {
@@ -7398,7 +7452,9 @@
           "Das Verhalten ist zielgerichtet und vorhersehbar"
         ],
         "statements": [],
-        "correctIndices": [],
+        "correctIndices": [
+          3
+        ],
         "explanation": ""
       }
     ]
@@ -10944,11 +11000,11 @@
         "text": "Welche der folgenden Untersuchungen sind bei Verdacht auf eine Leseund Rechtschreibstörung primär angezeigt? Wählen Sie zwei Antworten!",
         "statements": [],
         "options": [
-          "Nur die Aussagen 1, 2, und 3 sind richtig",
-          "Nur die Aussagen 1, 4 und 5 sind richtig",
-          "Nur die Aussagen 2, 4 und 5 sind richtig",
-          "Nur die Aussagen 3, 4 und 5 sind richtig",
-          "Alle Aussagen sind richtig"
+          "EEG (Elektroenzephalographie)",
+          "MRT (Kernspintomographie) des Gehirns",
+          "Genetische Untersuchung",
+          "Intelligenztest",
+          "Hörtest"
         ],
         "correctIndices": [
           3,
@@ -10985,11 +11041,11 @@
         "text": "Ein 50-jähriger Mann wird von Angehörigen zu Ihnen gebracht. Er ist erregt, unruhig, angespannt, schwitzt und zittert. Er zeigt sich nicht orientiert. Sie vermuten halluzinatorisches Erleben. Auf welche Erkrankung weist dies hin?",
         "statements": [],
         "options": [
-          "Nur die Aussagen 1, 2, und 4 sind richtig",
-          "Nur die Aussagen 1, 3 und 5 sind richtig",
-          "Nur die Aussagen 1, 4 und 5 sind richtig",
-          "Nur die Aussagen 2, 4 und 5 sind richtig",
-          "Nur die Aussagen 3, 4 und 5 sind richtig"
+          "Hebephrene Schizophrenie",
+          "Entzugssyndrom",
+          "Manie",
+          "Agitierte Depression",
+          "Dyskinesien bei Neuroleptikaeinnahme"
         ],
         "correctIndices": [
           1
@@ -11515,11 +11571,11 @@
         "text": "Welche der folgenden Symptome sind typisch für die schizoide Persönlichkeitsstörung? Wählen Sie zwei Antworten!",
         "statements": [],
         "options": [
-          "Nur die Aussagen 1 und 2 sind richtig",
-          "Nur die Aussagen 1 und 4 sind richtig",
-          "Nur die Aussagen 3, 4 und 5 sind richtig",
-          "Nur die Aussagen 1, 2, 4 und 5 sind richtig",
-          "Alle Aussagen sind richtig"
+          "Gedankenausbreitung",
+          "Emotionale Kühle",
+          "Paranoide Vorstellungen",
+          "Andauernde Besorgtheit",
+          "Mangelndes Gespür für gesellschaftliche Regeln"
         ],
         "correctIndices": [
           1,
@@ -13534,14 +13590,14 @@
       {
         "id": 4,
         "type": "Mehrfachauswahl",
-        "text": "Welche der folgenden Aussagen zur rechtlichen Betreuung treffen zu? Wählen Sie zwei Antworten! A. Bei behandlungsuneinsichtigen psychisch Kranken kann das Gesundheitsamt eine Betreuung anordnen B. Die Behandlung von Menschen mit Betreuung ist Heilpraktikern grundsätzlich nicht gestattet C. Die Entscheidung über die Bestellung eines Betreuers trifft das Gericht D. Die Einrichtung einer Betreuung gegen den Willen des Patienten kann auch durch nahe Angehörige angeregt werden E. Eine Betreuung bleibt lebenslang bestehen 5 Aussagenkombination Welche der folgenden Aussagen treffen zu? Die dissoziale Persönlichkeitsstörung (nach ICD-10) ist charakterisiert durch:",
+        "text": "Welche der folgenden Aussagen zur rechtlichen Betreuung treffen zu?",
         "statements": [],
         "options": [
-          "Nur die Aussagen 4 und 5 sind richtig",
-          "Nur die Aussagen 1, 3 und 5 sind richtig",
-          "Nur die Aussagen 1, 4 und 5 sind richtig",
-          "Nur die Aussagen 2, 3 und 4 sind richtig",
-          "Alle Aussagen sind richtig"
+          "Bei behandlungsuneinsichtigen psychisch Kranken kann das Gesundheitsamt eine Betreuung anordnen",
+          "Die Behandlung von Menschen mit Betreuung ist Heilpraktikern grundsätzlich nicht gestattet",
+          "Die Entscheidung über die Bestellung eines Betreuers trifft das Gericht",
+          "Die Einrichtung einer Betreuung gegen den Willen des Patienten kann auch durch nahe Angehörige angeregt werden",
+          "Eine Betreuung bleibt lebenslang bestehen"
         ],
         "correctIndices": [
           2,
@@ -13704,11 +13760,11 @@
         "text": "Ein 50-jähriger Mann mit bekannter Alkoholkrankheit wird von Angehörigen in Ihre Praxis gebracht. Welche der folgenden Befunde stützen den Verdacht auf ein Korsamkow-Syndrom? Wählen Sie zwei Antworten!",
         "statements": [],
         "options": [
-          "Nur die Aussagen 1 und 2 sind richtig",
-          "Nur die Aussagen 3 und 4 sind richtig",
-          "Nur die Aussagen 1, 3 und 5 sind richtig",
-          "Nur die Aussagen 2, 3 und 5 sind richtig",
-          "Nur die Aussagen 2, 4 und 5 sind richtig"
+          "Akustische Halluzinationen",
+          "Störung des Kurzzeitgedächtnisses",
+          "Ausgeprägte Bewusstseinstrübung",
+          "Größenwahn",
+          "Deutliche Störung des Zeitgefühls"
         ],
         "correctIndices": [
           1,
@@ -13952,11 +14008,11 @@
         "text": "Welche Aussage trifft zu? Übertragung und Gegenübertragung",
         "statements": [],
         "options": [
-          "Nur die Aussagen 1 und 3 sind richtig",
-          "Nur die Aussagen 1 und 4 sind richtig",
-          "Nur die Aussagen 2 und 4 sind richtig",
-          "Nur die Aussagen 1, 2 und 4 sind richtig",
-          "Nur die Aussagen 1, 4 und 5 sind richtig"
+          "stören den geordneten Ablauf der Psychotherapie",
+          "begründen ein reguläres Vertragsverhältnis zwischen Patient und Behandler in der Richtlinienpsychotherapie",
+          "beschreiben Gefühlsreaktionen zwischen Therapeuten und Patienten im psychotherapeutischen Prozess",
+          "werden in der Verhaltenstherapie besonders gefördert",
+          "dienen der fortlaufenden Abgleichung der Psychotherapieziele zwischen Therapeut und Patient"
         ],
         "correctIndices": [
           2
@@ -14786,11 +14842,11 @@
         "text": "Ein Therapeut besitzt eine auf das Gebiet der Heilkundlichen Psychotherapie beschränkte Erlaubnis nach dem Heilpraktikergesetz. Welche der folgenden Verfahren oder Techniken darf dieser Therapeut anwenden?",
         "statements": [],
         "options": [
-          "Nur die Aussage 1 ist richtig",
-          "Nur die Aussagen 1 und 3 sind richtig",
-          "Nur die Aussagen 1, 2 und 5 sind richtig",
-          "Nur die Aussagen 2, 3 und 5 sind richtig",
-          "Alle Aussagen sind richtig"
+          "Entspannungstraining",
+          "Psychoanalyse",
+          "Akupressur",
+          "Testpsychologische Untersuchungen",
+          "Sauerstoff-Mehrschritt-Therapie zur Krebsbehandlung"
         ],
         "correctIndices": [
           0,
@@ -14955,11 +15011,11 @@
         "text": "Hinsichtlich der chronischen taktilen Halluzinose (Dermatozoenwahn) trifft zu:",
         "statements": [],
         "options": [
-          "Rededrang",
-          "Bewegungsstereotypien",
-          "Psychomotorische Unruhe",
-          "Konfabulation",
-          "Mutismus"
+          "Es handelt sich um die häufigste chronische Wahnerkrankung",
+          "Bei einem erheblichen Teil der Fälle handelt es sich um ältere Menschen",
+          "Das Krankheitsbild betrifft fast ausschließlich Männer",
+          "In der Regel besteht eine schwere Bewusstseinsstörung",
+          "Das Krankheitsbild geht zumeist mit einer Demenz vom Alzheimer-Typ einher"
         ],
         "correctIndices": [
           1
@@ -15181,7 +15237,9 @@
           "Nur die Aussagen 1, 3, 4 und 5 sind richtig",
           "Alle Aussagen sind richtig"
         ],
-        "correctIndices": [],
+        "correctIndices": [
+          4
+        ],
         "explanation": ""
       },
       {
@@ -15196,7 +15254,9 @@
           "Durchgängig sozial überangepasstes Verhalten",
           "Stimmungsschwankungen 1"
         ],
-        "correctIndices": [],
+        "correctIndices": [
+          2
+        ],
         "explanation": ""
       },
       {
@@ -15211,7 +15271,9 @@
           "Furcht vor Kontrollverlust",
           "Schleichender Beginn der einzelnen Anfälle"
         ],
-        "correctIndices": [],
+        "correctIndices": [
+          2
+        ],
         "explanation": ""
       },
       {
@@ -15226,7 +15288,9 @@
           "Verfolgungswahn",
           "Berufungswahn 2"
         ],
-        "correctIndices": [],
+        "correctIndices": [
+          2
+        ],
         "explanation": ""
       },
       {
@@ -15247,7 +15311,9 @@
           "Nur die Aussagen 1, 4 und 5 sind richtig",
           "Alle Aussagen sind richtig"
         ],
-        "correctIndices": [],
+        "correctIndices": [
+          2
+        ],
         "explanation": ""
       },
       {
@@ -15262,7 +15328,9 @@
           "Rezidivierende depressive Störung",
           "Hypochondrische Störung 3"
         ],
-        "correctIndices": [],
+        "correctIndices": [
+          1
+        ],
         "explanation": ""
       },
       {
@@ -15277,7 +15345,9 @@
           "Gestalttherapie",
           "Analytische Fokaltherapie"
         ],
-        "correctIndices": [],
+        "correctIndices": [
+          2
+        ],
         "explanation": ""
       },
       {
@@ -15292,7 +15362,9 @@
           "Kollusion",
           "Konvention 4"
         ],
-        "correctIndices": [],
+        "correctIndices": [
+          3
+        ],
         "explanation": ""
       },
       {
@@ -15307,7 +15379,9 @@
           "Verleugnung",
           "Verschiebung 5"
         ],
-        "correctIndices": [],
+        "correctIndices": [
+          1
+        ],
         "explanation": ""
       },
       {
@@ -15322,7 +15396,9 @@
           "Reizüberflutung",
           "Systematische Desensibilisierung 6"
         ],
-        "correctIndices": [],
+        "correctIndices": [
+          0
+        ],
         "explanation": ""
       },
       {
@@ -15337,7 +15413,9 @@
           "Reizüberflutung",
           "Systematische Desensibilisierung"
         ],
-        "correctIndices": [],
+        "correctIndices": [
+          1
+        ],
         "explanation": ""
       },
       {
@@ -15352,7 +15430,9 @@
           "Sie kann einhergehen mit emotionaler Stumpfheit.",
           "In der Regel treten die ersten Symptome frühestens 10 Jahre nach dem Trauma auf. 7"
         ],
-        "correctIndices": [],
+        "correctIndices": [
+          3
+        ],
         "explanation": ""
       },
       {
@@ -15367,7 +15447,9 @@
           "Beeinträchtigung üblicher sozialer Aktivitäten",
           "Anpassungsstörungen führen meist zu einer chronischen Depression"
         ],
-        "correctIndices": [],
+        "correctIndices": [
+          4
+        ],
         "explanation": ""
       },
       {
@@ -15382,7 +15464,9 @@
           "Die Psychoanalyse beschränkt sich auf die Bearbeitung frühkindlicher Konflikte.",
           "Verhaltensmodifikation kann zur Veränderung von Sozialbeziehungen eingesetzt werden."
         ],
-        "correctIndices": [],
+        "correctIndices": [
+          2
+        ],
         "explanation": ""
       },
       {
@@ -15397,7 +15481,9 @@
           "Diskriminationslernen",
           "Hypnokatharsis"
         ],
-        "correctIndices": [],
+        "correctIndices": [
+          3
+        ],
         "explanation": ""
       },
       {
@@ -15412,7 +15498,9 @@
           "Misstrauen und starke Neigung, neutrale oder freundliche Handlungen anderer als feindlich oder verächtlich aufzufassen",
           "Neigung, sich in intensive, doch instabile Beziehungen einzulassen; oft mit der Folge von emotionalen Krisen, verbunden mit übertriebenen Bemühungen, das Verlassenwerden zu vermeiden"
         ],
-        "correctIndices": [],
+        "correctIndices": [
+          1
+        ],
         "explanation": ""
       },
       {
@@ -15427,7 +15515,9 @@
           "Nachreifung der Persönlichkeit durch Wiederbewusstmachung und Lösung von bestimmten effektiv stark besetzten Konflikten",
           "Ausagieren des zentralen Konfliktes durch szenisches Darstellen der Übertragungsneurose."
         ],
-        "correctIndices": [],
+        "correctIndices": [
+          0
+        ],
         "explanation": ""
       },
       {
@@ -15448,7 +15538,9 @@
           "Nur die Aussagen 2, 3 und 4 sind richtig",
           "Nur die Aussagen 1, 2, 3 und 5 sind richtig 11"
         ],
-        "correctIndices": [],
+        "correctIndices": [
+          3
+        ],
         "explanation": ""
       },
       {
@@ -15469,7 +15561,9 @@
           "Nur die Aussagen 2, 3, 4 und 5 sind richtig",
           "Alle Aussagen sind richtig"
         ],
-        "correctIndices": [],
+        "correctIndices": [
+          3
+        ],
         "explanation": ""
       },
       {
@@ -15484,7 +15578,9 @@
           "Verwendung eines Fremdbeurteilungsverfahrens",
           "Regelmäßige mikrobiologische Untersuchungen der Hände (Abklatsch-Untersuchung)"
         ],
-        "correctIndices": [],
+        "correctIndices": [
+          1
+        ],
         "explanation": ""
       },
       {
@@ -15505,7 +15601,9 @@
           "Nur die Aussagen 1, 3,4 und 5 sind richtig",
           "Alle Aussagen sind richtig"
         ],
-        "correctIndices": [],
+        "correctIndices": [
+          2
+        ],
         "explanation": ""
       },
       {
@@ -15520,7 +15618,9 @@
           "Ideenflucht",
           "Depersonalisation"
         ],
-        "correctIndices": [],
+        "correctIndices": [
+          3
+        ],
         "explanation": ""
       },
       {
@@ -15535,7 +15635,9 @@
           "Histrionische Persönlichkeitsstörung",
           "Beginnende schizophrene Störung"
         ],
-        "correctIndices": [],
+        "correctIndices": [
+          4
+        ],
         "explanation": ""
       },
       {
@@ -15554,7 +15656,9 @@
           "Nur die Aussagen 2 und 3 sind richtig",
           "Alle Aussagen sind richtig"
         ],
-        "correctIndices": [],
+        "correctIndices": [
+          4
+        ],
         "explanation": ""
       },
       {
@@ -15574,7 +15678,9 @@
           "Nur die Aussagen 2, 3 und 4 sind richtig",
           "Alle Aussagen sind richtig"
         ],
-        "correctIndices": [],
+        "correctIndices": [
+          2
+        ],
         "explanation": ""
       },
       {
@@ -15595,7 +15701,9 @@
           "Nur die Aussagen 2, 3, 4 und 5 sind richtig",
           "Alle Aussagen sind richtig"
         ],
-        "correctIndices": [],
+        "correctIndices": [
+          3
+        ],
         "explanation": ""
       },
       {
@@ -15616,7 +15724,9 @@
           "Nur die Aussagen 2, 4 und 5 sind richtig",
           "Nur die Aussagen 3, 4 und 5 sind richtig 19"
         ],
-        "correctIndices": [],
+        "correctIndices": [
+          4
+        ],
         "explanation": ""
       },
       {
@@ -15637,7 +15747,9 @@
           "Nur die Aussagen 2, 3 und 5 sind richtig",
           "Nur die Aussagen 2, 3, 4 und 5 sind richtig 20"
         ],
-        "correctIndices": [],
+        "correctIndices": [
+          2
+        ],
         "explanation": ""
       }
     ]
@@ -19329,11 +19441,11 @@
         "text": "Während einer Psychotherapie übt eine Patientin mit Bulimie alternative Strategien, die sie zur Impulskontrolle und Unterdrückung eines Essanfalls einsetzen kann. Welcher psychotherapeutischen Richtung ist diese Vorgehensweise am ehesten zuzuordnen?",
         "statements": [],
         "options": [
-          "Nur die Aussagen 1, und 3 sind richtig",
-          "Nur die Aussagen 2 und 5 sind richtig",
-          "Nur die Aussagen 1, 2 und 3 sind richtig",
-          "Nur die Aussagen 1, 3 und 4 sind richtig",
-          "Nur die Aussagen 1, 3 und 5 sind richtig"
+          "Gesprächspsychotherapie",
+          "Psychoanalyse",
+          "Systemische Psychotherapie",
+          "Tiefenpsychologisch fundierte Psychotherapie",
+          "Verhaltenstherapie"
         ],
         "correctIndices": [
           4
@@ -19916,11 +20028,11 @@
         "text": "Eine 59-jährige Patientin legt seit mehreren Monaten das Fundament ihres Hauses auf ganzer Länge am Stück frei. Sie entfernt lose Steine, da dies ihrer Meinung nach den Beginn des Paradieses behindere. Der hinzugezogene Architekt warnt dringend vor dieser Maßname, da die Hausstatik gefährdet ist. Trotzdem unterstützt der Ehemann das Vorhaben seiner Frau vehement. Durch eine stationäre psychiatrische Behandlung der Patientin kommt es zur vorübergehenden Trennung der Ehepartner. In dieser Zeit distanziert sich der Mann deutlich von den Ideen seiner Frau. Um welche Diagnose handelt es sich bei dem Ehemann am ehesten?",
         "statements": [],
         "options": [
-          "Nur die Aussagen 1, und 3 sind richtig",
-          "Nur die Aussagen 1 und 4 sind richtig",
-          "Nur die Aussagen 1, 3 und 4 sind richtig",
-          "Nur die Aussagen 2, 3und 4 sind richtig",
-          "Nur die Aussagen 1, 2, 3 und 5 sind richtig"
+          "Reaktive Bindungsstörung",
+          "Schizoide Persönlichkeitsstörung",
+          "Abhängigkeitssyndrom",
+          "Induzierte wahnhafte Störung (Folie à deux)",
+          "Beziehungswahn"
         ],
         "correctIndices": [
           3
@@ -22180,11 +22292,11 @@
         "text": "Eine 28-jährige Frau, ohne psychische Vorerkrankungen, kommt in Ihre Praxis. Sie berichtet aufgeregt und kurzatmig, dass sie am Morgen an einer stark befahrenen Straßenkreuzung einen Verkehrsunfall mit einem LKW gehabt habe, welcher wohl eine rote Ampel übersehen haben musste. Sei brauche daher unbedingt „etwas zur Beruhigung“. So könne Sie nicht zur Arbeit. Die Betroffene berichtet stereotyp, dass sie doch „grün“ gehabt habe und was denn passiert wäre, wenn der LKW sie mit ihrer 3-jährigen Tochter frontal an ihrer Fahrerseite erwischt hätte. Die Betroffene zittert, wirkt psychomotorisch unruhig, verzweifelt und zeigt deutliche Auffassungsund Konzentrationsstörungen. Welche der folgenden Diagnosen im Sinne der ICD-10 trifft am ehesten zu?",
         "statements": [],
         "options": [
-          "Nur die Aussagen 1 und 5 sind richtig",
-          "Nur die Aussagen 2 und 3 sind richtig",
-          "Nur die Aussagen 1, 2 und 5 sind richtig",
-          "Nur die Aussagen 1, 2, 4 und 5 sind richtig",
-          "Alle Aussagen sind richtig"
+          "Posttraumatische Belastungsstörung",
+          "Anpassungsstörung mit gemischter Störung von Gefühlen und Sozialverhalten",
+          "Panikstörung",
+          "Akute Belastungsreaktion",
+          "Dissoziative Störung (Konversionsstörung) gemischt"
         ],
         "correctIndices": [
           3

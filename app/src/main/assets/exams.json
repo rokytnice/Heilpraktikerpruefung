@@ -9,8 +9,8 @@
         "type": "Einfachauswahl",
         "text": "Welche Aussage zu Demenzerkrankungen trifft zu?",
         "options": [
-          "Die Lewy-Körperchen-Demenz ist die häufigste Form der",
-          "Die Demenz bei Alzheimer-Krankheit ist durch einen akuten Beginn und",
+          "Die Lewy-Körperchen-Demenz ist die häufigste Form der Demenzerkrankung",
+          "Die Demenz bei Alzheimer-Krankheit ist durch einen akuten Beginn und dem plötzlichen Verfall der kognitiven Fähigkeiten gekennzeichnet",
           "Die Creutzfeld-Jakob-Krankheit tritt als sehr langsam fortschreitende",
           "Zu Beginn der Demenz bei Pick-Krankheit (frontotemporale Demenz)",
           "Die Blutwerte zeigen bei Demenz spezifische Veränderungen"
@@ -95,11 +95,11 @@
         "type": "Mehrfachauswahl",
         "text": "Welche der folgenden Aussagen zur psychotischen Störung Alkoholhalluzinose treffen zu? Wählen Sie zwei Antworten!",
         "options": [
-          "Wahnideen sprechen gegen eine Alkoholhalluzinose",
-          "Psychomotorische Störungen wie z.B. Erregung können auftreten",
-          "Charakteristisch sind ausgeprägte vegetative Begleiterscheinungen",
-          "Bewusstseinstrübung ist ein Hauptmerkmal bei der Alkoholhalluzinose",
-          "Die Alkoholhalluzinose ist typischerweise durch akustische Halluzinationen"
+          "Wahnideen sprechen gegen eine Alkoholhalluzinose ",
+          "Psychomotorische Störungen wie z.B. Erregung können auftreten ",
+          "Charakteristisch sind ausgeprägte vegetative Begleiterscheinungen ",
+          "Bewusstseinstrübung ist ein Hauptmerkmal bei der Alkoholhalluzinose ",
+          "Die Alkoholhalluzinose ist typischerweise durch akustische Halluzinationen und Angst gekennzeichnet"
         ],
         "statements": [],
         "correctIndices": [
@@ -113,11 +113,11 @@
         "type": "Einfachauswahl",
         "text": "Eine Frau bittet einen Therapeuten wegen ihres 7-jährigen Sohnes, der an einer Aufmerksamkeitsdefizit-/Hyperaktivitätsstörung leidet, um Hilfe. Welche Aussage trifft zu?",
         "options": [
-          "Der Therapeut sollte grundsätzlich von einer Psychopharmakotherapie",
-          "Bei oppositionellen Problemverhalten des Kindes ist ein Elterntraining",
-          "Ein soziales Kompetenztraining ist immer indiziert",
-          "Bei Kindern mit Problemen in der Schule sollte der Schwerpunkt der",
-          "Mit einem Token-System (z.B. Sternchen, die andere Verstärker"
+          "Der Therapeut sollte grundsätzlich von einer Psychopharmakotherapie abraten ",
+          "Bei oppositionellen Problemverhalten des Kindes ist ein Elterntraining kontraindiziert ",
+          "Ein soziales Kompetenztraining ist immer indiziert ",
+          "Bei Kindern mit Problemen in der Schule sollte der Schwerpunkt der Behandlung auf einer Psychoedukation der Eltern liegen ",
+          "Mit einem Token-System (z.B. Sternchen, die andere Verstärker eingetauscht werden können) lässt sich Verhalten gezielt operant konditionieren"
         ],
         "statements": [],
         "correctIndices": [
@@ -130,10 +130,10 @@
         "type": "Einfachauswahl",
         "text": "Bei der Anamnese eines depressiven Patienten ist die Frage nach der Suizidalität obligat, um",
         "options": [
-          "die Angehörigen in die Verantwortung nehmen zu können",
-          "den Grad der suizidalen Gefährdung abschätzen zu können",
-          "das für den Betroffenen richtige Antidepressivum auswählen zu können",
-          "die als Voraussetzung für Suizidhandlungen unerlässlichen depressiven",
+          "die Angehörigen in die Verantwortung nehmen zu können ",
+          "den Grad der suizidalen Gefährdung abschätzen zu können ",
+          "das für den Betroffenen richtige Antidepressivum auswählen zu können ",
+          "die als Voraussetzung für Suizidhandlungen unerlässlichen depressiven Wahninhalte erfassen zu können ",
           "den Betroffenen stationär unterbringen zu können"
         ],
         "statements": [],
@@ -147,10 +147,10 @@
         "type": "Einfachauswahl",
         "text": "Welches der folgenden Therapieverfahren eignet sich besonders für die Behandlung der Zwangsstörung?",
         "options": [
-          "Psychopharmakotherapie mit Mood Stabilizern (Stimmungsstabilisierer)",
-          "Katathyme imaginative Therapie",
-          "Hypnose",
-          "Kognitive Verhaltenstherapie ohne Exposition",
+          "Psychopharmakotherapie mit Mood Stabilizern (Stimmungsstabilisierer) ",
+          "Katathyme imaginative Therapie ",
+          "Hypnose ",
+          "Kognitive Verhaltenstherapie ohne Exposition ",
           "Kognitive Verhaltenstherapie einschließlich Exposition"
         ],
         "statements": [],
@@ -187,10 +187,10 @@
         "type": "Mehrfachauswahl",
         "text": "Welche der folgenden Therapiemethoden sollten bei der Behandlung der spezifischen Phobie im Vordergrund stehen? Wählen Sie zwei Antworten!",
         "options": [
-          "Entspannungsverfahren",
-          "Medikamentöse Behandlung mit Antidepressiva",
-          "Medikamentöse Behandlung mit Anxiolytika",
-          "Expositionstherapie",
+          "Entspannungsverfahren ",
+          "Medikamentöse Behandlung mit Antidepressiva ",
+          "Medikamentöse Behandlung mit Anxiolytika ",
+          "Expositionstherapie ",
           "Psychodynamische Therapie"
         ],
         "statements": [],
@@ -274,10 +274,10 @@
         "type": "Mehrfachauswahl",
         "text": "Welche der folgenden Aussagen zur Somatisierungsstörung (nach ICD-10) treffen zu? Wählen Sie zwei Antworten!",
         "options": [
-          "Die Betroffenen sind aufgrund ihres hohen Leidensdrucks meist rasch zu",
-          "Im Störungsverlauf kann es zu einer Abhängigkeit oder einem Missbrauch",
-          "Die Diagnose kann nach 3 Monaten bei entsprechender Symptomatik",
-          "Die Störung tritt bei beiden Geschlechtern gleich häufig auf",
+          "Die Betroffenen sind aufgrund ihres hohen Leidensdrucks meist rasch zu einer Psychotherapie motivierbar ",
+          "Im Störungsverlauf kann es zu einer Abhängigkeit oder einem Missbrauch von Medikamenten kommen ",
+          "Die Diagnose kann nach 3 Monaten bei entsprechender Symptomatik gestellt werden ",
+          "Die Störung tritt bei beiden Geschlechtern gleich häufig auf ",
           "Die Störung beginnt meist im frühen Erwachsenenalter"
         ],
         "statements": [],
@@ -339,11 +339,11 @@
         "type": "Einfachauswahl",
         "text": "In der psychotherapeutischen Behandlung werden oft Entspannungsmethoden eingesetzt. Welche Aussage zu Entspannungsmethoden trifft am ehesten zu?",
         "options": [
-          "Das Erlernen einer Entspannungsmethode (z.B. Progressive",
-          "Die Wirkung von progressiver Muskelrelaxation (PMR) beruht auf",
-          "Bei der Anwendung von Entspannungsmethoden können keine",
-          "Entspannungsmethoden sind bei Abhängigkeitserkrankungen",
-          "Vor dem Einsatz von Entspannungsmethoden sollten"
+          "Das Erlernen einer Entspannungsmethode (z.B. Progressive Muskelrelaxation) ist notwendig, um die systematische Desensibilisierung erfolgreich umsetzen zu können ",
+          "Die Wirkung von progressiver Muskelrelaxation (PMR) beruht auf autosuggestiver Konzentration ",
+          "Bei der Anwendung von Entspannungsmethoden können keine Angstzustände auftreten ",
+          "Entspannungsmethoden sind bei Abhängigkeitserkrankungen kontraindiziert ",
+          "Vor dem Einsatz von Entspannungsmethoden sollten Beruhigungsmedikamente eigenommen werden"
         ],
         "statements": [],
         "correctIndices": [
@@ -379,10 +379,10 @@
         "type": "Mehrfachauswahl",
         "text": "Welche der folgenden Aussagen treffen zu? Wählen Sie zwei Antworten! Typische Methoden/Vorgehensweisen der kognitiven Umstrukturierung sind am ehesten:",
         "options": [
-          "Empirische Überprüfung verzerrter Wahrnehmungen",
-          "Traumdeutung",
-          "Sokratischer Dialog",
-          "Motivierende Gesprächsführung (Motivational Interviewing)",
+          "Empirische Überprüfung verzerrter Wahrnehmungen ",
+          "Traumdeutung ",
+          "Sokratischer Dialog ",
+          "Motivierende Gesprächsführung (Motivational Interviewing) ",
           "Empathisches Validieren"
         ],
         "statements": [],
@@ -443,10 +443,10 @@
         "type": "Mehrfachauswahl",
         "text": "Welche der folgenden Aussagen treffen zu? Wählen Sie zwei Antworten! Das Rollenspiel im Rahmen der Verhaltenstherapie beruht insbesondere auf den Lernmechanismen:",
         "options": [
-          "Indirekte Bestrafung",
-          "Positive Verstärkung",
-          "Negative Verstärkung",
-          "Lernen am Modell",
+          "Indirekte Bestrafung ",
+          "Positive Verstärkung ",
+          "Negative Verstärkung ",
+          "Lernen am Modell ",
           "Habituation"
         ],
         "statements": [],
@@ -484,10 +484,10 @@
         "type": "Mehrfachauswahl",
         "text": "Welche der folgenden Aussagen treffen zu? Wählen Sie zwei Antworten! Bei einer katatonen Schizophrenie (nach ICD-10)",
         "options": [
-          "kann autogenes Training erfolgreich eingesetzt werden",
-          "kann es zu lebensbedrohlichen Komplikationen kommen",
-          "treten keine Halluzinationen auf",
-          "stehen psychomotorische Störungen im Vordergrund",
+          "kann autogenes Training erfolgreich eingesetzt werden ",
+          "kann es zu lebensbedrohlichen Komplikationen kommen ",
+          "treten keine Halluzinationen auf ",
+          "stehen psychomotorische Störungen im Vordergrund ",
           "sind Psychopharmaka kontraindiziert"
         ],
         "statements": [],
@@ -525,11 +525,11 @@
         "type": "Mehrfachauswahl",
         "text": "Welche der folgenden Aussagen zum Intelligenztest (z.B. Wechsler-Intelligenztest für Erwachsene, Mittelwert 100, Standardabweichung 15) treffen zu? Wählen Sie zwei Antworten!",
         "options": [
-          "Bei einem IQ (Intelligenzquotient) von 100 haben 50% der Referenzgruppe",
-          "Ein IQ von 50 entspricht der durchschnittlichen Intelligenz",
-          "Ein IQ von 115 entspricht einem Prozentrang von 99 (99% der",
-          "30% der Menschen liegen zwischen einem IQ von 85 und 115",
-          "Ein IQ von weniger als 20 entspricht nach ICD-10 einer schwersten"
+          "Bei einem IQ (Intelligenzquotient) von 100 haben 50% der Referenzgruppe einen höheren Intelligenzquotienten ",
+          "Ein IQ von 50 entspricht der durchschnittlichen Intelligenz ",
+          "Ein IQ von 115 entspricht einem Prozentrang von 99 (99% der Referenzgruppe erreichen niedrigere Werte im Test) ",
+          "30% der Menschen liegen zwischen einem IQ von 85 und 115 ",
+          "Ein IQ von weniger als 20 entspricht nach ICD-10 einer schwersten Intelligenzminderung"
         ],
         "statements": [],
         "correctIndices": [
@@ -808,7 +808,7 @@
           "Eine auf das Gebiet der Psychotherapie beschränkte Heilpraktikererlaubnis berechtigt grundsätzlich auch zur Durchführung einer Gruppentherapie",
           "Gruppentherapien sind bei depressiven Störungen kontraindiziert",
           "Gruppentherapie kommen nur bei der Behandlung zwischenmenschlicher Probleme in Frage",
-          "Die Wirkfaktoren sind in der Einzel- und Gruppentherapie völlig identisch",
+          "Die Wirkfaktoren sind in der Einzelund Gruppentherapie völlig identisch",
           "In methodenorientierten Psychotherapiegruppen geht es vor allem um die Bearbeitung gruppendynamischer Konflikte"
         ],
         "statements": [],
@@ -992,6 +992,7 @@
           "Nur die Aussagen 1, 3 und 4 sind richtig"
         ],
         "statements": [
+          "Stimulus (S) bezeichnet das sichtbare, problematische Verhalten",
           "Das Modell berücksichtigt konstitutionelle und biologisch-physiologische Aspekte eines problematischen Verhaltens nicht",
           "Ziel ist die Aufdeckung und Bearbeitung unbewusster psychischer Konflikte",
           "Mit Hilfe des Modells lassen sich dem Klienten auslösende und aufrechterhaltende Bedingungen eines problematischen Verhaltens vermitteln",
@@ -1310,10 +1311,11 @@
           "Alle Aussagen 3, 4 und 5 sind richtig"
         ],
         "statements": [
-          "Bei einer akuten schweren depressiven Episode ist eine ambulante",
-          "Ziel der kognitiven Therapie nach Beck ist die sogenannte kognitive",
-          "Beim SORKC-Modell handelt es sich um ein in der verhaltenstherapeutischen",
-          "Psychodynamisch orientierte Methoden spielen in der Kinderund"
+          "„Erlernte Hilflosigkeit“ ist ein in der Psychoanalyse verwendeter Begriff für einen Abwehrmechanismus.",
+          "Bei einer akuten schweren depressiven Episode ist eine ambulante psychodynamisch orientierte Psychotherapie indiziert.",
+          "Ziel der kognitiven Therapie nach Beck ist die sogenannte kognitive Umstrukturierung.",
+          "Beim SORKC-Modell handelt es sich um ein in der verhaltenstherapeutischen Diagnostik anwendbares Modell zur Problem-, Situationsund Verhaltensanalyse.",
+          "Psychodynamisch orientierte Methoden spielen in der Kinderund Jugendpsychiatrie keine wesentliche Rolle."
         ],
         "correctIndices": [
           0
@@ -1764,11 +1766,11 @@
         "type": "Einfachauswahl",
         "text": "Was ist kein Kriterium für eine Abhängigkeit? Wählen Sie eine Antwort!",
         "options": [
-          "Starker Wunsch oder Zwang zum Konsum der Substanz",
-          "Reduzierte Kontrollfähigkeit in Bezug auf Beginn, Beendigung und Menge des",
-          "Konsum der Substanz an mindestens 75% aller Tage innerhalb eines Jahres",
-          "Vernachlässigung von Interessen und anderen Vergnügungen aufgrund des",
-          "Fortführung des Konsums trotz Nachweis eindeutig schädlicher Folgen"
+          "Starker Wunsch oder Zwang zum Konsum der Substanz ",
+          "Reduzierte Kontrollfähigkeit in Bezug auf Beginn, Beendigung und Menge des Konsums ",
+          "Konsum der Substanz an mindestens 75% aller Tage innerhalb eines Jahres ",
+          "Vernachlässigung von Interessen und anderen Vergnügungen aufgrund des Konsums ",
+          "Fortführung des Konsums trotz Nachweis eindeutig schädlicher Folgen (körperlicher, psychischer oder auch sozialer Art)"
         ],
         "statements": [],
         "correctIndices": [
@@ -1804,11 +1806,11 @@
         "type": "Mehrfachauswahl",
         "text": "Welche Aussagen zu Suchterkrankungen sind richtig? Wählen Sie zwei Antworten!",
         "options": [
-          "Nach Jellinek werden 4 Alkoholtypen unterschieden",
-          "Auch der Beta-Trinker ist abhängig.",
-          "Ein Alkoholentzug kann jederzeit ambulant durchgeführt werden.",
-          "Zu den Zeichen des Alkoholentzugs gehören Schwitzen, Zittern, erhöhte",
-          "Ein maßgeblicher Teil der Behandlung der Alkoholkrankheit besteht in einer"
+          "Nach Jellinek werden 4 Alkoholtypen unterschieden ",
+          "Auch der Beta-Trinker ist abhängig. ",
+          "Ein Alkoholentzug kann jederzeit ambulant durchgeführt werden. ",
+          "Zu den Zeichen des Alkoholentzugs gehören Schwitzen, Zittern, erhöhte Pulsfrequenz und Hypertonie. ",
+          "Ein maßgeblicher Teil der Behandlung der Alkoholkrankheit besteht in einer Entwöhnungsbehandlung, die Wochen oder Monate meist stationär durchgeführt wird."
         ],
         "statements": [],
         "correctIndices": [
@@ -1845,10 +1847,10 @@
         "type": "Mehrfachauswahl",
         "text": "Welche Aussagen sind falsch? Wählen Sie zwei Antworten",
         "options": [
-          "Die häufigste altersunabhängige Ursache für ein Delir ist ein",
-          "Eine psychotische Störung ist immer dauerhafter Natur",
-          "Ein Delirium tremens kann lebensbedrohlich sein",
-          "Eine Heilpraktikerin/ein Heilpraktiker kann bei einer ambulanten",
+          "Die häufigste altersunabhängige Ursache für ein Delir ist ein Flüssigkeitsmangel ",
+          "Eine psychotische Störung ist immer dauerhafter Natur ",
+          "Ein Delirium tremens kann lebensbedrohlich sein ",
+          "Eine Heilpraktikerin/ein Heilpraktiker kann bei einer ambulanten Psychotherapie gefährdet sein, etwa bei Impulskontrollverlust oder sonstigen Erregungszuständen einer Patientin/eines Patienten. ",
           "Ein Delir oder Delirium ist ein Zustand von akuter Verwirrtheit."
         ],
         "statements": [],
@@ -1955,10 +1957,10 @@
         "type": "Einfachauswahl",
         "text": "Was gehört zu den Diagnosekriterium für eine Borderline-Persönlichkeitsstörung nach ICD-10? Wählen Sie eine Antwort!",
         "options": [
-          "Andauernde Beschäftigung mit Regeln, Organisation, Ordnung, Plänen und",
-          "Verantwortungslosigkeit und Missachtung sozialer Regeln und Normen",
-          "Unangenehmes Gefühl beim Alleinsein aus unverhältnismäßiger Angst, nicht",
-          "Gefühl der inneren Leere",
+          "Andauernde Beschäftigung mit Regeln, Organisation, Ordnung, Plänen und Listen ",
+          "Verantwortungslosigkeit und Missachtung sozialer Regeln und Normen ",
+          "Unangenehmes Gefühl beim Alleinsein aus unverhältnismäßiger Angst, nicht für sich allein sorgen zu können ",
+          "Gefühl der inneren Leere ",
           "Großartigkeit in Phantasie und Verhalten"
         ],
         "statements": [],
@@ -1972,10 +1974,10 @@
         "type": "Mehrfachauswahl",
         "text": "Welche der Begriffe gehören nicht zu der Gesprächsführung nach Carl Rogers? Wählen Sie zwei Antworten!",
         "options": [
-          "Empathie",
-          "Akzeptanz",
-          "Suggestivfragen",
-          "Rhetorische Fragen",
+          "Empathie ",
+          "Akzeptanz ",
+          "Suggestivfragen ",
+          "Rhetorische Fragen ",
           "Kongruenz"
         ],
         "statements": [],
@@ -2001,7 +2003,7 @@
           "Nur die chronisch organisch bedingten psychischen Störungen gehen mit einer Bewusstseinsstörung einher",
           "Akute organisch bedingte psychische Störungen können durch Drogen oder Arzneimittel ausgelöst werden",
           "Bei einer akuten organisch bedingten psychischen Störung handelt es sich immer um einen Notfall",
-          "Krankheitszeichen einer auf Dauer bestehenden organisch bedingten psychischen Störung sind z.B. Gedächtnis- und Orientierungsstörungen"
+          "Krankheitszeichen einer auf Dauer bestehenden organisch bedingten psychischen Störung sind z.B. Gedächtnisund Orientierungsstörungen"
         ],
         "correctIndices": [
           4
@@ -2013,10 +2015,10 @@
         "type": "Einfachauswahl",
         "text": "Welches Merkmal gehört typischerweise nicht zur paranoiden Persönlichkeitsstörung? Wählen Sie eine Antwort!",
         "options": [
-          "Abhängigkeit von der Meinung Anderer",
-          "Empfindlichkeit",
-          "Misstrauen",
-          "Selbstbezogenheit",
+          "Abhängigkeit von der Meinung Anderer ",
+          "Empfindlichkeit ",
+          "Misstrauen ",
+          "Selbstbezogenheit ",
           "Streitsucht"
         ],
         "statements": [],
@@ -2053,10 +2055,10 @@
         "type": "Einfachauswahl",
         "text": "Welche Aussage ist falsch? Wählen Sie eine Antwort",
         "options": [
-          "Merkfähigkeitsstörungen findet man sehr häufig bei organischen",
-          "Bei einer Schizophrenie gehören Störungen des Affekts typischerweise nicht",
-          "Bei formalen Denkstörungen handelt es sich unter anderem um Störungen des",
-          "Störungen des Affekts finden sich häufig bei bipolaren Störungen",
+          "Merkfähigkeitsstörungen findet man sehr häufig bei organischen Hirnerkrankungen und Demenz ",
+          "Bei einer Schizophrenie gehören Störungen des Affekts typischerweise nicht zum Krankheitsbild ",
+          "Bei formalen Denkstörungen handelt es sich unter anderem um Störungen des Denkablaufs ",
+          "Störungen des Affekts finden sich häufig bei bipolaren Störungen ",
           "Der Mutismus gehört zu den Störungen des Antriebs und der Psychomotorik"
         ],
         "statements": [],
@@ -2139,11 +2141,11 @@
         "type": "Einfachauswahl",
         "text": "Welche Aussage trifft auf die Posttraumatische Belastungsstörung (PTBS) nicht zu? Wählen Sie eine Antwort",
         "options": [
-          "Symptome können erst Wochen bis Monate nach dem Ereignis auftreten",
-          "Oft werden Reize vermieden, die an das Ereignis erinnern",
-          "Ohne Therapie zeigt sich eine hohe Chronifizierungsneigung von über 20%",
-          "Entspannungstechniken können ohne Bedenken angewendet werden",
-          "Das auslösende Ereignis wird häufig, z.B. in Form von Flashbacks,"
+          "Symptome können erst Wochen bis Monate nach dem Ereignis auftreten ",
+          "Oft werden Reize vermieden, die an das Ereignis erinnern ",
+          "Ohne Therapie zeigt sich eine hohe Chronifizierungsneigung von über 20% nach 10 Jahren ",
+          "Entspannungstechniken können ohne Bedenken angewendet werden ",
+          "Das auslösende Ereignis wird häufig, z.B. in Form von Flashbacks, wiedererlebt"
         ],
         "statements": [],
         "correctIndices": [
@@ -2179,11 +2181,11 @@
         "type": "Einfachauswahl",
         "text": "Welche der nachgenannten Aussagen ist falsch? Wählen Sie eine Antwort",
         "options": [
-          "Bei einer somatoformen Störung beklagen die Betroffenen körperliche",
-          "Patientinnen/Patienten mit einer somatoformen Störung suchen in der Regel",
-          "Die hypochondrische Störung gehört nicht zu den somatoformen Störungen",
-          "Typisch für eine Somatisierungsstörung ist die Schilderung häufig wechselnder",
-          "Bei somatoformen Störungen ist eine psychotherapeutische Behandlung"
+          "Bei einer somatoformen Störung beklagen die Betroffenen körperliche Beschwerden, für die aber keine körperliche Ursache zu finden ist. ",
+          "Patientinnen/Patienten mit einer somatoformen Störung suchen in der Regel immer wieder Ärztinnen und Ärzte oder andere Beteiligte des Gesundheitssystems auf, weil sie weiterhin unter ihren Beschwerden leiden, aber niemand eine körperliche Erkrankung feststellt. ",
+          "Die hypochondrische Störung gehört nicht zu den somatoformen Störungen ",
+          "Typisch für eine Somatisierungsstörung ist die Schilderung häufig wechselnder Krankheitszeichen ",
+          "Bei somatoformen Störungen ist eine psychotherapeutische Behandlung indiziert."
         ],
         "statements": [],
         "correctIndices": [
@@ -2219,10 +2221,10 @@
         "type": "Einfachauswahl",
         "text": "Bei welchem Therapieverfahren spielt die Arbeit mit Übertragung und Gegenübertragung eine zentrale Rolle? Wählen Sie eine Antwort",
         "options": [
-          "Hypnotherapie",
-          "Tiefenpsychologisch fundierte Psychotherapie",
-          "Gestalttherapie",
-          "Systemische Therapie",
+          "Hypnotherapie ",
+          "Tiefenpsychologisch fundierte Psychotherapie ",
+          "Gestalttherapie ",
+          "Systemische Therapie ",
           "Reizüberflutungstherapie"
         ],
         "statements": [],
@@ -2236,10 +2238,10 @@
         "type": "Einfachauswahl",
         "text": "Welches Störungsbild versteck sich hinter dem Begriff „Dysthymia“? Wählen Sie eine Antwort",
         "options": [
-          "rezidivierendes, jahreszeitlich gebundenes Auftreten einer depressiven Episode",
-          "mehrere Jahre anhaltende depressive Verstimmung",
-          "Depression mit atypischer Symptomatik: gesteigerter Appetit und",
-          "schwerste depressive Episode, mit somatischem Syndrom",
+          "rezidivierendes, jahreszeitlich gebundenes Auftreten einer depressiven Episode ",
+          "mehrere Jahre anhaltende depressive Verstimmung ",
+          "Depression mit atypischer Symptomatik: gesteigerter Appetit und Schlafbedürfnis ",
+          "schwerste depressive Episode, mit somatischem Syndrom ",
           "Pseudodepression"
         ],
         "statements": [],
@@ -2276,10 +2278,10 @@
         "type": "Mehrfachauswahl",
         "text": "Welche Aussagen zur Verhaltenstherapie sind falsch? Wählen Sie zwei Antworten",
         "options": [
-          "Die Verhaltenstherapie basiert auf den Erkenntnissen der modernen Lerntheorie",
-          "Der Begriff „Verhalten“ umfasst dabei nur das von außen beobachtbare Verhalten und die körperlichen Reaktionen.",
-          "Die kognitive Verhaltenstherapie umfasst auch Denkmuster und die gedankliche Bewertung des Erlebten",
-          "Eine Verhaltenstherapie kann bei Suchtkranken indiziert sein.",
+          "Die Verhaltenstherapie basiert auf den Erkenntnissen der modernen Lerntheorie ",
+          "Der Begriff „Verhalten“ umfasst dabei nur das von außen beobachtbare Verhalten und die körperlichen Reaktionen. ",
+          "Die kognitive Verhaltenstherapie umfasst auch Denkmuster und die gedankliche Bewertung des Erlebten ",
+          "Eine Verhaltenstherapie kann bei Suchtkranken indiziert sein. ",
           "Die Verhaltenstherapie ist stets direktiv ausgerichtet, das zugrunde liegende Problem wird vom Behandler erarbeitet und von ihm gesteuert bearbeitet."
         ],
         "statements": [],
@@ -2347,8 +2349,8 @@
         "type": "Mehrfachauswahl",
         "text": "Ihre Klientin mit bipolarer Störung schildert Ihnen die Gestaltung des letzten Wochenendes. Sie gibt an, nach einem Filmriss am Freitagabend nicht mehr erinnern zu können, wie sie nachhause gekommen sei. Welche Aussagen zum Thema Alkoholkonsum und dessen Missbrauch treffen zu? Wählen Sie zwei Antworten!",
         "options": [
-          "Zu den Symptomen einer Alkoholintoxikation gehören unter anderem Atemdepression und Unterkühlung",
-          "Die Diagnose einer Alkoholintoxikation ist auch bei einem Blutalkoholspiegel von unter 1,0 Promille möglich",
+          "Zu den Symptomen einer Alkoholintoxikation gehören unter anderem Atemdepression und Unterkühlung.",
+          "Die Diagnose einer Alkoholintoxikation ist auch bei einem Blutalkoholspiegel von unter 1,0 Promille möglich.",
           "Der Konsum von 3 oder mehreren Gläsern eines alkoholischen Getränks definiert das sogenannte Binge-Drinking bzw. Rauschtrinken.",
           "Ein riskanter Gebrauch ist nicht definiert über die Menge des konsumierten Alkohols.",
           "Ein Standardglas in Deutschland entspricht 500 ml Bier bzw. 40 g reinem Alkohol."
@@ -2388,11 +2390,11 @@
         "type": "Einfachauswahl",
         "text": "Eine verzweifelte Mutter kommt in Ihre Praxis und bittet Sie um die Behandlung Ihres Sohnes. Der 9-jährige Junge zeige Trennungsängste und depressive Symptome seit der elterlichen Scheidung sowie schulvermeidendes Verhalten. Ein gemeinsames Sorgerecht beider Elternteile bestünde laut Mutter nach der Scheidung fort. Welche der folgenden Aussage trifft zu?",
         "options": [
-          "Aufgrund des hohen Leidendrucks der Mutter stimmen Sie der Behandlung",
-          "Aufgrund des hohen Leidensdrucks des Sohnes stimmen Sie der",
-          "Sie lehnen die Behandlung ab, da der Kindsvater nicht der Behandlung",
-          "Sie sprechen mit dem Jungen alleine und attestieren die Einsichtund",
-          "Mit einer Bescheinigung der Schule über das neu aufgetretene"
+          "Aufgrund des hohen Leidendrucks der Mutter stimmen Sie der Behandlung des Kindes zu. In dem Behandlungsvertrag bzw. der Honorarvereinbarung ist die Einwilligung der Mutter als anwesende Sorgeberechtigte ausreichend. ",
+          "Aufgrund des hohen Leidensdrucks des Sohnes stimmen Sie der Behandlung des Kindes zu. In dem Behandlungsvertrag bzw. der Honorarvereinbarung ist die Einwilligung der Mutter als anwesende Sorgeberechtigte ausreichend. ",
+          "Sie lehnen die Behandlung ab, da der Kindsvater nicht der Behandlung zugestimmt hat und beide sorgeberechtigte Elternteile einer Behandlung zustimmen müssen. ",
+          "Sie sprechen mit dem Jungen alleine und attestieren die Einsichtund Geschäftsfähigkeit des Jungen, daher darf er eigenständig einen Behandlungsvertrag mit Ihnen abschießen. ",
+          "Mit einer Bescheinigung der Schule über das neu aufgetretene Schulvermeidungsverhalten stimmen Sie einer Behandlung zu."
         ],
         "statements": [],
         "correctIndices": [
@@ -2469,11 +2471,11 @@
         "type": "Einfachauswahl",
         "text": "Eine Mutter kommt mit ihrem 16-jährigen Sohn zu Ihnen. Der junge Mann berichtet von wiederkehrenden Gedanken über den Tod. Beispielsweise berichtet er davon, dass er gerne an einer tödlichen Krankheit leiden würde oder eines morgens nicht mehr aufwachen möchte. Was tun Sie? Wählen Sie eine Antwort!",
         "options": [
-          "Sie vermeiden, weiter über die Gedanken zu sprechen, um den jungen",
-          "Sie rufen das Gesundheitsamt (untere Verwaltungsbehörde) oder die",
-          "Sie beenden die Therapie unverzüglich, da Sie keine suizidalen Personen",
-          "Sie besprechen mit dem Patienten das Vorgehen im Falle des Auftretens",
-          "Sie erklären der Mutter, dass sie sich keine Sorgen machen muss, da nur"
+          "Sie vermeiden, weiter über die Gedanken zu sprechen, um den jungen Mann nicht in den Suizid zu treiben. ",
+          "Sie rufen das Gesundheitsamt (untere Verwaltungsbehörde) oder die Polizei an, um eine sofortige Unterbringung des Minderjährigen zu bewirken. ",
+          "Sie beenden die Therapie unverzüglich, da Sie keine suizidalen Personen behandeln dürfen. ",
+          "Sie besprechen mit dem Patienten das Vorgehen im Falle des Auftretens suizidaler Impulse. ",
+          "Sie erklären der Mutter, dass sie sich keine Sorgen machen muss, da nur eine passive Suizidalität vorliegt."
         ],
         "statements": [],
         "correctIndices": [
@@ -2532,10 +2534,10 @@
         "type": "Mehrfachauswahl",
         "text": "Welche der folgenden Merkmale müssen zur Diagnosestellung des Asperger-Autismus erfüllt sein? Wählen Sie zwei Antworten!",
         "options": [
-          "Geistige Behinderung",
-          "Manifestation vor Vollendung des dritten Lebensjahres",
-          "Sprachentwicklungsrückstand",
-          "Stereotype, repetitive Verhaltensweisen oder Interessen",
+          "Geistige Behinderung ",
+          "Manifestation vor Vollendung des dritten Lebensjahres ",
+          "Sprachentwicklungsrückstand ",
+          "Stereotype, repetitive Verhaltensweisen oder Interessen ",
           "Störung der sozialen Interaktion"
         ],
         "statements": [],
@@ -2550,11 +2552,11 @@
         "type": "Einfachauswahl",
         "text": "Was beschreibt der Begriff „Depersonalisation“? Wählen Sie eine Antwort!",
         "options": [
-          "Der Abwehrmechanismus, welcher die wiederkehrende Orientierung im",
-          "Die wahnhafte Fehlinterpretation einer realen Sinneswahrnehmung, welche",
-          "Die abnorme oder verfremdete Wahrnehmung von anderen Personen und",
-          "Das Gefühl, vom eigenen Körper oder von eigenen Gedanken losgelöst zu",
-          "Die Reduzierung der Gedanken auf wenige Themen aufgrund mangelnder"
+          "Der Abwehrmechanismus, welcher die wiederkehrende Orientierung im Außen beschreibt, z.B. um eigene unangenehm beschwerte Empfindungen zu überspielen ",
+          "Die wahnhafte Fehlinterpretation einer realen Sinneswahrnehmung, welche beispielsweise im Rahmen eines Rauschzustandes durch psychotrope Substanzen auftritt. ",
+          "Die abnorme oder verfremdete Wahrnehmung von anderen Personen und deren Persönlichkeit. ",
+          "Das Gefühl, vom eigenen Körper oder von eigenen Gedanken losgelöst zu sein ",
+          "Die Reduzierung der Gedanken auf wenige Themen aufgrund mangelnder Repräsentation (Ich-Struktur)"
         ],
         "statements": [],
         "correctIndices": [
@@ -2567,11 +2569,11 @@
         "type": "Mehrfachauswahl",
         "text": "Welche Aussagen treffen in Bezug auf die Aufmerksamkeitsdefizit-Hyperaktivitätsstörung (ADHS) nicht zu? Wählen Sie zwei Antworten!",
         "options": [
-          "Etwa 2 bis 6 Prozent aller Kinder und Jugendlichen in Deutschland leiden",
-          "Zu den Hauptsymptomen gehören Ich-Störungen",
-          "Die Leitlinien erlauben die Stellung der Diagnose nur vor dem 18.",
-          "Betroffene Patientinnen/Patienten haben ein erhöhtes Unfallsrisiko",
-          "Um die Diagnose stellen zu können, muss die Symptomatik in"
+          "Etwa 2 bis 6 Prozent aller Kinder und Jugendlichen in Deutschland leiden an krankhaften Störungen der Aufmerksamkeit und an motorischer Unruhe ",
+          "Zu den Hauptsymptomen gehören Ich-Störungen ",
+          "Die Leitlinien erlauben die Stellung der Diagnose nur vor dem 18. Lebensjahr ",
+          "Betroffene Patientinnen/Patienten haben ein erhöhtes Unfallsrisiko ",
+          "Um die Diagnose stellen zu können, muss die Symptomatik in verschiedenen Lebensbereichen des Kindes (z.B. Familie, Schule und Freizeit) auftreten und dies beeinträchtigen."
         ],
         "statements": [],
         "correctIndices": [
@@ -2585,10 +2587,10 @@
         "type": "Mehrfachauswahl",
         "text": "Bei welchen der folgenden Krankheiten spielt der Einsatz von Entspannungsverfahren im Rahmen eines multimodalen Behandlungsansatzes am ehesten eine entscheidende Rolle? Wählen Sie zwei Antworten!",
         "options": [
-          "Schilddrüsenunterfunktion",
-          "Essentielle Hypertonie",
-          "Asthma bronchiale",
-          "Normaldruckhydrozephalus",
+          "Schilddrüsenunterfunktion ",
+          "Essentielle Hypertonie ",
+          "Asthma bronchiale ",
+          "Normaldruckhydrozephalus ",
           "Akute Psychose"
         ],
         "statements": [],
@@ -2643,10 +2645,10 @@
         "type": "Mehrfachauswahl",
         "text": "Welche Aussagen zum Neurotransmitter Serotonin sind richtig? Wählen Sie zwei Antworten!",
         "options": [
-          "Serotonin kommt im zentralen und peripheren Nervensystem vor.",
-          "Mit der Nahrung aufgenommenes Serotonin gelangt innerhalb von 10 Minuten über die Blut-Hirn-Schranke ins zentrale Nervensystem.",
-          "Serotonin beeinflusst die Stimmung, die Körpertemperatur, die Schmerzbewertung und den Schlaf-Wach-Rhythmus.",
-          "SSRI (Serotonin-Wiederaufnahmehemmer), die bei der Behandlung einer Depression eingesetzt werden, wirken ausschließlich im zentralen Nervensystem. Der Vorteil ist, dass unerwünschte Wirkungen in der Peripherie, z.B. am Magen-Darm-Trakt, nicht auftreten.",
+          "Serotonin kommt im zentralen und peripheren Nervensystem vor. ",
+          "Mit der Nahrung aufgenommenes Serotonin gelangt innerhalb von 10 Minuten über die Blut-Hirn-Schranke ins zentrale Nervensystem. ",
+          "Serotonin beeinflusst die Stimmung, die Körpertemperatur, die Schmerzbewertung und den Schlaf-Wach-Rhythmus. ",
+          "SSRI (Serotonin-Wiederaufnahmehemmer), die bei der Behandlung einer Depression eingesetzt werden, wirken ausschließlich im zentralen Nervensystem. Der Vorteil ist, dass unerwünschte Wirkungen in der Peripherie, z.B. am Magen-Darm-Trakt, nicht auftreten. ",
           "L-Serotonin kann als Nahrungsergänzungsmittel zur Behandlung von Schlafstörungen eingesetzt werden."
         ],
         "statements": [],
@@ -2684,10 +2686,10 @@
         "type": "Mehrfachauswahl",
         "text": "Welche der folgenden Begriffe bezeichnen keine Störung der Sexualpräferenz? Wählen Sie zwei Antworten!",
         "options": [
-          "Geschlechtsinkongruenz",
-          "Fetischismus",
-          "Sadismus",
-          "Pädophilie",
+          "Geschlechtsinkongruenz ",
+          "Fetischismus ",
+          "Sadismus ",
+          "Pädophilie ",
           "Anorgasmie"
         ],
         "statements": [],
@@ -2702,10 +2704,10 @@
         "type": "Einfachauswahl",
         "text": "Eine wichtige Voraussetzung zur Durchführung einer Psychoanalyse ist auf Klientenseite die Fähigkeit, einerseits die Beziehung zum Psychotherapeuten in der therapeutischen Situation regressiv zu erleben, sich auf regressive Prozesse einzulassen, andererseits sich von diesen regressiven Prozessen zu distanzieren und sein Erleben zum Gegenstand der analytischen Arbeit zu machen. Wie bezeichnet man die beschriebene Behandlungsvoraussetzung in der Psychoanalyse? Wählen Sie eine Antwort!",
         "options": [
-          "(Therapeutische) Ich-Spaltung",
-          "Selbsterfahrung",
-          "Transaktionalismus",
-          "Gegenübertragung",
+          "(Therapeutische) Ich-Spaltung ",
+          "Selbsterfahrung ",
+          "Transaktionalismus ",
+          "Gegenübertragung ",
           "Empathiefähigkeit"
         ],
         "statements": [],
@@ -2719,10 +2721,10 @@
         "type": "Mehrfachauswahl",
         "text": "Die Fetale Alkoholspektrum-Störung (Fetal Alcohol Spectrum Disorder, FASD) zählt zu den häufigsten angeborenen Behinderungen in Deutschland und tritt deutlich häufiger auf als das chromosomal bedingte Down-Syndrom. Sie haben aufgrund Ihrer Beobachtungen und der Anamnese bei einer neuen Klientin den Verdacht, dass sie von der FASD betroffen sein könnte. Welche Auffälligkeiten sprechen für die Diagnose FASD? Wählen Sie zwei Antworten!",
         "options": [
-          "Hochwuchs",
-          "Leichtere Gesichtsanomalien wie z.B. eine schmale Oberlippe und ein glattes Philtrum",
-          "Vorzeitige Pubertät (Pubertas praecox)",
-          "Übergewicht im Kindesalter",
+          "Hochwuchs ",
+          "Leichtere Gesichtsanomalien wie z.B. eine schmale Oberlippe und ein glattes Philtrum ",
+          "Vorzeitige Pubertät (Pubertas praecox) ",
+          "Übergewicht im Kindesalter ",
           "Störung der Exekutivfunktionen"
         ],
         "statements": [],
@@ -2737,10 +2739,10 @@
         "type": "Mehrfachauswahl",
         "text": "Welche Aussagen zum Fibromyalgiesyndrom treffen zu? Wählen Sie zwei Antworten!",
         "options": [
-          "Beweisend für das Vorliegen ist der Nachweis von Rheumafaktoren.",
-          "Die Krankheit gehört in die Gruppe der seltenen Erkrankungen, sogenannte Orphan Diseases (weniger als 0,05% der Bevölkerung betroffen.",
-          "Ein Kernsymptom des Syndroms sind chronische Schmerzen und Schlafstörungen",
-          "Die Krankheit ist einer anhaltenden somatoformen Schmerzstörung gleichzusetzen.",
+          "Beweisend für das Vorliegen ist der Nachweis von Rheumafaktoren. ",
+          "Die Krankheit gehört in die Gruppe der seltenen Erkrankungen, sogenannte Orphan Diseases (weniger als 0,05% der Bevölkerung betroffen. ",
+          "Ein Kernsymptom des Syndroms sind chronische Schmerzen und Schlafstörungen bzw. nicht erholsamer Schlaf und Müdigkeit. ",
+          "Die Krankheit ist einer anhaltenden somatoformen Schmerzstörung gleichzusetzen. ",
           "Die Durchführung einer kognitiven Verhaltenstherapie ist sinnvoll."
         ],
         "statements": [],
@@ -2778,10 +2780,10 @@
         "type": "Mehrfachauswahl",
         "text": "Welche Aussagen zur bipolaren affektiven Störung sind richtig? Wählen Sie zwei Antworten!",
         "options": [
-          "Bei beiden Polen der Erkrankung können psychotische Symptome auftreten.",
-          "Im Zusammenhang mit dieser Störung treten keine psychosomatischen Beschwerden auf.",
-          "Die Diagnose einer Persönlichkeitsstörung schließt die Diagnose einer bipolaren affektiven Störung aus.",
-          "Eine medikamentöse Phasenprophylaxe sollte erwogen werden.",
+          "Bei beiden Polen der Erkrankung können psychotische Symptome auftreten. ",
+          "Im Zusammenhang mit dieser Störung treten keine psychosomatischen Beschwerden auf. ",
+          "Die Diagnose einer Persönlichkeitsstörung schließt die Diagnose einer bipolaren affektiven Störung aus. ",
+          "Eine medikamentöse Phasenprophylaxe sollte erwogen werden. ",
           "Eine hypomanische Phase ist von Traurigkeit geprägt."
         ],
         "statements": [],
@@ -2813,10 +2815,10 @@
         "type": "Mehrfachauswahl",
         "text": "Bei Klienten mit Hypochondrie findet sich oftmals sogenanntes „Checking-Verhalten“, dem eine krankheitsaufrechterhaltende Funktion zugeschrieben wird. Welche der folgenden Beispiele fallen am ehesten unter „Checking-Verhalten“? Wählen Sie zwei Antworten!",
         "options": [
-          "Ein Klient mit Angst vor Hautkrebs tastet leicht gerötet Hautstellen wiederholt ab, um deren Beschaffenheit zu testen.",
-          "Ein Klient mit der Angst vor Hodenkrebs vermeidet sexuelle Kontakte, um nicht zu sehr mit seiner Angst konfrontiert zu werden.",
-          "Ein Klient mit Angst vor Magenkrebs sucht im Internet Informationen über die Zusammensetzung von Nahrungsmitteln.",
-          "Eine Klientin mit Angst vor Brustkrebs fragt häufig ihre Mitbewohnerin, ob diese ihr wirklich versprechen könne, dass sie keinen Brustkrebs habe.",
+          "Ein Klient mit Angst vor Hautkrebs tastet leicht gerötet Hautstellen wiederholt ab, um deren Beschaffenheit zu testen. ",
+          "Ein Klient mit der Angst vor Hodenkrebs vermeidet sexuelle Kontakte, um nicht zu sehr mit seiner Angst konfrontiert zu werden. ",
+          "Ein Klient mit Angst vor Magenkrebs sucht im Internet Informationen über die Zusammensetzung von Nahrungsmitteln. ",
+          "Eine Klientin mit Angst vor Brustkrebs fragt häufig ihre Mitbewohnerin, ob diese ihr wirklich versprechen könne, dass sie keinen Brustkrebs habe. ",
           "Eine Klientin mit Angst vor Kehlkopfkrebs schluckt morgens nach dem Aufwachen mehrfach, um die Funktionsweise des Kehlkopfes zu überprüfen."
         ],
         "statements": [],
@@ -2831,10 +2833,10 @@
         "type": "Mehrfachauswahl",
         "text": "W elche Aussagen zur Behandlungsmethode „Eye Movement Desensitization and Reprocessing“ treffen zu? Wählen Sie zwei Antworten!",
         "options": [
-          "Die Wirkung der Intervention basiert auf der tiefen Absenkung des Bewusstseins.",
-          "Ziel ist die fokussierte Bearbeitung von negativen, dysfunktionalen Kognitionen.",
-          "Es wird zur Verarbeitung von traumatischen Erlebnissen eingesetzt.",
-          "Die Wirkung wird auf die Stimulation von Hirnstamm und Kleinhirn zurückgeführt.",
+          "Die Wirkung der Intervention basiert auf der tiefen Absenkung des Bewusstseins. ",
+          "Ziel ist die fokussierte Bearbeitung von negativen, dysfunktionalen Kognitionen. ",
+          "Es wird zur Verarbeitung von traumatischen Erlebnissen eingesetzt. ",
+          "Die Wirkung wird auf die Stimulation von Hirnstamm und Kleinhirn zurückgeführt. ",
           "Es ist eine hochwirksame Therapiemethode ohne Risiken und Nebenwirkungen."
         ],
         "statements": [],
@@ -2849,10 +2851,10 @@
         "type": "Mehrfachauswahl",
         "text": "Welche Aussagen sind falsch? Wählen Sie zwei Antworten!",
         "options": [
-          "Die Hypophyse ist Teil der Stressachse",
-          "Im Rahmen einer Kleinhirnschädigung kann eine Ataxie auftreten",
-          "Im Stammhirn liegt das Regulationszentrum für Atmung und Kreislauf",
-          "Das Gehirn besitzt Schmerzrezeptoren",
+          "Die Hypophyse ist Teil der Stressachse ",
+          "Im Rahmen einer Kleinhirnschädigung kann eine Ataxie auftreten ",
+          "Im Stammhirn liegt das Regulationszentrum für Atmung und Kreislauf ",
+          "Das Gehirn besitzt Schmerzrezeptoren ",
           "Im limbischen System, speziell im Hippocampus, wird die Feinmotorik gesteuert"
         ],
         "statements": [],
@@ -3173,7 +3175,7 @@
           "Ständiges Stimmenhören und schizophrene Symptome in der Vorgeschichte sind typisch",
           "Nach den diagnostischen Leitlinien müssen die Wahnvorstellungen mindestens 12 Monate dauern",
           "Die Betroffenen zeigen auch in Bereichen und Handlungen, die sich nicht auf den Wahn beziehen, massive Auffälligkeiten",
-          "Nur in seltenen Fällen bestehen Verfolgungs- und Beeinträchtigungsideen",
+          "Nur in seltenen Fällen bestehen Verfolgungsund Beeinträchtigungsideen",
           "Nicht vereinbar mit der Diagnose ist eine hirnorganische Erkrankung"
         ],
         "statements": [],
@@ -3426,7 +3428,7 @@
           "Der dauerhafte Wunsch, dem anderen Geschlecht anzugehören, wird als Transsexualismus bezeichnet",
           "Anhedonie bezeichnet psychogen bedingte Schmerzen währende des Geschlechtsverkehrs",
           "Bei sexuellen Funktionsstörungen muss an eine mögliche organische Ursache gedacht werden",
-          "Homo- und Bisexualität werden zu den Störungen der Sexualpräferenz gerechnet",
+          "Homound Bisexualität werden zu den Störungen der Sexualpräferenz gerechnet",
           "Exhibitionismus wird zu den sexuellen Funktionsstörungen gerechnet"
         ],
         "correctIndices": [
@@ -3579,7 +3581,7 @@
       {
         "id": 7,
         "type": "Aussagenkombination",
-        "text": "Welcher der folgenden Aussagen trifft (treffen) zu? Ein Behandlungs- bzw. Tätigkeitsverbot besteht für Inhaber einer auf das Gebiet der Psychotherapie beschränkten Heilerlaubnis für die",
+        "text": "Welcher der folgenden Aussagen trifft (treffen) zu? Ein Behandlungsbzw. Tätigkeitsverbot besteht für Inhaber einer auf das Gebiet der Psychotherapie beschränkten Heilerlaubnis für die",
         "options": [
           "Nur die Aussage 2 ist richtig",
           "Nur die Aussagen 1 und 2 sind richtig",
@@ -3707,13 +3709,13 @@
       {
         "id": 13,
         "type": "Mehrfachauswahl",
-        "text": "Welche der folgenden Aussagen treffen für eine Lese- und Rechtschreibstörung (nach ICD-10) zu? Wählen Sie zwei Antworten!",
+        "text": "Welche der folgenden Aussagen treffen für eine Leseund Rechtschreibstörung (nach ICD-10) zu? Wählen Sie zwei Antworten!",
         "options": [
-          "Eine umschriebene Entwicklungsstörung des Sprechens oder der Sprache geht der Lese- und Rechtschreibstörung häufig voraus",
+          "Eine umschriebene Entwicklungsstörung des Sprechens oder der Sprache geht der Leseund Rechtschreibstörung häufig voraus",
           "Die Störung tritt vor allem im Rahmen einer allgemeinen Intelligenzminderung auf",
           "Ein Defizit des Leseverständnisses ist typischerweise nicht vorhanden",
           "Die Leseleistung muss unter dem Niveau liegen, das aufgrund des Alters, der allgemeinen Intelligenz und Beschulung zu erwarten wäre",
-          "Soziale und emotionale Anpassungsprobleme stehen mit einer Lese- und Rechtschreibstörung in keinem Zusammenhang"
+          "Soziale und emotionale Anpassungsprobleme stehen mit einer Leseund Rechtschreibstörung in keinem Zusammenhang"
         ],
         "statements": [],
         "correctIndices": [
@@ -3730,7 +3732,7 @@
           "Schizophrenie",
           "Anorexia nervosa",
           "Hypochondrische Störung",
-          "Somatoforme autonome Funktionsstörung (Herz- und Kreislaufsystem)",
+          "Somatoforme autonome Funktionsstörung (Herzund Kreislaufsystem)",
           "Generalisierte Angststörung"
         ],
         "statements": [],
@@ -4021,10 +4023,11 @@
           "Nur die Aussagen 3, 4 und 5 sind richtig"
         ],
         "statements": [
-          "Bei einer akuten schweren depressiven Episode ist eine ambulante",
-          "Ziel bei der kognitiven Therapie nach Beck ist die sogenannte kognitive",
-          "Beim SORKC-Modell handelt es sich um ein in der verhaltenstherapeutischen",
-          "Psychodynamisch orientierte Psychotherapiemethoden spielen in der"
+          "„Erlernte Hilflosigkeit“ ist ein in der psychoanalytischen Therapie verwendeter Begriff für einen Abwehrmechanismus",
+          "Bei einer akuten schweren depressiven Episode ist eine ambulante psychodynamisch orientierte Psychotherapie die erste Wahl",
+          "Ziel bei der kognitiven Therapie nach Beck ist die sogenannte kognitive Umstrukturierung",
+          "Beim SORKC-Modell handelt es sich um ein in der verhaltenstherapeutischen Diagnostik anwendbares Analysemodell",
+          "Psychodynamisch orientierte Psychotherapiemethoden spielen in der Kindertherapie keine wesentliche Rolle"
         ],
         "correctIndices": [
           0
@@ -4149,7 +4152,7 @@
         "statements": [
           "Ängste, Anspannungen, depressive Gefühle, Selbstwertprobleme werden durch den Konsum von Opioiden unterdrückt.",
           "dürfen keine Suchtberatung durchführen.",
-          "Depressive Verstimmung, Antriebs- und Konzentrationsstörungen, Schlafstörungen und Persönlichkeitsveränderungen können als psychische Folgeschäden eines Opioid-/Heroinkonsums auftreten.",
+          "Depressive Verstimmung, Antriebsund Konzentrationsstörungen, Schlafstörungen und Persönlichkeitsveränderungen können als psychische Folgeschäden eines Opioid-/Heroinkonsums auftreten.",
           "Ein Opioid Entzug ist deutlich weniger gefährlich als ein Alkoholentzug, sollte aber sinnvollerweise von Anfang an therapeutisch begleitet werden.",
           "Die psychische Abhängigkeit kann nach dem körperlichen Entzug noch über Wochen weiterbestehen."
         ],
@@ -4274,7 +4277,7 @@
           "Alle Aussagen sind richtig"
         ],
         "statements": [
-          "Das Risiko für Fehl- und Totgeburten sowie körperliche und geistige Schädigungen des Kindes ist bei Straßenheroinkonsum in der Schwangerschaft erhöht.",
+          "Das Risiko für Fehlund Totgeburten sowie körperliche und geistige Schädigungen des Kindes ist bei Straßenheroinkonsum in der Schwangerschaft erhöht.",
           "Substitutionsbehandlung gilt in der Schwangerschaft als Behandlung der ersten Wahl.",
           "Mischkonsum mit anderen Drogen wie z. B. Benzodiazepinen oder anderen beruhigenden Substanzen birgt die Gefahr eines Atemstillstandes durch Lähmung des Atemzentrums.",
           "Der schädigende Effekt von Alkohol auf das Ungeborene wird potenziert durch Amphetamine oder multiplen Drogenabusus.",
@@ -4323,7 +4326,7 @@
           "Männer sind häufiger als Frauen von einer Zwangsstörung betroffen",
           "Bei einer Demenz können Zwangssymptome auftreten",
           "Die Diagnosestellung erfolgt überwiegend schon kurze Zeit nach Auftreten der ersten Symptome",
-          "Wasch- und Kontrollzwang treten am häufigsten auf",
+          "Waschund Kontrollzwang treten am häufigsten auf",
           "Die Erkrankung beginnt zumeist schleichend"
         ],
         "correctIndices": [
@@ -4392,7 +4395,7 @@
           "Der dauerhafte Wunsch, dem anderen Geschlecht anzugehören, wird als Transsexualismus bezeichnet",
           "Alexithymie bezeichnet psychogen bedingte Schmerzen während des Geschlechtsverkehrs",
           "Bei sexuellen Funktionsstörungen muss an eine mögliche organische Ursache gedacht werden",
-          "Homo- und Bisexualität werden zu den Störungen der Sexualpräferenz gerechnet",
+          "Homound Bisexualität werden zu den Störungen der Sexualpräferenz gerechnet",
           "Exhibitionismus wird zu den sexuellen Funktionsstörungen gerechnet"
         ],
         "correctIndices": [
@@ -4656,11 +4659,11 @@
         "type": "Einfachauswahl",
         "text": "Welche Aussage ist falsch?",
         "options": [
-          "Die ICD-10 Klassifikation unterscheidet zwischen einer körperlichen und",
-          "Opioide verfügen über ein besonders hohes Abhängigkeitspotenzial.",
-          "Ketamine kann bei therapieresistenten Depressionen eingesetzt werden.",
-          "Die empathogene Partydroge „XTC“ liegt meistens in Form des Wirkstoffs MDMA (3,4-Methylendioxy-N-methylamphethamin) vor.",
-          "Das Abhängigkeitspotenzial von Halluzinogenen ist geringer als das von"
+          "Die ICD-10 Klassifikation unterscheidet zwischen einer körperlichen und einer psychischen Abhängigkeit. ",
+          "Opioide verfügen über ein besonders hohes Abhängigkeitspotenzial. ",
+          "Ketamine kann bei therapieresistenten Depressionen eingesetzt werden. ",
+          "Die empathogene Partydroge „XTC“ liegt meistens in Form des Wirkstoffs MDMA (3,4-Methylendioxy-N-methylamphethamin) vor. ",
+          "Das Abhängigkeitspotenzial von Halluzinogenen ist geringer als das von Benzodiazepinen."
         ],
         "statements": [],
         "correctIndices": [
@@ -4673,11 +4676,11 @@
         "type": "Einfachauswahl",
         "text": "Welches Symptom lässt am ehesten an eine beginnende Demenz denken?",
         "options": [
-          "Gangstörung",
-          "Affektive Veränderung",
-          "Paranoider Wahn",
-          "Bewusstseinsverschiebung",
-          "Stuhl- und Harninkontinenz"
+          "Gangstörung ",
+          "Affektive Veränderung ",
+          "Paranoider Wahn ",
+          "Bewusstseinsverschiebung ",
+          "Stuhlund Harninkontinenz"
         ],
         "statements": [],
         "correctIndices": [
@@ -4690,11 +4693,11 @@
         "type": "Einfachauswahl",
         "text": "Eine Mutter kommt in Ihre Praxis mit ihrer 7-jährigen Tochter und berichtet von Auffälligkeiten des Schlafes ihrer Tochter, so dass Sie vermuten, dass das Mädchen unter Nachtangst (Pavor nocturnus) leidet. Welche Aussage ist richtig?",
         "options": [
-          "Die Ereignisse beginnen mit einem Panikschrei und werden oft von",
-          "Die Episoden treten meistens im letzten Drittel des Nachtschlafs auf, kurz",
-          "Das Kind erinnert sich lebhaft an den Traum und hat demzufolge Angst",
-          "Die Störung gehört zu den Dyssomnien.",
-          "Eine medikamentöse Behandlung mit Beruhigungsmitteln gehört zum"
+          "Die Ereignisse beginnen mit einem Panikschrei und werden oft von vegetativen Symptomen begleitet. ",
+          "Die Episoden treten meistens im letzten Drittel des Nachtschlafs auf, kurz bevor der Wecker klingelt. ",
+          "Das Kind erinnert sich lebhaft an den Traum und hat demzufolge Angst wieder einzuschlafen. ",
+          "Die Störung gehört zu den Dyssomnien. ",
+          "Eine medikamentöse Behandlung mit Beruhigungsmitteln gehört zum therapeutischen Standard."
         ],
         "statements": [],
         "correctIndices": [
@@ -4730,11 +4733,11 @@
         "type": "Mehrfachauswahl",
         "text": "Welche Aussagen treffen auf den Begriff Intelligenzminderung zu? Wählen Sie zwei Antworten!",
         "options": [
-          "Von einer Intelligenzminderung spricht man, wenn der Intelligenzquotient",
-          "Ein IQ-Bereich von 35-49 entspricht bei Erwachsenen einem normalen",
-          "Eine Intelligenzminderung stellt kein Ausschlusskriterium für eine",
-          "Zu den Sonderformen einer Intelligenzminderung zählen die Dyskalkulie",
-          "Da es sich um verschiedene Genesen handelt, können Menschen mit einer"
+          "Von einer Intelligenzminderung spricht man, wenn der Intelligenzquotient IQ unterhalb der Norm liegt, das heißt ab einem IQ < 100. ",
+          "Ein IQ-Bereich von 35-49 entspricht bei Erwachsenen einem normalen Intelligenzalter von 6 bis unter 9 Jahren. ",
+          "Eine Intelligenzminderung stellt kein Ausschlusskriterium für eine Verhaltenstherapie oder eine medikamentöse Behandlung dar. ",
+          "Zu den Sonderformen einer Intelligenzminderung zählen die Dyskalkulie oder das Asperger-Syndrom. ",
+          "Da es sich um verschiedene Genesen handelt, können Menschen mit einer Intelligenzminderung keine Demenz entwickeln."
         ],
         "statements": [],
         "correctIndices": [
@@ -4794,11 +4797,11 @@
         "type": "Einfachauswahl",
         "text": "Welche Aussage ist richtig? Wählen Sie eine Aussage!",
         "options": [
-          "Von der Hypophyse werden die motorischen Aktionen des Körpers",
-          "Die beiden Hälften des Großhirns sind über den Balken verbunden.",
-          "Der Parasympathikus ist für die Aktivierung von Körperzuständen zuständig",
-          "Im limbischen System liegt das Regulationszentrum von Atmung und",
-          "Bei Ausfällen im Hippocampus kommt es z.B. zu Gangunsicherheit oder"
+          "Von der Hypophyse werden die motorischen Aktionen des Körpers koordiniert. ",
+          "Die beiden Hälften des Großhirns sind über den Balken verbunden. ",
+          "Der Parasympathikus ist für die Aktivierung von Körperzuständen zuständig (entwicklungsgeschichtlich Flucht und Kampf) ",
+          "Im limbischen System liegt das Regulationszentrum von Atmung und Kreislauf. ",
+          "Bei Ausfällen im Hippocampus kommt es z.B. zu Gangunsicherheit oder verwaschener Sprache."
         ],
         "statements": [],
         "correctIndices": [
@@ -4811,10 +4814,10 @@
         "type": "Mehrfachauswahl",
         "text": "Aus welchem Grund / aus welchen Gründen kann dem Patienten die Einsicht in seine Krankenunterlagen verweigern? Wählen Sie zwei Antworten!",
         "options": [
-          "Einem Patienten darf aus keinem Grund die Einsicht in seine Krankenunterlagen verweigert werden.",
-          "Einem Patienten darf auch ohne Nennung von Gründen die Einsicht in seine Krankenunterlagen verweigert werden.",
-          "Einsicht in die Krankenunterlagen darf dem Patienten dann begründet verweigert werden, wenn die Rechte Dritter durch die Einsichtnahme verletzt werden.",
-          "Einsicht in die Krankenunterlagen darf dem Patienten dann begründet verweigert werden, wenn dem erhebliche therapeutische Gründe entgegenstehen.",
+          "Einem Patienten darf aus keinem Grund die Einsicht in seine Krankenunterlagen verweigert werden. ",
+          "Einem Patienten darf auch ohne Nennung von Gründen die Einsicht in seine Krankenunterlagen verweigert werden. ",
+          "Einsicht in die Krankenunterlagen darf dem Patienten dann begründet verweigert werden, wenn die Rechte Dritter durch die Einsichtnahme verletzt werden. ",
+          "Einsicht in die Krankenunterlagen darf dem Patienten dann begründet verweigert werden, wenn dem erhebliche therapeutische Gründe entgegenstehen. ",
           "Einsicht in die Krankenunterlagen darf dem Patienten dann begründet verweigert werden, wenn die Einsichtnahme nur mündlich beantragt wird."
         ],
         "statements": [],
@@ -4829,11 +4832,11 @@
         "type": "Einfachauswahl",
         "text": "Welches der nachgenannten Krankheitszeichen gehört nicht zu einer Panikstörung? Wählen Sie eine Antwort!",
         "options": [
-          "Starkes Herzklopfen und Herzrasen",
-          "Zittern der Hände, Arme und Beine",
-          "Gefühle von Schwindel, Schwäche, Unsicherheit, Benommenheit",
-          "Entfremdungsgefühle (Depersonalisation oder Derealisation)",
-          "Bewusstseins- und / oder Orientierungsstörungen"
+          "Starkes Herzklopfen und Herzrasen ",
+          "Zittern der Hände, Arme und Beine ",
+          "Gefühle von Schwindel, Schwäche, Unsicherheit, Benommenheit ",
+          "Entfremdungsgefühle (Depersonalisation oder Derealisation) ",
+          "Bewusstseinsund / oder Orientierungsstörungen"
         ],
         "statements": [],
         "correctIndices": [
@@ -4846,10 +4849,10 @@
         "type": "Einfachauswahl",
         "text": "Welche Aussage zum Tourette-Syndrom ist richtig? Wählen Sie eine Antwort!",
         "options": [
-          "Tourette-Syndrom ist ausschließlich durch vokale Tics gekennzeichnet",
-          "zur Diagnosestellung müssen die Symptome des Tourette-Syndroms",
-          "Das Hauptmanifestationsalter ist im 3. Lebensjahr.",
-          "Zum Tourette-Syndrom gehört die Koprolalie, nicht aber die Echolalie.",
+          "Tourette-Syndrom ist ausschließlich durch vokale Tics gekennzeichnet ",
+          "zur Diagnosestellung müssen die Symptome des Tourette-Syndroms mindestens seit einem Jahr vorhanden sein. ",
+          "Das Hauptmanifestationsalter ist im 3. Lebensjahr. ",
+          "Zum Tourette-Syndrom gehört die Koprolalie, nicht aber die Echolalie. ",
           "Das Tourette-Syndrom zählt zu den Epilepsien."
         ],
         "statements": [],
@@ -4863,10 +4866,10 @@
         "type": "Mehrfachauswahl",
         "text": "Welche Aussage ist richtig? Wählen Sie zwei Antworten!",
         "options": [
-          "Zu den sogenannten Hauptsymptomen einer depressiven Episode zählen",
-          "Bei einer depressiven Episode unterscheidet man leichte, mittelschwere",
-          "Eine schwere depressive Episode geht in der Regel mit einer Psychose",
-          "Bei einer Dysthymia fühlen Sie sich die Patientinnen und Patienten",
+          "Zu den sogenannten Hauptsymptomen einer depressiven Episode zählen die Schlaflosigkeit und der Appetitmangel. ",
+          "Bei einer depressiven Episode unterscheidet man leichte, mittelschwere und schwere Ausprägungen. ",
+          "Eine schwere depressive Episode geht in der Regel mit einer Psychose einher. ",
+          "Bei einer Dysthymia fühlen Sie sich die Patientinnen und Patienten vornehmlich erschöpft und depressiv, sind aber in der Regel fähig, mit den wesentlichen Anforderungen des täglichen Lebens zurechtzukommen. ",
           "Bei einer depressiven Episode ist eine Lichttherapie notwendig."
         ],
         "statements": [],
@@ -4927,10 +4930,10 @@
         "type": "Mehrfachauswahl",
         "text": "Welche Aussagen zu „Fatigue“ sind richtig? Wählen Sie zwei Antworten!",
         "options": [
-          "Die betroffenen Patienten leiden oft unter einem Gefühl der Erschöpfung",
-          "Zu den häufigsten Beschwerden bei Fatigue zählen Einschlafattacken und",
-          "Die Erfassung der Belastung der Patienten durch eine Fatigue ist im",
-          "Fatigue tritt bei rezidivierenden oder progredienten Krebserkrankungen auf.",
+          "Die betroffenen Patienten leiden oft unter einem Gefühl der Erschöpfung und Verschlechterung schon nach leichter Anstrengung. ",
+          "Zu den häufigsten Beschwerden bei Fatigue zählen Einschlafattacken und Muskelkrämpfe. ",
+          "Die Erfassung der Belastung der Patienten durch eine Fatigue ist im klinischen Alltag durch die routinemäßige Nutzung validierter Fragebögen gesichert. ",
+          "Fatigue tritt bei rezidivierenden oder progredienten Krebserkrankungen auf. ",
           "Fatigue ist synonym verwendbar mit der Diagnose der Neurasthenie."
         ],
         "statements": [],
@@ -4952,7 +4955,7 @@
           "Nur die Aussagen 2, 3, 4 und 5 sind richtig"
         ],
         "statements": [
-          "Die Diagnose einer schizophrenen Erkrankung darf im Kindes- und Jugendalter nicht gestellt werden.",
+          "Die Diagnose einer schizophrenen Erkrankung darf im Kindesund Jugendalter nicht gestellt werden.",
           "Schizophrenie ist durch ein charakteristisches psychopathologisches Muster von Störungen in den Funktionsbereichen Wahrnehmung, Denken, IchFunktionen, Affektivität, Antrieb und Psychomotorik gekennzeichnet.",
           "Bei etwa 10-30% der Betroffenen heilt die Erkrankung ohne Rückfall aus.",
           "Neben der medikamentösen Behandlung ist eine psychotherapeutische und psychosoziale Begleitung sinnvoll.",
@@ -4991,10 +4994,10 @@
         "type": "Mehrfachauswahl",
         "text": "Welche Merkmale gehören zu der dissozialen Persönlichkeitsstörung? Wählen Sie zwei Antworten!",
         "options": [
-          "Sehr niedrige Frustrationstoleranz",
-          "Sozial überangepasstes Verhalten",
-          "Mangel an Schuldbewusstsein",
-          "Vermeidung unbekannter Aktivitäten oder Situationen",
+          "Sehr niedrige Frustrationstoleranz ",
+          "Sozial überangepasstes Verhalten ",
+          "Mangel an Schuldbewusstsein ",
+          "Vermeidung unbekannter Aktivitäten oder Situationen ",
           "Extreme Angst Beziehungen zu knüpfen"
         ],
         "statements": [],
@@ -5055,11 +5058,11 @@
         "type": "Mehrfachauswahl",
         "text": "Welche der folgenden Aussagen in Bezug auf die somatoformen Störungen sind zutreffend? Wählen Sie zwei Antworten!",
         "options": [
-          "Das da-Costa Syndrom (Herzneurose) gehört zu den somatoformen",
-          "Entspannungsverfahren sind kontraindiziert, da sie eine Fokussierung und",
-          "Die Hypochondrie gehört nicht zu den somatoformen Störungen.",
-          "Die dysmorphophobische Störung, auch körperdysmorphe Störung wird zu",
-          "Der Einsatz von Psychopharmaka kommt bei somatoformen Störungen in"
+          "Das da-Costa Syndrom (Herzneurose) gehört zu den somatoformen autonomen Funktionsstörungen. ",
+          "Entspannungsverfahren sind kontraindiziert, da sie eine Fokussierung und damit Verstärkung der Schmerzwahrnehmung bewirken. ",
+          "Die Hypochondrie gehört nicht zu den somatoformen Störungen. ",
+          "Die dysmorphophobische Störung, auch körperdysmorphe Störung wird zu den Essstörungen gezählt. ",
+          "Der Einsatz von Psychopharmaka kommt bei somatoformen Störungen in Betracht."
         ],
         "statements": [],
         "correctIndices": [
@@ -5082,7 +5085,7 @@
         "statements": [
           "das Verbot, Geburtshilfe– außer im Notfall – zu leisten",
           "die Verpflichtung zur Hilfe im Notfall",
-          "das Verbot der Untersuchung und Behandlung von Mund-, Zahn- und Kiefererkrankungen",
+          "das Verbot der Untersuchung und Behandlung von Mund-, Zahnund Kiefererkrankungen",
           "das Verbot Heilversprechen zu geben",
           "das Verbot der Heilkunde im Umherziehen"
         ],
@@ -5096,10 +5099,10 @@
         "type": "Einfachauswahl",
         "text": "Eine 23-jährige Frau äußert Ihnen gegenüber, dass sie immer wieder nachgenannte Gedanken habe: „Hoffentlich blamiere ich mich nicht.“ „Was denken die anderen über mich?“ „Gleich lachen die mich aus.“ „Was sage ich bloß, wenn ich meine Kollegen treffe?“ „Ich werde dastehen wie ein Trottel.“ „Das halte ich nicht aus. Ich muss hier raus.“ Welche der folgenden psychischen Störungen liegt hier am ehesten vor?",
         "options": [
-          "Hebephrene Schizophrenie",
-          "Soziale Phobie",
-          "Agoraphobie",
-          "Zwangsstörung",
+          "Hebephrene Schizophrenie ",
+          "Soziale Phobie ",
+          "Agoraphobie ",
+          "Zwangsstörung ",
           "Posttraumatische Belastungsstörung"
         ],
         "statements": [],
@@ -5113,11 +5116,11 @@
         "type": "Mehrfachauswahl",
         "text": "Was trifft auf das demenzielle Syndrom zu? Wählen Sie zwei Antworten!",
         "options": [
-          "Bei der Pseudodemenz handelt es sich um ein demenzielles Syndrom.",
-          "Alogie und Apraxie gehören zum klinischen Bild.",
-          "Zum Syndrom gehören Störungen des Affektes, des Antriebs oder des",
-          "Die Diagnose kann, laut ICD-10, erst mit Erreichen des 65. Lebensjahres",
-          "Zur Diagnosestellung müssen die Symptome mindestens über 3 Monate"
+          "Bei der Pseudodemenz handelt es sich um ein demenzielles Syndrom. ",
+          "Alogie und Apraxie gehören zum klinischen Bild. ",
+          "Zum Syndrom gehören Störungen des Affektes, des Antriebs oder des Sozialverhaltens. ",
+          "Die Diagnose kann, laut ICD-10, erst mit Erreichen des 65. Lebensjahres gestellt werden. ",
+          "Zur Diagnosestellung müssen die Symptome mindestens über 3 Monate vorliegen."
         ],
         "statements": [],
         "correctIndices": [
@@ -5154,11 +5157,11 @@
         "type": "Mehrfachauswahl",
         "text": "Welche Aussagen sind richtig? Wählen Sie zwei Antworten!",
         "options": [
-          "In der systemischen Therapie werden die dysfunktionalen innerfamiliären",
-          "Die kognitive Therapie fußt auf Erfahrungen aus dem Flooding.",
-          "Bei einer Verhaltensanalyse stehen die frühkindlichen Entwicklungsschritte",
-          "Vor Beginn einer Psychotherapie sollte eine somatische Abklärung der",
-          "Verhaltens- und Gedankenprotokolle gehören zum Methodenspektrum der"
+          "In der systemischen Therapie werden die dysfunktionalen innerfamiliären Beziehungen des Patienten geklärt. ",
+          "Die kognitive Therapie fußt auf Erfahrungen aus dem Flooding. ",
+          "Bei einer Verhaltensanalyse stehen die frühkindlichen Entwicklungsschritte im Vordergrund. ",
+          "Vor Beginn einer Psychotherapie sollte eine somatische Abklärung der Symptomatik erfolgen. ",
+          "Verhaltensund Gedankenprotokolle gehören zum Methodenspektrum der tiefenpsychologisch fundierten Therapie."
         ],
         "statements": [],
         "correctIndices": [
@@ -5213,7 +5216,7 @@
           "Emotionale Symptome wie z.B. Hoffnungslosigkeit",
           "Physische Symptome wie z.B. Veränderung der Schlafgewohnheiten",
           "Selbstwertgefühl wie z.B. Selbstablehnung",
-          "Wahnerleben wie z.B. Schuld- oder Bestrafungswahn"
+          "Wahnerleben wie z.B. Schuldoder Bestrafungswahn"
         ],
         "correctIndices": [
           4
@@ -5225,10 +5228,10 @@
         "type": "Mehrfachauswahl",
         "text": "Welche der folgenden Aussagen treffen auf die bipolare Störung zu? Wählen Sie zwei Antworten!",
         "options": [
-          "Personen mit bipolarer affektiver Störung sind insgesamt längere Zeit manisch.",
-          "Bei manischen Episoden können Beeinträchtigungsideen auftreten.",
-          "Bei jeder Depression sollte nach einer vorherigen (hypo-)manischen Episode gefragt werden.",
-          "Bipolare affektive Störungen beginnen in der Regel früher als unipolare Depressionen",
+          "Personen mit bipolarer affektiver Störung sind insgesamt längere Zeit manisch. ",
+          "Bei manischen Episoden können Beeinträchtigungsideen auftreten. ",
+          "Bei jeder Depression sollte nach einer vorherigen (hypo-)manischen Episode gefragt werden. ",
+          "Bipolare affektive Störungen beginnen in der Regel früher als unipolare Depressionen ",
           "Frauen erkranken öfter an einer bipolaren affektiven Störung als Männer."
         ],
         "statements": [],
@@ -5243,10 +5246,10 @@
         "type": "Einfachauswahl",
         "text": "Ein 42-jähriger Mann wird in einer fremden Stadt von der Polizei aufgegriffen. Er kann sich weder an seinen Namen noch an seinen Wohnort erinnern, wirkt jedoch äußerlich ruhig und orientiert. In der Befragung gibt er an, nicht zu wissen, wie er an diesen Ort gekommen sei. Es gibt keine Hinweise auf eine organische Ursache oder Substanzmissbrauch. Später stellt sich heraus, dass er seit mehreren Tagen von seiner Familie vermisst wurde und offenbar ohne erkennbare Absicht seinen Wohnort verlassen hat. Welche Diagnose trifft am wahrscheinlichsten zu? Wählen Sie eine Antwort!",
         "options": [
-          "Multiple Identitätsstörung",
-          "Dissoziativer Stupor",
-          "Dissoziative Fugue",
-          "Trance- und Besessenheitszustand",
+          "Multiple Identitätsstörung ",
+          "Dissoziativer Stupor ",
+          "Dissoziative Fugue ",
+          "Tranceund Besessenheitszustand ",
           "Dissoziative Amnesie ohne Ortswechsel"
         ],
         "statements": [],
@@ -5260,10 +5263,10 @@
         "type": "Einfachauswahl",
         "text": "Ein 35-jähriger Mann berichtet, dass er tagsüber oft plötzlich einschläft, auch in Situationen, in denen er aktiv ist oder sich konzentrieren muss. Nach einem kurzen Schlaf fühlt er sich erfrischt, wird jedoch bald wieder müde. Manchmal erlebt er eine plötzliche Muskelschwäche, die zum Sturz führt. Er beschreibt diese Episoden als unangenehm, da sie oft von lebhaften, angstbesetzten Träumen begleitet werden. Sein Vater habe ähnliche Symptome. Um welche der folgenden Erkrankungen handelt es sich am ehesten? Wählen Sie eine Antwort!",
         "options": [
-          "Absencen",
-          "Narkolepsie",
-          "Primäre (nicht-organische) Hypermnesie",
-          "Schizophrenie",
+          "Absencen ",
+          "Narkolepsie ",
+          "Primäre (nicht-organische) Hypermnesie ",
+          "Schizophrenie ",
           "Schlafapnoe"
         ],
         "statements": [],
@@ -5277,10 +5280,10 @@
         "type": "Einfachauswahl",
         "text": "Seit 3 Monaten ist eine Patientin bei Ihnen in Behandlung. Sie gibt an, dass sie sehr froh ist bei Ihnen endlich einen Behandlungsplatz bekommen zu haben. Seit dem Behandlungsanfang ist sie jedoch mehrfach zu spät gekommen, zwei Termine hat sie sogar ganz vergessen und sie schweigt häufig für längere Zeit, bis sie kurz vor Ende Behandlungsstunde wichtige Themen anspricht. Welcher Begriffe fasst das Verhalten der Patientin innerhalb des therapeutischen Settings zusammen? Wählen Sie eine Antwort!",
         "options": [
-          "Widerstand",
-          "Kompartimentalisierung",
-          "Gegenübertragung",
-          "Regression",
+          "Widerstand ",
+          "Kompartimentalisierung ",
+          "Gegenübertragung ",
+          "Regression ",
           "Konversion"
         ],
         "statements": [],
@@ -5294,10 +5297,10 @@
         "type": "Einfachauswahl",
         "text": "Welche der folgenden Eigenschaften gehört nicht zu den Diagnosekriterien der schizoiden Persönlichkeitsstörung? Wählen Sie eine Antwort!",
         "options": [
-          "Übermäßige Vorliebe für einzelgängerische Tätigkeiten",
-          "Emotionale Kühle, Distanziertheit oder flache Affektivität",
-          "Wenig Interesse and sexuellen Erfahrungen mit anderen Menschen",
-          "Geringe Frustrationstoleranz mit niedriger Schwelle für aggressives oder gewalttätiges Verhalten",
+          "Übermäßige Vorliebe für einzelgängerische Tätigkeiten ",
+          "Emotionale Kühle, Distanziertheit oder flache Affektivität ",
+          "Wenig Interesse and sexuellen Erfahrungen mit anderen Menschen ",
+          "Geringe Frustrationstoleranz mit niedriger Schwelle für aggressives oder gewalttätiges Verhalten ",
           "Gleichgültigkeit gegenüber Lob oder Kritik"
         ],
         "statements": [],
@@ -5311,10 +5314,10 @@
         "type": "Mehrfachauswahl",
         "text": "Was trifft bei der Enuresis zu? Wählen Sie zwei Antworten!",
         "options": [
-          "Die Enuresis nocturna tritt häufiger auf als die Enuresis diurna.",
-          "Man unterscheidet zwischen willkürlicher und unwillkürlicher Enuresis.",
-          "Enuresis tritt nicht über das 18. Lebensjahr hinaus auf.",
-          "Verhaltenstherapeutische Interventionen sollen möglichst vor dem 3. Lebensjahr eingesetzt werden.",
+          "Die Enuresis nocturna tritt häufiger auf als die Enuresis diurna. ",
+          "Man unterscheidet zwischen willkürlicher und unwillkürlicher Enuresis. ",
+          "Enuresis tritt nicht über das 18. Lebensjahr hinaus auf. ",
+          "Verhaltenstherapeutische Interventionen sollen möglichst vor dem 3. Lebensjahr eingesetzt werden. ",
           "Kinderpsychiatrische komorbide Störungen liegen der der sekundären Enuresis häufiger vor als bei der primären Enuresis."
         ],
         "statements": [],
@@ -5398,10 +5401,10 @@
         "type": "Mehrfachauswahl",
         "text": "Die Parkinson-Krankheit ist eine häufige neurologische Erkrankung. Welche Symptome sind typisch für das idiopathische Parkinson-Syndrom? Wählen Sie zwei Antworten!",
         "options": [
-          "Intentionstremor",
-          "Rigor",
-          "Essenzieller Tremor im Rahmen der Kleinhirndegeneration",
-          "Plexusparese",
+          "Intentionstremor ",
+          "Rigor ",
+          "Essenzieller Tremor im Rahmen der Kleinhirndegeneration ",
+          "Plexusparese ",
           "Hypokinese"
         ],
         "statements": [],
@@ -5416,10 +5419,10 @@
         "type": "Einfachauswahl",
         "text": "Eine Klientin berichtet, dass ihr 6-jähriger Sohn in der vergangenen Woche einen Sitzsack in seinem Zimmer in der Dämmerung für einen in der Ecke lauernden Einbrecher gehalten hat. Wie bezeichnet man eine solche Sinnestäuschung?",
         "options": [
-          "Derealisation",
-          "Paranoia",
-          "Wahn",
-          "Halluzination",
+          "Derealisation ",
+          "Paranoia ",
+          "Wahn ",
+          "Halluzination ",
           "illusionäre Verkennung"
         ],
         "statements": [],
@@ -5433,10 +5436,10 @@
         "type": "Mehrfachauswahl",
         "text": "Welche der folgenden Begriffe und Beschreibungen gehören nicht zu den Stadien der suizidalen Entwicklung nach Pöldinger? Wählen Sie zwei Antworten!",
         "options": [
-          "Aggressionsumkehr – Aggressive Tendenzen nehmen zu und richten sich zunehmend auf den Betroffenen selbst.",
-          "Entschlussphase – In dieser Phase, in der der Entschluss gefasst worden ist, wirkt der Betroffene eher ruhig und entspannt („Ruhe vor dem Sturm“). Die innere Ausnahmesituation allerdings erlaubt keine realistische Einschätzung der Situation mehr. Der Betroffene befindet sich in seiner eigenen Welt, häufig mit „Tunnelblick.“",
-          "Suizidfantasien – Der Betroffene flüchtet sich mehr und mehr in eine Gedankenwelt rund um den Tod, in der der Suizid eine zunehmende Rolle spielt und eine scheinbare Erleichterung in Aussicht stellt.",
-          "Ambivalenz – Hin- und Hergerissensein zwischen Wünschen zu leben und dem Gefühl, keine andere Möglichkeit zu haben, als sich das Leben zu nehmen. Häufig kommt es zu direkten Suizidankündigungen.",
+          "Aggressionsumkehr – Aggressive Tendenzen nehmen zu und richten sich zunehmend auf den Betroffenen selbst. ",
+          "Entschlussphase – In dieser Phase, in der der Entschluss gefasst worden ist, wirkt der Betroffene eher ruhig und entspannt („Ruhe vor dem Sturm“). Die innere Ausnahmesituation allerdings erlaubt keine realistische Einschätzung der Situation mehr. Der Betroffene befindet sich in seiner eigenen Welt, häufig mit „Tunnelblick.“ ",
+          "Suizidfantasien – Der Betroffene flüchtet sich mehr und mehr in eine Gedankenwelt rund um den Tod, in der der Suizid eine zunehmende Rolle spielt und eine scheinbare Erleichterung in Aussicht stellt. ",
+          "Ambivalenz – Hinund Hergerissensein zwischen Wünschen zu leben und dem Gefühl, keine andere Möglichkeit zu haben, als sich das Leben zu nehmen. Häufig kommt es zu direkten Suizidankündigungen. ",
           "Erwägungsphase – In dieser Phase findet eine gedankliche Beschäftigung mit dem Suizid statt, gefördert durch belastende Lebensumstände und äußere Einflüsse"
         ],
         "statements": [],
@@ -5497,10 +5500,10 @@
         "type": "Mehrfachauswahl",
         "text": "Welche der folgenden Merkmale sprechen für sich allein bereits für das Vorliegen einer paranoiden Schizophrenie? Wählen Sie zwei Antworten!",
         "options": [
-          "Orientierungsstörungen in allen Modalitäten",
-          "Ich-Störungen",
-          "Störungen der Affektivität",
-          "Störung der Impulskontrolle",
+          "Orientierungsstörungen in allen Modalitäten ",
+          "Ich-Störungen ",
+          "Störungen der Affektivität ",
+          "Störung der Impulskontrolle ",
           "Inhaltliche und formale Denkstörungen"
         ],
         "statements": [],
@@ -5515,10 +5518,10 @@
         "type": "Einfachauswahl",
         "text": "Welche der folgenden Substanzen verursacht im Rahmen des Konsums eine Miosis? Wählen Sie eine Antwort!",
         "options": [
-          "Amphetamine",
-          "Opioide/Opiate",
-          "Kokain",
-          "Psilocybin",
+          "Amphetamine ",
+          "Opioide/Opiate ",
+          "Kokain ",
+          "Psilocybin ",
           "Cannabis"
         ],
         "statements": [],
@@ -5530,12 +5533,12 @@
       {
         "id": 19,
         "type": "Einfachauswahl",
-        "text": "Die Therapie von Alkohol- und Drogenabhängigkeit lässt sich in vier Phasen einteilen. Welche der folgenden Phasen gehört nicht dazu? Wählen Sie eine Antwort!",
+        "text": "Die Therapie von Alkoholund Drogenabhängigkeit lässt sich in vier Phasen einteilen. Welche der folgenden Phasen gehört nicht dazu? Wählen Sie eine Antwort!",
         "options": [
-          "Kontakt- und Motivationsphase",
-          "Entgiftungsphase",
-          "Entwöhnungsphase",
-          "Remissionsphase",
+          "Kontaktund Motivationsphase ",
+          "Entgiftungsphase ",
+          "Entwöhnungsphase ",
+          "Remissionsphase ",
           "Nachsorgephase"
         ],
         "statements": [],
@@ -5549,10 +5552,10 @@
         "type": "Einfachauswahl",
         "text": "Eine übergewichtige Mutter berichtet Ihnen von ihrer anorektischen Tochter. Diese werde aufgrund des krankhaften Untergewichts derzeit in einer psychosomatischen Klinik behandelt. Die Dame berichtet Ihnen, trotz der Sorge um das eigene Kind, auch eine gewisse Bewunderung zu verspüren, da sie selbst gerne schlank wäre. Sie stellen die Hypothese auf, dass die Tochter einen von der Mutter ungelebten Wunsch unbewusst erfüllen könnte. Wie nennt man das psychoanalytische/systemische Konzept, durch welches innerfamiliäre Aufträge und Vermächtnisse wie in der Hypothese beschrieben bewusst oder unbewusst weitergegeben werden?",
         "options": [
-          "Delegation",
-          "Parentifizierung",
-          "Elektrakomplex",
-          "Doppelbindungstheorie",
+          "Delegation ",
+          "Parentifizierung ",
+          "Elektrakomplex ",
+          "Doppelbindungstheorie ",
           "Reaktionsbildung"
         ],
         "statements": [],
@@ -5589,11 +5592,11 @@
         "type": "Mehrfachauswahl",
         "text": "Entspannungsverfahren haben einen breitgefächerten therapeutischen Anwendungsbereich, sowohl bei Kindern und Jugendlichen als auch bei Erwachsenen. Welche der folgenden Aussagen sind nicht richtig? Wählen Sie zwei Antworten!",
         "options": [
-          "Entspannungsverfahren führen zu verringertem Muskeltonus, Abnahme der Herzfrequenz sowie periphere Gefäßerweiterungen.",
-          "Imaginative Entspannungsverfahren haben sich bei posttraumatischen Belastungsstörungen und Schizophrenie als wirksames Therapiewerkzeug etabliert.",
-          "MBSR (Mindfulness-Based Stress Reduction) ist ein autosuggestives Entspannungsverfahren, dass in Akutsituationen eingesetzt wird, um intrapsychischen Stress zu reduzieren. Über standardisierte Suggestionen wie Schwere- und Wärmesuggestionen kann schnell ein Zustand tiefer Entspannung herbeigeführt werden.",
-          "Eine stark ausgeprägte Hypotonie gilt als Kontraindikation.",
-          "Therapeutische Anwendungsbereiche für Entspannungsverfahren sind u.a. nicht-organische In- und Parasomnien, Ängste und Hypertonie."
+          "Entspannungsverfahren führen zu verringertem Muskeltonus, Abnahme der Herzfrequenz sowie periphere Gefäßerweiterungen. ",
+          "Imaginative Entspannungsverfahren haben sich bei posttraumatischen Belastungsstörungen und Schizophrenie als wirksames Therapiewerkzeug etabliert. ",
+          "MBSR (Mindfulness-Based Stress Reduction) ist ein autosuggestives Entspannungsverfahren, dass in Akutsituationen eingesetzt wird, um intrapsychischen Stress zu reduzieren. Über standardisierte Suggestionen wie Schwereund Wärmesuggestionen kann schnell ein Zustand tiefer Entspannung herbeigeführt werden. ",
+          "Eine stark ausgeprägte Hypotonie gilt als Kontraindikation. ",
+          "Therapeutische Anwendungsbereiche für Entspannungsverfahren sind u.a. nicht-organische Inund Parasomnien, Ängste und Hypertonie."
         ],
         "statements": [],
         "correctIndices": [
@@ -5607,10 +5610,10 @@
         "type": "Mehrfachauswahl",
         "text": "Ein 34-jähriger Patient mit einem schweren Waschzwang sucht therapeutische Hilfe. Neben kognitiven Methoden planen Sie Expositionstherapie mit Reaktionsmanagement einzusetzen. Welche der folgenden zur Expositionstherapie mit Reaktionsmanagement sind dabei am ehesten zutreffend? Wählen Sie zwei Antworten!",
         "options": [
-          "Die Exposition sollte gezielt oft wiederholt werden, um eine bestmögliche Habituation an die angstauslösenden Reize zu ermöglichen.",
-          "Expositionen sind nur bei sichtbaren Zwangshandlungen wirksam und zeigen bei Zwangsgedanken keine signifikanten Effekte.",
-          "Um die Effektivität zu steigern, sollten Expositionen hauptsächlich in-sensu durchgeführt werden.",
-          "Bei Zwangsstörungen ist eine massierte Vorgehensweise angeraten, während ein graduierter Ansatz nicht zielführend ist.",
+          "Die Exposition sollte gezielt oft wiederholt werden, um eine bestmögliche Habituation an die angstauslösenden Reize zu ermöglichen. ",
+          "Expositionen sind nur bei sichtbaren Zwangshandlungen wirksam und zeigen bei Zwangsgedanken keine signifikanten Effekte. ",
+          "Um die Effektivität zu steigern, sollten Expositionen hauptsächlich in-sensu durchgeführt werden. ",
+          "Bei Zwangsstörungen ist eine massierte Vorgehensweise angeraten, während ein graduierter Ansatz nicht zielführend ist. ",
           "Auch extrem aversive und ungewöhnliche Situationen, die nicht zum normalen Alltag gehören, können in die Expositionstherapie einbezogen werden, um eine möglichst umfassende Konfrontation mit den Ängsten zu ermöglichen."
         ],
         "statements": [],
@@ -5625,10 +5628,10 @@
         "type": "Einfachauswahl",
         "text": "Die operante Konditionierung ist ein wesentliches Konzept im Bereich der Verhaltenstherapie. Wie bezeichnet man es, wenn ein angenehmer Reiz entzogen wird, nachdem ein unerwünschtes Verhalten gezeigt wurde.",
         "options": [
-          "Direkte Bestrafung",
-          "Negative Verstärkung",
-          "Indirekte Bestrafung",
-          "Positive Verstärkung",
+          "Direkte Bestrafung ",
+          "Negative Verstärkung ",
+          "Indirekte Bestrafung ",
+          "Positive Verstärkung ",
           "Löschung"
         ],
         "statements": [],
@@ -5642,10 +5645,10 @@
         "type": "Mehrfachauswahl",
         "text": "Ein Klient kommt zu Ihnen und zeigt, trotz vieler belastender Lebensbereiche und schwieriger lebensgeschichtlicher Ereignisse, eine starke Selbstwirksamkeit und innere Stärke. Er betont im Gespräch mehrfach, dass ihm die Freiheit und Selbstbestimmtheit sehr wichtig sei und sich weder von schwierigen Lebensereignissen noch von äußeren Umständen wie Beruf und Ehepartner einschränken lasse. Durch welche Begriffe werden diese Verhaltensweisen am besten charakterisiert? Wählen Sie zwei Antworten!",
         "options": [
-          "Compliance",
-          "Kognitive Dissonanz",
-          "Reaktanz",
-          "Renitenz",
+          "Compliance ",
+          "Kognitive Dissonanz ",
+          "Reaktanz ",
+          "Renitenz ",
           "Resilienz"
         ],
         "statements": [],
@@ -5660,10 +5663,10 @@
         "type": "Mehrfachauswahl",
         "text": "Welche der folgenden Aussagen zum sekundären Krankheitsgewinn sind korrekt? Wählen Sie zwei Antworten!",
         "options": [
-          "Der sekundäre Krankheitsgewinn beschreibt das bewusste Täuschen über Krankheitssymptome, um finanzielle Vorteile oder rechtliche Vergünstigungen zu erhalten.",
-          "Im Gegensatz zum primären Krankheitsgewinn bezieht sich der sekundäre Krankheitsgewinn auf externe Vorteile, die durch die Krankheit entstehen.",
-          "Der sekundäre Krankheitsgewinn ist ein bewusst gesteuertes Verhalten, das vorrangig in der Simulation vorkommt.",
-          "Der sekundäre Krankheitsgewinn ist nur bei psychosomatischen Erkrankungen relevant und spielt bei organischen Erkrankungen keine Rolle.",
+          "Der sekundäre Krankheitsgewinn beschreibt das bewusste Täuschen über Krankheitssymptome, um finanzielle Vorteile oder rechtliche Vergünstigungen zu erhalten. ",
+          "Im Gegensatz zum primären Krankheitsgewinn bezieht sich der sekundäre Krankheitsgewinn auf externe Vorteile, die durch die Krankheit entstehen. ",
+          "Der sekundäre Krankheitsgewinn ist ein bewusst gesteuertes Verhalten, das vorrangig in der Simulation vorkommt. ",
+          "Der sekundäre Krankheitsgewinn ist nur bei psychosomatischen Erkrankungen relevant und spielt bei organischen Erkrankungen keine Rolle. ",
           "Ein sekundärer Krankheitsgewinn liegt vor, wenn eine Person aus ihrer Erkrankung einen persönlichen Vorteil zieht, beispielsweise durch vermehrte Zuwendung oder Entlastung von Pflichten."
         ],
         "statements": [],
@@ -5788,7 +5791,8 @@
         "type": "Aussagenkombination",
         "text": "Autogenes Training ist unter anderem bei folgenden Erkrankungen indiziert:",
         "statements": [
-          "Sympathikotone Überreaktionen, z.B. Hypertonie (Bluthochdruck), Tachykardie (schneller Herzschlag) 2 Floride schizophrene Episode",
+          "Sympathikotone Überreaktionen, z.B. Hypertonie (Bluthochdruck), Tachykardie (schneller Herzschlag)",
+          "Floride schizophrene Episode",
           "Phobie",
           "Muskuläre Verspannung, Spasmen, chronischer Schmerz",
           "Akute Hirnschädigung"
@@ -5877,7 +5881,7 @@
       {
         "id": 8,
         "type": "Aussagenkombination",
-        "text": "Welche der folgenden Aussagen treffen zu? Hinsichtlich der Aufmerksamkeitsdefizit- Hyperaktivitätsstörung (ADHS) gilt:",
+        "text": "Welche der folgenden Aussagen treffen zu? Hinsichtlich der Aufmerksamkeitsdefizit-Hyperaktivitätsstörung (ADHS) gilt:",
         "statements": [
           "Vorzeitiges Abbrechen von Aktivitäten ist ein Charakteristikum",
           "Die Störung manifestiert sich im Regelfall nach dem 12. Lebensjahr",
@@ -6362,13 +6366,13 @@
       {
         "id": 3,
         "type": "Aussagenkombination",
-        "text": "Welche der folgenden Aussagen trifft (treffen) auf eine Borderline- Persönlichkeitsstörung zu?",
+        "text": "Welche der folgenden Aussagen trifft (treffen) auf eine Borderline-Persönlichkeitsstörung zu?",
         "statements": [
           "Die Störung hat einen aktuellen Konflikthintergrund",
           "Es liegt eine überdauernde Schwierigkeit in der emotionalen Spannungsregulation vor",
           "Es bestehen Wahnvorstellungen",
           "Psychische Auffälligkeiten bestehen oft schon im Jugendalter",
-          "Wahrnehmung und Denken sind nach einem Schwarz- Weiß- Muster polarisiert"
+          "Wahrnehmung und Denken sind nach einem Schwarz-Weiß-Muster polarisiert"
         ],
         "options": [
           "Nur die Aussage 4 ist richtig",
@@ -6895,10 +6899,11 @@
         "type": "Aussagenkombination",
         "text": "In der Psychoanalyse ist die Abstinenzregel einer der Kernpunkte der Behandlung . Welche der folgenden Aussagen treffen zu?",
         "statements": [
-          "Die Abstinenzregel beschreibt, dass jeder Patient derAufdeckung unterbewusster Wünsche und Regungen Widerstände entgegensetzt.",
-          "DieAbstinenzregel empfiehlt dem Therapeuten, sich aller wertenden Stellungnahmen zu enthalten .",
+          "Die Abstinenzregel besagt, dass der Patient alles, was ihm während der therapeutischen Sitzung in den Sinn kommt, unzensiert erzählen soll.",
+          "Die Abstinenzregel beschreibt, dass jeder Patient der Aufdeckung unterbewusster Wünsche und Regungen Widerstände entgegensetzt.",
+          "Die Abstinenzregel empfiehlt dem Therapeuten, sich aller wertenden Stellungnahmen zu enthalten.",
           "Die Abstinenzregel besagt, dass der Therapeut nicht in eine unreflektierte Gegenübertragungsreaktion verfallen darf.",
-          "Die Abstinenzregel besagt, dass sich der Patient während der Therapie aller Libido-Strebungen enthalten soll . 0"
+          "Die Abstinenzregel besagt, dass sich der Patient während der Therapie aller Libido-Strebungen enthalten soll."
         ],
         "options": [
           "Nur dieAussagen 3 und 4 sind richtig",
@@ -6936,6 +6941,7 @@
         "type": "Aussagenkombination",
         "text": "Welche der folgenden Aussagen trifft (treffen) zu? Was kommt nach ICD-10 als Form (Formen) einer dissoziativen Störung in Betracht?",
         "statements": [
+          "Amnesie",
           "Fugue (zielgerichtete Ortsveränderung von zu Haus oder vom Arbeitsplatz fort)",
           "Stupor",
           "Besessenheitszustände",
@@ -6997,7 +7003,7 @@
           "Charakteristisch für die Demenz bei Alzheimer-Krankheit ist der plötzliche Beginn der Erkrankung mit rascher Verschlechterung",
           "Die Alzheimer-Krankheit mit frühem Beginn (vor dem 65. Lebensjahr) zeigt gewöhnlich eine rasche Progredienz der Symptome",
           "Eine vorbestehende Intelligenzminderung (z.B . bei Down-Syndrom) schließt die Entwicklung einer Demenz aus",
-          "Die Demenz bei Creutzfeldt-Jakob-Krankheit ist durch einen besonders langsamen Verlauf gekennzeichnet"
+          "Die Demenz bei Creutzfeldt-Jakob-Krankheit ist durch einen besonders langsamen Verlauf gekennzeichnet Mehrfachauswahlaufgabe Wählen Sie zwei Antworten! Verhaltenstherapeutische Methoden und Techniken sind : A) Problemlösetraining B) Unbedingte Wertschätzung des Klienten durch den Therapeuten 0 C) Li"
         ],
         "correctIndices": [],
         "explanation": ""
@@ -7042,7 +7048,7 @@
           "Flooding (Reizüberflutung) wird bei der Behandlung isolierter Phobien (z . B. Spinnenphobie) angewandt",
           "Die klassische Psychoanalyse wird bei neurotischen Störungen eingesetzt",
           "Eine therapeutische tiefe Regression ist Therapieziel der Verhaltenstherapie",
-          "Das Standardverfahren der klassischen Psychoanalyse ist die Kurzzeittherapie"
+          "Das Standardverfahren der klassischen Psychoanalyse ist die Kurzzeittherapie Korrekturrand rechts bitte. nicht beschriften! A) Die Betroffenen weichen in der Selbstwahrnehmung, in ihrer Kontaktaufnahme und in ihren Beziehungen zu anderen von der Mehrzahl der Bevölkerung ab . 0 B) Das abnorme Verhalt"
         ],
         "correctIndices": [],
         "explanation": ""
@@ -7088,6 +7094,7 @@
         "type": "Aussagenkombination",
         "text": "Welche der folgenden Aussagen zum Alkoholdelir trifft (treffen) zu?",
         "statements": [
+          "Es tritt Personenverkennung auf",
           "Es besteht vermehrte Suggestibilität",
           "Es besteht in der Regel eine Denksperrung",
           "Es besteht Schreckhaftigkeit",
@@ -7108,10 +7115,11 @@
         "type": "Aussagenkombination",
         "text": "Welche der folgenden Aussagen zur larvierten Depression trifft (treffen) zu?",
         "statements": [
+          "Es handelt sich nach ICD-10 um eine bipolare affektive Störung",
           "Statt Verstimmung liegt ein depressiver Wahn vor",
           "Die Patienten dissimulieren ihre Vitalstörungen",
           "Kennzeichnend ist ein Missbrauch psychotroper Substanzen",
-          "Körperliche Symptome fehlen 0"
+          "Körperliche Symptome fehlen"
         ],
         "options": [
           "Keine der vorstehenden Aussagen ist richtig 0",
@@ -7179,6 +7187,7 @@
         "type": "Aussagenkombination",
         "text": "Welche der folgenden Aussagen zur anankastischen Persönlichkeitsstörung (nach ICD-10) trifft (treffen) zu?",
         "statements": [
+          "Übermäßiger Zweifel und Vorsicht",
           "Erhöhte Reizbarkeit",
           "Neigung zu Perfektionismus, der die Fertigstellung von Aufgaben behindert",
           "Größenwahn",
@@ -7214,6 +7223,7 @@
         "type": "Aussagenkombination",
         "text": "Welche der folgenden Aussagen zur organischen Persönlichkeitsstörung (nach ICD-10) trifft (treffen) zu? Symptome sind :",
         "statements": [
+          "Verändertes Sexualverhalten",
           "Inadäquate Witzelsucht",
           "Äußerung von Bedürfnissen und Impulsen meist ohne Berücksichtigung von Konsequenzen oder sozialer Konventionen",
           "Auffällige Veränderung der Sprachproduktion und des Redeflusses",
@@ -7234,10 +7244,11 @@
         "type": "Aussagenkombination",
         "text": "Welche der folgenden Aussagen zur klassischen Psychoanalyse treffen zu?",
         "statements": [
-          "DerAnalysand ist aufgefordert, alles zu sagen, was ihm in den Sinn kommt oder was er empfindet :",
-          "Es ist wichtig, dass derAnalysand bei derAnalyse nur über Dinge mit wesentlichem Inhalt berichtet.",
+          "Der Analysand liegt nach Möglichkeit entspannt auf einer Couch, der Analytiker sitzt hinter ihm.",
+          "Der Analysand ist aufgefordert, alles zu sagen, was ihm in den Sinn kommt oder was er empfindet.",
+          "Es ist wichtig, dass der Analysand bei der Analyse nur über Dinge mit wesentlichem Inhalt berichtet.",
           "Ein persönliches Einbringen des Analytikers ist in der klassischen Psychoanalyse während des gesamten Behandlungsverlaufes strengstens limitiert.",
-          "Die Abstinenz des Analytikers soll helfen, dass sich die persönliche Geschichte des Analysanden möglichst schnell mit der des Analytikers verbindet . 0"
+          "Die Abstinenz des Analytikers soll helfen, dass sich die persönliche Geschichte des Analysanden möglichst schnell mit der des Analytikers verbindet."
         ],
         "options": [
           "Nur die Aussagen 1 und 5 sind richtig",
@@ -7254,10 +7265,11 @@
         "type": "Aussagenkombination",
         "text": "Welche der folgenden Aussagen zur klassischen Psychoanalyse trifft (treffen) zu?",
         "statements": [
+          "Die positive Übertragung kann häufig zur Verliebtheit des Analysanden in den Analytiker bzw. zu seiner Vergötterung führen.",
           "Freud geht davon aus, dass im Zentrum jeder neurotischen Störung letztlich stets eine frühkindliche Konfliktsituation steht.",
-          "Die Projektion der Elternbeziehung desAnalysanden auf den Analytiker bezeichnet Freud als Übertragung .",
-          "Die Projektion der Elternbeziehung desAnalysanden auf den Analytiker führt nur zur positiven Übertragung .",
-          "Der Hauptgewinn der Phase der positiven Übertragung besteht darin, dass durch den Umstand, dass derAnalytiker an die Stelle des Vaters (allenfalls der Mutter) gesetzt wird, die Möglichkeit der Nachreifung/Nacherziehung des Über-Ichs des Analysanden besteht."
+          "Die Projektion der Elternbeziehung des Analysanden auf den Analytiker bezeichnet Freud als Übertragung.",
+          "Die Projektion der Elternbeziehung des Analysanden auf den Analytiker führt nur zur positiven Übertragung.",
+          "Der Hauptgewinn der Phase der positiven Übertragung besteht darin, dass durch den Umstand, dass der Analytiker an die Stelle des Vaters (allenfalls der Mutter) gesetzt wird, die Möglichkeit der Nachreifung/Nacherziehung des Über-Ichs des Analysanden besteht."
         ],
         "options": [
           "Nur dieAussage 1 ist richtig",
@@ -7295,9 +7307,10 @@
         "type": "Aussagenkombination",
         "text": "Welche der folgenden Aussagen zur systematischen Desensibilisierung treffen zu?",
         "statements": [
+          "Das Verfahren der systematischen Desensibilisierung wird insbesondere bei Ängsten angewandt, die durch real existierende Gefahren ausgelöst werden",
           "Der Wechsel zwischen entspannter Einstellung und vorgestellter Bedrohung wird so oft aufeinanderfolgend wiederholt, bis der Patient berichtet, dass seine Angst abnimmt",
-          "Bevor die Angstsymptome angegangen werden, sollte der Patient lernen, sich zu entspannen .",
-          "Der Klient stellt Angsthierarchien auf, d. h. er muss klären, welche Bereiche stärker und welche weniger angstbesetzt sind",
+          "Bevor die Angstsymptome angegangen werden, sollte der Patient lernen, sich zu entspannen.",
+          "Der Klient stellt Angsthierarchien auf, d.h. er muss klären, welche Bereiche stärker und welche weniger angstbesetzt sind",
           "Zunächst wird der Patient mit sehr starken Angstreizen konfrontiert"
         ],
         "options": [
@@ -7336,6 +7349,7 @@
         "type": "Aussagenkombination",
         "text": "Weiche der folgenden Aussagen zur Gesprächstherapie nach Rogers trifft (treffen) zu?",
         "statements": [
+          "Interpretationen des Verhaltens des Klienten durch den Therapeuten sind auf jeden Fall angemessen",
           "Der Therapeut muss Kongruenz/Echtheit zeigen",
           "Der Therapeut muss Empathie zeigen",
           "Der Therapeut soll seinem Patienten Ratschläge und Empfehlungen bezüglich seines Verhaltens geben",
@@ -7458,7 +7472,7 @@
         "statements": [
           "Sie hellen die Stimmung auf",
           "Es besteht die Gefahr der Medikamentenabhängigkeit bei höherer Dosierung",
-          "Die beabsichtigte Wirkung setzt nach 2-5 Tagen",
+          "Die beabsichtigte Wirkung setzt nach 2-5 Tagen ein",
           "Zu Beginn der Behandlung kann es zu Koordinationsstörungen, Mundtrockenheit und Sehstörungen kommen"
         ],
         "options": [
@@ -7516,7 +7530,7 @@
           "Bulimia nervosa",
           "Anorexia nervosa",
           "Hypochondrische Störung",
-          "Somatoforme autonome Funktionsstörung (Herz- und Kreislaufsystem)",
+          "Somatoforme autonome Funktionsstörung (Herzund Kreislaufsystem)",
           "Generalisierte Angststörung"
         ],
         "correctIndices": [
@@ -8066,7 +8080,7 @@
         "statements": [],
         "options": [
           "Die Gewichtszunahme bewegt sich noch im üblichen Schwankungsbereich bei Männern und erfordert keine weitere Beachtung.",
-          "Die Gewichtszunahme deutet auf eine zusätzlich vorliegende Ess- Störung mit übermäßiger Nahrungsaufnahme hin (sog. Binge Eating Störung).",
+          "Die Gewichtszunahme deutet auf eine zusätzlich vorliegende Ess-Störung mit übermäßiger Nahrungsaufnahme hin (sog. Binge Eating Störung).",
           "Die Gewichtszunahme spricht für eine erhebliche Gefährdung durch Adipositas und sollte umgehend durch eine psychotherapeutisch begleitete Fastenkur behandelt werden.",
           "Die Gewichtszunahme ist Hinweis auf eine mögliche Nebenwirkung der medikamentösen Psychosebehandlung.",
           "Die Angaben des Patienten sind nicht glaubhaft."
@@ -8228,8 +8242,9 @@
         "statements": [
           "Aus statistischer Sicht besteht für den Herzangstneurotiker gegenüber der Durchschnittsbevölkerung ein signifikant erhöhtes Risiko, einen Herzinfarkt zu bekommen.",
           "Patienten mit Herzangstneurose neigen oft zu häufigerem Arztwechsel.",
-          "Die Patienten mit Herzangst beschäftigen sich nahezu ständig oft ernsthaft, oft etwas weniger konkret mit Suizidgedanken.",
-          "Der prozentuale Anteil der Männer an der Zahl der Fälle ist bei der Herzangstneurose höher als bei den allgemeinen Phobien (z."
+          "Die Patienten mit Herzangst beschäftigen sich nahezu ständig - oft ernsthaft, oft etwas weniger konkret - mit Suizidgedanken.",
+          "Der prozentuale Anteil der Männer an der Zahl der Fälle ist bei der Herzangstneurose höher als bei den allgemeinen Phobien (z.B. Klaustrophobien, Tierphobien, etc.).",
+          "Symptomatikauslösend sind in einem Teil der Fälle Erlebnisse von Herzerkrankung oder Herztod im Bekanntenkreis oder im öffentlichen Leben."
         ],
         "options": [
           "Nur die Aussagen 1 und 2 sind richtig",
@@ -9836,7 +9851,7 @@
           "Die Lebenszeitprävalenz für Schizophrenie liegt bei etwa 1%",
           "Bei vollständiger Ausheilung der Schizophrenie spricht man von einem schizophrenen Residuum",
           "Bei der paranoiden Schizophrenie stehen Wahnsymptome und Halluzinationen im Vordergrund des klinischen Bildes",
-          "Der Erkrankungsbeginn bei hebephrener Schizophrenie liegt im Allgemeinen im Jugend- und frühen Erwachsenenalter"
+          "Der Erkrankungsbeginn bei hebephrener Schizophrenie liegt im Allgemeinen im Jugendund frühen Erwachsenenalter"
         ],
         "correctIndices": [
           1,
@@ -10528,7 +10543,11 @@
           "Nur die Aussagen 1, 2, 4 und 5 sind richtig"
         ],
         "statements": [
-          "Ursache ist ein Thiaminmangel (Vitamin B1), der z."
+          "Ursache ist ein Thiaminmangel (Vitamin B1), der z.B. durch langjährigen Alkoholkonsum ausgelöst werden kann",
+          "Die Wernicke-Enzephalopathie kann tödlich verlaufen",
+          "Ein wichtiges Frühsymptom sind Konfabulationen",
+          "Die Wernicke-Enzephalopathie geht mit Augenmuskellähmungen, Ataxie und organischem Psychosyndrom einher",
+          "Bei der Wernicke-Enzephalopathie treten typischerweise keine Orientierungsstörungen auf"
         ],
         "correctIndices": [
           2
@@ -10828,7 +10847,7 @@
       {
         "id": 8,
         "type": "Mehrfachauswahl",
-        "text": "Welche typischen Symptome kommen bei dissoziativen Störungen (nach ICD- 10) vor? Wählen Sie zwei Antworten!",
+        "text": "Welche typischen Symptome kommen bei dissoziativen Störungen (nach ICD-10) vor? Wählen Sie zwei Antworten!",
         "statements": [],
         "options": [
           "Trance und Besessenheitszustände",
@@ -10901,7 +10920,11 @@
         "type": "Aussagenkombination",
         "text": "Welche der folgenden Aussagen zu formalen Denkstörungen trifft (treffen) zu?",
         "statements": [
-          "Bei den formalen Denkstörungen ist das inhaltliche Ergebnis des Denkprozesses verzerrt oder verändert (z."
+          "Bei den formalen Denkstörungen ist das inhaltliche Ergebnis des Denkprozesses verzerrt oder verändert (z. B. glaubt jemand, das Wetter beeinflussen zu können)",
+          "Formale Denkstörungen sind nicht krankheitsspezifisch",
+          "Neologismen sind Wortneubildungen, die z. B. bei der Schizophrenie vorkommen",
+          "Gedankenabreißen kann auf eine Schizophrenie hinweisen",
+          "Bei Perseveration wird das Denken als mühsam, wie blockiert erlebt"
         ],
         "options": [
           "Nur die Aussage 4 ist richtig",
@@ -10918,7 +10941,7 @@
       {
         "id": 13,
         "type": "Mehrfachauswahl",
-        "text": "Welche der folgenden Untersuchungen sind bei Verdacht auf eine Lese- und Rechtschreibstörung primär angezeigt? Wählen Sie zwei Antworten!",
+        "text": "Welche der folgenden Untersuchungen sind bei Verdacht auf eine Leseund Rechtschreibstörung primär angezeigt? Wählen Sie zwei Antworten!",
         "statements": [],
         "options": [
           "Nur die Aussagen 1, 2, und 3 sind richtig",
@@ -10949,7 +10972,7 @@
           "Bei SSRI (selektiven Serotoninwiederaufnahme-Hemmern) können unter anderem folgende Nebenwirkungen auftreten: Übelkeit, Erbrechen und innere Unruhe",
           "Johanniskraut hat als pflanzliches Mittel keinen Einfluss auf die Wirkung anderer Medikamente",
           "Zu Beginn der antidepressiven Medikation stehen häufig Nebenwirkungen im Vordergrund",
-          "Antidepressiva können auch bei Angst- und Zwangsstörungen indiziert sein"
+          "Antidepressiva können auch bei Angstund Zwangsstörungen indiziert sein"
         ],
         "correctIndices": [
           2
@@ -11078,7 +11101,10 @@
         "text": "Welche der folgenden Aussagen treffen zu? Zu den Diagnosekriterien einer Demenz (nach ICD-10) gehören:",
         "statements": [
           "Abnahme des Gedächtnisses",
-          "Beeinträchtigung des Denkvermögens (z."
+          "Beeinträchtigung des Denkvermögens (z. B. der Urteilsfähigkeit)",
+          "Verminderung der Affektkontrolle",
+          "Abbau höherer kortikaler Funktionen (Aphasie, Apraxie)",
+          "Bestehen der Symptome seit 6 Wochen"
         ],
         "options": [
           "Nur die Aussagen 1 und 4 sind richtig",
@@ -11180,7 +11206,7 @@
         "text": "Welche der folgenden Aussagen zur Bulimia nervosa treffen zu?",
         "statements": [
           "Als Folge der Erkrankung treten Zahnschmelzschäden auf",
-          "Normal- oder Übergewicht schließt eine Bulimie aus",
+          "Normaloder Übergewicht schließt eine Bulimie aus",
           "Bulimisch-Kranke essen sehr gern mit anderen zusammen",
           "Eine Komplikation der Bulimie ist die Elektrolytstörung",
           "Missbrauch von Abführmitteln kann auftreten"
@@ -11613,12 +11639,12 @@
       {
         "id": 20,
         "type": "Mehrfachauswahl",
-        "text": "Welche der folgenden Aussagen treffen für eine Lese- und Rechtschreibstörung (nach ICD-10) zu? Wählen Sie zwei Antworten!",
+        "text": "Welche der folgenden Aussagen treffen für eine Leseund Rechtschreibstörung (nach ICD-10) zu? Wählen Sie zwei Antworten!",
         "statements": [],
         "options": [
           "Soziale und emotionale Anpassungsprobleme stehen mit einer Lese- und Rechtschreibstörung in keinem Zusammenhang",
           "Die Leseleistung muss unter dem Niveau liegen, das aufgrund des Alters, der allgemeinen Intelligenz und Beschulung zu erwarten wäre",
-          "Eine umschriebene Entwicklungsstörung des Sprechens und der Sprache geht der Lese- und Rechtschreibstörung häufig voraus",
+          "Eine umschriebene Entwicklungsstörung des Sprechens und der Sprache geht der Leseund Rechtschreibstörung häufig voraus",
           "Ein Defizit des Leseverständnisses ist typischerweise nicht vorhanden",
           "Die Störung tritt im Rahmen einer allgemeinen Intelligenzminderung auf"
         ],
@@ -11658,7 +11684,9 @@
         "statements": [
           "Als Zwangsgedanken können gewalttätige Inhalte auftreten",
           "Die Lebenszeitprävalenz für das Auftreten einer Zwangsstörung liegt bei etwa 15%",
-          "Von einer Zwangsstörung spricht man auch dann, wenn die Symptomatik in einem Zusammenhang mit einer anderen psychischen Störung, z."
+          "Von einer Zwangsstörung spricht man auch dann, wenn die Symptomatik in einem Zusammenhang mit einer anderen psychischen Störung, z. B. Schizophrenie, steht",
+          "Zwangsstörungen zeigen häufig eine Tendenz zur Chronifizierung",
+          "Zwangsgedanken werden vom Patienten als eigene Gedanken erkannt"
         ],
         "options": [
           "Nur die Aussagen 1, 2 und 3 sind richtig",
@@ -12593,7 +12621,9 @@
         "statements": [
           "Ständige Beschäftigung mit Details, Regeln, Listen, Ordnung und Plänen",
           "Ausgeprägter Perfektionismus, der die Fertigstellung von Aufgaben behindert",
-          "Übermäßige Pedanterie und Befolgung sozialer Konventionen 4 Eingeschränkter Lebensstil wegen Bedürfnisses nach körperlicher Sicherheit 5 Eingeschränkte Fähigkeit, AIltagsentscheidungen zu treffen ohne ein hohes Maß an Ratschlägen und Bestätigung von anderen"
+          "Übermäßige Pedanterie und Befolgung sozialer Konventionen",
+          "Eingeschränkter Lebensstil wegen Bedürfnisses nach körperlicher Sicherheit",
+          "Eingeschränkte Fähigkeit, Alltagsentscheidungen zu treffen ohne ein hohes Maß an Ratschlägen und Bestätigung von anderen"
         ],
         "options": [
           "Nur die Aussagen 1, 2 und 3 sind richtig",
@@ -12614,7 +12644,8 @@
         "statements": [
           "Das betroffene Kind spricht nicht mit den Lehrern",
           "Bei dem Kind besteht eine erhebliche Sprachentwicklungsstörung",
-          "Das Sprachverständnis ist nicht beeinträchtigt 4 Das Kind spricht mit der Mutter",
+          "Das Sprachverständnis ist nicht beeinträchtigt",
+          "Das Kind spricht mit der Mutter",
           "Es gibt keinen Beleg dafür, dass das betroffene Kind in einigen Situationen normal oder fast normal sprechen kann"
         ],
         "options": [
@@ -12657,7 +12688,8 @@
         "type": "Aussagenkombination",
         "text": "Welche der folgenden Nebenwirkungen können bei der Therapie mit Lithiumpräparaten auftreten?",
         "statements": [
-          "Vermehrte Harnausscheidung (PoIyurie)",
+          "Tremor",
+          "Vermehrte Harnausscheidung (Polyurie)",
           "Gewichtszunahme",
           "Übelkeit",
           "Gesteigertes Durstempfinden"
@@ -12757,7 +12789,8 @@
         "text": "Welche der folgenden Aussagen zur posttraumatischen Belastungsstörung (PTHS) treffen nach CD-10 zu?",
         "statements": [
           "Symptome klingen innerhalb von 3 Tagen nach belastendem Ereignis ab",
-          "Häufig bestehen komorbide psychische Störungen 3 Traumafokussierte Psychotherapieverfahren sind grundsätzlich kontraindiziert",
+          "Häufig bestehen komorbide psychische Störungen",
+          "Traumafokussierte Psychotherapieverfahren sind grundsätzlich kontraindiziert",
           "Nach Traumata entwickeln die meisten der Betroffenen eine PTBS",
           "Typisch ist das wiederholte Erleben des Traumas in sich aufdrängenden Erinnerungen oder Träumen"
         ],
@@ -13038,12 +13071,12 @@
       {
         "id": 8,
         "type": "Mehrfachauswahl",
-        "text": "Welche der folgenden Aussagen treffen für eine Lese- und Rechtschreibstörung (nach ICD-10) zu? Wählen Sie zwei Antworten!",
+        "text": "Welche der folgenden Aussagen treffen für eine Leseund Rechtschreibstörung (nach ICD-10) zu? Wählen Sie zwei Antworten!",
         "statements": [],
         "options": [
-          "Soziale und emotionale Anpassungsprobleme stehen mit einer Lese- und Rechtschreibstörung nicht in Zusammenhang",
+          "Soziale und emotionale Anpassungsprobleme stehen mit einer Leseund Rechtschreibstörung nicht in Zusammenhang",
           "Die Leseleistung muss unter dem Niveau liegen, das aufgrund des Alters, der allgemeinen Intelligenz und Beschulung zu erwarten wäre",
-          "Eine umschriebene Entwicklungsstörung des Sprechens und der Sprache geht der Lese- und Rechtschreibstörung häufig voraus",
+          "Eine umschriebene Entwicklungsstörung des Sprechens und der Sprache geht der Leseund Rechtschreibstörung häufig voraus",
           "Ein Defizit des Leseverständnisses ist typischerweise nicht vorhanden",
           "Die Störung tritt im Rahmen einer allgemeinen Intelligenzminderung auf"
         ],
@@ -13265,7 +13298,7 @@
         "options": [
           "Bei Anorexia nervosa ist das Suizidrisiko erhöht",
           "Die Binge-Eating-Störung (BES) ist bei Männern häufiger als bei Frauen",
-          "Der Übergang von Anorexia nervosa in eine Bulimia nervosa oder eine Binge- Eating-Störung ist nicht möglich",
+          "Der Übergang von Anorexia nervosa in eine Bulimia nervosa oder eine Binge-Eating-Störung ist nicht möglich",
           "Ein relevantes Untergewicht wird angenommen bei einem Body-Mass-Index (BMI) von 20 kg/m²",
           "Bei Beginn einer Anorexia nervosa vor der Pubertät kann eine primäre Amenorrhö auftreten"
         ],
@@ -13400,7 +13433,7 @@
       {
         "id": 27,
         "type": "Mehrfachauswahl",
-        "text": "Welche der folgenden Aussagen zur paranoiden Persönlichkeitsstörung (nach ICD- 10) treffen zu? Wählen Sie zwei Antworten!",
+        "text": "Welche der folgenden Aussagen zur paranoiden Persönlichkeitsstörung (nach ICD-10) treffen zu? Wählen Sie zwei Antworten!",
         "statements": [],
         "options": [
           "Tendenz, neutralen oder freundlichen Handlungen zu misstrauen und als feindselig oder kränkend anzusehen",
@@ -13654,7 +13687,7 @@
         "text": "Eine Mutter kommt mit ihrer 5-jährigen Tochter in Ihre Praxis. Sie beklagt, dass ihr Kind im Vergleich zu anderen auffällig unkonzentriert sei, sich leicht ablenken lasse, nicht länger still sitzen könne sowie neben raschen Stimmungswechseln auch zu unbegründeten Wutanfällen neige. Woran denken Sie am ehesten?",
         "options": [
           "Rett-Syndrom",
-          "Lese- und Rechtschreibstörung (LRS)",
+          "Leseund Rechtschreibstörung (LRS)",
           "Frühkindlicher Autismus",
           "Aufmerksamkeitsdefizit-/Hyperaktivitätsstörung (ADHS)",
           "Tic-Störung"
@@ -13893,7 +13926,7 @@
       {
         "id": 23,
         "type": "Aussagenkombination",
-        "text": "Welche der folgenden Aussagen stützen im Rahmen der Differentialdiagnose die Verdachtsdiagnose einer posttraumatischen Belastungsstörung (PTBS) nach ICD- 10?",
+        "text": "Welche der folgenden Aussagen stützen im Rahmen der Differentialdiagnose die Verdachtsdiagnose einer posttraumatischen Belastungsstörung (PTBS) nach ICD-10?",
         "options": [
           "Nur die Aussagen 1 und 4 sind richtig",
           "Nur die Aussagen 2 und 5 sind richtig",
@@ -14796,7 +14829,7 @@
         "statements": [
           "Bei der Behandlung von ADS sollten nicht gleichzeitig Medikamente und psychotherapeutische Techniken eingesetzt werden.",
           "Bei der Aufmerksamkeitsdefizitstörung des Kindesalters (ADS) kann eine motorisch hyperaktive Symptomatik völlig fehlen.",
-          "Störungen der Fein- oder Grobmotorik sind ein Ausschlusskriterium für die Diagnose ADS.",
+          "Störungen der Feinoder Grobmotorik sind ein Ausschlusskriterium für die Diagnose ADS.",
           "Mit Flooding-Techniken erreicht man bei ADS-Patienten oft ein rascheres Verschwinden der Symptomatik als bei anderen Indikationen.",
           "Symptome wie z. B. Distanzlosigkeit oder Impulsivität stützen die Diagnose."
         ],
@@ -15057,7 +15090,7 @@
           "Die senile Demenz vom Alzheimer-Typ beginnt akut, meist nach einem Schlaganfall.",
           "Meist wird über Sehstörungen und flüchtige Paresen (= Lähmungserscheinungen) in der Vorgeschichte berichtet.",
           "Die senile Demenz vom Alzheimer-Typ verläuft schubweise und unregelmäßig.",
-          "Zu Beginn kommt es bei der senilen Demenz vom Alzheimer-Typ hauptsächlich zu Merkfähigkeits- und Wortfindungsstörungen, außerdem zur Einschränkung von Alltagsaktivitäten und Interessen.",
+          "Zu Beginn kommt es bei der senilen Demenz vom Alzheimer-Typ hauptsächlich zu Merkfähigkeitsund Wortfindungsstörungen, außerdem zur Einschränkung von Alltagsaktivitäten und Interessen.",
           "Die Krankheit ist meistens mit einem Hypertonus verbunden."
         ],
         "statements": [],
@@ -15199,7 +15232,7 @@
       {
         "id": 5,
         "type": "Aussagenkombination",
-        "text": "Welche der folgenden Aussagen ist (sind) für das Korsakow- Syndrom kennzeichnend?",
+        "text": "Welche der folgenden Aussagen ist (sind) für das Korsakow-Syndrom kennzeichnend?",
         "statements": [
           "Amnestische Störungen",
           "Der Zustand ist vollkommen irreversibel",
@@ -15272,7 +15305,7 @@
           "Rationalisierung",
           "Verdrängung",
           "Verleugnung",
-          "Verschiebung"
+          "Verschiebung 5"
         ],
         "correctIndices": [],
         "explanation": ""
@@ -15445,7 +15478,7 @@
         "text": "Herr T, ein 19-jähriger intellektuell leistungsfähiger Abiturient, leidet seit ca. sechs Jahren an exzessivem Händewaschen, seinerzeit ausgelöst durch eine Bandwurmerkrankung der Großmutter. Die Symptomatik (Händewaschen) wird ausgelöst durch Beschmutzungsbefürchtungen, die zum Teil phobischen Charakter tragen. Im Vordergrund steht dabei die Befürchtung, andere könnten mit schmutzigen und giftigen Substanzen nicht so umgehen, dass eine Kontamination ausgeschlossen ist. Zur Erhaltung der \"Sauberkeit\" in der Wohnung dienen täglich durchgeführte Rituals, In die auf Drängen von Herrn T. zum Teil auch dessen Eltern eingespannt sind. Im Rahmen der Diagnostik kommen hier in Betracht:",
         "statements": [],
         "options": [
-          "Polysomnographie (elektronische Erfassung, Speicherung, Vor- und Nachbearbeitung biometrischer Signale während des Schlafens)",
+          "Polysomnographie (elektronische Erfassung, Speicherung, Vorund Nachbearbeitung biometrischer Signale während des Schlafens)",
           "Erhebung der biographischen Anamnese unter tiefenpsychologischer Aspekt",
           "Verhaltensdiagnostik auf der Basis systematischer Verhaltensanalyse",
           "Verwendung eines Fremdbeurteilungsverfahrens",
@@ -15511,7 +15544,7 @@
         "text": "Welche(s) der folgenden, von schizophrenen Patienten beschriebenen Phänomene wird (werden) psychopathologisch zu den Ich-Störungen gezählt?",
         "statements": [
           "Ich werde von fremden Menschen gelenkt und bin nicht mehr Herr meiner Handlungen.",
-          "Unbekannte zwingen mir Gedanken au, ich habe dauernd Gedanken im Kopf, die nicht zu mir gehören.",
+          "Unbekannte zwingen mir Gedanken auf, ich habe dauernd Gedanken im Kopf, die nicht zu mir gehören.",
           "Wenn ich durch die Stadt gehe, bin ich mir sicher, dass alle Leute, die mir begegnen, meine Gedanken wissen."
         ],
         "options": [
@@ -15574,7 +15607,7 @@
           "Systematisches Einüben von Verhaltensmustern, wie Selbstbehauptung oder Kontaktfähigkeit",
           "Bearbeitung der persönlichen Beziehung zwischen Patient und Therapeut",
           "Kennenlernen von bis dahin unbewussten Persönlichkeitsanteilen",
-          "Einblick gewinnen in die eigene Gefühls- und Wunschwelt"
+          "Einblick gewinnen in die eigene Gefühlsund Wunschwelt"
         ],
         "options": [
           "Nur die Aussagen 1 und 2 sind richtig",
@@ -15714,7 +15747,7 @@
       {
         "id": 6,
         "type": "Einfachauswahl",
-        "text": "In der Entwicklungspsychologie wird der Entwicklung des kindlichen Spiels eine gro- ße Bedeutung beigemessen. Ordnen Sie in der chronologisch richtigen Reihenfolge die verschiedenen Arten kindlichen Spiels bei normgerechter Entwicklung! Welche Aussage trifft zu?",
+        "text": "In der Entwicklungspsychologie wird der Entwicklung des kindlichen Spiels eine große Bedeutung beigemessen. Ordnen Sie in der chronologisch richtigen Reihenfolge die verschiedenen Arten kindlichen Spiels bei normgerechter Entwicklung! Welche Aussage trifft zu?",
         "statements": [],
         "options": [
           "Rollenspiel - Sensomotorisches Spiel - Regelspiele",
@@ -15778,7 +15811,7 @@
           "Antriebsarmut",
           "Die lebenspraktischen Funktionen sind nicht beeinträchtigt",
           "Symptome treten erst nach dem 70. Lebensjahr auf",
-          "Fortschreitende Konzentrations- und Gedächtnisstörungen"
+          "Fortschreitende Konzentrationsund Gedächtnisstörungen"
         ],
         "correctIndices": [
           1,
@@ -15966,7 +15999,7 @@
       {
         "id": 19,
         "type": "Aussagenkombination",
-        "text": "Welche der folgenden Aussagen zur Gefühlswelt beim Derealisations- und/oder Depersonalisationssyndrom (nach ICD-10) sind richtig?",
+        "text": "Welche der folgenden Aussagen zur Gefühlswelt beim Derealisationsund/oder Depersonalisationssyndrom (nach ICD-10) sind richtig?",
         "statements": [
           "Der eigene Körper wird als unwirklich erlebt",
           "Die Patienten klagen u.a. über den Verlust von Emotionen, über das Abgetrenntsein von ihren Gedanken, von der realen Welt",
@@ -16332,7 +16365,7 @@
         "options": [
           "Gehäuftes familiäres Auftreten deutet auf eine genetische Komponente hin.",
           "Die Symptome beginnen nicht vor dem 10. Lebensjahr.",
-          "Die Prävalenzrate für Alkohol- und Drogenmissbrauch ist bei ADHS-Patienten gegenüber gesunden Kontrollpersonen nicht erhöht.",
+          "Die Prävalenzrate für Alkoholund Drogenmissbrauch ist bei ADHS-Patienten gegenüber gesunden Kontrollpersonen nicht erhöht.",
           "Eine emotionale Labilität und Störung der Impulskontrolle ist nicht vorhanden.",
           "ADHS-Patienten zeigen bei der Arbeit, Partnerschaft und Familie ein normales Funktionsniveau."
         ],
@@ -17001,7 +17034,7 @@
       {
         "id": 13,
         "type": "Aussagenkombination",
-        "text": "Welche der folgenden Aussagen treffen zu? In bestimmten Phasen des Kindes- und Jugendalters finden sich jeweils für diese Phase typische entwicklungsabhängige emotionale Phänomene bzw. Störungen. Hierzu zählen:",
+        "text": "Welche der folgenden Aussagen treffen zu? In bestimmten Phasen des Kindesund Jugendalters finden sich jeweils für diese Phase typische entwicklungsabhängige emotionale Phänomene bzw. Störungen. Hierzu zählen:",
         "options": [
           "Nur die Aussagen 1 und 4 sind richtig",
           "Nur die Aussagen 2 und 3 sind richtig",
@@ -17081,7 +17114,7 @@
         "statements": [
           "Bei der Behandlung von ADS sollten nicht gleichzeitig Medikamente und psychotherapeutische Techniken eingesetzt werden.",
           "Bei der Aufmerksamkeitsdefizitstörung des Kindesalters (ADS) kann eine motorisch hyperaktive Symptomatik völlig fehlen.",
-          "Störungen der Fein- oder Grobmotorik sind ein Ausschlusskriterium für die Diagnose ADS.",
+          "Störungen der Feinoder Grobmotorik sind ein Ausschlusskriterium für die Diagnose ADS.",
           "Mit Flooding-Techniken erreicht man bei ADS-Patienten oft ein rascheres Verschwinden der Symptomatik als bei anderen Indikationen.",
           "Symptome wie z. B. Distanzlosigkeit oder Impulsivität stützen die Diagnose."
         ],
@@ -17826,7 +17859,7 @@
         "text": "Welche der folgenden Aussagen zur Bulimie treffen zu?",
         "statements": [
           "Als Folge der Erkrankung treten Zahnschmelzschäden auf",
-          "Normal- oder Übergewicht schließt eine Bulimie aus",
+          "Normaloder Übergewicht schließt eine Bulimie aus",
           "Bulimisch-Kranke essen gern mit anderen zusammen",
           "Eine mögliche Komplikation der Bulimie ist der plötzliche Herztod",
           "Missbrauch von Abführmitteln kann auftreten"
@@ -18142,7 +18175,7 @@
         "statements": [
           "Eine Sprachentwicklungsstörung liegt vor, wenn im Alter von bis zu einem Jahr nur drei bis vier Wörter gesprochen werden.",
           "Entwicklungsstörungen werden auch als Teilleistungsschwächen bezeichnet.",
-          "Die häufigste umschriebene Entwicklungsstörung des Kindesalters ist die Legasthenie (Lese- und Rechtschreibschwäche).",
+          "Die häufigste umschriebene Entwicklungsstörung des Kindesalters ist die Legasthenie (Leseund Rechtschreibschwäche).",
           "Der Intelligenzquotient der betroffenen Kinder ist deutlich erniedrigt.",
           "Umschriebene Entwicklungsstörungen schulischer Fertigkeiten werden meist erst am Ende der Schullaufbahn erworben."
         ],
@@ -18482,7 +18515,7 @@
         "text": "Welche der folgenden Aussagen zur Symptomatik einer akuten Alkoholintoxikation treffen zu? Wählen Sie zwei Antworten!",
         "statements": [],
         "options": [
-          "Ein pathologischer Rausch tritt meist bei Menschen mit Vorschädigung des Gehirns bereits nach geringen Alkoholmengen auf",
+          "Ein pathologischer Rausch tritt - meist bei Menschen mit Vorschädigung des Gehirns - bereits nach geringen Alkoholmengen auf",
           "Typische Symptome des pathologischen Rausches sind optische Halluzinationen und lange Dauer",
           "Ein einfacher Rausch verändert zwar die Stimmung, die Kontrolle über die Körperfunktion ist jedoch nicht eingeschränkt",
           "Als Symptome eines schweren Alkoholrausches können Amnesie, Erregung und Angst sowie Bewusstseinseintrübungen auftreten",
@@ -18503,7 +18536,7 @@
           "Die Diagnose Demenz wird anhand der Bildgebung durch den Neurologen gestellt",
           "Ein demenzielles Syndrom kann die Folge einer Krankheit des Gehirns, einer schweren Schädelhirnverletzung oder einer chronischen Alkoholabhängigkeit sein",
           "Ein wichtiges Kriterium für die Diagnose einer Demenz ist die verminderte Alltagskompetenz",
-          "Bei frühzeitiger, rasch fortschreitender Demenz mit neurologischen Ausfällen wie Auftreten motorischer Störungen, sollte eine Creutzfeld- Jakob- Krankheit ausgeschlossen werden"
+          "Bei frühzeitiger, rasch fortschreitender Demenz mit neurologischen Ausfällen wie Auftreten motorischer Störungen, sollte eine Creutzfeld-Jakob- Krankheit ausgeschlossen werden"
         ],
         "options": [
           "Nur die Aussagen 1 und 3 sind richtig",
@@ -18658,7 +18691,7 @@
           "Sie sind immer als pathologisch zu betrachten",
           "Sie zielen darauf hin, negative Affekte und Gedanken zu vermeiden",
           "Sie entwickeln sich bis zum 18. Lebensmonat (orale Phase)",
-          "Bei der Borderline- Störung herrschen sog. unreife Abwehrmechanismen, wie z.B. Spaltung, vor",
+          "Bei der Borderline-Störung herrschen sog. unreife Abwehrmechanismen, wie z.B. Spaltung, vor",
           "Sie sind Ausdruck einer bewussten Problembewältigung bzw. Konfliktverarbeitung"
         ],
         "statements": [],
@@ -18825,7 +18858,7 @@
         "text": "Welche Aussage zur Hebephrenie trifft zu?",
         "statements": [],
         "options": [
-          "Die Hebephrenie ist eine Erkrankung, die sich bereits vor der Pubertät meist mit 4 bis 5 Lebensjahren manifestiert",
+          "Die Hebephrenie ist eine Erkrankung, die sich bereits vor der Pubertät - meist mit 4 bis 5 Lebensjahren - manifestiert",
           "Charakteristisch für die Hebephrenie sind die akustischen Halluzinationen, die von Vorschulkindern oft als singende Chöre beschrieben werden",
           "Die Hebephrenie zählt zu den x-chromosomal vererbbaren Erkrankungen und wird somit vorwiegend auf weibliche Nachkommen vererbt",
           "Bei der Hebephrenie bleiben das Bewusstsein und die Orientierung in den allermeisten Fällen erhalten",
@@ -19073,7 +19106,7 @@
           "Das wesentliche Symptom ist eine allgemeine und anhaltende Angst, die aber nicht auf bestimmte Situationen in der Umgebung beschränkt ist",
           "Beschrieben wird damit die Angst, sich auf weiten offenen Flächen zu bewegen",
           "Die soziale Phobie entsteht als Reaktion auf ein bestimmtes Ereignis",
-          "Die psychischen, Verhaltens- oder vegetativen Symptome sind primäre Manifestationen der Angst",
+          "Die psychischen, Verhaltensoder vegetativen Symptome sind primäre Manifestationen der Angst",
           "Die Angst muss auf bestimmte soziale Situationen beschränkt sein oder darin überwiegen"
         ],
         "correctIndices": [
@@ -19218,7 +19251,7 @@
       {
         "id": 9,
         "type": "Aussagenkombination",
-        "text": "Persönlichkeitsstörungen zeichnen sich durch ein deutliches Abweichen der charakteristischen und dauerhaften inneren Erfahrungs- und Verhaltensmuster aus. Welche der folgenden Aussagen zu dieser Abweichung trifft (treffen) zu?",
+        "text": "Persönlichkeitsstörungen zeichnen sich durch ein deutliches Abweichen der charakteristischen und dauerhaften inneren Erfahrungsund Verhaltensmuster aus. Welche der folgenden Aussagen zu dieser Abweichung trifft (treffen) zu?",
         "statements": [
           "Die Abweichung beginnt in der Regel in der Kindheit oder Adoleszenz",
           "Das resultierende Verhalten im sozialen Bereich ist flexibel und zweckmäßig",
@@ -19432,7 +19465,7 @@
       {
         "id": 20,
         "type": "Mehrfachauswahl",
-        "text": "Welche der folgenden Symptome sind typisch für eine Borderline- Persönlichkeitsstörung? Wählen Sie zwei Antworten!",
+        "text": "Welche der folgenden Symptome sind typisch für eine Borderline-Persönlichkeitsstörung? Wählen Sie zwei Antworten!",
         "statements": [],
         "options": [
           "Rückzug von affektiven, sozialen und anderen Kontakten, einzelgängerisches Verhalten",
@@ -19648,7 +19681,7 @@
       {
         "id": 3,
         "type": "Einfachauswahl",
-        "text": "Bei einem 10-jährigen jungen treten wiederkehrend nächtliche Episoden äu- ßerster Furcht und Panik mit heftigem Schreien, Bewegungen und starker autonomer Erregung auf. Zu welcher Diagnose passt diese Beschreibung am besten?",
+        "text": "Bei einem 10-jährigen jungen treten wiederkehrend nächtliche Episoden äußerster Furcht und Panik mit heftigem Schreien, Bewegungen und starker autonomer Erregung auf. Zu welcher Diagnose passt diese Beschreibung am besten?",
         "statements": [],
         "options": [
           "Enuresis nocturna",
@@ -19799,7 +19832,7 @@
       {
         "id": 11,
         "type": "Mehrfachauswahl",
-        "text": "Welche der folgenden Aussagen treffen zu? Bei einem 65-jährigen Patienten bemerken Sie während des Gesprächs kauende, grimassierende Bewegungen im Zungen- und Mundbereich. Er berichtet Ihnen, dass er von seinem Arzt jahrelang mit dem Medikament Haloperidol (Haldol) behandelt worden sei.",
+        "text": "Welche der folgenden Aussagen treffen zu? Bei einem 65-jährigen Patienten bemerken Sie während des Gesprächs kauende, grimassierende Bewegungen im Zungenund Mundbereich. Er berichtet Ihnen, dass er von seinem Arzt jahrelang mit dem Medikament Haloperidol (Haldol) behandelt worden sei.",
         "statements": [],
         "options": [
           "Es handelt sich um eine Tic-Störung",
@@ -20144,7 +20177,7 @@
       {
         "id": 28,
         "type": "Mehrfachauswahl",
-        "text": "Welche der folgenden Aussagen zur Aufmerksamkeitsdefizit- Hyperaktivitätsstörung (ADHS) treffen zu? Wählen Sie zwei Antworten!",
+        "text": "Welche der folgenden Aussagen zur Aufmerksamkeitsdefizit-Hyperaktivitätsstörung (ADHS) treffen zu? Wählen Sie zwei Antworten!",
         "statements": [],
         "options": [
           "Beginn vor dem siebten Lebensjahr",
@@ -20203,7 +20236,7 @@
       {
         "id": 3,
         "type": "Aussagenkombination",
-        "text": "Welche der folgenden Symptome gehören typischerweise zur Korsakow- Psychose (organisches amnestisches Syndrom)?",
+        "text": "Welche der folgenden Symptome gehören typischerweise zur Korsakow-Psychose (organisches amnestisches Syndrom)?",
         "statements": [
           "Ataxie",
           "Desorientierung",
@@ -20707,7 +20740,7 @@
           "Selbstverletzendes Verhalten ist untypisch bei Borderlinestörungen",
           "Vor dem 14. Lebensjahr sind keine selbstverletzenden Verhaltensweisen zu beobachten",
           "Jungen sind seltener betroffen als Mädchen",
-          "Sie haben oft eine affekt- und spannungsregulierende Funktion",
+          "Sie haben oft eine affektund spannungsregulierende Funktion",
           "Selbstverletzendes Verhalten in der Adoleszenz weist grundsätzlich auf eine schwere psychische Störung im Erwachsenenalter hin"
         ],
         "statements": [],
@@ -20902,7 +20935,7 @@
           "Störungen der Merkfähigkeit treten bei affektiven Störungen nicht auf",
           "Eine retrograde Amnesie ist der Verlust der Erinnerung an den Zeitraum, der nach einem Ereignis (z.B. Unfall) lag",
           "Bei Konfabulationen füllt ein Patient Erinnerungslücken mit Einfällen, die er selber für Erinnerungen hält",
-          "Paramnesien (Wahn- oder Trugerinnerungen) beinhalten das falsche Wiedererkennen von Situationen"
+          "Paramnesien (Wahnoder Trugerinnerungen) beinhalten das falsche Wiedererkennen von Situationen"
         ],
         "correctIndices": [
           2
@@ -21355,7 +21388,7 @@
         "statements": [
           "Bei der medikamentösen Therapie mit Neuroleptika können im Sinne unerwünschter Arzneimittelreaktionen Parkinson-ähnliche Symptome auftreten",
           "Die kognitive Verhaltenstherapie hat sich als unterstützende Behandlungsmöglichkeit bewährt",
-          "Arbeits- und Beschäftigungstherapie sind Bestandteile im Rahmen der stationären Therapie",
+          "Arbeitsund Beschäftigungstherapie sind Bestandteile im Rahmen der stationären Therapie",
           "Im Gegensatz zu den Suchterkrankungen hat sich die Soziotherapie bei der Schizophrenie nicht bewährt",
           "Differentialdiagnostisch sind unter anderem organisch bedingte Psychosen zu beachten"
         ],
@@ -21403,7 +21436,7 @@
           "Eye-Movement-Desensitization and Reprocessing (EMDR) ist bei der posttraumatischen Belastungsstörung (PTBS) grundsätzlich kontraindiziert",
           "Flooding wird bei der Behandlung isolierter Phobien angewandt",
           "Zur besseren Wirkung von Expositionsverfahren sollte der Patient die Angst durch bewusste Ablenkung vermeiden",
-          "Die graduierte Exposition mit Reaktionsmanagement wird zur Behandlung von Angst- und Zwangsstörungen eingesetzt",
+          "Die graduierte Exposition mit Reaktionsmanagement wird zur Behandlung von Angstund Zwangsstörungen eingesetzt",
           "Der sokratische Dialog führt bei Patienten mit Demenz zu einer anhaltenden Befundbesserung"
         ],
         "correctIndices": [
@@ -21499,7 +21532,7 @@
         "type": "Mehrfachauswahl",
         "text": "Welche der folgenden Aussagen zur sozialen Phobie treffen zu?",
         "options": [
-          "Die psychischen, Verhaltens- oder vegetativen Symptome sind primäre Manifestationen der Angst",
+          "Die psychischen, Verhaltensoder vegetativen Symptome sind primäre Manifestationen der Angst",
           "Beschrieben wird damit die Angst, sich auf weiten offenen Flächen zu bewegen",
           "Auch ohne Behandlung sind chronische Verläufe selten",
           "Das wesentliche Symptom ist eine allgemeine und anhaltende Angst, die aber nicht auf bestimmte Situationen in der Umgebung beschränkt ist",
@@ -21602,7 +21635,7 @@
           "Störungen der Merkfähigkeit treten bei affektiven Störungen nicht auf",
           "Eine retrograde Amnesie ist der Verlust der Erinnerung an den Zeitraum, der nach dem Ereignis (z.B. Unfall lag)",
           "Bei Konfabulationen füllt ein Patient Erinnerungslücken mit Einfällen, die er selber für Erinnerungen hält",
-          "Paramnesien (Wahn- oder Trugerinnerungen) beinhalten das falsche Wiedererkennen von Situationen"
+          "Paramnesien (Wahnoder Trugerinnerungen) beinhalten das falsche Wiedererkennen von Situationen"
         ],
         "options": [
           "Nur die Aussage 4 ist richtig",
@@ -22026,7 +22059,7 @@
         "statements": [],
         "options": [
           "Es besteht in der Regel eine schwere Intelligenzminderung",
-          "Der Begriff Legasthenie wird synonym für die Lese- und Rechtschreibstörung (LRS) eingesetzt",
+          "Der Begriff Legasthenie wird synonym für die Leseund Rechtschreibstörung (LRS) eingesetzt",
           "Kinder mit Legasthenie können das Gelesene besonders gut wiedergeben",
           "Legasthenie kann nicht gezielt behandelt werden",
           "Vom Besuch einer höheren Schule sollte bei Legasthenie generell abgeraten werden"
@@ -22144,7 +22177,7 @@
       {
         "id": 16,
         "type": "Einfachauswahl",
-        "text": "Eine 28-jährige Frau, ohne psychische Vorerkrankungen, kommt in Ihre Praxis. Sie berichtet aufgeregt und kurzatmig, dass sie am Morgen an einer stark befahrenen Straßenkreuzung einen Verkehrsunfall mit einem LKW gehabt habe, welcher wohl eine rote Ampel übersehen haben musste. Sei brauche daher unbedingt „etwas zur Beruhigung“. So könne Sie nicht zur Arbeit. Die Betroffene berichtet stereotyp, dass sie doch „grün“ gehabt habe und was denn passiert wäre, wenn der LKW sie mit ihrer 3-jährigen Tochter frontal an ihrer Fahrerseite erwischt hätte. Die Betroffene zittert, wirkt psychomotorisch unruhig, verzweifelt und zeigt deutliche Auffassungs- und Konzentrationsstörungen. Welche der folgenden Diagnosen im Sinne der ICD-10 trifft am ehesten zu?",
+        "text": "Eine 28-jährige Frau, ohne psychische Vorerkrankungen, kommt in Ihre Praxis. Sie berichtet aufgeregt und kurzatmig, dass sie am Morgen an einer stark befahrenen Straßenkreuzung einen Verkehrsunfall mit einem LKW gehabt habe, welcher wohl eine rote Ampel übersehen haben musste. Sei brauche daher unbedingt „etwas zur Beruhigung“. So könne Sie nicht zur Arbeit. Die Betroffene berichtet stereotyp, dass sie doch „grün“ gehabt habe und was denn passiert wäre, wenn der LKW sie mit ihrer 3-jährigen Tochter frontal an ihrer Fahrerseite erwischt hätte. Die Betroffene zittert, wirkt psychomotorisch unruhig, verzweifelt und zeigt deutliche Auffassungsund Konzentrationsstörungen. Welche der folgenden Diagnosen im Sinne der ICD-10 trifft am ehesten zu?",
         "statements": [],
         "options": [
           "Nur die Aussagen 1 und 5 sind richtig",
@@ -22195,7 +22228,7 @@
         "statements": [
           "Das katathyme Bildererleben gehört zu den verhaltenstherapeutischen Verfahren",
           "Zu den systemischen Therapien gehört die Technik des zirkulären Fragens",
-          "Indikation der Verhaltenstherapie sind Depressionen sowie Angst- und Zwangsstörungen",
+          "Indikation der Verhaltenstherapie sind Depressionen sowie Angstund Zwangsstörungen",
           "Bei Kindern können analytische Techniken angewendet werden",
           "Die tiefenpsychologisch fundierte Psychotherapie gehört zu den imaginativen Verfahren"
         ],
@@ -22317,7 +22350,7 @@
       {
         "id": 25,
         "type": "Mehrfachauswahl",
-        "text": "Welche der folgenden Aussagen zur Intelligenzminderung (nach ICD-10) im Kindes- und Jugendalter treffen zu? Wählen Sie zwei Antworten! Die schizoide Persönlichkeitsstörung (nach ICD-10) ist charakterisiert durch:",
+        "text": "Welche der folgenden Aussagen zur Intelligenzminderung (nach ICD-10) im Kindesund Jugendalter treffen zu? Wählen Sie zwei Antworten! Die schizoide Persönlichkeitsstörung (nach ICD-10) ist charakterisiert durch:",
         "statements": [],
         "options": [
           "Die Einteilung der Intelligenzminderung erfolgt nach ICD-10 in leichte, mittelgradige, schwere und schwerste Intelligenzminderung",
@@ -22371,7 +22404,7 @@
       {
         "id": 28,
         "type": "Aussagenkombination",
-        "text": "Welche der folgenden Aussagen trifft (treffen) zu? Ein Behandlungs- bzw. Tätigkeitsverbot besteht für Inhaber einer auf das Gebiet der Psychotherapie beschränkten Heilpraktikererlaubnis für die",
+        "text": "Welche der folgenden Aussagen trifft (treffen) zu? Ein Behandlungsbzw. Tätigkeitsverbot besteht für Inhaber einer auf das Gebiet der Psychotherapie beschränkten Heilpraktikererlaubnis für die",
         "options": [
           "Nur die Aussage 2 ist richtig",
           "Nur die Aussage 3 ist richtig",

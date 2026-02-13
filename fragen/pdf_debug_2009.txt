@@ -1,0 +1,29 @@
+Gruppe B:
+1 d
+2 e
+3 b
+4 d, e
+5 d, e
+6 a
+7 a
+8 e
+9 a, c
+10 d, e
+11 b
+12 a, d
+13 b
+14 d
+15 a
+16 b, d
+17 d
+18 b
+19 b, c
+20 e
+21 a
+22 e
+23 a, c
+24 c
+25 a, c
+26 c
+27 d
+28 b

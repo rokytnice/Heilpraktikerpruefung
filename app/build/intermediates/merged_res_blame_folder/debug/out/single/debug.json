@@ -1,26 +1,34 @@
 [
     {
-        "merged": "com.example.heilpraktikerpruefung.app-merged_res-54:/xml_data_extraction_rules.xml.flat",
-        "source": "com.example.heilpraktikerpruefung.app-main-56:/xml/data_extraction_rules.xml"
+        "merged": "/home/aroc/.gradle/daemon/8.5/com.example.heilpraktikerpruefung.app-merged_res-54:/xml_data_extraction_rules.xml.flat",
+        "source": "/home/aroc/.gradle/daemon/8.5/com.example.heilpraktikerpruefung.app-main-56:/xml/data_extraction_rules.xml"
     },
     {
-        "merged": "com.example.heilpraktikerpruefung.app-merged_res-54:/drawable_ic_launcher_background.xml.flat",
-        "source": "com.example.heilpraktikerpruefung.app-main-56:/drawable/ic_launcher_background.xml"
+        "merged": "com.example.heilpraktikerpruefung.app-merged_res-54:/drawable_ic_launcher_foreground.png.flat",
+        "source": "com.example.heilpraktikerpruefung.app-main-56:/drawable/ic_launcher_foreground.png"
     },
     {
-        "merged": "com.example.heilpraktikerpruefung.app-merged_res-54:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.example.heilpraktikerpruefung.app-main-56:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "com.example.heilpraktikerpruefung.app-merged_res-54:/drawable_app_logo.png.flat",
+        "source": "com.example.heilpraktikerpruefung.app-main-56:/drawable/app_logo.png"
     },
     {
-        "merged": "com.example.heilpraktikerpruefung.app-merged_res-54:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "com.example.heilpraktikerpruefung.app-main-56:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "/home/aroc/.gradle/daemon/8.5/com.example.heilpraktikerpruefung.app-merged_res-54:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "/home/aroc/.gradle/daemon/8.5/com.example.heilpraktikerpruefung.app-main-56:/drawable/ic_launcher_foreground.xml"
     },
     {
-        "merged": "com.example.heilpraktikerpruefung.app-merged_res-54:/drawable_ic_launcher_foreground.xml.flat",
-        "source": "com.example.heilpraktikerpruefung.app-main-56:/drawable/ic_launcher_foreground.xml"
+        "merged": "/home/aroc/.gradle/daemon/8.5/com.example.heilpraktikerpruefung.app-merged_res-54:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/home/aroc/.gradle/daemon/8.5/com.example.heilpraktikerpruefung.app-main-56:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "com.example.heilpraktikerpruefung.app-merged_res-54:/xml_backup_rules.xml.flat",
-        "source": "com.example.heilpraktikerpruefung.app-main-56:/xml/backup_rules.xml"
+        "merged": "/home/aroc/.gradle/daemon/8.5/com.example.heilpraktikerpruefung.app-merged_res-54:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/home/aroc/.gradle/daemon/8.5/com.example.heilpraktikerpruefung.app-main-56:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/home/aroc/.gradle/daemon/8.5/com.example.heilpraktikerpruefung.app-merged_res-54:/drawable_ic_launcher_background.xml.flat",
+        "source": "/home/aroc/.gradle/daemon/8.5/com.example.heilpraktikerpruefung.app-main-56:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/home/aroc/.gradle/daemon/8.5/com.example.heilpraktikerpruefung.app-merged_res-54:/xml_backup_rules.xml.flat",
+        "source": "/home/aroc/.gradle/daemon/8.5/com.example.heilpraktikerpruefung.app-main-56:/xml/backup_rules.xml"
     }
 ]

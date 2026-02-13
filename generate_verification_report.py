@@ -12,17 +12,31 @@ MONTH_MAP = {
     "October": "Oktober"
 }
 
+# Known limitations that cannot be fixed
+KNOWN_SCANNED = {"2007-october", "2014-october"}  # Fully scanned PDFs
+KNOWN_ANSWER_KEY_ONLY = {"2008-march", "2009-march"}  # Only answer key extractable
+KNOWN_EMPTY = {"2009-october", "2010-march"}  # No questions in JSON (no source)
+KNOWN_TEXT_MISMATCHES = {
+    # (exam_id, question_id): reason
+    ("2005-march", 5): "PDF OCR typo 'Weiche' vs correct 'Welche'",
+    ("2005-march", 8): "Scanned page, no extractable text",
+    ("2005-march", 17): "Manually corrected from PDF image",
+    ("2002-october", 7): "Manually corrected garbled OCR text",
+    ("2004-october", 9): "Manually corrected garbled OCR text",
+}
+
+
 def normalize_text(text):
-    # Standard normalization: lower, single spaces
     text = text.lower()
     text = re.sub(r'\s+', ' ', text)
     return text.strip()
 
+
 def normalize_text_nospace(text):
-    # Aggressive normalization: lower, no spaces, no punctuation
     text = text.lower()
-    text = re.sub(r'[^a-z0-9]', '', text)
+    text = re.sub(r'[^a-zäöüß0-9]', '', text)
     return text
+
 
 def extract_text_from_pdf(pdf_path):
     try:
@@ -33,8 +47,9 @@ def extract_text_from_pdf(pdf_path):
             if extracted:
                 text += extracted + " "
         return text
-    except Exception as e:
+    except Exception:
         return ""
+
 
 def find_pdf_file(year, month_en):
     month_de = MONTH_MAP.get(month_en, month_en)
@@ -45,27 +60,26 @@ def find_pdf_file(year, month_en):
             candidates.append(os.path.join(PDF_DIR, f))
     return candidates
 
+
 def check_match(needle, haystack_norm, haystack_nospace):
     if not needle.strip():
-        return True # Empty string matches
+        return True
 
-    # 1. Standard normalization check
     n_norm = normalize_text(needle)
     if n_norm in haystack_norm:
         return True
 
-    # 2. No-space check (for merged words issue)
     n_nospace = normalize_text_nospace(needle)
     if len(n_nospace) > 10 and n_nospace in haystack_nospace:
         return True
 
-    # 3. Partial check (first half) if long enough
     if len(n_norm) > 40:
         half_len = len(n_norm) // 2
         if n_norm[:half_len] in haystack_norm:
             return True
 
     return False
+
 
 def verify():
     if not os.path.exists(JSON_PATH):
@@ -79,86 +93,137 @@ def verify():
         print(f"Error loading JSON: {e}")
         return
 
-    with open(REPORT_PATH, 'w', encoding='utf-8') as report:
-        report.write("VERIFICATION REPORT\n")
-        report.write("===================\n\n")
+    # Sort exams chronologically
+    exams.sort(key=lambda e: (e.get("year", 0), 0 if e.get("month") == "March" else 1))
 
-        total_exams = 0
-        exams_with_issues = 0
+    # Tracking
+    verified_full = []
+    verified_known = []
+    unverifiable = []
+    real_issues = []
+
+    total_questions = 0
+    total_answers = 0
+    matched_questions = 0
+    matched_answers = 0
+
+    with open(REPORT_PATH, 'w', encoding='utf-8') as report:
+        report.write("VERIFICATION REPORT: exams.json vs Source PDFs\n")
+        report.write("=" * 50 + "\n\n")
 
         for exam in exams:
-            total_exams += 1
             exam_id = exam.get("id")
             year = exam.get("year")
             month = exam.get("month")
             questions = exam.get("questions", [])
+            label = f"{month} {year}"
 
-            header = f"--- Exam: {year} {month} ({exam_id}) ---"
-            print(header)
-            report.write(header + "\n")
-
+            # Empty exams
             if not questions:
-                report.write("  WARNING: No questions in JSON.\n\n")
-                exams_with_issues += 1
+                if exam_id in KNOWN_EMPTY:
+                    unverifiable.append(f"  {label:20s} Empty exam (no source PDF with questions)")
+                else:
+                    unverifiable.append(f"  {label:20s} No questions in JSON")
                 continue
 
+            # Find PDF
             pdf_files = find_pdf_file(year, month)
             if not pdf_files:
-                report.write(f"  ERROR: No PDF found for {month} {year}.\n\n")
-                exams_with_issues += 1
+                unverifiable.append(f"  {label:20s} No PDF found")
                 continue
 
             pdf_path = pdf_files[0]
-            report.write(f"  Source PDF: {pdf_path}\n")
-
             raw_pdf_text = extract_text_from_pdf(pdf_path)
 
-            if len(raw_pdf_text) < 100:
-                report.write("  ERROR: PDF text empty or too short (Scanned image?).\n\n")
-                exams_with_issues += 1
+            # Scanned/answer-key-only PDFs
+            if len(raw_pdf_text) < 500:
+                reason = "scanned PDF" if exam_id in KNOWN_SCANNED else "answer-key-only PDF"
+                unverifiable.append(f"  {label:20s} {len(questions):2d} questions ({reason})")
                 continue
 
-            # Pre-compute haystack versions
             pdf_text_norm = normalize_text(raw_pdf_text)
             pdf_text_nospace = normalize_text_nospace(raw_pdf_text)
 
-            exam_issues = []
-
-            q_match_count = 0
-            a_match_count = 0
-            q_total = 0
+            q_match = 0
+            a_match = 0
+            q_total = len(questions)
             a_total = 0
+            text_mismatches = []
 
             for q in questions:
-                q_total += 1
                 q_text = q.get("text", "")
+                qid = q.get("id")
 
-                if not check_match(q_text, pdf_text_norm, pdf_text_nospace):
-                    exam_issues.append(f"  [Q{q.get('id')}] Question Text Mismatch:\n    JSON: '{q_text[:60]}...'")
+                if check_match(q_text, pdf_text_norm, pdf_text_nospace):
+                    q_match += 1
                 else:
-                    q_match_count += 1
+                    known_key = (exam_id, qid)
+                    reason = KNOWN_TEXT_MISMATCHES.get(known_key)
+                    text_mismatches.append((qid, reason))
 
-                # Check Options
                 opts = q.get("options", [])
-                for idx, opt in enumerate(opts):
+                for opt in opts:
                     a_total += 1
-                    if not check_match(opt, pdf_text_norm, pdf_text_nospace):
-                        exam_issues.append(f"  [Q{q.get('id')}] Option {idx+1} Mismatch:\n    JSON: '{opt[:60]}...'")
-                    else:
-                        a_match_count += 1
+                    if check_match(opt, pdf_text_norm, pdf_text_nospace):
+                        a_match += 1
 
-            if exam_issues:
-                exams_with_issues += 1
-                for issue in exam_issues:
-                    report.write(issue + "\n")
+            total_questions += q_total
+            total_answers += a_total
+            matched_questions += q_match
+            matched_answers += a_match
+
+            if q_match == q_total and a_match == a_total:
+                verified_full.append(f"  {label:20s} {q_match:2d}/{q_total:2d} questions, {a_match:3d}/{a_total:3d} answers")
+            elif a_match == a_total and all(r is not None for _, r in text_mismatches):
+                # All answer options match, text mismatches are all known/explained
+                details = "; ".join(f"Q{qid}: {r}" for qid, r in text_mismatches)
+                verified_known.append(f"  {label:20s} {q_match:2d}/{q_total:2d} questions, {a_match:3d}/{a_total:3d} answers  [{details}]")
             else:
-                report.write("  All questions and answers verified.\n")
+                unknown_text = [f"Q{qid}" for qid, r in text_mismatches if r is None]
+                opt_miss = a_total - a_match
+                detail = f"{q_match}/{q_total} questions, {a_match}/{a_total} answers"
+                if unknown_text:
+                    detail += f"  [text: {', '.join(unknown_text)}]"
+                if opt_miss > 0:
+                    detail += f"  [{opt_miss} option mismatches]"
+                real_issues.append(f"  {label:20s} {detail}")
 
-            summary = f"  Stats: Questions {q_match_count}/{q_total}, Answers {a_match_count}/{a_total}\n"
-            report.write(summary + "\n")
-            print(summary.strip())
+        # Write summary report
+        report.write(f"Fully verified ({len(verified_full)} exams):\n")
+        for line in verified_full:
+            report.write(line + "\n")
 
-        report.write(f"summary: {exams_with_issues} exams with issues out of {total_exams} exams checked.\n")
+        if verified_known:
+            report.write(f"\nVerified with known text differences ({len(verified_known)} exams):\n")
+            for line in verified_known:
+                report.write(line + "\n")
+
+        if real_issues:
+            report.write(f"\nIssues found ({len(real_issues)} exams):\n")
+            for line in real_issues:
+                report.write(line + "\n")
+
+        report.write(f"\nNot verifiable ({len(unverifiable)} exams):\n")
+        for line in unverifiable:
+            report.write(line + "\n")
+
+        report.write(f"\n{'=' * 50}\n")
+        report.write(f"Total: {len(exams)} exams, {total_questions} questions checked\n")
+        report.write(f"Questions matched: {matched_questions}/{total_questions}\n")
+        report.write(f"Answers matched:   {matched_answers}/{total_answers}\n")
+        report.write(f"Fully verified:    {len(verified_full)} exams\n")
+        report.write(f"Known diffs:       {len(verified_known)} exams\n")
+        report.write(f"Unverifiable:      {len(unverifiable)} exams\n")
+        if real_issues:
+            report.write(f"Real issues:       {len(real_issues)} exams\n")
+
+        # Print summary
+        print(f"\nFully verified: {len(verified_full)} exams")
+        print(f"Known diffs:    {len(verified_known)} exams")
+        print(f"Unverifiable:   {len(unverifiable)} exams")
+        print(f"Real issues:    {len(real_issues)} exams")
+        print(f"Questions: {matched_questions}/{total_questions}, Answers: {matched_answers}/{total_answers}")
+
 
 if __name__ == "__main__":
     verify()

@@ -5212,7 +5212,7 @@
           "Emotionale Symptome wie z.B. Hoffnungslosigkeit",
           "Physische Symptome wie z.B. Veränderung der Schlafgewohnheiten",
           "Selbstwertgefühl wie z.B. Selbstablehnung",
-          "Wahnerleben wie z.B. Schuldoder Bestrafungswahn"
+          "Wahnerleben wie z.B. Schuld- oder Bestrafungswahn"
         ],
         "correctIndices": [
           4
@@ -5224,10 +5224,10 @@
         "type": "Mehrfachauswahl",
         "text": "Welche der folgenden Aussagen treffen auf die bipolare Störung zu? Wählen Sie zwei Antworten!",
         "options": [
-          "Personen mit bipolarer affektiver Störung sind insgesamt längere Zeit",
+          "Personen mit bipolarer affektiver Störung sind insgesamt längere Zeit manisch.",
           "Bei manischen Episoden können Beeinträchtigungsideen auftreten.",
-          "Bei jeder Depression sollte nach einer vorherigen (hypo-)manischen",
-          "Bipolare affektive Störungen beginnen in der Regel früher als unipolare",
+          "Bei jeder Depression sollte nach einer vorherigen (hypo-)manischen Episode gefragt werden.",
+          "Bipolare affektive Störungen beginnen in der Regel früher als unipolare Depressionen",
           "Frauen erkranken öfter an einer bipolaren affektiven Störung als Männer."
         ],
         "statements": [],
@@ -5245,7 +5245,7 @@
           "Multiple Identitätsstörung",
           "Dissoziativer Stupor",
           "Dissoziative Fugue",
-          "Tranceund Besessenheitszustand",
+          "Trance- und Besessenheitszustand",
           "Dissoziative Amnesie ohne Ortswechsel"
         ],
         "statements": [],
@@ -5296,7 +5296,7 @@
           "Übermäßige Vorliebe für einzelgängerische Tätigkeiten",
           "Emotionale Kühle, Distanziertheit oder flache Affektivität",
           "Wenig Interesse and sexuellen Erfahrungen mit anderen Menschen",
-          "Geringe Frustrationstoleranz mit niedriger Schwelle für aggressives oder",
+          "Geringe Frustrationstoleranz mit niedriger Schwelle für aggressives oder gewalttätiges Verhalten",
           "Gleichgültigkeit gegenüber Lob oder Kritik"
         ],
         "statements": [],
@@ -5432,11 +5432,11 @@
         "type": "Mehrfachauswahl",
         "text": "Welche der folgenden Begriffe und Beschreibungen gehören nicht zu den Stadien der suizidalen Entwicklung nach Pöldinger? Wählen Sie zwei Antworten!",
         "options": [
-          "Aggressionsumkehr",
-          "Entschlussphase",
-          "Suizidfantasien",
-          "Ambivalenz",
-          "Erwägungsphase"
+          "Aggressionsumkehr – Aggressive Tendenzen nehmen zu und richten sich zunehmend auf den Betroffenen selbst.",
+          "Entschlussphase – In dieser Phase, in der der Entschluss gefasst worden ist, wirkt der Betroffene eher ruhig und entspannt („Ruhe vor dem Sturm“). Die innere Ausnahmesituation allerdings erlaubt keine realistische Einschätzung der Situation mehr. Der Betroffene befindet sich in seiner eigenen Welt, häufig mit „Tunnelblick.“",
+          "Suizidfantasien – Der Betroffene flüchtet sich mehr und mehr in eine Gedankenwelt rund um den Tod, in der der Suizid eine zunehmende Rolle spielt und eine scheinbare Erleichterung in Aussicht stellt.",
+          "Ambivalenz – Hin- und Hergerissensein zwischen Wünschen zu leben und dem Gefühl, keine andere Möglichkeit zu haben, als sich das Leben zu nehmen. Häufig kommt es zu direkten Suizidankündigungen.",
+          "Erwägungsphase – In dieser Phase findet eine gedankliche Beschäftigung mit dem Suizid statt, gefördert durch belastende Lebensumstände und äußere Einflüsse"
         ],
         "statements": [],
         "correctIndices": [
@@ -5529,9 +5529,9 @@
       {
         "id": 19,
         "type": "Einfachauswahl",
-        "text": "Die Therapie von Alkoholund Drogenabhängigkeit lässt sich in vier Phasen einteilen. Welche der folgenden Phasen gehört nicht dazu? Wählen Sie eine Antwort!",
+        "text": "Die Therapie von Alkohol- und Drogenabhängigkeit lässt sich in vier Phasen einteilen. Welche der folgenden Phasen gehört nicht dazu? Wählen Sie eine Antwort!",
         "options": [
-          "Kontaktund Motivationsphase",
+          "Kontakt- und Motivationsphase",
           "Entgiftungsphase",
           "Entwöhnungsphase",
           "Remissionsphase",
@@ -5659,11 +5659,11 @@
         "type": "Mehrfachauswahl",
         "text": "Welche der folgenden Aussagen zum sekundären Krankheitsgewinn sind korrekt? Wählen Sie zwei Antworten!",
         "options": [
-          "Der sekundäre Krankheitsgewinn beschreibt das bewusste Täuschen über",
-          "Im Gegensatz zum primären Krankheitsgewinn bezieht sich der sekundäre",
-          "Der sekundäre Krankheitsgewinn ist ein bewusst gesteuertes Verhalten,",
-          "Der sekundäre Krankheitsgewinn ist nur bei psychosomatischen",
-          "Ein sekundärer Krankheitsgewinn liegt vor, wenn eine Person aus ihrer"
+          "Der sekundäre Krankheitsgewinn beschreibt das bewusste Täuschen über Krankheitssymptome, um finanzielle Vorteile oder rechtliche Vergünstigungen zu erhalten.",
+          "Im Gegensatz zum primären Krankheitsgewinn bezieht sich der sekundäre Krankheitsgewinn auf externe Vorteile, die durch die Krankheit entstehen.",
+          "Der sekundäre Krankheitsgewinn ist ein bewusst gesteuertes Verhalten, das vorrangig in der Simulation vorkommt.",
+          "Der sekundäre Krankheitsgewinn ist nur bei psychosomatischen Erkrankungen relevant und spielt bei organischen Erkrankungen keine Rolle.",
+          "Ein sekundärer Krankheitsgewinn liegt vor, wenn eine Person aus ihrer Erkrankung einen persönlichen Vorteil zieht, beispielsweise durch vermehrte Zuwendung oder Entlastung von Pflichten."
         ],
         "statements": [],
         "correctIndices": [

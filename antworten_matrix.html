@@ -1,0 +1,1024 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Vergleich: App vs. PDF-Original</title>
+<style>
+@media print { .exam-block { page-break-inside: avoid; } }
+body { font-family: Arial, sans-serif; margin: 20px; }
+.exam-block { margin-bottom: 30px; border: 1px solid #ddd; padding: 12px; border-radius: 8px; }
+.exam-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; }
+.exam-header h2 { margin: 0; font-size: 18px; }
+.status { font-size: 14px; padding: 2px 8px; border-radius: 4px; }
+.status-ok { background: #d4edda; color: #155724; }
+.status-warn { background: #fff3cd; color: #856404; }
+.status-err { background: #f8d7da; color: #721c24; }
+.status-none { background: #e2e3e5; color: #383d41; }
+.tables { display: flex; gap: 20px; flex-wrap: wrap; }
+.table-pair { margin-bottom: 8px; }
+.table-pair .label { font-size: 11px; color: #666; margin-bottom: 2px; }
+table { border-collapse: collapse; }
+td { border: 1px solid #999; width: 28px; height: 20px; text-align: center; font-size: 12px; padding: 1px 2px; }
+td.qnum { font-weight: bold; background: #f0f0f0; font-size: 11px; }
+td.correct { font-weight: bold; color: #000; }
+td.wrong { color: #ddd; }
+td.missing { color: #ddd; }
+td.mismatch-app { background: #ffe0e0; font-weight: bold; color: #c00; }
+td.mismatch-pdf { background: #e0ffe0; font-weight: bold; color: #060; }
+td.match-correct { font-weight: bold; color: #000; }
+.legend { margin: 20px 0; padding: 10px; background: #f8f8f8; border-radius: 4px; font-size: 13px; }
+.legend span { margin-right: 20px; }
+.summary { margin: 20px 0; font-size: 14px; }
+</style>
+</head>
+<body>
+<h1>Vergleich: App-Antworten vs. PDF-Original</h1>
+<div class="legend">
+<span><b style="color:#000">Fett/Schwarz</b> = richtig (beide stimmen)</span>
+<span style="color:#ddd">Grau</span> = falsch
+<span style="background:#ffe0e0;color:#c00;padding:2px 4px">Rot</span> = App sagt richtig, PDF nicht
+<span style="background:#e0ffe0;color:#060;padding:2px 4px">Grün</span> = PDF sagt richtig, App nicht
+</div>
+<div class="exam-block">
+<div class="exam-header"><h2>Oktober 2002</h2><span class="status status-ok">OK (text)</span></div>
+<div class="tables">
+<div class="table-pair">
+<table>
+<tr><td class="qnum">1</td><td class="qnum">2</td><td class="qnum">3</td><td class="qnum">4</td><td class="qnum">5</td><td class="qnum">6</td><td class="qnum">7</td><td class="qnum">8</td><td class="qnum">9</td><td class="qnum">10</td><td class="qnum">11</td><td class="qnum">12</td><td class="qnum">13</td><td class="qnum">14</td></tr>
+<tr><td class="wrong">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="mismatch-app">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td></tr>
+<tr><td class="match-correct">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td></tr>
+<tr><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td></tr>
+<tr><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="match-correct">D</td><td class="match-correct">D</td><td class="match-correct">D</td><td class="wrong">D</td></tr>
+<tr><td class="wrong">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="mismatch-app">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="match-correct">E</td></tr>
+</table>
+</div>
+<div class="table-pair">
+<table>
+<tr><td class="qnum">15</td><td class="qnum">16</td><td class="qnum">17</td><td class="qnum">18</td><td class="qnum">19</td><td class="qnum">20</td><td class="qnum">21</td><td class="qnum">22</td><td class="qnum">23</td><td class="qnum">24</td><td class="qnum">25</td><td class="qnum">26</td><td class="qnum">27</td><td class="qnum">28</td></tr>
+<tr><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="match-correct">A</td><td class="match-correct">A</td><td class="wrong">A</td><td class="wrong">A</td></tr>
+<tr><td class="wrong">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td></tr>
+<tr><td class="wrong">C</td><td class="mismatch-app">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td></tr>
+<tr><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="match-correct">D</td></tr>
+<tr><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td></tr>
+</table>
+</div>
+</div>
+</div>
+<div class="exam-block">
+<div class="exam-header"><h2>März 2003</h2><span class="status status-ok">OK (text)</span></div>
+<div class="tables">
+<div class="table-pair">
+<table>
+<tr><td class="qnum">1</td><td class="qnum">2</td><td class="qnum">3</td><td class="qnum">4</td><td class="qnum">5</td><td class="qnum">6</td><td class="qnum">7</td><td class="qnum">8</td><td class="qnum">9</td><td class="qnum">10</td><td class="qnum">11</td><td class="qnum">12</td><td class="qnum">13</td><td class="qnum">14</td></tr>
+<tr><td class="match-correct">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td></tr>
+<tr><td class="wrong">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="match-correct">B</td><td class="wrong">B</td></tr>
+<tr><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="mismatch-app">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="mismatch-app">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td></tr>
+<tr><td class="wrong">D</td><td class="wrong">D</td><td class="mismatch-app">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="mismatch-app">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td></tr>
+<tr><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="mismatch-app">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="mismatch-app">E</td></tr>
+</table>
+</div>
+<div class="table-pair">
+<table>
+<tr><td class="qnum">15</td><td class="qnum">16</td><td class="qnum">17</td><td class="qnum">18</td><td class="qnum">19</td><td class="qnum">20</td><td class="qnum">21</td><td class="qnum">22</td><td class="qnum">23</td><td class="qnum">24</td><td class="qnum">25</td><td class="qnum">26</td><td class="qnum">27</td><td class="qnum">28</td></tr>
+<tr><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="match-correct">A</td><td class="wrong">A</td><td class="wrong">A</td></tr>
+<tr><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="match-correct">B</td></tr>
+<tr><td class="wrong">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="match-correct">C</td><td class="wrong">C</td></tr>
+<tr><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td></tr>
+<tr><td class="match-correct">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="mismatch-app">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td></tr>
+</table>
+</div>
+</div>
+</div>
+<div class="exam-block">
+<div class="exam-header"><h2>Oktober 2003</h2><span class="status status-ok">OK (text)</span></div>
+<div class="tables">
+<div class="table-pair">
+<table>
+<tr><td class="qnum">1</td><td class="qnum">2</td><td class="qnum">3</td><td class="qnum">4</td><td class="qnum">5</td><td class="qnum">6</td><td class="qnum">7</td><td class="qnum">8</td><td class="qnum">9</td><td class="qnum">10</td><td class="qnum">11</td><td class="qnum">12</td><td class="qnum">13</td><td class="qnum">14</td></tr>
+<tr><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td></tr>
+<tr><td class="match-correct">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="match-correct">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="wrong">B</td></tr>
+<tr><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="wrong">C</td></tr>
+<tr><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td></tr>
+<tr><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td></tr>
+</table>
+</div>
+<div class="table-pair">
+<table>
+<tr><td class="qnum">15</td><td class="qnum">16</td><td class="qnum">17</td><td class="qnum">18</td><td class="qnum">19</td><td class="qnum">20</td><td class="qnum">21</td><td class="qnum">22</td><td class="qnum">23</td><td class="qnum">24</td><td class="qnum">25</td><td class="qnum">26</td><td class="qnum">27</td><td class="qnum">28</td></tr>
+<tr><td class="match-correct">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="match-correct">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="match-correct">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="match-correct">A</td></tr>
+<tr><td class="wrong">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="match-correct">B</td><td class="match-correct">B</td></tr>
+<tr><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td></tr>
+<tr><td class="wrong">D</td><td class="match-correct">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td></tr>
+<tr><td class="wrong">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="match-correct">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="match-correct">E</td></tr>
+</table>
+</div>
+</div>
+</div>
+<div class="exam-block">
+<div class="exam-header"><h2>März 2004</h2><span class="status status-ok">OK (text)</span></div>
+<div class="tables">
+<div class="table-pair">
+<table>
+<tr><td class="qnum">1</td><td class="qnum">2</td><td class="qnum">3</td><td class="qnum">4</td><td class="qnum">5</td><td class="qnum">6</td><td class="qnum">7</td><td class="qnum">8</td><td class="qnum">9</td><td class="qnum">10</td><td class="qnum">11</td><td class="qnum">12</td><td class="qnum">13</td><td class="qnum">14</td></tr>
+<tr><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="match-correct">A</td></tr>
+<tr><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="match-correct">B</td></tr>
+<tr><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="mismatch-app">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="match-correct">C</td></tr>
+<tr><td class="wrong">D</td><td class="match-correct">D</td><td class="mismatch-app">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="mismatch-app">D</td><td class="wrong">D</td></tr>
+<tr><td class="match-correct">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="match-correct">E</td></tr>
+</table>
+</div>
+<div class="table-pair">
+<table>
+<tr><td class="qnum">15</td><td class="qnum">16</td><td class="qnum">17</td><td class="qnum">18</td><td class="qnum">19</td><td class="qnum">20</td><td class="qnum">21</td><td class="qnum">22</td><td class="qnum">23</td><td class="qnum">24</td><td class="qnum">25</td><td class="qnum">26</td><td class="qnum">27</td><td class="qnum">28</td></tr>
+<tr><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td></tr>
+<tr><td class="match-correct">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="mismatch-app">B</td></tr>
+<tr><td class="match-correct">C</td><td class="mismatch-app">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="mismatch-app">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="mismatch-app">C</td><td class="match-correct">C</td><td class="wrong">C</td></tr>
+<tr><td class="match-correct">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td></tr>
+<tr><td class="match-correct">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="mismatch-app">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td></tr>
+</table>
+</div>
+</div>
+</div>
+<div class="exam-block">
+<div class="exam-header"><h2>Oktober 2004</h2><span class="status status-none">Kein PDF-Schlüssel</span></div>
+<table>
+<tr><td class="qnum">1</td><td class="qnum">2</td><td class="qnum">3</td><td class="qnum">4</td><td class="qnum">5</td><td class="qnum">6</td><td class="qnum">7</td><td class="qnum">8</td><td class="qnum">9</td><td class="qnum">10</td><td class="qnum">11</td><td class="qnum">12</td><td class="qnum">13</td><td class="qnum">14</td></tr>
+<tr><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="correct">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td></tr>
+<tr><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="correct">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="correct">B</td><td class="wrong">B</td><td class="correct">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td></tr>
+<tr><td class="wrong">C</td><td class="correct">C</td><td class="correct">C</td><td class="correct">C</td><td class="correct">C</td><td class="wrong">C</td><td class="correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="correct">C</td></tr>
+<tr><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="correct">D</td><td class="wrong">D</td><td class="wrong">D</td></tr>
+<tr><td class="correct">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="correct">E</td><td class="wrong">E</td></tr>
+</table>
+<table>
+<tr><td class="qnum">15</td><td class="qnum">16</td><td class="qnum">17</td><td class="qnum">18</td><td class="qnum">19</td><td class="qnum">20</td><td class="qnum">21</td><td class="qnum">22</td><td class="qnum">23</td><td class="qnum">24</td><td class="qnum">25</td><td class="qnum">26</td><td class="qnum">27</td><td class="qnum">28</td></tr>
+<tr><td class="wrong">A</td><td class="wrong">A</td><td class="correct">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td></tr>
+<tr><td class="wrong">B</td><td class="correct">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="correct">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td></tr>
+<tr><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="correct">C</td></tr>
+<tr><td class="correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="correct">D</td><td class="correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="correct">D</td><td class="wrong">D</td><td class="wrong">D</td></tr>
+<tr><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="correct">E</td><td class="correct">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="correct">E</td><td class="wrong">E</td></tr>
+</table>
+</div>
+<div class="exam-block">
+<div class="exam-header"><h2>März 2005</h2><span class="status status-none">Kein PDF-Schlüssel</span></div>
+<table>
+<tr><td class="qnum">1</td><td class="qnum">2</td><td class="qnum">3</td><td class="qnum">4</td><td class="qnum">5</td><td class="qnum">6</td><td class="qnum">7</td><td class="qnum">8</td><td class="qnum">9</td><td class="qnum">10</td><td class="qnum">11</td><td class="qnum">12</td><td class="qnum">13</td><td class="qnum">14</td></tr>
+<tr><td class="wrong">A</td><td class="correct">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="correct">A</td></tr>
+<tr><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td></tr>
+<tr><td class="wrong">C</td><td class="wrong">C</td><td class="correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="correct">C</td><td class="correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td></tr>
+<tr><td class="correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="correct">D</td><td class="correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="correct">D</td><td class="wrong">D</td><td class="correct">D</td><td class="correct">D</td><td class="wrong">D</td></tr>
+<tr><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="correct">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="correct">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="correct">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td></tr>
+</table>
+<table>
+<tr><td class="qnum">15</td><td class="qnum">16</td><td class="qnum">17</td><td class="qnum">18</td><td class="qnum">19</td><td class="qnum">20</td><td class="qnum">21</td><td class="qnum">22</td><td class="qnum">23</td><td class="qnum">24</td><td class="qnum">25</td><td class="qnum">26</td><td class="qnum">27</td><td class="qnum">28</td></tr>
+<tr><td class="correct">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="correct">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td></tr>
+<tr><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="correct">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="correct">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td></tr>
+<tr><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="correct">C</td><td class="wrong">C</td><td class="wrong">C</td></tr>
+<tr><td class="wrong">D</td><td class="correct">D</td><td class="correct">D</td><td class="correct">D</td><td class="wrong">D</td><td class="correct">D</td><td class="wrong">D</td><td class="correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="correct">D</td><td class="wrong">D</td><td class="correct">D</td><td class="correct">D</td></tr>
+<tr><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="correct">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td></tr>
+</table>
+</div>
+<div class="exam-block">
+<div class="exam-header"><h2>Oktober 2005</h2><span class="status status-ok">OK (grid)</span></div>
+<div class="tables">
+<div class="table-pair">
+<table>
+<tr><td class="qnum">1</td><td class="qnum">2</td><td class="qnum">3</td><td class="qnum">4</td><td class="qnum">5</td><td class="qnum">6</td><td class="qnum">7</td><td class="qnum">8</td><td class="qnum">9</td><td class="qnum">10</td><td class="qnum">11</td><td class="qnum">12</td><td class="qnum">13</td><td class="qnum">14</td></tr>
+<tr><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td></tr>
+<tr><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="wrong">B</td></tr>
+<tr><td class="wrong">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="match-correct">C</td><td class="match-correct">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="wrong">C</td></tr>
+<tr><td class="match-correct">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td></tr>
+<tr><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td></tr>
+</table>
+</div>
+<div class="table-pair">
+<table>
+<tr><td class="qnum">15</td><td class="qnum">16</td><td class="qnum">17</td><td class="qnum">18</td><td class="qnum">19</td><td class="qnum">20</td><td class="qnum">21</td><td class="qnum">22</td><td class="qnum">23</td><td class="qnum">24</td><td class="qnum">25</td><td class="qnum">26</td><td class="qnum">27</td><td class="qnum">28</td></tr>
+<tr><td class="wrong">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="wrong">A</td></tr>
+<tr><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td></tr>
+<tr><td class="wrong">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td></tr>
+<tr><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td></tr>
+<tr><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="match-correct">E</td></tr>
+</table>
+</div>
+</div>
+</div>
+<div class="exam-block">
+<div class="exam-header"><h2>März 2006</h2><span class="status status-ok">OK (grid)</span></div>
+<div class="tables">
+<div class="table-pair">
+<table>
+<tr><td class="qnum">1</td><td class="qnum">2</td><td class="qnum">3</td><td class="qnum">4</td><td class="qnum">5</td><td class="qnum">6</td><td class="qnum">7</td><td class="qnum">8</td><td class="qnum">9</td><td class="qnum">10</td><td class="qnum">11</td><td class="qnum">12</td><td class="qnum">13</td><td class="qnum">14</td></tr>
+<tr><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="match-correct">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="wrong">A</td><td class="wrong">A</td></tr>
+<tr><td class="match-correct">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td></tr>
+<tr><td class="wrong">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="wrong">C</td></tr>
+<tr><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td></tr>
+<tr><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="wrong">E</td></tr>
+</table>
+</div>
+<div class="table-pair">
+<table>
+<tr><td class="qnum">15</td><td class="qnum">16</td><td class="qnum">17</td><td class="qnum">18</td><td class="qnum">19</td><td class="qnum">20</td><td class="qnum">21</td><td class="qnum">22</td><td class="qnum">23</td><td class="qnum">24</td><td class="qnum">25</td><td class="qnum">26</td><td class="qnum">27</td><td class="qnum">28</td></tr>
+<tr><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="wrong">A</td></tr>
+<tr><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td></tr>
+<tr><td class="match-correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="wrong">C</td></tr>
+<tr><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td></tr>
+<tr><td class="wrong">E</td><td class="match-correct">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="match-correct">E</td></tr>
+</table>
+</div>
+</div>
+</div>
+<div class="exam-block">
+<div class="exam-header"><h2>Oktober 2006</h2><span class="status status-ok">OK (grid)</span></div>
+<div class="tables">
+<div class="table-pair">
+<table>
+<tr><td class="qnum">1</td><td class="qnum">2</td><td class="qnum">3</td><td class="qnum">4</td><td class="qnum">5</td><td class="qnum">6</td><td class="qnum">7</td><td class="qnum">8</td><td class="qnum">9</td><td class="qnum">10</td><td class="qnum">11</td><td class="qnum">12</td><td class="qnum">13</td><td class="qnum">14</td></tr>
+<tr><td class="match-correct">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td></tr>
+<tr><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td></tr>
+<tr><td class="wrong">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="match-correct">C</td></tr>
+<tr><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td></tr>
+<tr><td class="wrong">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td></tr>
+</table>
+</div>
+<div class="table-pair">
+<table>
+<tr><td class="qnum">15</td><td class="qnum">16</td><td class="qnum">17</td><td class="qnum">18</td><td class="qnum">19</td><td class="qnum">20</td><td class="qnum">21</td><td class="qnum">22</td><td class="qnum">23</td><td class="qnum">24</td><td class="qnum">25</td><td class="qnum">26</td><td class="qnum">27</td><td class="qnum">28</td></tr>
+<tr><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td></tr>
+<tr><td class="match-correct">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="wrong">B</td></tr>
+<tr><td class="wrong">C</td><td class="match-correct">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="match-correct">C</td></tr>
+<tr><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td></tr>
+<tr><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="wrong">E</td></tr>
+</table>
+</div>
+</div>
+</div>
+<div class="exam-block">
+<div class="exam-header"><h2>März 2007</h2><span class="status status-ok">OK (grid)</span></div>
+<div class="tables">
+<div class="table-pair">
+<table>
+<tr><td class="qnum">1</td><td class="qnum">2</td><td class="qnum">3</td><td class="qnum">4</td><td class="qnum">5</td><td class="qnum">6</td><td class="qnum">7</td><td class="qnum">8</td><td class="qnum">9</td><td class="qnum">10</td><td class="qnum">11</td><td class="qnum">12</td><td class="qnum">13</td><td class="qnum">14</td></tr>
+<tr><td class="wrong">A</td><td class="match-correct">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td></tr>
+<tr><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="match-correct">B</td></tr>
+<tr><td class="match-correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="wrong">C</td></tr>
+<tr><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="match-correct">D</td><td class="match-correct">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td></tr>
+<tr><td class="wrong">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="match-correct">E</td></tr>
+</table>
+</div>
+<div class="table-pair">
+<table>
+<tr><td class="qnum">15</td><td class="qnum">16</td><td class="qnum">17</td><td class="qnum">18</td><td class="qnum">19</td><td class="qnum">20</td><td class="qnum">21</td><td class="qnum">22</td><td class="qnum">23</td><td class="qnum">24</td><td class="qnum">25</td><td class="qnum">26</td><td class="qnum">27</td><td class="qnum">28</td></tr>
+<tr><td class="wrong">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="wrong">A</td></tr>
+<tr><td class="match-correct">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="wrong">B</td></tr>
+<tr><td class="wrong">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td></tr>
+<tr><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="match-correct">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td></tr>
+<tr><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="match-correct">E</td></tr>
+</table>
+</div>
+</div>
+</div>
+<div class="exam-block">
+<div class="exam-header"><h2>Oktober 2007</h2><span class="status status-none">Kein PDF-Schlüssel</span></div>
+<table>
+<tr><td class="qnum">1</td><td class="qnum">2</td><td class="qnum">3</td><td class="qnum">4</td><td class="qnum">5</td><td class="qnum">6</td><td class="qnum">7</td><td class="qnum">8</td><td class="qnum">9</td><td class="qnum">10</td><td class="qnum">11</td><td class="qnum">12</td><td class="qnum">13</td><td class="qnum">14</td></tr>
+<tr><td class="correct">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="correct">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td></tr>
+<tr><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="correct">B</td><td class="wrong">B</td><td class="wrong">B</td></tr>
+<tr><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="correct">C</td><td class="correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="correct">C</td><td class="wrong">C</td><td class="correct">C</td><td class="wrong">C</td></tr>
+<tr><td class="correct">D</td><td class="correct">D</td><td class="wrong">D</td><td class="correct">D</td><td class="correct">D</td><td class="correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="correct">D</td><td class="correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td></tr>
+<tr><td class="wrong">E</td><td class="wrong">E</td><td class="correct">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="correct">E</td></tr>
+</table>
+<table>
+<tr><td class="qnum">15</td><td class="qnum">16</td><td class="qnum">17</td><td class="qnum">18</td><td class="qnum">19</td><td class="qnum">20</td><td class="qnum">21</td><td class="qnum">22</td><td class="qnum">23</td><td class="qnum">24</td><td class="qnum">25</td><td class="qnum">26</td><td class="qnum">27</td><td class="qnum">28</td></tr>
+<tr><td class="correct">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="correct">A</td><td class="wrong">A</td><td class="correct">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="correct">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td></tr>
+<tr><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="correct">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="correct">B</td><td class="wrong">B</td><td class="correct">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td></tr>
+<tr><td class="wrong">C</td><td class="correct">C</td><td class="correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="correct">C</td><td class="correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="correct">C</td><td class="wrong">C</td></tr>
+<tr><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="correct">D</td><td class="wrong">D</td></tr>
+<tr><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="correct">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="correct">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="correct">E</td><td class="wrong">E</td><td class="correct">E</td></tr>
+</table>
+</div>
+<div class="exam-block">
+<div class="exam-header"><h2>März 2008</h2><span class="status status-ok">OK (text)</span></div>
+<div class="tables">
+<div class="table-pair">
+<table>
+<tr><td class="qnum">1</td><td class="qnum">2</td><td class="qnum">3</td><td class="qnum">4</td><td class="qnum">5</td><td class="qnum">6</td><td class="qnum">7</td><td class="qnum">8</td><td class="qnum">9</td><td class="qnum">10</td><td class="qnum">11</td><td class="qnum">12</td><td class="qnum">13</td><td class="qnum">14</td></tr>
+<tr><td class="wrong">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td></tr>
+<tr><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="match-correct">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="match-correct">B</td></tr>
+<tr><td class="wrong">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td></tr>
+<tr><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td></tr>
+<tr><td class="match-correct">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td></tr>
+</table>
+</div>
+<div class="table-pair">
+<table>
+<tr><td class="qnum">15</td><td class="qnum">16</td><td class="qnum">17</td><td class="qnum">18</td><td class="qnum">19</td><td class="qnum">20</td><td class="qnum">21</td><td class="qnum">22</td><td class="qnum">23</td><td class="qnum">24</td><td class="qnum">25</td><td class="qnum">26</td><td class="qnum">27</td><td class="qnum">28</td></tr>
+<tr><td class="wrong">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td></tr>
+<tr><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td></tr>
+<tr><td class="match-correct">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="wrong">C</td></tr>
+<tr><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="match-correct">D</td><td class="match-correct">D</td></tr>
+<tr><td class="match-correct">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td></tr>
+</table>
+</div>
+</div>
+</div>
+<div class="exam-block">
+<div class="exam-header"><h2>Oktober 2008</h2><span class="status status-ok">OK (grid)</span></div>
+<div class="tables">
+<div class="table-pair">
+<table>
+<tr><td class="qnum">1</td><td class="qnum">2</td><td class="qnum">3</td><td class="qnum">4</td><td class="qnum">5</td><td class="qnum">6</td><td class="qnum">7</td><td class="qnum">8</td><td class="qnum">9</td><td class="qnum">10</td><td class="qnum">11</td><td class="qnum">12</td><td class="qnum">13</td><td class="qnum">14</td></tr>
+<tr><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td></tr>
+<tr><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td></tr>
+<tr><td class="wrong">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="match-correct">C</td></tr>
+<tr><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td></tr>
+<tr><td class="match-correct">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td></tr>
+</table>
+</div>
+<div class="table-pair">
+<table>
+<tr><td class="qnum">15</td><td class="qnum">16</td><td class="qnum">17</td><td class="qnum">18</td><td class="qnum">19</td><td class="qnum">20</td><td class="qnum">21</td><td class="qnum">22</td><td class="qnum">23</td><td class="qnum">24</td><td class="qnum">25</td><td class="qnum">26</td><td class="qnum">27</td><td class="qnum">28</td></tr>
+<tr><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td></tr>
+<tr><td class="wrong">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td></tr>
+<tr><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="wrong">C</td></tr>
+<tr><td class="match-correct">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td></tr>
+<tr><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="match-correct">E</td></tr>
+</table>
+</div>
+</div>
+</div>
+<div class="exam-block">
+<div class="exam-header"><h2>März 2009</h2><span class="status status-ok">OK (text)</span></div>
+<div class="tables">
+<div class="table-pair">
+<table>
+<tr><td class="qnum">1</td><td class="qnum">2</td><td class="qnum">3</td><td class="qnum">4</td><td class="qnum">5</td><td class="qnum">6</td><td class="qnum">7</td><td class="qnum">8</td><td class="qnum">9</td><td class="qnum">10</td><td class="qnum">11</td><td class="qnum">12</td><td class="qnum">13</td><td class="qnum">14</td></tr>
+<tr><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td></tr>
+<tr><td class="wrong">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td></tr>
+<tr><td class="match-correct">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="match-correct">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="match-correct">C</td><td class="wrong">C</td></tr>
+<tr><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td></tr>
+<tr><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="match-correct">E</td></tr>
+</table>
+</div>
+<div class="table-pair">
+<table>
+<tr><td class="qnum">15</td><td class="qnum">16</td><td class="qnum">17</td><td class="qnum">18</td><td class="qnum">19</td><td class="qnum">20</td><td class="qnum">21</td><td class="qnum">22</td><td class="qnum">23</td><td class="qnum">24</td><td class="qnum">25</td><td class="qnum">26</td><td class="qnum">27</td><td class="qnum">28</td></tr>
+<tr><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="match-correct">A</td><td class="wrong">A</td><td class="wrong">A</td></tr>
+<tr><td class="wrong">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="wrong">B</td></tr>
+<tr><td class="match-correct">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td></tr>
+<tr><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="match-correct">D</td><td class="match-correct">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td></tr>
+<tr><td class="wrong">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td></tr>
+</table>
+</div>
+</div>
+</div>
+<div class="exam-block">
+<div class="exam-header"><h2>Oktober 2009</h2><span class="status status-none">Kein PDF-Schlüssel</span></div>
+<table>
+<tr><td class="qnum">1</td><td class="qnum">2</td><td class="qnum">3</td><td class="qnum">4</td><td class="qnum">5</td><td class="qnum">6</td><td class="qnum">7</td><td class="qnum">8</td><td class="qnum">9</td><td class="qnum">10</td><td class="qnum">11</td><td class="qnum">12</td><td class="qnum">13</td><td class="qnum">14</td></tr>
+<tr><td class="wrong">A</td><td class="correct">A</td><td class="correct">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="correct">A</td><td class="wrong">A</td><td class="correct">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="correct">A</td><td class="wrong">A</td></tr>
+<tr><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="correct">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="correct">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td></tr>
+<tr><td class="wrong">C</td><td class="wrong">C</td><td class="correct">C</td><td class="correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="correct">C</td><td class="wrong">C</td></tr>
+<tr><td class="correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="correct">D</td><td class="correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="correct">D</td></tr>
+<tr><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="correct">E</td><td class="wrong">E</td><td class="correct">E</td><td class="wrong">E</td><td class="correct">E</td><td class="wrong">E</td><td class="correct">E</td><td class="wrong">E</td><td class="wrong">E</td></tr>
+</table>
+<table>
+<tr><td class="qnum">15</td><td class="qnum">16</td><td class="qnum">17</td><td class="qnum">18</td><td class="qnum">19</td><td class="qnum">20</td><td class="qnum">21</td><td class="qnum">22</td><td class="qnum">23</td><td class="qnum">24</td><td class="qnum">25</td><td class="qnum">26</td><td class="qnum">27</td><td class="qnum">28</td></tr>
+<tr><td class="wrong">A</td><td class="wrong">A</td><td class="correct">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="correct">A</td><td class="correct">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td></tr>
+<tr><td class="correct">B</td><td class="correct">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="correct">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="correct">B</td><td class="correct">B</td></tr>
+<tr><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="correct">C</td><td class="correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td></tr>
+<tr><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="correct">D</td><td class="wrong">D</td><td class="correct">D</td><td class="correct">D</td><td class="wrong">D</td><td class="correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td></tr>
+<tr><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="correct">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="correct">E</td><td class="correct">E</td><td class="wrong">E</td><td class="wrong">E</td></tr>
+</table>
+</div>
+<div class="exam-block">
+<div class="exam-header"><h2>März 2010</h2><span class="status status-ok">OK (text-B)</span></div>
+<div class="tables">
+<div class="table-pair">
+<table>
+<tr><td class="qnum">1</td><td class="qnum">2</td><td class="qnum">3</td><td class="qnum">4</td><td class="qnum">5</td><td class="qnum">6</td><td class="qnum">7</td><td class="qnum">8</td><td class="qnum">9</td><td class="qnum">10</td><td class="qnum">11</td><td class="qnum">12</td><td class="qnum">13</td><td class="qnum">14</td></tr>
+<tr><td class="match-correct">A</td><td class="match-correct">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="match-correct">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td></tr>
+<tr><td class="wrong">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td></tr>
+<tr><td class="match-correct">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td></tr>
+<tr><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="match-correct">D</td><td class="match-correct">D</td></tr>
+<tr><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="match-correct">E</td><td class="match-correct">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="match-correct">E</td></tr>
+</table>
+</div>
+<div class="table-pair">
+<table>
+<tr><td class="qnum">15</td><td class="qnum">16</td><td class="qnum">17</td><td class="qnum">18</td><td class="qnum">19</td><td class="qnum">20</td><td class="qnum">21</td><td class="qnum">22</td><td class="qnum">23</td><td class="qnum">24</td><td class="qnum">25</td><td class="qnum">26</td><td class="qnum">27</td><td class="qnum">28</td></tr>
+<tr><td class="match-correct">A</td><td class="match-correct">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="wrong">A</td></tr>
+<tr><td class="match-correct">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="wrong">B</td></tr>
+<tr><td class="wrong">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="match-correct">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="match-correct">C</td></tr>
+<tr><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td></tr>
+<tr><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td></tr>
+</table>
+</div>
+</div>
+</div>
+<div class="exam-block">
+<div class="exam-header"><h2>Oktober 2010</h2><span class="status status-ok">OK (text-B)</span></div>
+<div class="tables">
+<div class="table-pair">
+<table>
+<tr><td class="qnum">1</td><td class="qnum">2</td><td class="qnum">3</td><td class="qnum">4</td><td class="qnum">5</td><td class="qnum">6</td><td class="qnum">7</td><td class="qnum">8</td><td class="qnum">9</td><td class="qnum">10</td><td class="qnum">11</td><td class="qnum">12</td><td class="qnum">13</td><td class="qnum">14</td></tr>
+<tr><td class="match-correct">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="wrong">A</td></tr>
+<tr><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="match-correct">B</td></tr>
+<tr><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td></tr>
+<tr><td class="match-correct">D</td><td class="match-correct">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="match-correct">D</td></tr>
+<tr><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td></tr>
+</table>
+</div>
+<div class="table-pair">
+<table>
+<tr><td class="qnum">15</td><td class="qnum">16</td><td class="qnum">17</td><td class="qnum">18</td><td class="qnum">19</td><td class="qnum">20</td><td class="qnum">21</td><td class="qnum">22</td><td class="qnum">23</td><td class="qnum">24</td><td class="qnum">25</td><td class="qnum">26</td><td class="qnum">27</td><td class="qnum">28</td></tr>
+<tr><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td></tr>
+<tr><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td></tr>
+<tr><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="match-correct">C</td></tr>
+<tr><td class="wrong">D</td><td class="match-correct">D</td><td class="match-correct">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="match-correct">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td></tr>
+<tr><td class="match-correct">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="match-correct">E</td><td class="wrong">E</td></tr>
+</table>
+</div>
+</div>
+</div>
+<div class="exam-block">
+<div class="exam-header"><h2>März 2011</h2><span class="status status-ok">OK (grid-B)</span></div>
+<div class="tables">
+<div class="table-pair">
+<table>
+<tr><td class="qnum">1</td><td class="qnum">2</td><td class="qnum">3</td><td class="qnum">4</td><td class="qnum">5</td><td class="qnum">6</td><td class="qnum">7</td><td class="qnum">8</td><td class="qnum">9</td><td class="qnum">10</td><td class="qnum">11</td><td class="qnum">12</td><td class="qnum">13</td><td class="qnum">14</td></tr>
+<tr><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="wrong">A</td></tr>
+<tr><td class="wrong">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td></tr>
+<tr><td class="match-correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="match-correct">C</td><td class="match-correct">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="wrong">C</td></tr>
+<tr><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="match-correct">D</td><td class="match-correct">D</td><td class="match-correct">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="match-correct">D</td></tr>
+<tr><td class="wrong">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td></tr>
+</table>
+</div>
+<div class="table-pair">
+<table>
+<tr><td class="qnum">15</td><td class="qnum">16</td><td class="qnum">17</td><td class="qnum">18</td><td class="qnum">19</td><td class="qnum">20</td><td class="qnum">21</td><td class="qnum">22</td><td class="qnum">23</td><td class="qnum">24</td><td class="qnum">25</td><td class="qnum">26</td><td class="qnum">27</td><td class="qnum">28</td></tr>
+<tr><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="wrong">A</td><td class="wrong">A</td></tr>
+<tr><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td></tr>
+<tr><td class="match-correct">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="match-correct">C</td><td class="match-correct">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td></tr>
+<tr><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="match-correct">D</td></tr>
+<tr><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td></tr>
+</table>
+</div>
+</div>
+</div>
+<div class="exam-block">
+<div class="exam-header"><h2>Oktober 2011</h2><span class="status status-ok">OK (text)</span></div>
+<div class="tables">
+<div class="table-pair">
+<table>
+<tr><td class="qnum">1</td><td class="qnum">2</td><td class="qnum">3</td><td class="qnum">4</td><td class="qnum">5</td><td class="qnum">6</td><td class="qnum">7</td><td class="qnum">8</td><td class="qnum">9</td><td class="qnum">10</td><td class="qnum">11</td><td class="qnum">12</td><td class="qnum">13</td><td class="qnum">14</td></tr>
+<tr><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="match-correct">A</td></tr>
+<tr><td class="wrong">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="match-correct">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td></tr>
+<tr><td class="match-correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td></tr>
+<tr><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td></tr>
+<tr><td class="wrong">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="match-correct">E</td><td class="wrong">E</td></tr>
+</table>
+</div>
+<div class="table-pair">
+<table>
+<tr><td class="qnum">15</td><td class="qnum">16</td><td class="qnum">17</td><td class="qnum">18</td><td class="qnum">19</td><td class="qnum">20</td><td class="qnum">21</td><td class="qnum">22</td><td class="qnum">23</td><td class="qnum">24</td><td class="qnum">25</td><td class="qnum">26</td><td class="qnum">27</td><td class="qnum">28</td></tr>
+<tr><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="wrong">A</td><td class="wrong">A</td></tr>
+<tr><td class="wrong">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="match-correct">B</td></tr>
+<tr><td class="match-correct">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="match-correct">C</td><td class="match-correct">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td></tr>
+<tr><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td></tr>
+<tr><td class="wrong">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="match-correct">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="wrong">E</td></tr>
+</table>
+</div>
+</div>
+</div>
+<div class="exam-block">
+<div class="exam-header"><h2>März 2012</h2><span class="status status-ok">OK (text)</span></div>
+<div class="tables">
+<div class="table-pair">
+<table>
+<tr><td class="qnum">1</td><td class="qnum">2</td><td class="qnum">3</td><td class="qnum">4</td><td class="qnum">5</td><td class="qnum">6</td><td class="qnum">7</td><td class="qnum">8</td><td class="qnum">9</td><td class="qnum">10</td><td class="qnum">11</td><td class="qnum">12</td><td class="qnum">13</td><td class="qnum">14</td></tr>
+<tr><td class="wrong">A</td><td class="match-correct">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td></tr>
+<tr><td class="match-correct">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td></tr>
+<tr><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="match-correct">C</td></tr>
+<tr><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="match-correct">D</td><td class="wrong">D</td></tr>
+<tr><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="wrong">E</td></tr>
+</table>
+</div>
+<div class="table-pair">
+<table>
+<tr><td class="qnum">15</td><td class="qnum">16</td><td class="qnum">17</td><td class="qnum">18</td><td class="qnum">19</td><td class="qnum">20</td><td class="qnum">21</td><td class="qnum">22</td><td class="qnum">23</td><td class="qnum">24</td><td class="qnum">25</td><td class="qnum">26</td><td class="qnum">27</td><td class="qnum">28</td></tr>
+<tr><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="match-correct">A</td><td class="match-correct">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="match-correct">A</td><td class="match-correct">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="match-correct">A</td></tr>
+<tr><td class="match-correct">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="match-correct">B</td></tr>
+<tr><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td></tr>
+<tr><td class="wrong">D</td><td class="match-correct">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td></tr>
+<tr><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="match-correct">E</td></tr>
+</table>
+</div>
+</div>
+</div>
+<div class="exam-block">
+<div class="exam-header"><h2>Oktober 2012</h2><span class="status status-ok">OK (text)</span></div>
+<div class="tables">
+<div class="table-pair">
+<table>
+<tr><td class="qnum">1</td><td class="qnum">2</td><td class="qnum">3</td><td class="qnum">4</td><td class="qnum">5</td><td class="qnum">6</td><td class="qnum">7</td><td class="qnum">8</td><td class="qnum">9</td><td class="qnum">10</td><td class="qnum">11</td><td class="qnum">12</td><td class="qnum">13</td><td class="qnum">14</td></tr>
+<tr><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="wrong">A</td><td class="wrong">A</td></tr>
+<tr><td class="match-correct">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td></tr>
+<tr><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="match-correct">C</td></tr>
+<tr><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td></tr>
+<tr><td class="wrong">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="wrong">E</td></tr>
+</table>
+</div>
+<div class="table-pair">
+<table>
+<tr><td class="qnum">15</td><td class="qnum">16</td><td class="qnum">17</td><td class="qnum">18</td><td class="qnum">19</td><td class="qnum">20</td><td class="qnum">21</td><td class="qnum">22</td><td class="qnum">23</td><td class="qnum">24</td><td class="qnum">25</td><td class="qnum">26</td><td class="qnum">27</td><td class="qnum">28</td></tr>
+<tr><td class="wrong">A</td><td class="match-correct">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="match-correct">A</td></tr>
+<tr><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="wrong">B</td></tr>
+<tr><td class="wrong">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="match-correct">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td></tr>
+<tr><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="match-correct">D</td></tr>
+<tr><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td></tr>
+</table>
+</div>
+</div>
+</div>
+<div class="exam-block">
+<div class="exam-header"><h2>März 2013</h2><span class="status status-ok">OK (text)</span></div>
+<div class="tables">
+<div class="table-pair">
+<table>
+<tr><td class="qnum">1</td><td class="qnum">2</td><td class="qnum">3</td><td class="qnum">4</td><td class="qnum">5</td><td class="qnum">6</td><td class="qnum">7</td><td class="qnum">8</td><td class="qnum">9</td><td class="qnum">10</td><td class="qnum">11</td><td class="qnum">12</td><td class="qnum">13</td><td class="qnum">14</td></tr>
+<tr><td class="match-correct">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="match-correct">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td></tr>
+<tr><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="match-correct">B</td><td class="wrong">B</td></tr>
+<tr><td class="match-correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="wrong">C</td></tr>
+<tr><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td></tr>
+<tr><td class="wrong">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="wrong">E</td></tr>
+</table>
+</div>
+<div class="table-pair">
+<table>
+<tr><td class="qnum">15</td><td class="qnum">16</td><td class="qnum">17</td><td class="qnum">18</td><td class="qnum">19</td><td class="qnum">20</td><td class="qnum">21</td><td class="qnum">22</td><td class="qnum">23</td><td class="qnum">24</td><td class="qnum">25</td><td class="qnum">26</td><td class="qnum">27</td><td class="qnum">28</td></tr>
+<tr><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="match-correct">A</td></tr>
+<tr><td class="match-correct">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="match-correct">B</td></tr>
+<tr><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="match-correct">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="wrong">C</td></tr>
+<tr><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td></tr>
+<tr><td class="match-correct">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td></tr>
+</table>
+</div>
+</div>
+</div>
+<div class="exam-block">
+<div class="exam-header"><h2>Oktober 2013</h2><span class="status status-err">23 Abweichungen (grid-B)</span></div>
+<div class="tables">
+<div class="table-pair">
+<table>
+<tr><td class="qnum">1</td><td class="qnum">2</td><td class="qnum">3</td><td class="qnum">4</td><td class="qnum">5</td><td class="qnum">6</td><td class="qnum">7</td><td class="qnum">8</td><td class="qnum">9</td><td class="qnum">10</td><td class="qnum">11</td><td class="qnum">12</td><td class="qnum">13</td><td class="qnum">14</td></tr>
+<tr><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="mismatch-app">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="mismatch-app">A</td><td class="wrong">A</td></tr>
+<tr><td class="mismatch-app">B</td><td class="wrong">B</td><td class="mismatch-pdf">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="mismatch-pdf">B</td><td class="mismatch-pdf">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="mismatch-app">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="mismatch-pdf">B</td></tr>
+<tr><td class="mismatch-pdf">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="mismatch-app">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="mismatch-app">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="mismatch-pdf">C</td><td class="mismatch-app">C</td></tr>
+<tr><td class="mismatch-pdf">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="mismatch-app">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="mismatch-app">D</td><td class="mismatch-app">D</td><td class="wrong">D</td></tr>
+<tr><td class="wrong">E</td><td class="wrong">E</td><td class="mismatch-app">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="mismatch-app">E</td><td class="wrong">E</td><td class="mismatch-pdf">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="mismatch-pdf">E</td><td class="mismatch-pdf">E</td><td class="wrong">E</td></tr>
+</table>
+</div>
+<div class="table-pair">
+<table>
+<tr><td class="qnum">15</td><td class="qnum">16</td><td class="qnum">17</td><td class="qnum">18</td><td class="qnum">19</td><td class="qnum">20</td><td class="qnum">21</td><td class="qnum">22</td><td class="qnum">23</td><td class="qnum">24</td><td class="qnum">25</td><td class="qnum">26</td><td class="qnum">27</td><td class="qnum">28</td></tr>
+<tr><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="mismatch-pdf">A</td><td class="wrong">A</td><td class="mismatch-pdf">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td></tr>
+<tr><td class="mismatch-app">B</td><td class="mismatch-pdf">B</td><td class="mismatch-app">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="mismatch-app">B</td><td class="wrong">B</td><td class="wrong">B</td></tr>
+<tr><td class="wrong">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="mismatch-app">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="mismatch-pdf">C</td><td class="mismatch-pdf">C</td><td class="match-correct">C</td><td class="wrong">C</td></tr>
+<tr><td class="wrong">D</td><td class="wrong">D</td><td class="mismatch-pdf">D</td><td class="match-correct">D</td><td class="mismatch-app">D</td><td class="mismatch-pdf">D</td><td class="wrong">D</td><td class="mismatch-pdf">D</td><td class="match-correct">D</td><td class="match-correct">D</td><td class="mismatch-app">D</td><td class="mismatch-pdf">D</td><td class="wrong">D</td><td class="match-correct">D</td></tr>
+<tr><td class="mismatch-pdf">E</td><td class="wrong">E</td><td class="mismatch-app">E</td><td class="mismatch-pdf">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="mismatch-pdf">E</td><td class="mismatch-app">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="mismatch-app">E</td><td class="mismatch-app">E</td></tr>
+</table>
+</div>
+</div>
+</div>
+<div class="exam-block">
+<div class="exam-header"><h2>März 2014</h2><span class="status status-ok">OK (grid-B)</span></div>
+<div class="tables">
+<div class="table-pair">
+<table>
+<tr><td class="qnum">1</td><td class="qnum">2</td><td class="qnum">3</td><td class="qnum">4</td><td class="qnum">5</td><td class="qnum">6</td><td class="qnum">7</td><td class="qnum">8</td><td class="qnum">9</td><td class="qnum">10</td><td class="qnum">11</td><td class="qnum">12</td><td class="qnum">13</td><td class="qnum">14</td></tr>
+<tr><td class="match-correct">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td></tr>
+<tr><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td></tr>
+<tr><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="match-correct">C</td></tr>
+<tr><td class="match-correct">D</td><td class="match-correct">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td></tr>
+<tr><td class="wrong">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="wrong">E</td></tr>
+</table>
+</div>
+<div class="table-pair">
+<table>
+<tr><td class="qnum">15</td><td class="qnum">16</td><td class="qnum">17</td><td class="qnum">18</td><td class="qnum">19</td><td class="qnum">20</td><td class="qnum">21</td><td class="qnum">22</td><td class="qnum">23</td><td class="qnum">24</td><td class="qnum">25</td><td class="qnum">26</td><td class="qnum">27</td><td class="qnum">28</td></tr>
+<tr><td class="wrong">A</td><td class="match-correct">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="wrong">A</td><td class="wrong">A</td></tr>
+<tr><td class="match-correct">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td></tr>
+<tr><td class="wrong">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td></tr>
+<tr><td class="match-correct">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="match-correct">D</td></tr>
+<tr><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="match-correct">E</td><td class="match-correct">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td></tr>
+</table>
+</div>
+</div>
+</div>
+<div class="exam-block">
+<div class="exam-header"><h2>Oktober 2014</h2><span class="status status-none">Kein PDF-Schlüssel</span></div>
+<table>
+<tr><td class="qnum">1</td><td class="qnum">2</td><td class="qnum">3</td><td class="qnum">4</td><td class="qnum">5</td><td class="qnum">6</td><td class="qnum">7</td><td class="qnum">8</td><td class="qnum">9</td><td class="qnum">10</td><td class="qnum">11</td><td class="qnum">12</td><td class="qnum">13</td><td class="qnum">14</td></tr>
+<tr><td class="wrong">A</td><td class="wrong">A</td><td class="correct">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="correct">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="correct">A</td></tr>
+<tr><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="correct">B</td><td class="correct">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="correct">B</td><td class="correct">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td></tr>
+<tr><td class="correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="correct">C</td><td class="correct">C</td><td class="correct">C</td><td class="correct">C</td></tr>
+<tr><td class="correct">D</td><td class="wrong">D</td><td class="correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td></tr>
+<tr><td class="wrong">E</td><td class="correct">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="correct">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="correct">E</td><td class="correct">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td></tr>
+</table>
+<table>
+<tr><td class="qnum">15</td><td class="qnum">16</td><td class="qnum">17</td><td class="qnum">18</td><td class="qnum">19</td><td class="qnum">20</td><td class="qnum">21</td><td class="qnum">22</td><td class="qnum">23</td><td class="qnum">24</td><td class="qnum">25</td><td class="qnum">26</td><td class="qnum">27</td><td class="qnum">28</td></tr>
+<tr><td class="correct">A</td><td class="correct">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="correct">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="correct">A</td><td class="correct">A</td><td class="wrong">A</td><td class="wrong">A</td></tr>
+<tr><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="correct">B</td><td class="correct">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="correct">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="correct">B</td><td class="wrong">B</td><td class="wrong">B</td></tr>
+<tr><td class="correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="correct">C</td></tr>
+<tr><td class="wrong">D</td><td class="correct">D</td><td class="correct">D</td><td class="wrong">D</td><td class="correct">D</td><td class="wrong">D</td><td class="correct">D</td><td class="correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td></tr>
+<tr><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="correct">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="correct">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="correct">E</td><td class="wrong">E</td></tr>
+</table>
+</div>
+<div class="exam-block">
+<div class="exam-header"><h2>März 2015</h2><span class="status status-ok">OK (grid-A)</span></div>
+<div class="tables">
+<div class="table-pair">
+<table>
+<tr><td class="qnum">1</td><td class="qnum">2</td><td class="qnum">3</td><td class="qnum">4</td><td class="qnum">5</td><td class="qnum">6</td><td class="qnum">7</td><td class="qnum">8</td><td class="qnum">9</td><td class="qnum">10</td><td class="qnum">11</td><td class="qnum">12</td><td class="qnum">13</td><td class="qnum">14</td></tr>
+<tr><td class="match-correct">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="match-correct">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="match-correct">A</td><td class="match-correct">A</td></tr>
+<tr><td class="wrong">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td></tr>
+<tr><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="wrong">C</td></tr>
+<tr><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td></tr>
+<tr><td class="wrong">E</td><td class="match-correct">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td></tr>
+</table>
+</div>
+<div class="table-pair">
+<table>
+<tr><td class="qnum">15</td><td class="qnum">16</td><td class="qnum">17</td><td class="qnum">18</td><td class="qnum">19</td><td class="qnum">20</td><td class="qnum">21</td><td class="qnum">22</td><td class="qnum">23</td><td class="qnum">24</td><td class="qnum">25</td><td class="qnum">26</td><td class="qnum">27</td><td class="qnum">28</td></tr>
+<tr><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="match-correct">A</td><td class="match-correct">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td></tr>
+<tr><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="match-correct">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="wrong">B</td></tr>
+<tr><td class="match-correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="match-correct">C</td></tr>
+<tr><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td></tr>
+<tr><td class="wrong">E</td><td class="match-correct">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="wrong">E</td></tr>
+</table>
+</div>
+</div>
+</div>
+<div class="exam-block">
+<div class="exam-header"><h2>März 2016</h2><span class="status status-ok">OK (grid-B)</span></div>
+<div class="tables">
+<div class="table-pair">
+<table>
+<tr><td class="qnum">1</td><td class="qnum">2</td><td class="qnum">3</td><td class="qnum">4</td><td class="qnum">5</td><td class="qnum">6</td><td class="qnum">7</td><td class="qnum">8</td><td class="qnum">9</td><td class="qnum">10</td><td class="qnum">11</td><td class="qnum">12</td><td class="qnum">13</td><td class="qnum">14</td></tr>
+<tr><td class="match-correct">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="match-correct">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td></tr>
+<tr><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="match-correct">B</td></tr>
+<tr><td class="match-correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="match-correct">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="match-correct">C</td><td class="match-correct">C</td></tr>
+<tr><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td></tr>
+<tr><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td></tr>
+</table>
+</div>
+<div class="table-pair">
+<table>
+<tr><td class="qnum">15</td><td class="qnum">16</td><td class="qnum">17</td><td class="qnum">18</td><td class="qnum">19</td><td class="qnum">20</td><td class="qnum">21</td><td class="qnum">22</td><td class="qnum">23</td><td class="qnum">24</td><td class="qnum">25</td><td class="qnum">26</td><td class="qnum">27</td><td class="qnum">28</td></tr>
+<tr><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="match-correct">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="wrong">A</td></tr>
+<tr><td class="match-correct">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="match-correct">B</td></tr>
+<tr><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="match-correct">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="match-correct">C</td></tr>
+<tr><td class="wrong">D</td><td class="match-correct">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td></tr>
+<tr><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td></tr>
+</table>
+</div>
+</div>
+</div>
+<div class="exam-block">
+<div class="exam-header"><h2>Oktober 2016</h2><span class="status status-ok">OK (grid-B)</span></div>
+<div class="tables">
+<div class="table-pair">
+<table>
+<tr><td class="qnum">1</td><td class="qnum">2</td><td class="qnum">3</td><td class="qnum">4</td><td class="qnum">5</td><td class="qnum">6</td><td class="qnum">7</td><td class="qnum">8</td><td class="qnum">9</td><td class="qnum">10</td><td class="qnum">11</td><td class="qnum">12</td><td class="qnum">13</td><td class="qnum">14</td></tr>
+<tr><td class="wrong">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="wrong">A</td></tr>
+<tr><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td></tr>
+<tr><td class="match-correct">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td></tr>
+<tr><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td></tr>
+<tr><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="match-correct">E</td></tr>
+</table>
+</div>
+<div class="table-pair">
+<table>
+<tr><td class="qnum">15</td><td class="qnum">16</td><td class="qnum">17</td><td class="qnum">18</td><td class="qnum">19</td><td class="qnum">20</td><td class="qnum">21</td><td class="qnum">22</td><td class="qnum">23</td><td class="qnum">24</td><td class="qnum">25</td><td class="qnum">26</td><td class="qnum">27</td><td class="qnum">28</td></tr>
+<tr><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="wrong">A</td></tr>
+<tr><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="match-correct">B</td></tr>
+<tr><td class="match-correct">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="match-correct">C</td></tr>
+<tr><td class="wrong">D</td><td class="match-correct">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td></tr>
+<tr><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="wrong">E</td></tr>
+</table>
+</div>
+</div>
+</div>
+<div class="exam-block">
+<div class="exam-header"><h2>März 2017</h2><span class="status status-ok">OK (grid-B)</span></div>
+<div class="tables">
+<div class="table-pair">
+<table>
+<tr><td class="qnum">1</td><td class="qnum">2</td><td class="qnum">3</td><td class="qnum">4</td><td class="qnum">5</td><td class="qnum">6</td><td class="qnum">7</td><td class="qnum">8</td><td class="qnum">9</td><td class="qnum">10</td><td class="qnum">11</td><td class="qnum">12</td><td class="qnum">13</td><td class="qnum">14</td></tr>
+<tr><td class="wrong">A</td><td class="match-correct">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td></tr>
+<tr><td class="match-correct">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="wrong">B</td></tr>
+<tr><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td></tr>
+<tr><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="match-correct">D</td></tr>
+<tr><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="wrong">E</td></tr>
+</table>
+</div>
+<div class="table-pair">
+<table>
+<tr><td class="qnum">15</td><td class="qnum">16</td><td class="qnum">17</td><td class="qnum">18</td><td class="qnum">19</td><td class="qnum">20</td><td class="qnum">21</td><td class="qnum">22</td><td class="qnum">23</td><td class="qnum">24</td><td class="qnum">25</td><td class="qnum">26</td><td class="qnum">27</td><td class="qnum">28</td></tr>
+<tr><td class="wrong">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="missing">A</td><td class="wrong">A</td></tr>
+<tr><td class="match-correct">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="missing">B</td><td class="match-correct">B</td></tr>
+<tr><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="missing">C</td><td class="wrong">C</td></tr>
+<tr><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="missing">D</td><td class="wrong">D</td></tr>
+<tr><td class="wrong">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="missing">E</td><td class="wrong">E</td></tr>
+</table>
+</div>
+</div>
+</div>
+<div class="exam-block">
+<div class="exam-header"><h2>Oktober 2017</h2><span class="status status-ok">OK (grid-B)</span></div>
+<div class="tables">
+<div class="table-pair">
+<table>
+<tr><td class="qnum">1</td><td class="qnum">2</td><td class="qnum">3</td><td class="qnum">4</td><td class="qnum">5</td><td class="qnum">6</td><td class="qnum">7</td><td class="qnum">8</td><td class="qnum">9</td><td class="qnum">10</td><td class="qnum">11</td><td class="qnum">12</td><td class="qnum">13</td><td class="qnum">14</td></tr>
+<tr><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td></tr>
+<tr><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="match-correct">B</td><td class="match-correct">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="wrong">B</td></tr>
+<tr><td class="wrong">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="wrong">C</td></tr>
+<tr><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="match-correct">D</td><td class="match-correct">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td></tr>
+<tr><td class="match-correct">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td></tr>
+</table>
+</div>
+<div class="table-pair">
+<table>
+<tr><td class="qnum">15</td><td class="qnum">16</td><td class="qnum">17</td><td class="qnum">18</td><td class="qnum">19</td><td class="qnum">20</td><td class="qnum">21</td><td class="qnum">22</td><td class="qnum">23</td><td class="qnum">24</td><td class="qnum">25</td><td class="qnum">26</td><td class="qnum">27</td><td class="qnum">28</td></tr>
+<tr><td class="match-correct">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="match-correct">A</td><td class="match-correct">A</td><td class="match-correct">A</td></tr>
+<tr><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td></tr>
+<tr><td class="wrong">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td></tr>
+<tr><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td></tr>
+<tr><td class="match-correct">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="wrong">E</td></tr>
+</table>
+</div>
+</div>
+</div>
+<div class="exam-block">
+<div class="exam-header"><h2>März 2019</h2><span class="status status-ok">OK (grid-A)</span></div>
+<div class="tables">
+<div class="table-pair">
+<table>
+<tr><td class="qnum">1</td><td class="qnum">2</td><td class="qnum">3</td><td class="qnum">4</td><td class="qnum">5</td><td class="qnum">6</td><td class="qnum">7</td><td class="qnum">8</td><td class="qnum">9</td><td class="qnum">10</td><td class="qnum">11</td><td class="qnum">12</td><td class="qnum">13</td><td class="qnum">14</td></tr>
+<tr><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="wrong">A</td></tr>
+<tr><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="match-correct">B</td></tr>
+<tr><td class="wrong">C</td><td class="match-correct">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td></tr>
+<tr><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td></tr>
+<tr><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="match-correct">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="match-correct">E</td></tr>
+</table>
+</div>
+<div class="table-pair">
+<table>
+<tr><td class="qnum">15</td><td class="qnum">16</td><td class="qnum">17</td><td class="qnum">18</td><td class="qnum">19</td><td class="qnum">20</td><td class="qnum">21</td><td class="qnum">22</td><td class="qnum">23</td><td class="qnum">24</td><td class="qnum">25</td><td class="qnum">26</td><td class="qnum">27</td><td class="qnum">28</td></tr>
+<tr><td class="wrong">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="wrong">A</td><td class="wrong">A</td></tr>
+<tr><td class="wrong">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="match-correct">B</td></tr>
+<tr><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="wrong">C</td></tr>
+<tr><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td></tr>
+<tr><td class="match-correct">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="wrong">E</td></tr>
+</table>
+</div>
+</div>
+</div>
+<div class="exam-block">
+<div class="exam-header"><h2>Oktober 2020</h2><span class="status status-ok">OK (grid)</span></div>
+<div class="tables">
+<div class="table-pair">
+<table>
+<tr><td class="qnum">1</td><td class="qnum">2</td><td class="qnum">3</td><td class="qnum">4</td><td class="qnum">5</td><td class="qnum">6</td><td class="qnum">7</td><td class="qnum">8</td><td class="qnum">9</td><td class="qnum">10</td><td class="qnum">11</td><td class="qnum">12</td><td class="qnum">13</td><td class="qnum">14</td></tr>
+<tr><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="match-correct">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td></tr>
+<tr><td class="wrong">B</td><td class="match-correct">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="wrong">B</td></tr>
+<tr><td class="wrong">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td></tr>
+<tr><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td></tr>
+<tr><td class="match-correct">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="match-correct">E</td></tr>
+</table>
+</div>
+<div class="table-pair">
+<table>
+<tr><td class="qnum">15</td><td class="qnum">16</td><td class="qnum">17</td><td class="qnum">18</td><td class="qnum">19</td><td class="qnum">20</td><td class="qnum">21</td><td class="qnum">22</td><td class="qnum">23</td><td class="qnum">24</td><td class="qnum">25</td><td class="qnum">26</td><td class="qnum">27</td><td class="qnum">28</td></tr>
+<tr><td class="wrong">A</td><td class="match-correct">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="wrong">A</td></tr>
+<tr><td class="wrong">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="wrong">B</td></tr>
+<tr><td class="wrong">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="match-correct">C</td></tr>
+<tr><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="match-correct">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td></tr>
+<tr><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="match-correct">E</td></tr>
+</table>
+</div>
+</div>
+</div>
+<div class="exam-block">
+<div class="exam-header"><h2>März 2022</h2><span class="status status-ok">OK (grid-B)</span></div>
+<div class="tables">
+<div class="table-pair">
+<table>
+<tr><td class="qnum">1</td><td class="qnum">2</td><td class="qnum">3</td><td class="qnum">4</td><td class="qnum">5</td><td class="qnum">6</td><td class="qnum">7</td><td class="qnum">8</td><td class="qnum">9</td><td class="qnum">10</td><td class="qnum">11</td><td class="qnum">12</td><td class="qnum">13</td><td class="qnum">14</td></tr>
+<tr><td class="wrong">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="match-correct">A</td><td class="wrong">A</td><td class="wrong">A</td></tr>
+<tr><td class="match-correct">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="match-correct">B</td></tr>
+<tr><td class="wrong">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="wrong">C</td></tr>
+<tr><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td></tr>
+<tr><td class="wrong">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td></tr>
+</table>
+</div>
+<div class="table-pair">
+<table>
+<tr><td class="qnum">15</td><td class="qnum">16</td><td class="qnum">17</td><td class="qnum">18</td><td class="qnum">19</td><td class="qnum">20</td><td class="qnum">21</td><td class="qnum">22</td><td class="qnum">23</td><td class="qnum">24</td><td class="qnum">25</td><td class="qnum">26</td><td class="qnum">27</td><td class="qnum">28</td></tr>
+<tr><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td></tr>
+<tr><td class="match-correct">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td></tr>
+<tr><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="match-correct">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="match-correct">C</td></tr>
+<tr><td class="wrong">D</td><td class="match-correct">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="match-correct">D</td><td class="wrong">D</td></tr>
+<tr><td class="match-correct">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="match-correct">E</td></tr>
+</table>
+</div>
+</div>
+</div>
+<div class="exam-block">
+<div class="exam-header"><h2>Oktober 2022</h2><span class="status status-ok">OK (grid-B)</span></div>
+<div class="tables">
+<div class="table-pair">
+<table>
+<tr><td class="qnum">1</td><td class="qnum">2</td><td class="qnum">3</td><td class="qnum">4</td><td class="qnum">5</td><td class="qnum">6</td><td class="qnum">7</td><td class="qnum">8</td><td class="qnum">9</td><td class="qnum">10</td><td class="qnum">11</td><td class="qnum">12</td><td class="qnum">13</td><td class="qnum">14</td></tr>
+<tr><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="match-correct">A</td></tr>
+<tr><td class="wrong">B</td><td class="match-correct">B</td><td class="match-correct">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="match-correct">B</td></tr>
+<tr><td class="wrong">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="wrong">C</td></tr>
+<tr><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td></tr>
+<tr><td class="wrong">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td></tr>
+</table>
+</div>
+<div class="table-pair">
+<table>
+<tr><td class="qnum">15</td><td class="qnum">16</td><td class="qnum">17</td><td class="qnum">18</td><td class="qnum">19</td><td class="qnum">20</td><td class="qnum">21</td><td class="qnum">22</td><td class="qnum">23</td><td class="qnum">24</td><td class="qnum">25</td><td class="qnum">26</td><td class="qnum">27</td><td class="qnum">28</td></tr>
+<tr><td class="wrong">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="match-correct">A</td></tr>
+<tr><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td></tr>
+<tr><td class="match-correct">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td></tr>
+<tr><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="match-correct">D</td><td class="wrong">D</td></tr>
+<tr><td class="match-correct">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td></tr>
+</table>
+</div>
+</div>
+</div>
+<div class="exam-block">
+<div class="exam-header"><h2>März 2023</h2><span class="status status-ok">OK (grid)</span></div>
+<div class="tables">
+<div class="table-pair">
+<table>
+<tr><td class="qnum">1</td><td class="qnum">2</td><td class="qnum">3</td><td class="qnum">4</td><td class="qnum">5</td><td class="qnum">6</td><td class="qnum">7</td><td class="qnum">8</td><td class="qnum">9</td><td class="qnum">10</td><td class="qnum">11</td><td class="qnum">12</td><td class="qnum">13</td><td class="qnum">14</td></tr>
+<tr><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td></tr>
+<tr><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td></tr>
+<tr><td class="wrong">C</td><td class="match-correct">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="match-correct">C</td><td class="match-correct">C</td></tr>
+<tr><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td></tr>
+<tr><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="wrong">E</td></tr>
+</table>
+</div>
+<div class="table-pair">
+<table>
+<tr><td class="qnum">15</td><td class="qnum">16</td><td class="qnum">17</td><td class="qnum">18</td><td class="qnum">19</td><td class="qnum">20</td><td class="qnum">21</td><td class="qnum">22</td><td class="qnum">23</td><td class="qnum">24</td><td class="qnum">25</td><td class="qnum">26</td><td class="qnum">27</td><td class="qnum">28</td></tr>
+<tr><td class="wrong">A</td><td class="match-correct">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td></tr>
+<tr><td class="wrong">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td></tr>
+<tr><td class="wrong">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="wrong">C</td></tr>
+<tr><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="match-correct">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td></tr>
+<tr><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="wrong">E</td></tr>
+</table>
+</div>
+</div>
+</div>
+<div class="exam-block">
+<div class="exam-header"><h2>Oktober 2023</h2><span class="status status-ok">OK (grid-B)</span></div>
+<div class="tables">
+<div class="table-pair">
+<table>
+<tr><td class="qnum">1</td><td class="qnum">2</td><td class="qnum">3</td><td class="qnum">4</td><td class="qnum">5</td><td class="qnum">6</td><td class="qnum">7</td><td class="qnum">8</td><td class="qnum">9</td><td class="qnum">10</td><td class="qnum">11</td><td class="qnum">12</td><td class="qnum">13</td><td class="qnum">14</td></tr>
+<tr><td class="match-correct">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td></tr>
+<tr><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="wrong">B</td></tr>
+<tr><td class="wrong">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="match-correct">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td></tr>
+<tr><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td></tr>
+<tr><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="match-correct">E</td></tr>
+</table>
+</div>
+<div class="table-pair">
+<table>
+<tr><td class="qnum">15</td><td class="qnum">16</td><td class="qnum">17</td><td class="qnum">18</td><td class="qnum">19</td><td class="qnum">20</td><td class="qnum">21</td><td class="qnum">22</td><td class="qnum">23</td><td class="qnum">24</td><td class="qnum">25</td><td class="qnum">26</td><td class="qnum">27</td><td class="qnum">28</td></tr>
+<tr><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="match-correct">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td></tr>
+<tr><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="match-correct">B</td><td class="wrong">B</td></tr>
+<tr><td class="match-correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td></tr>
+<tr><td class="wrong">D</td><td class="match-correct">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="match-correct">D</td></tr>
+<tr><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td></tr>
+</table>
+</div>
+</div>
+</div>
+<div class="exam-block">
+<div class="exam-header"><h2>März 2024</h2><span class="status status-ok">OK (grid-A)</span></div>
+<div class="tables">
+<div class="table-pair">
+<table>
+<tr><td class="qnum">1</td><td class="qnum">2</td><td class="qnum">3</td><td class="qnum">4</td><td class="qnum">5</td><td class="qnum">6</td><td class="qnum">7</td><td class="qnum">8</td><td class="qnum">9</td><td class="qnum">10</td><td class="qnum">11</td><td class="qnum">12</td><td class="qnum">13</td><td class="qnum">14</td></tr>
+<tr><td class="wrong">A</td><td class="match-correct">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="wrong">A</td></tr>
+<tr><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td></tr>
+<tr><td class="match-correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td></tr>
+<tr><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="match-correct">D</td><td class="match-correct">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td></tr>
+<tr><td class="wrong">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="wrong">E</td></tr>
+</table>
+</div>
+<div class="table-pair">
+<table>
+<tr><td class="qnum">15</td><td class="qnum">16</td><td class="qnum">17</td><td class="qnum">18</td><td class="qnum">19</td><td class="qnum">20</td><td class="qnum">21</td><td class="qnum">22</td><td class="qnum">23</td><td class="qnum">24</td><td class="qnum">25</td><td class="qnum">26</td><td class="qnum">27</td><td class="qnum">28</td></tr>
+<tr><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td></tr>
+<tr><td class="match-correct">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="match-correct">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="match-correct">B</td><td class="wrong">B</td></tr>
+<tr><td class="wrong">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="match-correct">C</td></tr>
+<tr><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td></tr>
+<tr><td class="wrong">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="wrong">E</td></tr>
+</table>
+</div>
+</div>
+</div>
+<div class="exam-block">
+<div class="exam-header"><h2>Oktober 2024</h2><span class="status status-ok">OK (grid-A)</span></div>
+<div class="tables">
+<div class="table-pair">
+<table>
+<tr><td class="qnum">1</td><td class="qnum">2</td><td class="qnum">3</td><td class="qnum">4</td><td class="qnum">5</td><td class="qnum">6</td><td class="qnum">7</td><td class="qnum">8</td><td class="qnum">9</td><td class="qnum">10</td><td class="qnum">11</td><td class="qnum">12</td><td class="qnum">13</td><td class="qnum">14</td></tr>
+<tr><td class="wrong">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td></tr>
+<tr><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="match-correct">B</td></tr>
+<tr><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td></tr>
+<tr><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td></tr>
+<tr><td class="wrong">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="wrong">E</td></tr>
+</table>
+</div>
+<div class="table-pair">
+<table>
+<tr><td class="qnum">15</td><td class="qnum">16</td><td class="qnum">17</td><td class="qnum">18</td><td class="qnum">19</td><td class="qnum">20</td><td class="qnum">21</td><td class="qnum">22</td><td class="qnum">23</td><td class="qnum">24</td><td class="qnum">25</td><td class="qnum">26</td><td class="qnum">27</td><td class="qnum">28</td></tr>
+<tr><td class="wrong">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="match-correct">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="match-correct">A</td></tr>
+<tr><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="wrong">B</td></tr>
+<tr><td class="wrong">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="wrong">C</td></tr>
+<tr><td class="match-correct">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="match-correct">D</td></tr>
+<tr><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="match-correct">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td></tr>
+</table>
+</div>
+</div>
+</div>
+<div class="exam-block">
+<div class="exam-header"><h2>März 2025</h2><span class="status status-ok">OK (grid-A)</span></div>
+<div class="tables">
+<div class="table-pair">
+<table>
+<tr><td class="qnum">1</td><td class="qnum">2</td><td class="qnum">3</td><td class="qnum">4</td><td class="qnum">5</td><td class="qnum">6</td><td class="qnum">7</td><td class="qnum">8</td><td class="qnum">9</td><td class="qnum">10</td><td class="qnum">11</td><td class="qnum">12</td><td class="qnum">13</td><td class="qnum">14</td></tr>
+<tr><td class="match-correct">A</td><td class="match-correct">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td></tr>
+<tr><td class="match-correct">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="match-correct">B</td><td class="wrong">B</td></tr>
+<tr><td class="wrong">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="match-correct">C</td><td class="wrong">C</td></tr>
+<tr><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td></tr>
+<tr><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td></tr>
+</table>
+</div>
+<div class="table-pair">
+<table>
+<tr><td class="qnum">15</td><td class="qnum">16</td><td class="qnum">17</td><td class="qnum">18</td><td class="qnum">19</td><td class="qnum">20</td><td class="qnum">21</td><td class="qnum">22</td><td class="qnum">23</td><td class="qnum">24</td><td class="qnum">25</td><td class="qnum">26</td><td class="qnum">27</td><td class="qnum">28</td></tr>
+<tr><td class="wrong">A</td><td class="match-correct">A</td><td class="match-correct">A</td><td class="match-correct">A</td><td class="match-correct">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td></tr>
+<tr><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="match-correct">B</td></tr>
+<tr><td class="match-correct">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="wrong">C</td></tr>
+<tr><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td></tr>
+<tr><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="wrong">E</td></tr>
+</table>
+</div>
+</div>
+</div>
+<div class="exam-block">
+<div class="exam-header"><h2>Oktober 2025</h2><span class="status status-ok">OK (grid)</span></div>
+<div class="tables">
+<div class="table-pair">
+<table>
+<tr><td class="qnum">1</td><td class="qnum">2</td><td class="qnum">3</td><td class="qnum">4</td><td class="qnum">5</td><td class="qnum">6</td><td class="qnum">7</td><td class="qnum">8</td><td class="qnum">9</td><td class="qnum">10</td><td class="qnum">11</td><td class="qnum">12</td><td class="qnum">13</td><td class="qnum">14</td></tr>
+<tr><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="match-correct">A</td></tr>
+<tr><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="wrong">B</td></tr>
+<tr><td class="wrong">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="match-correct">C</td></tr>
+<tr><td class="match-correct">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td></tr>
+<tr><td class="wrong">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="match-correct">E</td><td class="wrong">E</td></tr>
+</table>
+</div>
+<div class="table-pair">
+<table>
+<tr><td class="qnum">15</td><td class="qnum">16</td><td class="qnum">17</td><td class="qnum">18</td><td class="qnum">19</td><td class="qnum">20</td><td class="qnum">21</td><td class="qnum">22</td><td class="qnum">23</td><td class="qnum">24</td><td class="qnum">25</td><td class="qnum">26</td><td class="qnum">27</td><td class="qnum">28</td></tr>
+<tr><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="match-correct">A</td><td class="wrong">A</td><td class="match-correct">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td><td class="wrong">A</td></tr>
+<tr><td class="match-correct">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="wrong">B</td><td class="match-correct">B</td><td class="wrong">B</td><td class="wrong">B</td></tr>
+<tr><td class="wrong">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="match-correct">C</td><td class="wrong">C</td><td class="match-correct">C</td><td class="wrong">C</td></tr>
+<tr><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="wrong">D</td><td class="match-correct">D</td></tr>
+<tr><td class="wrong">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="match-correct">E</td><td class="match-correct">E</td><td class="wrong">E</td><td class="wrong">E</td></tr>
+</table>
+</div>
+</div>
+</div>
+
+<div class="summary">
+<h2>Zusammenfassung</h2>
+<p>Exams verglichen: 35 von 40</p>
+<p>Exams OK: 34</p>
+<p>Exams mit Abweichungen: 1</p>
+<p>Exams ohne PDF-Schlüssel: 5</p>
+<p>Fragen verglichen: 961</p>
+<p>Übereinstimmend: 938 (97%)</p>
+<p>Abweichungen: 23</p>
+</div>
+</body>
+</html>

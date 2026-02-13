@@ -5659,11 +5659,11 @@
         "type": "Mehrfachauswahl",
         "text": "Welche der folgenden Aussagen zum sekundären Krankheitsgewinn sind korrekt? Wählen Sie zwei Antworten!",
         "options": [
-          "Der sekundäre Krankheitsgewinn beschreibt das bewusste Täuschen über",
-          "Im Gegensatz zum primären Krankheitsgewinn bezieht sich der sekundäre",
-          "Der sekundäre Krankheitsgewinn ist ein bewusst gesteuertes Verhalten,",
-          "Der sekundäre Krankheitsgewinn ist nur bei psychosomatischen",
-          "Ein sekundärer Krankheitsgewinn liegt vor, wenn eine Person aus ihrer"
+          "Der sekundäre Krankheitsgewinn beschreibt das bewusste Täuschen über Krankheitssymptome, um finanzielle Vorteile oder rechtliche Vergünstigungen zu erhalten.",
+          "Im Gegensatz zum primären Krankheitsgewinn bezieht sich der sekundäre Krankheitsgewinn auf externe Vorteile, die durch die Krankheit entstehen.",
+          "Der sekundäre Krankheitsgewinn ist ein bewusst gesteuertes Verhalten, das vorrangig in der Simulation vorkommt.",
+          "Der sekundäre Krankheitsgewinn ist nur bei psychosomatischen Erkrankungen relevant und spielt bei organischen Erkrankungen keine Rolle.",
+          "Ein sekundärer Krankheitsgewinn liegt vor, wenn eine Person aus ihrer Erkrankung einen persönlichen Vorteil zieht, beispielsweise durch vermehrte Zuwendung oder Entlastung von Pflichten."
         ],
         "statements": [],
         "correctIndices": [

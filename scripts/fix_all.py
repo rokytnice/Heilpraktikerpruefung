@@ -703,9 +703,11 @@ def main():
         "Ein riskanter Gebrauch ist nicht definiert \u00fcber die Menge des konsumierten Alkohols.",
         "Ein Standardglas in Deutschland entspricht 500 ml Bier bzw. 40 g reinem Alkohol."])
     fix_q('2025-march', 15, options=[
-        "Nur die Aussagen 1 und 4 sind richtig", "Nur die Aussagen 4 und 5 sind richtig",
-        "Nur die Aussagen 1, 2 und 4 sind richtig", "Nur die Aussagen 1, 4 und 5 sind richtig",
-        "Nur die Aussagen 1, 2, 3 und 5 sind richtig"])
+        "Stimuluskontrolle",
+        "Negative Bestrafung (Entzugsbestrafung)",
+        "Negative Verstärkung",
+        "Generalisierter Strafreiz",
+        "Positive Vermeidung"])
     # Fix 2025-March Q20 (truncated option B)
     for e in exams:
         if e['id'] == '2025-march':

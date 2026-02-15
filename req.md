@@ -32,9 +32,7 @@ Ziel des Projekts ist die Entwicklung einer Android-App zur gezielten Vorbereitu
 * [cite_start]Erweiterung um Lernspiele und spezielle Anwendungen zur langfristigen Wissensverankerung. [cite: 20]
 
 ## 3. Technische Spezifikationen
-* [cite_start]**Betriebssystem**: Android [cite: 20]
-* [cite_start]**Konnektivität**: Online-Funktionalität erforderlich [cite: 20]
-* [cite_start]**Nutzerverwaltung**: Registrierungs- und Login-System zur Synchronisation des Lernstands. [cite: 20]
+* [cite_start]**Betriebssystem**: Android [cite: 20] 
 
 ## 4. Datenstruktur (für den Import)
 [cite_start]Um einen reibungslosen Import der Inhalte zu gewährleisten, werden die Daten in einem strukturierten Format (z. B. CSV oder JSON) bereitgestellt, welches Felder für Jahr, Monat, Frage, Antwortoptionen (A-E), korrekte Lösung, Kategorie und Hintergrundinfos enthält. [cite: 20]

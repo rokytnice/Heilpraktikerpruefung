@@ -395,7 +395,7 @@
       {
         "id": 20,
         "type": "Aussagenkombination",
-        "text": "Welche der folgenden Störungen werden nach ICD-10 zu den neurotischen, Belastungsund somatoformen Störungen gerechnet?",
+        "text": "Welche der folgenden Störungen werden nach ICD-10 zu den neurotischen, Belastungs- und somatoformen Störungen gerechnet?",
         "options": [
           "Nur die Aussagen 1 und 5 sind richtig",
           "Nur die Aussagen 1, 2 und 4 sind richtig",
@@ -584,7 +584,8 @@
         ],
         "explanation": ""
       }
-    ]
+    ],
+    "gruppe": "A"
   },
   {
     "id": "2022-march",
@@ -808,7 +809,7 @@
           "Eine auf das Gebiet der Psychotherapie beschränkte Heilpraktikererlaubnis berechtigt grundsätzlich auch zur Durchführung einer Gruppentherapie",
           "Gruppentherapien sind bei depressiven Störungen kontraindiziert",
           "Gruppentherapie kommen nur bei der Behandlung zwischenmenschlicher Probleme in Frage",
-          "Die Wirkfaktoren sind in der Einzelund Gruppentherapie völlig identisch",
+          "Die Wirkfaktoren sind in der Einzel- und Gruppentherapie völlig identisch",
           "In methodenorientierten Psychotherapiegruppen geht es vor allem um die Bearbeitung gruppendynamischer Konflikte"
         ],
         "statements": [],
@@ -1166,7 +1167,8 @@
         ],
         "explanation": ""
       }
-    ]
+    ],
+    "gruppe": "A"
   },
   {
     "id": "2023-march",
@@ -1314,7 +1316,7 @@
           "„Erlernte Hilflosigkeit“ ist ein in der Psychoanalyse verwendeter Begriff für einen Abwehrmechanismus.",
           "Bei einer akuten schweren depressiven Episode ist eine ambulante psychodynamisch orientierte Psychotherapie indiziert.",
           "Ziel der kognitiven Therapie nach Beck ist die sogenannte kognitive Umstrukturierung.",
-          "Beim SORKC-Modell handelt es sich um ein in der verhaltenstherapeutischen Diagnostik anwendbares Modell zur Problem-, Situationsund Verhaltensanalyse.",
+          "Beim SORKC-Modell handelt es sich um ein in der verhaltenstherapeutischen Diagnostik anwendbares Modell zur Problem-, Situations- und Verhaltensanalyse.",
           "Psychodynamisch orientierte Methoden spielen in der Kinder- und Jugendpsychiatrie keine wesentliche Rolle."
         ],
         "correctIndices": [
@@ -1754,7 +1756,8 @@
         ],
         "explanation": ""
       }
-    ]
+    ],
+    "gruppe": "A"
   },
   {
     "id": "2024-march",
@@ -2003,7 +2006,7 @@
           "Nur die chronisch organisch bedingten psychischen Störungen gehen mit einer Bewusstseinsstörung einher",
           "Akute organisch bedingte psychische Störungen können durch Drogen oder Arzneimittel ausgelöst werden",
           "Bei einer akuten organisch bedingten psychischen Störung handelt es sich immer um einen Notfall",
-          "Krankheitszeichen einer auf Dauer bestehenden organisch bedingten psychischen Störung sind z.B. Gedächtnisund Orientierungsstörungen"
+          "Krankheitszeichen einer auf Dauer bestehenden organisch bedingten psychischen Störung sind z.B. Gedächtnis- und Orientierungsstörungen"
         ],
         "correctIndices": [
           4
@@ -2337,7 +2340,8 @@
         ],
         "explanation": ""
       }
-    ]
+    ],
+    "gruppe": "A"
   },
   {
     "id": "2025-march",
@@ -2393,7 +2397,7 @@
           "Aufgrund des hohen Leidendrucks der Mutter stimmen Sie der Behandlung des Kindes zu. In dem Behandlungsvertrag bzw. der Honorarvereinbarung ist die Einwilligung der Mutter als anwesende Sorgeberechtigte ausreichend. ",
           "Aufgrund des hohen Leidensdrucks des Sohnes stimmen Sie der Behandlung des Kindes zu. In dem Behandlungsvertrag bzw. der Honorarvereinbarung ist die Einwilligung der Mutter als anwesende Sorgeberechtigte ausreichend. ",
           "Sie lehnen die Behandlung ab, da der Kindsvater nicht der Behandlung zugestimmt hat und beide sorgeberechtigte Elternteile einer Behandlung zustimmen müssen. ",
-          "Sie sprechen mit dem Jungen alleine und attestieren die Einsichtund Geschäftsfähigkeit des Jungen, daher darf er eigenständig einen Behandlungsvertrag mit Ihnen abschießen. ",
+          "Sie sprechen mit dem Jungen alleine und attestieren die Einsicht- und Geschäftsfähigkeit des Jungen, daher darf er eigenständig einen Behandlungsvertrag mit Ihnen abschießen. ",
           "Mit einer Bescheinigung der Schule über das neu aufgetretene Schulvermeidungsverhalten stimmen Sie einer Behandlung zu."
         ],
         "statements": [],
@@ -2887,7 +2891,8 @@
         ],
         "explanation": ""
       }
-    ]
+    ],
+    "gruppe": "A"
   },
   {
     "id": "2020-october",
@@ -3175,7 +3180,7 @@
           "Ständiges Stimmenhören und schizophrene Symptome in der Vorgeschichte sind typisch",
           "Nach den diagnostischen Leitlinien müssen die Wahnvorstellungen mindestens 12 Monate dauern",
           "Die Betroffenen zeigen auch in Bereichen und Handlungen, die sich nicht auf den Wahn beziehen, massive Auffälligkeiten",
-          "Nur in seltenen Fällen bestehen Verfolgungsund Beeinträchtigungsideen",
+          "Nur in seltenen Fällen bestehen Verfolgungs- und Beeinträchtigungsideen",
           "Nicht vereinbar mit der Diagnose ist eine hirnorganische Erkrankung"
         ],
         "statements": [],
@@ -3428,7 +3433,7 @@
           "Der dauerhafte Wunsch, dem anderen Geschlecht anzugehören, wird als Transsexualismus bezeichnet",
           "Anhedonie bezeichnet psychogen bedingte Schmerzen währende des Geschlechtsverkehrs",
           "Bei sexuellen Funktionsstörungen muss an eine mögliche organische Ursache gedacht werden",
-          "Homound Bisexualität werden zu den Störungen der Sexualpräferenz gerechnet",
+          "Homo- und Bisexualität werden zu den Störungen der Sexualpräferenz gerechnet",
           "Exhibitionismus wird zu den sexuellen Funktionsstörungen gerechnet"
         ],
         "correctIndices": [
@@ -3454,7 +3459,8 @@
         ],
         "explanation": ""
       }
-    ]
+    ],
+    "gruppe": "A"
   },
   {
     "id": "2022-october",
@@ -3709,13 +3715,13 @@
       {
         "id": 13,
         "type": "Mehrfachauswahl",
-        "text": "Welche der folgenden Aussagen treffen für eine Leseund Rechtschreibstörung (nach ICD-10) zu? Wählen Sie zwei Antworten!",
+        "text": "Welche der folgenden Aussagen treffen für eine Lese- und Rechtschreibstörung (nach ICD-10) zu? Wählen Sie zwei Antworten!",
         "options": [
-          "Eine umschriebene Entwicklungsstörung des Sprechens oder der Sprache geht der Leseund Rechtschreibstörung häufig voraus",
+          "Eine umschriebene Entwicklungsstörung des Sprechens oder der Sprache geht der Lese- und Rechtschreibstörung häufig voraus",
           "Die Störung tritt vor allem im Rahmen einer allgemeinen Intelligenzminderung auf",
           "Ein Defizit des Leseverständnisses ist typischerweise nicht vorhanden",
           "Die Leseleistung muss unter dem Niveau liegen, das aufgrund des Alters, der allgemeinen Intelligenz und Beschulung zu erwarten wäre",
-          "Soziale und emotionale Anpassungsprobleme stehen mit einer Leseund Rechtschreibstörung in keinem Zusammenhang"
+          "Soziale und emotionale Anpassungsprobleme stehen mit einer Lese- und Rechtschreibstörung in keinem Zusammenhang"
         ],
         "statements": [],
         "correctIndices": [
@@ -3732,7 +3738,7 @@
           "Schizophrenie",
           "Anorexia nervosa",
           "Hypochondrische Störung",
-          "Somatoforme autonome Funktionsstörung (Herzund Kreislaufsystem)",
+          "Somatoforme autonome Funktionsstörung (Herz- und Kreislaufsystem)",
           "Generalisierte Angststörung"
         ],
         "statements": [],
@@ -4004,7 +4010,8 @@
         ],
         "explanation": ""
       }
-    ]
+    ],
+    "gruppe": "A"
   },
   {
     "id": "2023-october",
@@ -4152,7 +4159,7 @@
         "statements": [
           "Ängste, Anspannungen, depressive Gefühle, Selbstwertprobleme werden durch den Konsum von Opioiden unterdrückt.",
           "Heilpraktiker beschränkt auf das Gebiet der Psychotherapie dürfen keine Suchtberatung durchführen.",
-          "Depressive Verstimmung, Antriebsund Konzentrationsstörungen, Schlafstörungen und Persönlichkeitsveränderungen können als psychische Folgeschäden eines Opioid-/Heroinkonsums auftreten.",
+          "Depressive Verstimmung, Antriebs- und Konzentrationsstörungen, Schlafstörungen und Persönlichkeitsveränderungen können als psychische Folgeschäden eines Opioid-/Heroinkonsums auftreten.",
           "Ein Opioid Entzug ist deutlich weniger gefährlich als ein Alkoholentzug, sollte aber sinnvollerweise von Anfang an therapeutisch begleitet werden.",
           "Die psychische Abhängigkeit kann nach dem körperlichen Entzug noch über Wochen weiterbestehen."
         ],
@@ -4277,7 +4284,7 @@
           "Alle Aussagen sind richtig"
         ],
         "statements": [
-          "Das Risiko für Fehlund Totgeburten sowie körperliche und geistige Schädigungen des Kindes ist bei Straßenheroinkonsum in der Schwangerschaft erhöht.",
+          "Das Risiko für Fehl- und Totgeburten sowie körperliche und geistige Schädigungen des Kindes ist bei Straßenheroinkonsum in der Schwangerschaft erhöht.",
           "Substitutionsbehandlung gilt in der Schwangerschaft als Behandlung der ersten Wahl.",
           "Mischkonsum mit anderen Drogen wie z. B. Benzodiazepinen oder anderen beruhigenden Substanzen birgt die Gefahr eines Atemstillstandes durch Lähmung des Atemzentrums.",
           "Der schädigende Effekt von Alkohol auf das Ungeborene wird potenziert durch Amphetamine oder multiplen Drogenabusus.",
@@ -4326,7 +4333,7 @@
           "Männer sind häufiger als Frauen von einer Zwangsstörung betroffen",
           "Bei einer Demenz können Zwangssymptome auftreten",
           "Die Diagnosestellung erfolgt überwiegend schon kurze Zeit nach Auftreten der ersten Symptome",
-          "Waschund Kontrollzwang treten am häufigsten auf",
+          "Wasch- und Kontrollzwang treten am häufigsten auf",
           "Die Erkrankung beginnt zumeist schleichend"
         ],
         "correctIndices": [
@@ -4395,7 +4402,7 @@
           "Der dauerhafte Wunsch, dem anderen Geschlecht anzugehören, wird als Transsexualismus bezeichnet",
           "Alexithymie bezeichnet psychogen bedingte Schmerzen während des Geschlechtsverkehrs",
           "Bei sexuellen Funktionsstörungen muss an eine mögliche organische Ursache gedacht werden",
-          "Homound Bisexualität werden zu den Störungen der Sexualpräferenz gerechnet",
+          "Homo- und Bisexualität werden zu den Störungen der Sexualpräferenz gerechnet",
           "Exhibitionismus wird zu den sexuellen Funktionsstörungen gerechnet"
         ],
         "correctIndices": [
@@ -4601,7 +4608,8 @@
         ],
         "explanation": ""
       }
-    ]
+    ],
+    "gruppe": "A"
   },
   {
     "id": "2024-october",
@@ -4836,7 +4844,7 @@
           "Zittern der Hände, Arme und Beine ",
           "Gefühle von Schwindel, Schwäche, Unsicherheit, Benommenheit ",
           "Entfremdungsgefühle (Depersonalisation oder Derealisation) ",
-          "Bewusstseinsund / oder Orientierungsstörungen"
+          "Bewusstseins- und / oder Orientierungsstörungen"
         ],
         "statements": [],
         "correctIndices": [
@@ -4955,7 +4963,7 @@
           "Nur die Aussagen 2, 3, 4 und 5 sind richtig"
         ],
         "statements": [
-          "Die Diagnose einer schizophrenen Erkrankung darf im Kindesund Jugendalter nicht gestellt werden.",
+          "Die Diagnose einer schizophrenen Erkrankung darf im Kindes- und Jugendalter nicht gestellt werden.",
           "Schizophrenie ist durch ein charakteristisches psychopathologisches Muster von Störungen in den Funktionsbereichen Wahrnehmung, Denken, IchFunktionen, Affektivität, Antrieb und Psychomotorik gekennzeichnet.",
           "Bei etwa 10-30% der Betroffenen heilt die Erkrankung ohne Rückfall aus.",
           "Neben der medikamentösen Behandlung ist eine psychotherapeutische und psychosoziale Begleitung sinnvoll.",
@@ -5161,7 +5169,7 @@
           "Die kognitive Therapie fußt auf Erfahrungen aus dem Flooding. ",
           "Bei einer Verhaltensanalyse stehen die frühkindlichen Entwicklungsschritte im Vordergrund. ",
           "Vor Beginn einer Psychotherapie sollte eine somatische Abklärung der Symptomatik erfolgen. ",
-          "Verhaltensund Gedankenprotokolle gehören zum Methodenspektrum der tiefenpsychologisch fundierten Therapie."
+          "Verhaltens- und Gedankenprotokolle gehören zum Methodenspektrum der tiefenpsychologisch fundierten Therapie."
         ],
         "statements": [],
         "correctIndices": [
@@ -5170,7 +5178,8 @@
         ],
         "explanation": ""
       }
-    ]
+    ],
+    "gruppe": "A"
   },
   {
     "id": "2025-october",
@@ -5216,7 +5225,7 @@
           "Emotionale Symptome wie z.B. Hoffnungslosigkeit",
           "Physische Symptome wie z.B. Veränderung der Schlafgewohnheiten",
           "Selbstwertgefühl wie z.B. Selbstablehnung",
-          "Wahnerleben wie z.B. Schuldoder Bestrafungswahn"
+          "Wahnerleben wie z.B. Schuld- oder Bestrafungswahn"
         ],
         "correctIndices": [
           4
@@ -5249,7 +5258,7 @@
           "Multiple Identitätsstörung ",
           "Dissoziativer Stupor ",
           "Dissoziative Fugue ",
-          "Tranceund Besessenheitszustand ",
+          "Trance- und Besessenheitszustand ",
           "Dissoziative Amnesie ohne Ortswechsel"
         ],
         "statements": [],
@@ -5439,7 +5448,7 @@
           "Aggressionsumkehr – Aggressive Tendenzen nehmen zu und richten sich zunehmend auf den Betroffenen selbst. ",
           "Entschlussphase – In dieser Phase, in der der Entschluss gefasst worden ist, wirkt der Betroffene eher ruhig und entspannt („Ruhe vor dem Sturm“). Die innere Ausnahmesituation allerdings erlaubt keine realistische Einschätzung der Situation mehr. Der Betroffene befindet sich in seiner eigenen Welt, häufig mit „Tunnelblick.“ ",
           "Suizidfantasien – Der Betroffene flüchtet sich mehr und mehr in eine Gedankenwelt rund um den Tod, in der der Suizid eine zunehmende Rolle spielt und eine scheinbare Erleichterung in Aussicht stellt. ",
-          "Ambivalenz – Hinund Hergerissensein zwischen Wünschen zu leben und dem Gefühl, keine andere Möglichkeit zu haben, als sich das Leben zu nehmen. Häufig kommt es zu direkten Suizidankündigungen. ",
+          "Ambivalenz – Hin- und Hergerissensein zwischen Wünschen zu leben und dem Gefühl, keine andere Möglichkeit zu haben, als sich das Leben zu nehmen. Häufig kommt es zu direkten Suizidankündigungen. ",
           "Erwägungsphase – In dieser Phase findet eine gedankliche Beschäftigung mit dem Suizid statt, gefördert durch belastende Lebensumstände und äußere Einflüsse"
         ],
         "statements": [],
@@ -5533,9 +5542,9 @@
       {
         "id": 19,
         "type": "Einfachauswahl",
-        "text": "Die Therapie von Alkoholund Drogenabhängigkeit lässt sich in vier Phasen einteilen. Welche der folgenden Phasen gehört nicht dazu? Wählen Sie eine Antwort!",
+        "text": "Die Therapie von Alkohol- und Drogenabhängigkeit lässt sich in vier Phasen einteilen. Welche der folgenden Phasen gehört nicht dazu? Wählen Sie eine Antwort!",
         "options": [
-          "Kontaktund Motivationsphase ",
+          "Kontakt- und Motivationsphase ",
           "Entgiftungsphase ",
           "Entwöhnungsphase ",
           "Remissionsphase ",
@@ -5594,9 +5603,9 @@
         "options": [
           "Entspannungsverfahren führen zu verringertem Muskeltonus, Abnahme der Herzfrequenz sowie periphere Gefäßerweiterungen. ",
           "Imaginative Entspannungsverfahren haben sich bei posttraumatischen Belastungsstörungen und Schizophrenie als wirksames Therapiewerkzeug etabliert. ",
-          "MBSR (Mindfulness-Based Stress Reduction) ist ein autosuggestives Entspannungsverfahren, dass in Akutsituationen eingesetzt wird, um intrapsychischen Stress zu reduzieren. Über standardisierte Suggestionen wie Schwereund Wärmesuggestionen kann schnell ein Zustand tiefer Entspannung herbeigeführt werden. ",
+          "MBSR (Mindfulness-Based Stress Reduction) ist ein autosuggestives Entspannungsverfahren, dass in Akutsituationen eingesetzt wird, um intrapsychischen Stress zu reduzieren. Über standardisierte Suggestionen wie Schwere- und Wärmesuggestionen kann schnell ein Zustand tiefer Entspannung herbeigeführt werden. ",
           "Eine stark ausgeprägte Hypotonie gilt als Kontraindikation. ",
-          "Therapeutische Anwendungsbereiche für Entspannungsverfahren sind u.a. nicht-organische Inund Parasomnien, Ängste und Hypertonie."
+          "Therapeutische Anwendungsbereiche für Entspannungsverfahren sind u.a. nicht-organische In- und Parasomnien, Ängste und Hypertonie."
         ],
         "statements": [],
         "correctIndices": [
@@ -5722,7 +5731,8 @@
         ],
         "explanation": ""
       }
-    ]
+    ],
+    "gruppe": "A"
   },
   {
     "id": "2003-march",
@@ -6270,8 +6280,8 @@
         "text": "Welche der folgenden Aussagen treffen zu? Zu den vegetativen Symptomen und Vitalstörungen (leiblichen Missempfindungen) der endogenen Depression zählen:",
         "statements": [
           "Appetitverlust",
-          "Vermehrte Tränenund Speichelbildung",
-          "Druckgefühl auf Brustoder Bauchraum",
+          "Vermehrte Tränen- und Speichelbildung",
+          "Druckgefühl auf Brust- oder Bauchraum",
           "Potenzverlust bei Männern",
           "Diarrhö"
         ],
@@ -6310,7 +6320,8 @@
         ],
         "explanation": ""
       }
-    ]
+    ],
+    "gruppe": "A"
   },
   {
     "id": "2004-march",
@@ -6866,7 +6877,8 @@
         ],
         "explanation": ""
       }
-    ]
+    ],
+    "gruppe": "A"
   },
   {
     "id": "2005-march",
@@ -7096,7 +7108,7 @@
         "text": "Welche der folgenden Aussagen zur Suchterkrankung treffen zu?",
         "statements": [
           "Es gibt erfolglose Versuche oder den bleibenden Wunsch, den Substanzgebrauch zu regulieren oder zu reduzieren",
-          "Intoxikationsoder Entzugssymptome können auftreten",
+          "Intoxikations- oder Entzugssymptome können auftreten",
           "Es findet sich eine deutliche Toleranzentwicklung",
           "Für die Beschaffung der Substanz, die Einnahme oder die notwendige Erholung nach Gebrauch der Substanz wird viel Zeit aufgewendet",
           "Wichtige Aktivitäten in Beruf und/oder Freizeit leiden nicht unter einem Suchtverhalten"
@@ -7457,7 +7469,8 @@
         ],
         "explanation": ""
       }
-    ]
+    ],
+    "gruppe": "A"
   },
   {
     "id": "2006-march",
@@ -7586,7 +7599,7 @@
           "Bulimia nervosa",
           "Anorexia nervosa",
           "Hypochondrische Störung",
-          "Somatoforme autonome Funktionsstörung (Herzund Kreislaufsystem)",
+          "Somatoforme autonome Funktionsstörung (Herz- und Kreislaufsystem)",
           "Generalisierte Angststörung"
         ],
         "correctIndices": [
@@ -7923,7 +7936,7 @@
         "statements": [
           "Typischerweise gelingt es zuerst, die Schmerzempfindung zu verringern, während die schmerzbedingten Einschränkungen im alltäglichen Leben erst danach abnehmen.",
           "Die Aufarbeitung frühkindlicher Konflikte ist vorrangig.",
-          "Es werden schmerzhemmende Erlebensund Verhaltensmuster eingeübt.",
+          "Es werden schmerzhemmende Erlebens- und Verhaltensmuster eingeübt.",
           "Soziale Faktoren werden ausgeklammert.",
           "Das Erlernen wirksamer Problemlösestrategien erhöht die Selbstkontrolle und die Selbstwirksamkeit des Patienten."
         ],
@@ -7996,7 +8009,8 @@
         ],
         "explanation": ""
       }
-    ]
+    ],
+    "gruppe": "A"
   },
   {
     "id": "2007-march",
@@ -8374,7 +8388,7 @@
           "Bei der eigenständigen Form sind meist untergewichtige Frauen betroffen.",
           "In der Regel kann man bulimischen Frauen nicht ansehen, dass sie an dieser Krankheit leiden.",
           "Eine Bulimia nervosa schließt eine Anorexia nervosa aus.",
-          "Es handelt sich um eine Essund Brechsucht, bei der das Erbrechen selbst ausgelöst wird.",
+          "Es handelt sich um eine Ess- und Brechsucht, bei der das Erbrechen selbst ausgelöst wird.",
           "Sie ist eine Störung, die durch anfallsweise auftretendes Verschlingen großer Mengen von Nahrungsmitteln und anschließendes Erbrechen gekennzeichnet ist."
         ],
         "options": [
@@ -8552,7 +8566,8 @@
         ],
         "explanation": ""
       }
-    ]
+    ],
+    "gruppe": "A"
   },
   {
     "id": "2008-march",
@@ -8752,7 +8767,7 @@
         "statements": [
           "Abführmittelmissbrauch",
           "Suizidalität",
-          "Natriumund Kaliummangel",
+          "Natrium- und Kaliummangel",
           "Selbst induziertes Erbrechen",
           "Deutliche Verminderung der Libido bei Männern"
         ],
@@ -8794,7 +8809,7 @@
           "Depressive Störungen können in jedem Lebensalter – auch in der Kindheit – auftreten.",
           "Die Lichttherapie wird bei der sog. Winterdepression als Behandlungsform eingesetzt.",
           "Typische Symptome sind Verminderung des Antriebs und Aktivitätseinschränkung.",
-          "Wahnideen wie z. B. Versündigungsoder Verarmungsideen schließen eine schwere depressive Störung aus.",
+          "Wahnideen wie z. B. Versündigungs- oder Verarmungsideen schließen eine schwere depressive Störung aus.",
           "In der depressiven Phase kann es zu Störungen des Vegetativums kommen (z. B. der Libido)."
         ],
         "correctIndices": [
@@ -9006,7 +9021,7 @@
           "Einen psychodynamischen Vorgang, durch den ein Angstimpuls in psychotisches Erlebnis übertragen wird.",
           "Den Vorgang, durch den ein – z.B. optisch wahrgenommenes – Geschehen in die subjektive, für andere unverständliche Logik eines psychotischen Erlebens übertragen wird.",
           "Den Vorgang des Übergehens depressiver Erlebnisweisen in manisches Erleben.",
-          "Frühere Beziehungsund Interaktionsmuster werden auf die therapeutische Beziehung übertragen."
+          "Frühere Beziehungs- und Interaktionsmuster werden auf die therapeutische Beziehung übertragen."
         ],
         "statements": [],
         "correctIndices": [
@@ -9113,7 +9128,8 @@
         ],
         "explanation": ""
       }
-    ]
+    ],
+    "gruppe": "A"
   },
   {
     "id": "2009-march",
@@ -9186,7 +9202,7 @@
       {
         "id": 4,
         "type": "Mehrfachauswahl",
-        "text": "Welche der folgenden Aussagen zu Drogenund Alkoholmissbrauch treffen zu? Wählen Sie zwei Antworten!",
+        "text": "Welche der folgenden Aussagen zu Drogen- und Alkoholmissbrauch treffen zu? Wählen Sie zwei Antworten!",
         "options": [
           "Regelmäßiger Amphetamin-Konsum führt primär zu körperlicher Abhängigkeit",
           "Ein Alkoholdelir tritt nur nach abruptem Alkoholentzug auf, nicht während fortgesetztem Trinken",
@@ -9684,7 +9700,8 @@
         ],
         "explanation": ""
       }
-    ]
+    ],
+    "gruppe": "A"
   },
   {
     "id": "2010-march",
@@ -9914,7 +9931,7 @@
           "Die Lebenszeitprävalenz für Schizophrenie liegt bei etwa 1%",
           "Bei vollständiger Ausheilung der Schizophrenie spricht man von einem schizophrenen Residuum",
           "Bei der paranoiden Schizophrenie stehen Wahnsymptome und Halluzinationen im Vordergrund des klinischen Bildes",
-          "Der Erkrankungsbeginn bei hebephrener Schizophrenie liegt im Allgemeinen im Jugendund frühen Erwachsenenalter"
+          "Der Erkrankungsbeginn bei hebephrener Schizophrenie liegt im Allgemeinen im Jugend- und frühen Erwachsenenalter"
         ],
         "correctIndices": [
           3
@@ -10214,7 +10231,8 @@
         ],
         "explanation": ""
       }
-    ]
+    ],
+    "gruppe": "A"
   },
   {
     "id": "2011-march",
@@ -10459,7 +10477,7 @@
         "statements": [],
         "options": [
           "Die öffentlich-rechtliche Unterbringung wird durch Gesetze der einzelnen Bundesländer geregelt",
-          "Der Heilpraktiker (mit einer auf das Gebiet der Psychotherapie beschränkten Erlaubnis) muss bei akuter Fremdoder Selbstgefährdung des Patienten ein Zeugnis zur Unterbringung anfertigen",
+          "Der Heilpraktiker (mit einer auf das Gebiet der Psychotherapie beschränkten Erlaubnis) muss bei akuter Fremd- oder Selbstgefährdung des Patienten ein Zeugnis zur Unterbringung anfertigen",
           "Das Betreuungsrecht gilt als eine weitere Möglichkeit, eine Person unter gewissen Voraussetzungen gegen ihren Willen einzuweisen",
           "Die Information von Angehörigen wird den Betroffenen bei zwangsweisen Unterbringungen grundsätzlich nicht gestattet",
           "Bei polizeilicher Zwangseinweisung ist eine Unterbringung ohne richterliche Überprüfung für die Dauer von 6 Wochen möglich"
@@ -10664,7 +10682,7 @@
           "Sekundäre Enuresis bedeutet: Das Kind war noch nie trocken",
           "Kinder, bei denen nach dem 7 Lebensjahr noch eine Enuresis nocturna vorliegt, werden in erster Linie medikamentös behandelt",
           "In vielen Fällen ist eine Enuresis nocturna lediglich eine Reifungsverzögerung",
-          "Klingeloder Weckgeräte sind bis zum Alter von fünf Jahren einsetzbar",
+          "Klingel- oder Weckgeräte sind bis zum Alter von fünf Jahren einsetzbar",
           "Wichtig ist eine konsequente Flüssigkeitsrestrikion"
         ],
         "correctIndices": [
@@ -10764,7 +10782,8 @@
         ],
         "explanation": ""
       }
-    ]
+    ],
+    "gruppe": "B"
   },
   {
     "id": "2012-march",
@@ -11007,7 +11026,7 @@
       {
         "id": 13,
         "type": "Mehrfachauswahl",
-        "text": "Welche der folgenden Untersuchungen sind bei Verdacht auf eine Leseund Rechtschreibstörung primär angezeigt? Wählen Sie zwei Antworten!",
+        "text": "Welche der folgenden Untersuchungen sind bei Verdacht auf eine Lese- und Rechtschreibstörung primär angezeigt? Wählen Sie zwei Antworten!",
         "statements": [],
         "options": [
           "EEG (Elektroenzephalographie)",
@@ -11038,7 +11057,7 @@
           "Bei SSRI (selektiven Serotoninwiederaufnahme-Hemmern) können unter anderem folgende Nebenwirkungen auftreten: Übelkeit, Erbrechen und innere Unruhe",
           "Johanniskraut hat als pflanzliches Mittel keinen Einfluss auf die Wirkung anderer Medikamente",
           "Zu Beginn der antidepressiven Medikation stehen häufig Nebenwirkungen im Vordergrund",
-          "Antidepressiva können auch bei Angstund Zwangsstörungen indiziert sein"
+          "Antidepressiva können auch bei Angst- und Zwangsstörungen indiziert sein"
         ],
         "correctIndices": [
           2
@@ -11272,7 +11291,7 @@
         "text": "Welche der folgenden Aussagen zur Bulimia nervosa treffen zu?",
         "statements": [
           "Als Folge der Erkrankung treten Zahnschmelzschäden auf",
-          "Normaloder Übergewicht schließt eine Bulimie aus",
+          "Normal- oder Übergewicht schließt eine Bulimie aus",
           "Bulimisch-Kranke essen sehr gern mit anderen zusammen",
           "Eine Komplikation der Bulimie ist die Elektrolytstörung",
           "Missbrauch von Abführmitteln kann auftreten"
@@ -11325,13 +11344,13 @@
           "HIV-Erkrankung ohne Behandlung"
         ],
         "correctIndices": [
-          0,
           1,
           4
         ],
         "explanation": ""
       }
-    ]
+    ],
+    "gruppe": "A"
   },
   {
     "id": "2013-march",
@@ -11706,12 +11725,12 @@
       {
         "id": 20,
         "type": "Mehrfachauswahl",
-        "text": "Welche der folgenden Aussagen treffen für eine Leseund Rechtschreibstörung (nach ICD-10) zu? Wählen Sie zwei Antworten!",
+        "text": "Welche der folgenden Aussagen treffen für eine Lese- und Rechtschreibstörung (nach ICD-10) zu? Wählen Sie zwei Antworten!",
         "statements": [],
         "options": [
           "Soziale und emotionale Anpassungsprobleme stehen mit einer Lese- und Rechtschreibstörung in keinem Zusammenhang",
           "Die Leseleistung muss unter dem Niveau liegen, das aufgrund des Alters, der allgemeinen Intelligenz und Beschulung zu erwarten wäre",
-          "Eine umschriebene Entwicklungsstörung des Sprechens und der Sprache geht der Leseund Rechtschreibstörung häufig voraus",
+          "Eine umschriebene Entwicklungsstörung des Sprechens und der Sprache geht der Lese- und Rechtschreibstörung häufig voraus",
           "Ein Defizit des Leseverständnisses ist typischerweise nicht vorhanden",
           "Die Störung tritt im Rahmen einer allgemeinen Intelligenzminderung auf"
         ],
@@ -11878,12 +11897,12 @@
           "Schwere depressive Episode"
         ],
         "correctIndices": [
-          0,
           1
         ],
         "explanation": ""
       }
-    ]
+    ],
+    "gruppe": "B"
   },
   {
     "id": "2014-march",
@@ -12155,7 +12174,7 @@
         "options": [
           "Ziel ist eine konzentrative Amnesie",
           "Vorrangiges Ziel ist die Reduktion der Atemfrequenz",
-          "Das Verfahren ist durch willentliche und bewusste Anund Entspannung von Muskelgruppen charakterisiert",
+          "Das Verfahren ist durch willentliche und bewusste An- und Entspannung von Muskelgruppen charakterisiert",
           "Bei akut psychotischen Patienten wirkt es sich günstig auf die Gespanntheit aus",
           "Die progressive Muskelrelaxation (PMR) ist die Methode der Wahl zum Abbau von Zwangshandlungen"
         ],
@@ -12430,7 +12449,8 @@
         ],
         "explanation": ""
       }
-    ]
+    ],
+    "gruppe": "A"
   },
   {
     "id": "2015-march",
@@ -12515,7 +12535,7 @@
       {
         "id": 5,
         "type": "Aussagenkombination",
-        "text": "Welche der folgenden Erkrankungen oder Zustände können bei bestehender Selbstoder Fremdgefährdung zu Einweisungen nach dem jeweiligen Landesgesetz für psychisch kranke Personen (z .B. Psychisch-Kranken-Gesetz, Unterbringungsgesetz) führen?",
+        "text": "Welche der folgenden Erkrankungen oder Zustände können bei bestehender Selbst- oder Fremdgefährdung zu Einweisungen nach dem jeweiligen Landesgesetz für psychisch kranke Personen (z .B. Psychisch-Kranken-Gesetz, Unterbringungsgesetz) führen?",
         "statements": [
           "Akute paranoide Psychose",
           "Alkoholismus",
@@ -12673,7 +12693,7 @@
           "Reizkonfrontation kann bei Agoraphobie zu einer Symptomreduktion führen",
           "Die Methode wird häufig bei der verhaltenstherapeutischen Behandlung von Depressionen eingesetzt",
           "Die massive Konfrontation mit der angstbesetzten Situation führt idealerweise zu einer Auflösung des Spannungszustandes und minimiert so die Erwartungsangst",
-          "Zentrale Aussagen des erarbeiteten Erklärungsund Veränderungsmodells dürfen nicht als Wahrscheinlichkeitsaussagen formuliert werden",
+          "Zentrale Aussagen des erarbeiteten Erklärungs- und Veränderungsmodells dürfen nicht als Wahrscheinlichkeitsaussagen formuliert werden",
           "Ein graduiertes Vorgehen ist bei dieser Methode nicht möglich"
         ],
         "correctIndices": [
@@ -12995,7 +13015,8 @@
         ],
         "explanation": ""
       }
-    ]
+    ],
+    "gruppe": "A"
   },
   {
     "id": "2016-march",
@@ -13139,12 +13160,12 @@
       {
         "id": 8,
         "type": "Mehrfachauswahl",
-        "text": "Welche der folgenden Aussagen treffen für eine Leseund Rechtschreibstörung (nach ICD-10) zu? Wählen Sie zwei Antworten!",
+        "text": "Welche der folgenden Aussagen treffen für eine Lese- und Rechtschreibstörung (nach ICD-10) zu? Wählen Sie zwei Antworten!",
         "statements": [],
         "options": [
-          "Soziale und emotionale Anpassungsprobleme stehen mit einer Leseund Rechtschreibstörung nicht in Zusammenhang",
+          "Soziale und emotionale Anpassungsprobleme stehen mit einer Lese- und Rechtschreibstörung nicht in Zusammenhang",
           "Die Leseleistung muss unter dem Niveau liegen, das aufgrund des Alters, der allgemeinen Intelligenz und Beschulung zu erwarten wäre",
-          "Eine umschriebene Entwicklungsstörung des Sprechens und der Sprache geht der Leseund Rechtschreibstörung häufig voraus",
+          "Eine umschriebene Entwicklungsstörung des Sprechens und der Sprache geht der Lese- und Rechtschreibstörung häufig voraus",
           "Ein Defizit des Leseverständnisses ist typischerweise nicht vorhanden",
           "Die Störung tritt im Rahmen einer allgemeinen Intelligenzminderung auf"
         ],
@@ -13519,7 +13540,7 @@
       {
         "id": 28,
         "type": "Mehrfachauswahl",
-        "text": "Welche der folgenden Aussagen treffen zu? Wählen Sie zwei Antworten! Zu den neurotischen, Belastungsund somatoformen Störungen zählen:",
+        "text": "Welche der folgenden Aussagen treffen zu? Wählen Sie zwei Antworten! Zu den neurotischen, Belastungs- und somatoformen Störungen zählen:",
         "statements": [],
         "options": [
           "Hebephrene Schizophrenie",
@@ -13534,7 +13555,8 @@
         ],
         "explanation": ""
       }
-    ]
+    ],
+    "gruppe": "B"
   },
   {
     "id": "2017-march",
@@ -13755,7 +13777,7 @@
         "text": "Eine Mutter kommt mit ihrer 5-jährigen Tochter in Ihre Praxis. Sie beklagt, dass ihr Kind im Vergleich zu anderen auffällig unkonzentriert sei, sich leicht ablenken lasse, nicht länger still sitzen könne sowie neben raschen Stimmungswechseln auch zu unbegründeten Wutanfällen neige. Woran denken Sie am ehesten?",
         "options": [
           "Rett-Syndrom",
-          "Leseund Rechtschreibstörung (LRS)",
+          "Lese- und Rechtschreibstörung (LRS)",
           "Frühkindlicher Autismus",
           "Aufmerksamkeitsdefizit-/Hyperaktivitätsstörung (ADHS)",
           "Tic-Störung"
@@ -14101,7 +14123,8 @@
         ],
         "explanation": ""
       }
-    ]
+    ],
+    "gruppe": "B"
   },
   {
     "id": "2002-october",
@@ -14684,7 +14707,8 @@
         ],
         "explanation": ""
       }
-    ]
+    ],
+    "gruppe": "A"
   },
   {
     "id": "2003-october",
@@ -14898,7 +14922,7 @@
         "statements": [
           "Bei der Behandlung von ADS sollten nicht gleichzeitig Medikamente und psychotherapeutische Techniken eingesetzt werden.",
           "Bei der Aufmerksamkeitsdefizitstörung des Kindesalters (ADS) kann eine motorisch hyperaktive Symptomatik völlig fehlen.",
-          "Störungen der Feinoder Grobmotorik sind ein Ausschlusskriterium für die Diagnose ADS.",
+          "Störungen der Fein- oder Grobmotorik sind ein Ausschlusskriterium für die Diagnose ADS.",
           "Mit Flooding-Techniken erreicht man bei ADS-Patienten oft ein rascheres Verschwinden der Symptomatik als bei anderen Indikationen.",
           "Symptome wie z. B. Distanzlosigkeit oder Impulsivität stützen die Diagnose."
         ],
@@ -15159,7 +15183,7 @@
           "Die senile Demenz vom Alzheimer-Typ beginnt akut, meist nach einem Schlaganfall.",
           "Meist wird über Sehstörungen und flüchtige Paresen (= Lähmungserscheinungen) in der Vorgeschichte berichtet.",
           "Die senile Demenz vom Alzheimer-Typ verläuft schubweise und unregelmäßig.",
-          "Zu Beginn kommt es bei der senilen Demenz vom Alzheimer-Typ hauptsächlich zu Merkfähigkeitsund Wortfindungsstörungen, außerdem zur Einschränkung von Alltagsaktivitäten und Interessen.",
+          "Zu Beginn kommt es bei der senilen Demenz vom Alzheimer-Typ hauptsächlich zu Merkfähigkeits- und Wortfindungsstörungen, außerdem zur Einschränkung von Alltagsaktivitäten und Interessen.",
           "Die Krankheit ist meistens mit einem Hypertonus verbunden."
         ],
         "statements": [],
@@ -15225,7 +15249,8 @@
         ],
         "explanation": ""
       }
-    ]
+    ],
+    "gruppe": "A"
   },
   {
     "id": "2004-october",
@@ -15585,7 +15610,7 @@
         "text": "Herr T, ein 19-jähriger intellektuell leistungsfähiger Abiturient, leidet seit ca. sechs Jahren an exzessivem Händewaschen, seinerzeit ausgelöst durch eine Bandwurmerkrankung der Großmutter. Die Symptomatik (Händewaschen) wird ausgelöst durch Beschmutzungsbefürchtungen, die zum Teil phobischen Charakter tragen. Im Vordergrund steht dabei die Befürchtung, andere könnten mit schmutzigen und giftigen Substanzen nicht so umgehen, dass eine Kontamination ausgeschlossen ist. Zur Erhaltung der \"Sauberkeit\" in der Wohnung dienen täglich durchgeführte Rituals, In die auf Drängen von Herrn T. zum Teil auch dessen Eltern eingespannt sind. Im Rahmen der Diagnostik kommen hier in Betracht:",
         "statements": [],
         "options": [
-          "Polysomnographie (elektronische Erfassung, Speicherung, Vorund Nachbearbeitung biometrischer Signale während des Schlafens)",
+          "Polysomnographie (elektronische Erfassung, Speicherung, Vor- und Nachbearbeitung biometrischer Signale während des Schlafens)",
           "Erhebung der biographischen Anamnese unter tiefenpsychologischer Aspekt",
           "Verhaltensdiagnostik auf der Basis systematischer Verhaltensanalyse",
           "Verwendung eines Fremdbeurteilungsverfahrens",
@@ -15728,7 +15753,7 @@
           "Systematisches Einüben von Verhaltensmustern, wie Selbstbehauptung oder Kontaktfähigkeit",
           "Bearbeitung der persönlichen Beziehung zwischen Patient und Therapeut",
           "Kennenlernen von bis dahin unbewussten Persönlichkeitsanteilen",
-          "Einblick gewinnen in die eigene Gefühlsund Wunschwelt"
+          "Einblick gewinnen in die eigene Gefühls- und Wunschwelt"
         ],
         "options": [
           "Nur die Aussagen 1 und 2 sind richtig",
@@ -15765,7 +15790,8 @@
         ],
         "explanation": ""
       }
-    ]
+    ],
+    "gruppe": "A"
   },
   {
     "id": "2005-october",
@@ -15936,7 +15962,7 @@
           "Antriebsarmut",
           "Die lebenspraktischen Funktionen sind nicht beeinträchtigt",
           "Symptome treten erst nach dem 70. Lebensjahr auf",
-          "Fortschreitende Konzentrationsund Gedächtnisstörungen"
+          "Fortschreitende Konzentrations- und Gedächtnisstörungen"
         ],
         "correctIndices": [
           1,
@@ -16333,7 +16359,8 @@
         ],
         "explanation": ""
       }
-    ]
+    ],
+    "gruppe": "A"
   },
   {
     "id": "2006-october",
@@ -16490,7 +16517,7 @@
         "options": [
           "Gehäuftes familiäres Auftreten deutet auf eine genetische Komponente hin.",
           "Die Symptome beginnen nicht vor dem 10. Lebensjahr.",
-          "Die Prävalenzrate für Alkoholund Drogenmissbrauch ist bei ADHS-Patienten gegenüber gesunden Kontrollpersonen nicht erhöht.",
+          "Die Prävalenzrate für Alkohol- und Drogenmissbrauch ist bei ADHS-Patienten gegenüber gesunden Kontrollpersonen nicht erhöht.",
           "Eine emotionale Labilität und Störung der Impulskontrolle ist nicht vorhanden.",
           "ADHS-Patienten zeigen bei der Arbeit, Partnerschaft und Familie ein normales Funktionsniveau."
         ],
@@ -16913,7 +16940,8 @@
         ],
         "explanation": ""
       }
-    ]
+    ],
+    "gruppe": "A"
   },
   {
     "id": "2007-october",
@@ -17159,7 +17187,7 @@
       {
         "id": 13,
         "type": "Aussagenkombination",
-        "text": "Welche der folgenden Aussagen treffen zu? In bestimmten Phasen des Kindesund Jugendalters finden sich jeweils für diese Phase typische entwicklungsabhängige emotionale Phänomene bzw. Störungen. Hierzu zählen:",
+        "text": "Welche der folgenden Aussagen treffen zu? In bestimmten Phasen des Kindes- und Jugendalters finden sich jeweils für diese Phase typische entwicklungsabhängige emotionale Phänomene bzw. Störungen. Hierzu zählen:",
         "options": [
           "Nur die Aussagen 1 und 4 sind richtig",
           "Nur die Aussagen 2 und 3 sind richtig",
@@ -17239,7 +17267,7 @@
         "statements": [
           "Bei der Behandlung von ADS sollten nicht gleichzeitig Medikamente und psychotherapeutische Techniken eingesetzt werden.",
           "Bei der Aufmerksamkeitsdefizitstörung des Kindesalters (ADS) kann eine motorisch hyperaktive Symptomatik völlig fehlen.",
-          "Störungen der Feinoder Grobmotorik sind ein Ausschlusskriterium für die Diagnose ADS.",
+          "Störungen der Fein- oder Grobmotorik sind ein Ausschlusskriterium für die Diagnose ADS.",
           "Mit Flooding-Techniken erreicht man bei ADS-Patienten oft ein rascheres Verschwinden der Symptomatik als bei anderen Indikationen.",
           "Symptome wie z. B. Distanzlosigkeit oder Impulsivität stützen die Diagnose."
         ],
@@ -17492,7 +17520,8 @@
         ],
         "explanation": ""
       }
-    ]
+    ],
+    "gruppe": "A"
   },
   {
     "id": "2008-october",
@@ -17984,7 +18013,7 @@
         "text": "Welche der folgenden Aussagen zur Bulimie treffen zu?",
         "statements": [
           "Als Folge der Erkrankung treten Zahnschmelzschäden auf",
-          "Normaloder Übergewicht schließt eine Bulimie aus",
+          "Normal- oder Übergewicht schließt eine Bulimie aus",
           "Bulimisch-Kranke essen gern mit anderen zusammen",
           "Eine mögliche Komplikation der Bulimie ist der plötzliche Herztod",
           "Missbrauch von Abführmitteln kann auftreten"
@@ -18081,7 +18110,8 @@
         ],
         "explanation": ""
       }
-    ]
+    ],
+    "gruppe": "A"
   },
   {
     "id": "2009-october",
@@ -18124,7 +18154,7 @@
         ],
         "statements": [],
         "correctIndices": [
-          0
+          4
         ],
         "explanation": ""
       },
@@ -18147,8 +18177,7 @@
           "Risikofaktoren für eine Depression im Alter können die Einnahme bestimmter Medikamente sein"
         ],
         "correctIndices": [
-          0,
-          2
+          1
         ],
         "explanation": ""
       },
@@ -18165,8 +18194,8 @@
         ],
         "statements": [],
         "correctIndices": [
-          1,
-          2
+          3,
+          4
         ],
         "explanation": ""
       },
@@ -18183,7 +18212,8 @@
         ],
         "statements": [],
         "correctIndices": [
-          3
+          3,
+          4
         ],
         "explanation": ""
       },
@@ -18200,8 +18230,7 @@
         ],
         "statements": [],
         "correctIndices": [
-          3,
-          4
+          0
         ],
         "explanation": ""
       },
@@ -18282,6 +18311,7 @@
         ],
         "statements": [],
         "correctIndices": [
+          3,
           4
         ],
         "explanation": ""
@@ -18300,13 +18330,12 @@
         "statements": [
           "Eine Sprachentwicklungsstörung liegt vor, wenn im Alter von bis zu einem Jahr nur drei bis vier Wörter gesprochen werden.",
           "Entwicklungsstörungen werden auch als Teilleistungsschwächen bezeichnet.",
-          "Die häufigste umschriebene Entwicklungsstörung des Kindesalters ist die Legasthenie (Leseund Rechtschreibschwäche).",
+          "Die häufigste umschriebene Entwicklungsstörung des Kindesalters ist die Legasthenie (Lese- und Rechtschreibschwäche).",
           "Der Intelligenzquotient der betroffenen Kinder ist deutlich erniedrigt.",
           "Umschriebene Entwicklungsstörungen schulischer Fertigkeiten werden meist erst am Ende der Schullaufbahn erworben."
         ],
         "correctIndices": [
-          1,
-          3
+          1
         ],
         "explanation": ""
       },
@@ -18323,7 +18352,8 @@
         ],
         "statements": [],
         "correctIndices": [
-          4
+          0,
+          3
         ],
         "explanation": ""
       },
@@ -18340,8 +18370,7 @@
         ],
         "statements": [],
         "correctIndices": [
-          0,
-          2
+          1
         ],
         "explanation": ""
       },
@@ -18381,7 +18410,7 @@
         ],
         "statements": [],
         "correctIndices": [
-          1
+          0
         ],
         "explanation": ""
       },
@@ -18398,7 +18427,8 @@
         ],
         "statements": [],
         "correctIndices": [
-          1
+          1,
+          3
         ],
         "explanation": ""
       },
@@ -18421,7 +18451,7 @@
           "Isolierung"
         ],
         "correctIndices": [
-          0
+          3
         ],
         "explanation": ""
       },
@@ -18438,7 +18468,7 @@
         ],
         "statements": [],
         "correctIndices": [
-          2
+          1
         ],
         "explanation": ""
       },
@@ -18455,6 +18485,7 @@
         ],
         "statements": [],
         "correctIndices": [
+          1,
           2
         ],
         "explanation": ""
@@ -18472,7 +18503,6 @@
         ],
         "statements": [],
         "correctIndices": [
-          3,
           4
         ],
         "explanation": ""
@@ -18507,8 +18537,7 @@
         ],
         "statements": [],
         "correctIndices": [
-          0,
-          3
+          4
         ],
         "explanation": ""
       },
@@ -18525,7 +18554,8 @@
         ],
         "statements": [],
         "correctIndices": [
-          3
+          0,
+          2
         ],
         "explanation": ""
       },
@@ -18548,7 +18578,7 @@
           "Gedankeneingebung"
         ],
         "correctIndices": [
-          1
+          2
         ],
         "explanation": ""
       },
@@ -18565,8 +18595,8 @@
         ],
         "statements": [],
         "correctIndices": [
-          3,
-          4
+          0,
+          2
         ],
         "explanation": ""
       },
@@ -18583,7 +18613,7 @@
         ],
         "statements": [],
         "correctIndices": [
-          4
+          2
         ],
         "explanation": ""
       },
@@ -18600,7 +18630,7 @@
         ],
         "statements": [],
         "correctIndices": [
-          1
+          3
         ],
         "explanation": ""
       },
@@ -18627,7 +18657,8 @@
         ],
         "explanation": ""
       }
-    ]
+    ],
+    "gruppe": "A"
   },
   {
     "id": "2010-october",
@@ -19198,7 +19229,8 @@
         ],
         "explanation": ""
       }
-    ]
+    ],
+    "gruppe": "A"
   },
   {
     "id": "2011-october",
@@ -19231,7 +19263,7 @@
           "Das wesentliche Symptom ist eine allgemeine und anhaltende Angst, die aber nicht auf bestimmte Situationen in der Umgebung beschränkt ist",
           "Beschrieben wird damit die Angst, sich auf weiten offenen Flächen zu bewegen",
           "Die soziale Phobie entsteht als Reaktion auf ein bestimmtes Ereignis",
-          "Die psychischen, Verhaltensoder vegetativen Symptome sind primäre Manifestationen der Angst",
+          "Die psychischen, Verhaltens- oder vegetativen Symptome sind primäre Manifestationen der Angst",
           "Die Angst muss auf bestimmte soziale Situationen beschränkt sein oder darin überwiegen"
         ],
         "correctIndices": [
@@ -19376,7 +19408,7 @@
       {
         "id": 9,
         "type": "Aussagenkombination",
-        "text": "Persönlichkeitsstörungen zeichnen sich durch ein deutliches Abweichen der charakteristischen und dauerhaften inneren Erfahrungsund Verhaltensmuster aus. Welche der folgenden Aussagen zu dieser Abweichung trifft (treffen) zu?",
+        "text": "Persönlichkeitsstörungen zeichnen sich durch ein deutliches Abweichen der charakteristischen und dauerhaften inneren Erfahrungs- und Verhaltensmuster aus. Welche der folgenden Aussagen zu dieser Abweichung trifft (treffen) zu?",
         "statements": [
           "Die Abweichung beginnt in der Regel in der Kindheit oder Adoleszenz",
           "Das resultierende Verhalten im sozialen Bereich ist flexibel und zweckmäßig",
@@ -19762,7 +19794,8 @@
         ],
         "explanation": ""
       }
-    ]
+    ],
+    "gruppe": "B"
   },
   {
     "id": "2012-october",
@@ -19957,7 +19990,7 @@
       {
         "id": 11,
         "type": "Mehrfachauswahl",
-        "text": "Welche der folgenden Aussagen treffen zu? Bei einem 65-jährigen Patienten bemerken Sie während des Gesprächs kauende, grimassierende Bewegungen im Zungenund Mundbereich. Er berichtet Ihnen, dass er von seinem Arzt jahrelang mit dem Medikament Haloperidol (Haldol) behandelt worden sei.",
+        "text": "Welche der folgenden Aussagen treffen zu? Bei einem 65-jährigen Patienten bemerken Sie während des Gesprächs kauende, grimassierende Bewegungen im Zungen- und Mundbereich. Er berichtet Ihnen, dass er von seinem Arzt jahrelang mit dem Medikament Haloperidol (Haldol) behandelt worden sei.",
         "statements": [],
         "options": [
           "Es handelt sich um eine Tic-Störung",
@@ -20317,7 +20350,8 @@
         ],
         "explanation": ""
       }
-    ]
+    ],
+    "gruppe": "B"
   },
   {
     "id": "2013-october",
@@ -20602,7 +20636,7 @@
         "text": "Welche Aussage zum autogenen Training trifft zu?",
         "statements": [],
         "options": [
-          "Das Verfahren ist durch willentliche und bewusste Anund Entspannung von Muskelgruppen charakterisiert",
+          "Das Verfahren ist durch willentliche und bewusste An- und Entspannung von Muskelgruppen charakterisiert",
           "Ziel ist ein Entspannungszustand mit möglichst geringer Abhängigkeit vom anleitenden Therapeuten",
           "Ziel ist eine konzentrative Amnesie",
           "Bei akut psychotischen Patienten wirkt es sich günstig auf die Gespanntheit aus",
@@ -20850,7 +20884,8 @@
         ],
         "explanation": ""
       }
-    ]
+    ],
+    "gruppe": "A"
   },
   {
     "id": "2014-october",
@@ -20865,7 +20900,7 @@
           "Selbstverletzendes Verhalten ist untypisch bei Borderlinestörungen",
           "Vor dem 14. Lebensjahr sind keine selbstverletzenden Verhaltensweisen zu beobachten",
           "Jungen sind seltener betroffen als Mädchen",
-          "Sie haben oft eine affektund spannungsregulierende Funktion",
+          "Sie haben oft eine affekt- und spannungsregulierende Funktion",
           "Selbstverletzendes Verhalten in der Adoleszenz weist grundsätzlich auf eine schwere psychische Störung im Erwachsenenalter hin"
         ],
         "statements": [],
@@ -21060,7 +21095,7 @@
           "Störungen der Merkfähigkeit treten bei affektiven Störungen nicht auf",
           "Eine retrograde Amnesie ist der Verlust der Erinnerung an den Zeitraum, der nach einem Ereignis (z.B. Unfall) lag",
           "Bei Konfabulationen füllt ein Patient Erinnerungslücken mit Einfällen, die er selber für Erinnerungen hält",
-          "Paramnesien (Wahnoder Trugerinnerungen) beinhalten das falsche Wiedererkennen von Situationen"
+          "Paramnesien (Wahn- oder Trugerinnerungen) beinhalten das falsche Wiedererkennen von Situationen"
         ],
         "correctIndices": [
           2
@@ -21401,7 +21436,8 @@
         ],
         "explanation": ""
       }
-    ]
+    ],
+    "gruppe": "A"
   },
   {
     "id": "2016-october",
@@ -21513,7 +21549,7 @@
         "statements": [
           "Bei der medikamentösen Therapie mit Neuroleptika können im Sinne unerwünschter Arzneimittelreaktionen Parkinson-ähnliche Symptome auftreten",
           "Die kognitive Verhaltenstherapie hat sich als unterstützende Behandlungsmöglichkeit bewährt",
-          "Arbeitsund Beschäftigungstherapie sind Bestandteile im Rahmen der stationären Therapie",
+          "Arbeits- und Beschäftigungstherapie sind Bestandteile im Rahmen der stationären Therapie",
           "Im Gegensatz zu den Suchterkrankungen hat sich die Soziotherapie bei der Schizophrenie nicht bewährt",
           "Differentialdiagnostisch sind unter anderem organisch bedingte Psychosen zu beachten"
         ],
@@ -21561,7 +21597,7 @@
           "Eye-Movement-Desensitization and Reprocessing (EMDR) ist bei der posttraumatischen Belastungsstörung (PTBS) grundsätzlich kontraindiziert",
           "Flooding wird bei der Behandlung isolierter Phobien angewandt",
           "Zur besseren Wirkung von Expositionsverfahren sollte der Patient die Angst durch bewusste Ablenkung vermeiden",
-          "Die graduierte Exposition mit Reaktionsmanagement wird zur Behandlung von Angstund Zwangsstörungen eingesetzt",
+          "Die graduierte Exposition mit Reaktionsmanagement wird zur Behandlung von Angst- und Zwangsstörungen eingesetzt",
           "Der sokratische Dialog führt bei Patienten mit Demenz zu einer anhaltenden Befundbesserung"
         ],
         "correctIndices": [
@@ -21657,7 +21693,7 @@
         "type": "Mehrfachauswahl",
         "text": "Welche der folgenden Aussagen zur sozialen Phobie treffen zu?",
         "options": [
-          "Die psychischen, Verhaltensoder vegetativen Symptome sind primäre Manifestationen der Angst",
+          "Die psychischen, Verhaltens- oder vegetativen Symptome sind primäre Manifestationen der Angst",
           "Beschrieben wird damit die Angst, sich auf weiten offenen Flächen zu bewegen",
           "Auch ohne Behandlung sind chronische Verläufe selten",
           "Das wesentliche Symptom ist eine allgemeine und anhaltende Angst, die aber nicht auf bestimmte Situationen in der Umgebung beschränkt ist",
@@ -21760,7 +21796,7 @@
           "Störungen der Merkfähigkeit treten bei affektiven Störungen nicht auf",
           "Eine retrograde Amnesie ist der Verlust der Erinnerung an den Zeitraum, der nach dem Ereignis (z.B. Unfall lag)",
           "Bei Konfabulationen füllt ein Patient Erinnerungslücken mit Einfällen, die er selber für Erinnerungen hält",
-          "Paramnesien (Wahnoder Trugerinnerungen) beinhalten das falsche Wiedererkennen von Situationen"
+          "Paramnesien (Wahn- oder Trugerinnerungen) beinhalten das falsche Wiedererkennen von Situationen"
         ],
         "options": [
           "Nur die Aussage 4 ist richtig",
@@ -21968,7 +22004,8 @@
         ],
         "explanation": ""
       }
-    ]
+    ],
+    "gruppe": "B"
   },
   {
     "id": "2017-october",
@@ -22184,7 +22221,7 @@
         "statements": [],
         "options": [
           "Es besteht in der Regel eine schwere Intelligenzminderung",
-          "Der Begriff Legasthenie wird synonym für die Leseund Rechtschreibstörung (LRS) eingesetzt",
+          "Der Begriff Legasthenie wird synonym für die Lese- und Rechtschreibstörung (LRS) eingesetzt",
           "Kinder mit Legasthenie können das Gelesene besonders gut wiedergeben",
           "Legasthenie kann nicht gezielt behandelt werden",
           "Vom Besuch einer höheren Schule sollte bei Legasthenie generell abgeraten werden"
@@ -22302,7 +22339,7 @@
       {
         "id": 16,
         "type": "Einfachauswahl",
-        "text": "Eine 28-jährige Frau, ohne psychische Vorerkrankungen, kommt in Ihre Praxis. Sie berichtet aufgeregt und kurzatmig, dass sie am Morgen an einer stark befahrenen Straßenkreuzung einen Verkehrsunfall mit einem LKW gehabt habe, welcher wohl eine rote Ampel übersehen haben musste. Sei brauche daher unbedingt „etwas zur Beruhigung“. So könne Sie nicht zur Arbeit. Die Betroffene berichtet stereotyp, dass sie doch „grün“ gehabt habe und was denn passiert wäre, wenn der LKW sie mit ihrer 3-jährigen Tochter frontal an ihrer Fahrerseite erwischt hätte. Die Betroffene zittert, wirkt psychomotorisch unruhig, verzweifelt und zeigt deutliche Auffassungsund Konzentrationsstörungen. Welche der folgenden Diagnosen im Sinne der ICD-10 trifft am ehesten zu?",
+        "text": "Eine 28-jährige Frau, ohne psychische Vorerkrankungen, kommt in Ihre Praxis. Sie berichtet aufgeregt und kurzatmig, dass sie am Morgen an einer stark befahrenen Straßenkreuzung einen Verkehrsunfall mit einem LKW gehabt habe, welcher wohl eine rote Ampel übersehen haben musste. Sei brauche daher unbedingt „etwas zur Beruhigung“. So könne Sie nicht zur Arbeit. Die Betroffene berichtet stereotyp, dass sie doch „grün“ gehabt habe und was denn passiert wäre, wenn der LKW sie mit ihrer 3-jährigen Tochter frontal an ihrer Fahrerseite erwischt hätte. Die Betroffene zittert, wirkt psychomotorisch unruhig, verzweifelt und zeigt deutliche Auffassungs- und Konzentrationsstörungen. Welche der folgenden Diagnosen im Sinne der ICD-10 trifft am ehesten zu?",
         "statements": [],
         "options": [
           "Posttraumatische Belastungsstörung",
@@ -22353,7 +22390,7 @@
         "statements": [
           "Das katathyme Bildererleben gehört zu den verhaltenstherapeutischen Verfahren",
           "Zu den systemischen Therapien gehört die Technik des zirkulären Fragens",
-          "Indikation der Verhaltenstherapie sind Depressionen sowie Angstund Zwangsstörungen",
+          "Indikation der Verhaltenstherapie sind Depressionen sowie Angst- und Zwangsstörungen",
           "Bei Kindern können analytische Techniken angewendet werden",
           "Die tiefenpsychologisch fundierte Psychotherapie gehört zu den imaginativen Verfahren"
         ],
@@ -22475,7 +22512,7 @@
       {
         "id": 25,
         "type": "Mehrfachauswahl",
-        "text": "Welche der folgenden Aussagen zur Intelligenzminderung (nach ICD-10) im Kindesund Jugendalter treffen zu? Wählen Sie zwei Antworten! Die schizoide Persönlichkeitsstörung (nach ICD-10) ist charakterisiert durch:",
+        "text": "Welche der folgenden Aussagen zur Intelligenzminderung (nach ICD-10) im Kindes- und Jugendalter treffen zu? Wählen Sie zwei Antworten! Die schizoide Persönlichkeitsstörung (nach ICD-10) ist charakterisiert durch:",
         "statements": [],
         "options": [
           "Die Einteilung der Intelligenzminderung erfolgt nach ICD-10 in leichte, mittelgradige, schwere und schwerste Intelligenzminderung",
@@ -22549,6 +22586,7 @@
         ],
         "explanation": ""
       }
-    ]
+    ],
+    "gruppe": "B"
   }
 ]

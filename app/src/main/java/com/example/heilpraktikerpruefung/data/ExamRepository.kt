@@ -40,6 +40,10 @@ class ExamRepository(private val context: Context) {
         return getExamById(examId)?.questions?.getOrNull(questionIndex)
     }
 
+    fun getGruppe(examId: String): String {
+        return getExamById(examId)?.gruppe ?: "A"
+    }
+
     suspend fun saveExamResult(examId: String, score: Int, total: Int, isFinished: Boolean) {
         db.examDao().insertExamResult(
             ExamResultEntity(

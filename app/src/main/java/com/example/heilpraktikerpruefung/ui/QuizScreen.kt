@@ -7,13 +7,17 @@ import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.ArrowBack
 import androidx.compose.material.icons.filled.ArrowForward
+import androidx.compose.material.icons.filled.Refresh
+import androidx.compose.material.icons.outlined.Info
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
 import com.example.heilpraktikerpruefung.data.ExamRepository
 import com.example.heilpraktikerpruefung.data.Question
 import kotlinx.coroutines.launch
@@ -22,6 +26,14 @@ private data class AnsweredQuestion(
     val selectedIndices: Set<Int>,
     val isCorrect: Boolean
 )
+
+private fun assetExists(context: android.content.Context, path: String): Boolean {
+    return try {
+        context.assets.open(path).use { true }
+    } catch (e: Exception) {
+        false
+    }
+}
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -45,26 +57,60 @@ fun QuizScreen(examId: String, onFinished: (Int, Int) -> Unit) {
     val scrollState = rememberScrollState()
     val isReviewMode = examId.startsWith("REVIEW")
 
+    // Image viewer state
+    var showQuestionImageDialog by remember { mutableStateOf(false) }
+    var showAnswerImageDialog by remember { mutableStateOf(false) }
+
+    // Reset dialog state
+    var showResetDialog by remember { mutableStateOf(false) }
+
+    // Track source exam IDs and Gruppe for each question (needed for REVIEW_ALL mode)
+    var questionExamIds by remember { mutableStateOf<List<String>>(emptyList()) }
+    var questionGruppen by remember { mutableStateOf<List<String>>(emptyList()) }
+
     val scope = rememberCoroutineScope()
 
     LaunchedEffect(examId) {
         if (examId == "REVIEW_ALL") {
             val wrongPairs = repository.getWrongQuestions()
-            questions = wrongPairs.mapNotNull { (eId, qIdx) ->
-                repository.getQuestion(eId, qIdx)
+            val loadedQuestions = mutableListOf<Question>()
+            val loadedExamIds = mutableListOf<String>()
+            val loadedGruppen = mutableListOf<String>()
+            for ((eId, qIdx) in wrongPairs) {
+                val q = repository.getQuestion(eId, qIdx)
+                if (q != null) {
+                    loadedQuestions.add(q)
+                    loadedExamIds.add(eId)
+                    loadedGruppen.add(repository.getGruppe(eId))
+                }
             }
+            questions = loadedQuestions
+            questionExamIds = loadedExamIds
+            questionGruppen = loadedGruppen
             quizTitle = "Wiederholung: Alle Falschen"
         } else if (examId.startsWith("REVIEW_")) {
             val actualExamId = examId.removePrefix("REVIEW_")
             val results = repository.getQuestionResults(actualExamId)
-            questions = results.filter { !it.isCorrect }.mapNotNull {
-                repository.getQuestion(actualExamId, it.questionIndex)
+            val loadedQuestions = mutableListOf<Question>()
+            val loadedExamIds = mutableListOf<String>()
+            val gruppe = repository.getGruppe(actualExamId)
+            for (qr in results.filter { !it.isCorrect }) {
+                val q = repository.getQuestion(actualExamId, qr.questionIndex)
+                if (q != null) {
+                    loadedQuestions.add(q)
+                    loadedExamIds.add(actualExamId)
+                }
             }
+            questions = loadedQuestions
+            questionExamIds = loadedExamIds
+            questionGruppen = List(loadedQuestions.size) { gruppe }
             quizTitle = "Wiederholung: $actualExamId"
         } else {
             val exam = repository.getExamById(examId)
             if (exam != null) {
                 questions = exam.questions
+                questionExamIds = List(exam.questions.size) { examId }
+                questionGruppen = List(exam.questions.size) { exam.gruppe }
                 quizTitle = "${exam.month} ${exam.year}"
 
                 // Resume logic: check for existing progress
@@ -119,6 +165,14 @@ fun QuizScreen(examId: String, onFinished: (Int, Int) -> Unit) {
     val currentQuestion = questions.getOrNull(currentQuestionIndex)
     val isViewingAnswered = currentQuestionIndex in answeredQuestions
 
+    // Determine exam ID and Gruppe for current question's images
+    val currentExamIdForImages = questionExamIds.getOrNull(currentQuestionIndex) ?: ""
+    val currentGruppe = questionGruppen.getOrNull(currentQuestionIndex) ?: "A"
+    val questionImagePath = "images/$currentExamIdForImages/q${currentQuestion?.id}.webp"
+    val answerImagePath = "images/$currentExamIdForImages/answer_key.webp"
+    val hasQuestionImage = remember(questionImagePath) { assetExists(context, questionImagePath) }
+    val hasAnswerImage = remember(answerImagePath) { assetExists(context, answerImagePath) }
+
     // When navigating to an answered question, show its saved state
     LaunchedEffect(currentQuestionIndex) {
         scrollState.scrollTo(0)
@@ -139,6 +193,52 @@ fun QuizScreen(examId: String, onFinished: (Int, Int) -> Unit) {
     val canGoBack = currentQuestionIndex > 0
     val canGoForward = currentQuestionIndex < questions.size - 1 && (currentQuestionIndex in answeredQuestions)
 
+    // Image viewer dialogs
+    if (showQuestionImageDialog && hasQuestionImage) {
+        ImageViewerDialog(
+            assetPath = questionImagePath,
+            title = "Originalfrage ${currentQuestion?.id}",
+            onDismiss = { showQuestionImageDialog = false }
+        )
+    }
+    if (showAnswerImageDialog && hasAnswerImage) {
+        ImageViewerDialog(
+            assetPath = answerImagePath,
+            title = "Lösungsschlüssel Gruppe $currentGruppe",
+            onDismiss = { showAnswerImageDialog = false }
+        )
+    }
+
+    if (showResetDialog) {
+        AlertDialog(
+            onDismissRequest = { showResetDialog = false },
+            title = { Text("Fortschritt zurücksetzen?") },
+            text = { Text("Alle Antworten dieser Prüfung werden gelöscht und du startest von vorne.") },
+            confirmButton = {
+                TextButton(onClick = {
+                    showResetDialog = false
+                    scope.launch {
+                        repository.deleteQuestionResults(examId)
+                    }
+                    // Reset all in-memory state
+                    answeredQuestions = emptyMap()
+                    currentQuestionIndex = 0
+                    selectedOptionIndices = emptySet()
+                    isAnswerChecked = false
+                    resultMessage = null
+                    score = 0
+                }) {
+                    Text("Zurücksetzen")
+                }
+            },
+            dismissButton = {
+                TextButton(onClick = { showResetDialog = false }) {
+                    Text("Abbrechen")
+                }
+            }
+        )
+    }
+
     Scaffold(
         topBar = {
             TopAppBar(
@@ -156,6 +256,9 @@ fun QuizScreen(examId: String, onFinished: (Int, Int) -> Unit) {
                     IconButton(onClick = { currentQuestionIndex++ }, enabled = canGoForward) {
                         Icon(Icons.Default.ArrowForward, contentDescription = "Nächste Frage")
                     }
+                    IconButton(onClick = { showResetDialog = true }) {
+                        Icon(Icons.Default.Refresh, contentDescription = "Zurücksetzen")
+                    }
                 }
             )
         }
@@ -167,7 +270,46 @@ fun QuizScreen(examId: String, onFinished: (Int, Int) -> Unit) {
                     .padding(16.dp)
                     .verticalScroll(scrollState)
             ) {
-                Text(text = currentQuestion.text, style = MaterialTheme.typography.bodyLarge)
+                // Question text + image buttons row
+                Row(
+                    modifier = Modifier.fillMaxWidth(),
+                    verticalAlignment = Alignment.Top
+                ) {
+                    Text(
+                        text = currentQuestion.text,
+                        style = MaterialTheme.typography.bodyLarge,
+                        modifier = Modifier.weight(1f)
+                    )
+                    if (hasQuestionImage || hasAnswerImage) {
+                        Column {
+                            if (hasQuestionImage) {
+                                IconButton(
+                                    onClick = { showQuestionImageDialog = true },
+                                    modifier = Modifier.size(36.dp)
+                                ) {
+                                    Icon(
+                                        Icons.Outlined.Info,
+                                        contentDescription = "Originalfrage anzeigen",
+                                        tint = MaterialTheme.colorScheme.primary
+                                    )
+                                }
+                            }
+                            if (hasAnswerImage) {
+                                IconButton(
+                                    onClick = { showAnswerImageDialog = true },
+                                    modifier = Modifier.size(36.dp)
+                                ) {
+                                    Text(
+                                        currentGruppe,
+                                        fontWeight = FontWeight.Bold,
+                                        fontSize = 16.sp,
+                                        color = MaterialTheme.colorScheme.primary
+                                    )
+                                }
+                            }
+                        }
+                    }
+                }
                 Spacer(modifier = Modifier.height(16.dp))
 
                 if (currentQuestion.statements.isNotEmpty()) {

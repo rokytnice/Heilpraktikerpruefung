@@ -7,6 +7,7 @@ data class Exam(
     val id: String,
     val year: Int,
     val month: String,
+    val gruppe: String = "A",
     val questions: List<Question>
 )
 

@@ -67,4 +67,6 @@
 /app/build/
 /build/
 /.gradle/
-/build/
+/build/**
+build
+**/build/**
